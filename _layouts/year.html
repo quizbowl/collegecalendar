@@ -1,0 +1,285 @@
+---
+layout: page
+---
+
+<p>This site is a work in progress. Submit corrections to the <a href="https://github.com/quizbowl/collegecalendar">GitHub repository</a>. TODO:</p>
+
+<ul>
+    <li>Organize by geographic region instead of by first/late mirror date</li>
+    <li>Add mirror contact info</li>
+</ul>
+
+<p><button id="collapse">Show fewer rows</button><br /><br /></p>
+<script>
+document.getElementById('collapse').onclick = function() {
+    document.body.dataset.toggle =
+        (document.body.dataset.toggle) ? '' : 'toggle';
+    this.innerText =
+        (this.innerText == 'Show fewer rows') ? 'Show more rows' : 'Show fewer rows';
+}
+</script>
+
+
+{% for season in site.data.sets[page.year].seasons %}
+<h3>{{ season.name }} {{ season.year }}</h3>
+
+<table class="season">
+<thead>
+
+<tr>
+<th>Tournament name</th>
+{% for slot_id in season.slots %}
+{% assign set = site.data.sets[page.year][slot_id] %}
+<th class="strong">{{ set.name }}</th>
+{% endfor %}
+</tr>
+</thead>
+<tbody>
+
+<tr class="toggle">
+<th>Slot name</th>
+{% for slot_id in season.slots %}
+{% assign set = site.data.sets[page.year][slot_id] %}
+<td>{{ set.slot }}</th>
+{% endfor %}
+</tr>
+
+<tr class="toggle">
+<th>Difficulty/audience (projected target)</th>
+{% for slot_id in season.slots %}
+{% assign set = site.data.sets[page.year][slot_id] %}
+<td>
+{{ set.diff }}<br />
+{{ set.diffstar }}
+</td>
+{% endfor %}
+</tr>
+
+<tr class="toggle">
+<th>Eligibility (unless online)</th>
+{% for slot_id in season.slots %}
+{% assign set = site.data.sets[page.year][slot_id] %}
+<td>
+{{ set.eligible | newline_to_br }}
+</td>
+{% endfor %}
+</tr>
+
+<tr class="toggle">
+<th>Packet submission</th>
+{% for slot_id in season.slots %}
+{% assign set = site.data.sets[page.year][slot_id] %}
+<td>
+{{ set.submission | newline_to_br }}
+</td>
+{% endfor %}
+</tr>
+
+<tr class="toggle">
+<th>Example tournaments in this slot in past seasons</th>
+{% for slot_id in season.slots %}
+{% assign set = site.data.sets[page.year][slot_id] %}
+<td>
+<ul>
+{% for prev in set.prev %}
+<li>{{ prev }}</li>
+{% endfor %}
+</ul>
+</td>
+{% endfor %}
+</tr>
+
+<tr class="globo">
+<th>Global announcement</th>
+{% for slot_id in season.slots %}
+{% assign set = site.data.sets[page.year][slot_id] %}
+<td>
+{% if set.announced %}
+<time>{{ set.announced | date: '%-m/%-d/%y' }}</time>
+{% if set.announceurl %}
+<a href="{{ set.announceurl }}">Announcement</a>
+{% endif %}
+<br />
+{% if set.firstmirror %}
+<small>{{ set.announced | timeago: set.firstmirror }} before first mirror</small>
+{% endif %}
+{% endif %}
+</td>
+{% endfor %}
+</tr>
+
+<tr class="toggle">
+<th>First mirror</th>
+{% for slot_id in season.slots %}
+{% assign set = site.data.sets[page.year][slot_id] %}
+<td>
+{% if set.firstonline %}
+<time>{{ set.firstonline | date: '%-m/%-d' }}</time> (online)<br />
+{% endif %}
+{% if set.firstmirror %}
+<time>{{ set.firstmirror | date: '%-m/%-d' }}</time>
+{% endif %}
+</td>
+{% endfor %}
+</tr>
+
+<tr>
+<th>Online/playtest mirror</th>
+{% for slot_id in season.slots %}
+{% assign set = site.data.sets[page.year][slot_id] %}
+<td>
+<ul>
+{% for mirror in set.online %}
+<li>
+{% if mirror.cancelled %}<del>{% endif %}
+<time>{{ mirror.date | date: '%-m/%-d' }}</time>
+{{ mirror.name }}
+{% if mirror.cancelled %} <strong>(cancelled)</strong></del>{% endif %}
+</li>
+{% endfor %}
+</ul>
+</td>
+{% endfor %}
+</tr>
+
+<tr>
+<th>First week mirrors</th>
+{% for slot_id in season.slots %}
+{% assign set = site.data.sets[page.year][slot_id] %}
+{% assign mirrors = set.mirrors %}
+{% assign firstmirrorcutoff = mirrors[0].date | date: '%s' | plus: 86400 %}
+{% assign lastmirror = mirrors.last.date | date: '%s' | plus: 0 %}
+<td {% if lastmirror <= firstmirrorcutoff %}rowspan="2"{% endif %}>
+<ul>
+{% for mirror in mirrors %}
+{% assign mirrordate = mirror.date | date: '%s' | plus: 0 %}
+{% if mirrordate <= firstmirrorcutoff %}
+<li>
+{% if mirror.cancelled %}<del>{% endif %}
+<time>{{ mirror.date | date: '%-m/%-d' }}</time>
+<u>{{ mirror.region }}
+{%- if mirror.eligible %} ({{ mirror.eligible }}){% endif -%}
+</u>
+<!-- <br /> -->
+{{ mirror.name }}
+{% if mirror.cancelled %} <strong>(cancelled)</strong></del>{% endif %}
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+</td>
+{% endfor %}
+</tr>
+
+<tr>
+<th>“Late mirrors”</th>
+{% for slot_id in season.slots %}
+{% assign set = site.data.sets[page.year][slot_id] %}
+{% assign mirrors = set.mirrors %}
+{% assign firstmirrorcutoff = mirrors[0].date | date: '%s' | plus: 86400 %}
+{% assign lastmirror = mirrors.last.date | date: '%s' | plus: 0 %}
+{% if lastmirror > firstmirrorcutoff %}
+<td>
+<ul>
+{% for mirror in mirrors %}
+{% assign mirrordate = mirror.date | date: '%s' | plus: 0 %}
+{% if mirrordate > firstmirrorcutoff %}
+<li>
+{% if mirror.cancelled %}<del>{% endif %}
+<time>{{ mirror.date | date: '%-m/%-d' }}</time>
+<u>{{ mirror.region }}
+{%- if mirror.eligible %} ({{ mirror.eligible }}){% endif -%}
+</u>
+{{ mirror.name }}
+{% if mirror.cancelled %} <strong>(cancelled)</strong></del>{% endif %}
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+</td>
+{% endif %}
+{% endfor %}
+</tr>
+
+<tr>
+<th>Question content is not clear until at least</th>
+{% for slot_id in season.slots %}
+{% assign set = site.data.sets[page.year][slot_id] %}
+<td>
+{% if set.clear %}
+{% if set.clear contains "" %}
+{{ set.clear }}
+{% else %}
+<time>
+{{ set.clear | date: '%-m/%-d' }}
+</time>
+{% if set.reallyclear %}
+<strong>confirmed clear</strong>
+{% endif %}
+{% if set.firstmirror %}
+<br />
+<small>{{ set.clear | timeago: set.firstmirror }} after first mirror</small>
+{% endif %}
+{% endif %}
+{% endif %}
+</td>
+{% endfor %}
+</tr>
+
+<tr class="toggle">
+<th>Packets on archive?</th>
+{% for slot_id in season.slots %}
+{% assign set = site.data.sets[page.year][slot_id] %}
+<td>
+{% if set.packetsurl contains "http" %}
+<a href="{{ set.packetsurl }}">{{ season.year }} {{ set.name }} packets</a>
+{% else %}
+{{ set.packetsurl }}
+{% endif %}
+</td>
+{% endfor %}
+</tr>
+
+</tbody>
+</table>
+
+{% endfor %}
+
+
+<h3>Key</h3>
+
+<p>Difficulty terms like “regular” and vague qualifiers like “fall-plus” or “regular-minus” are non-standard and confusing and should be deprecated (<a href="http://www.hsquizbowl.org/forums/viewtopic.php?f=9&amp;t=21177">read more</a>). This site uses the following four-level scale:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Difficulty</th>
+            <th>Example (non-definitional)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>●</td>
+            <td>Easy</td>
+            <td>ACF Fall 2017</td>
+        </tr>
+        <tr>
+            <td>●●</td>
+            <td>Medium</td>
+            <td>EFT 2017</td>
+        </tr>
+        <tr>
+            <td>●●●</td>
+            <td>Regionals</td>
+            <td>ACF Regionals 2018</td>
+        </tr>
+        <tr>
+            <td>●●●●</td>
+            <td>Nationals</td>
+            <td>ACF Nationals 2018 and above</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Question marks (as in “NAQT Collegiate Novice??”) indicate degree of guesswork/uncertainty because no information/announcement has been posted yet.</p>

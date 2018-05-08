@@ -1,0 +1,116 @@
+---
+---
+
+$content-width: 100%;
+$on-palm : 600px !default;
+$on-laptop : 100% !default;
+
+$spacing-unit: 24px;
+
+$base-font-family:
+// ".SFNSDisplay-Light",
+// ".SFNSText-Light",
+-apple-system,
+BlinkMacSystemFont,
+"SF Text",
+"Segoe UI",
+Roboto,
+Helvetica,
+Arial,
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol" !default;
+
+
+$text-color : #000 !default;
+$background-color: #fdfdfd !default;
+$brand-color : #2a7ae2 !default;
+
+@import "{{ site.theme }}";
+@import "fonts.scss";
+
+body {
+    text-decoration-skip-ink: none;
+}
+
+.site-title {
+    letter-spacing: 0px;
+}
+// .site-header {
+//     border-color: $brand-color;
+//     background-color: lighten(desaturate($brand-color, 10%), 30%);
+// }
+
+table {
+    width: auto;
+
+    tr {
+        &:nth-child(even) {
+            background-color: inherit;
+        }
+    }
+}
+
+table.season {
+    width: auto;
+    th,
+    td {
+        vertical-align: top;
+    }
+    td {
+        min-width: 12.5em;
+        width: 12.5em; // max-width: 15em;
+    }
+    th {
+        min-width: 12em;
+        width: 12em;
+        font-weight: 500;
+    }
+    .strong td, th.strong {
+        font-weight: 900;
+    }
+    tr {
+        &:nth-child(even) {
+            background-color: inherit;
+        }
+    }
+
+    ul {
+        margin-left: 0;
+        padding-left: 1em;
+        list-style: none;
+        margin-bottom: 0;
+    }
+    ul li {
+        text-indent: -1em;
+    }
+
+    u {
+        color: forestgreen;
+    }
+    time {
+        font-weight: 500;
+        display: inline-block;
+        width: 2.75em;
+        color: darken($brand-color, 18%);
+        text-decoration: inherit;
+        text-indent: 0;
+        // font-variant-numeric: tabular-nums;
+    }
+    .globo time {
+        width: 4.25em;
+    }
+    del {
+        color: #b63;
+    }
+}
+
+body[data-toggle="toggle"] .toggle {
+    display: none;
+}
+button#collapse {
+    font-size: 1em;
+    padding: 3px 0;
+    width: 10em;
+}
