@@ -1,0 +1,341 @@
+// https://gist.github.com/AndrewBarba/2c0f6612ceef30f5f55d
+
+/*---------------------------------------------------------------------------*
+ * SF UI Display
+ *---------------------------------------------------------------------------*/
+
+/** Black */
+
+@font-face {
+    font-family: "SF Display";
+    font-weight: 900;
+    src: local('-apple-system'), local(".SFNSDisplay-Black"), url("/assets/fonts/SF-UI-Display-Black.otf");
+    font-display: swap;
+}
+
+/** Bold */
+
+@font-face {
+    font-family: "SF Display";
+    font-weight: 700;
+    src: local('-apple-system'), local(".SFNSDisplay-Bold"), url("/assets/fonts/SF-UI-Display-Bold.otf");
+    font-display: swap;
+}
+
+/** Heavy */
+
+@font-face {
+    font-family: "SF Display";
+    font-weight: 800;
+    src: local('-apple-system'), local(".SFNSDisplay-Heavy"), url("/assets/fonts/SF-UI-Display-Heavy.otf");
+    font-display: swap;
+}
+
+/** Light */
+
+@font-face {
+    font-family: "SF Display";
+    font-weight: 200;
+    src: local('-apple-system'), local(".SFNSDisplay-Light"), url("/assets/fonts/SF-UI-Display-Light.otf");
+    font-display: swap;
+}
+
+/** Medium */
+
+@font-face {
+    font-family: "SF Display";
+    font-weight: 500;
+    src: local('-apple-system'), local(".SFNSDisplay-Medium"), url("/assets/fonts/SF-UI-Display-Medium.otf");
+    font-display: swap;
+}
+
+/** Regular */
+
+@font-face {
+    font-family: "SF Display";
+    font-weight: 400;
+    src: local('-apple-system'), local(".SFNSDisplay-Regular"), url("/assets/fonts/SF-UI-Display-Regular.otf");
+    font-display: swap;
+}
+
+/** Semibold */
+
+@font-face {
+    font-family: "SF Display";
+    font-weight: 600;
+    src: local('-apple-system'), local(".SFNSDisplay-Semibold"), url("/assets/fonts/SF-UI-Display-Semibold.otf");
+    font-display: swap;
+}
+
+/** Thin */
+
+@font-face {
+    font-family: "SF Display";
+    font-weight: 300;
+    src: local('-apple-system'), local(".SFNSDisplay-Thin"), url("/assets/fonts/SF-UI-Display-Thin.otf");
+    font-display: swap;
+}
+
+/** Ultralight */
+
+@font-face {
+    font-family: "SF Display";
+    font-weight: 100;
+    src: local('-apple-system'), local(".SFNSDisplay-Ultralight"), url("/assets/fonts/SF-UI-Display-Ultralight.otf");
+    font-display: swap;
+}
+
+/*---------------------------------------------------------------------------*
+ * SF UI Text
+ *---------------------------------------------------------------------------*/
+
+/** Bold */
+
+@font-face {
+    font-family: "SF Text";
+    font-weight: 700;
+    src: local('-apple-system'), local(".SFNSText-Bold"), url("/assets/fonts/SF-UI-Text-Bold.otf");
+    font-display: swap;
+}
+
+/** Bold Italic */
+
+@font-face {
+    font-family: "SF Text";
+    font-weight: 700;
+    font-style: italic;
+    src: local('-apple-system'), local(".SFNSText-BoldItalic"), url("/assets/fonts/SF-UI-Text-BoldItalic.otf");
+    font-display: swap;
+}
+
+/** Heavy */
+
+@font-face {
+    font-family: "SF Text";
+    font-weight: 800;
+    src: local('-apple-system'), local(".SFNSText-Heavy"), url("/assets/fonts/SF-UI-Text-Heavy.otf");
+    font-display: swap;
+}
+
+/** Heavy Italic */
+
+@font-face {
+    font-family: "SF Text";
+    font-weight: 800;
+    font-style: italic;
+    src: local('-apple-system'), local(".SFNSText-HeavyItalic"), url("/assets/fonts/SF-UI-Text-HeavyItalic.otf");
+    font-display: swap;
+}
+
+/** Light */
+
+@font-face {
+    font-family: "SF Text";
+    font-weight: 200;
+    src: local('-apple-system'), local(".SFNSText-Light"), url("/assets/fonts/SF-UI-Text-Light.otf");
+    font-display: swap;
+}
+
+/** Light Italic */
+
+@font-face {
+    font-family: "SF Text";
+    font-weight: 200;
+    font-style: italic;
+    src: local('-apple-system'), local(".SFNSText-HeavyItalic"), url("/assets/fonts/SF-UI-Text-HeavyItalic.otf");
+    font-display: swap;
+}
+
+/** Medium */
+
+@font-face {
+    font-family: "SF Text";
+    font-weight: 500;
+    src: local('-apple-system'), local(".SFNSText-Medium"), url("/assets/fonts/SF-UI-Text-Medium.otf");
+    font-display: swap;
+}
+
+/** Medium Italic */
+
+@font-face {
+    font-family: "SF Text";
+    font-weight: 500;
+    font-style: italic;
+    src: local('-apple-system'), local(".SFNSText-MediumItalic"), url("/assets/fonts/SF-UI-Text-MediumItalic.otf");
+    font-display: swap;
+}
+
+/** Regular */
+
+@font-face {
+    font-family: "SF Text";
+    font-weight: 400;
+    src: local('-apple-system'), local(".SFNSText-Regular"), url("/assets/fonts/SF-UI-Text-Regular.otf");
+    font-display: swap;
+}
+
+/** Regular Italic */
+
+@font-face {
+    font-family: "SF Text";
+    font-weight: 400;
+    font-style: italic;
+    src: local('-apple-system'), local(".SFNSText-RegularItalic"), url("/assets/fonts/SF-UI-Text-RegularItalic.otf");
+    font-display: swap;
+}
+
+/** Semibold */
+
+@font-face {
+    font-family: "SF Text";
+    font-weight: 600;
+    src: local('-apple-system'), local(".SFNSText-Semibold"), url("/assets/fonts/SF-UI-Text-Semibold.otf");
+    font-display: swap;
+}
+
+/** Semibold Italic */
+
+@font-face {
+    font-family: "SF Text";
+    font-weight: 600;
+    font-style: italic;
+    src: local('-apple-system'), local(".SFNSText-SemiboldItalic"), url("/assets/fonts/SF-UI-Text-SemiboldItalic.otf");
+    font-display: swap;
+}
+
+/** Ultrathin */
+
+@font-face {
+    font-family: "SF Text";
+    font-weight: 100;
+    src: local('-apple-system'), local(".SFNSText-Ultrathin"), url("/assets/fonts/SF-UI-Text-Ultrathin.otf");
+    font-display: swap;
+}
+
+/** Ultrathin Italic */
+
+@font-face {
+    font-family: "SF Text";
+    font-weight: 100;
+    font-style: italic;
+    src: local('-apple-system'), local(".SFNSText-UltrathinItalic"), url("/assets/fonts/SF-UI-Text-UltrathinItalic.otf");
+    font-display: swap;
+}
+
+/*---------------------------------------------------------------------------*
+ * SF Mono
+ *---------------------------------------------------------------------------*/
+
+/** Bold */
+
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 700;
+    src: url("/assets/fonts/SFMono-Bold.otf");
+    font-display: swap;
+}
+
+/** Bold Italic */
+
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 700;
+    font-style: italic;
+    src: url("/assets/fonts/SFMono-BoldItalic.otf");
+    font-display: swap;
+}
+
+/** Heavy */
+
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 800;
+    src: url("/assets/fonts/SFMono-Heavy.otf");
+    font-display: swap;
+}
+
+/** Heavy Italic */
+
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 800;
+    font-style: italic;
+    src: url("/assets/fonts/SFMono-HeavyItalic.otf");
+    font-display: swap;
+}
+
+/** Light */
+
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 200;
+    src: url("/assets/fonts/SFMono-Light.otf");
+    font-display: swap;
+}
+
+/** Light Italic */
+
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 200;
+    font-style: italic;
+    src: url("/assets/fonts/SFMono-HeavyItalic.otf");
+    font-display: swap;
+}
+
+/** Medium */
+
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 500;
+    src: url("/assets/fonts/SFMono-Medium.otf");
+    font-display: swap;
+}
+
+/** Medium Italic */
+
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 500;
+    font-style: italic;
+    src: url("/assets/fonts/SFMono-MediumItalic.otf");
+    font-display: swap;
+}
+
+/** Regular */
+
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 400;
+    src: url("/assets/fonts/SFMono-Regular.otf");
+    font-display: swap;
+}
+
+/** Regular Italic */
+
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 400;
+    font-style: italic;
+    src: url("/assets/fonts/SFMono-RegularItalic.otf");
+    font-display: swap;
+}
+
+/** Semibold */
+
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 600;
+    src: url("/assets/fonts/SFMono-Semibold.otf");
+    font-display: swap;
+}
+
+/** Semibold Italic */
+
+@font-face {
+    font-family: "SF Mono";
+    font-weight: 600;
+    font-style: italic;
+    src: url("/assets/fonts/SFMono-SemiboldItalic.otf");
+    font-display: swap;
+}
