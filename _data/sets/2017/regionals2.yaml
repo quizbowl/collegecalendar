@@ -1,0 +1,28 @@
+slot:        NAQT SCT
+prev:        [past NAQT SCTs]
+diff:        Regionals (or Easy in Div II)
+diffstar:    ●●● (or ● in Div II)
+name:        NAQT SCT
+firstmirror: 2018-02-03
+announced:   2017-11-06
+announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20649
+clear:       never
+packetsurl:  never
+mirrors:
+  - { date: 2018-02-03, region: Canada,         name: Waterloo         }
+  - { date: 2018-02-03, region: Central,        name: Missouri         }
+  - { date: 2018-02-03, region: Florida,        name: Florida          }
+  - { date: 2018-02-03, region: Great Lakes,    name: Youngstown State }
+  - { date: 2018-02-03, region: Mid-Atlantic,   name: Georgetown       }
+  - { date: 2018-02-03, region: Midwest,        name: Northwestern     }
+  - { date: 2018-02-03, region: New England,    name: Yale             }
+  - { date: 2018-02-03, region: New York,       name: RIT              }
+  - { date: 2018-02-03, region: North,          name: Carleton College }
+  - { date: 2018-02-03, region: NorCal,         name: Stanford         }
+  - { date: 2018-02-03, region: Northwest,      name: Washington       }
+  - { date: 2018-02-03, region: Rocky Mountain, name: Colorado         }
+  - { date: 2018-02-03, region: South,          name: UT-Dallas        }
+  - { date: 2018-02-03, region: South Central,  name: Western Kentucky }
+  - { date: 2018-02-03, region: Southeast,      name: Georgia          }
+  - { date: 2018-02-03, region: SoCal,          name: UCLA             }
+  - { date: 2018-02-04, region: Carolinas,      name: North Carolina   }

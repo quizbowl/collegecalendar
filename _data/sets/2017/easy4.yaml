@@ -1,0 +1,17 @@
+slot:        “Spring Novice”
+prev:        [SUN, MUT]
+diff:        Easy
+diffstar:    ●
+name:        FST
+firstmirror: 2018-03-17
+announced:   2017-12-15
+announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20769
+clear:       Fall 2018?!
+mirrors:
+  - { date: 2018-03-17, region: Florida,         name: Florida         }
+  - { date: 2018-03-17, region: Upper Midwest,   name: Michigan        }
+  - { date: 2018-03-24, region: Upper Midwest,   name: Michigan Tech   }
+  - { date: 2018-04-07, region: Rocky Mountains, name: BYU             }
+  - { date: 2018-04-14, region: Southeast,       name: Wofford College }
+  - { date: 2018-04-28, region: Northeast,       name: Columbia        }
+  - { date: 2018-12-31, region: Mid-Atlantic,    name: Virginia Tech   }

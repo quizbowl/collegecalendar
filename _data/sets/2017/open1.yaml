@@ -1,0 +1,20 @@
+slot:        “Spring Open”
+prev:        [TTIAC, “stanford housewrite”, George Oppen, Cane Ridge Revival]
+diff:        Open
+diffstar:    ●●●●◖
+eligible:    Open
+name:        CMST
+firstmirror: 2018-03-03
+announced:   2017-11-22
+announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20584
+clear:       2018-04-13
+reallyclear: yes
+mirrors:
+  - { date: 2018-03-03, region: Mid-Atlantic, name: UMD       }
+  - { date: 2018-03-03, region: Midwest,      name: Minnesota }
+  - { date: 2018-03-03, region: UK,           name: Warwick   }
+  - { date: 2018-03-03, region: Canada,       name: McMaster  }
+  - { date: 2018-03-03, region: Northeast,    name: NYU       }
+  - { date: 2018-03-10, region: NorCal,       name: Stanford  }
+  - { date: 2018-03-24, region: Southeastern, name: Auburn    }
+  - { date: 2018-04-13, region: Texas,        name: "Coach/player hybrid?" }

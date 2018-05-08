@@ -1,0 +1,32 @@
+slot:        ACF Fall
+prev:        [past ACF Falls]
+diff:        Easy
+diffstar:    ●
+submission:  Required if not new team
+name:        ACF Fall
+firstmirror: 2017-11-04
+announced:   2017-08-04
+announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20229
+clear:       2017-11-05
+reallyclear: yes
+packetsurl:  http://collegiate.quizbowlpackets.com/2040/
+mirrors:
+  - { date: 2017-11-04, region: New England,       name: MIT          }
+  - { date: 2017-11-04, region: Mid-Atlantic,      name: UMD          }
+  - { date: 2017-11-04, region: South Atlantic,    name: VT           }
+  - { date: 2017-11-04, region: Southeast,         name: Florida      }
+  - { date: 2017-11-04, region: South,             name: Texas        }
+  - { date: 2017-11-04, region: Pacific Northwest, name: Washington   }
+  - { date: 2017-11-04, region: SoCal,             name: Caltech      }
+  - { date: 2017-11-04, region: NorCal,            name: Stanford     }
+  - { date: 2017-11-04, region: North,             name: Minnesota    }
+  - { date: 2017-11-04, region: Great Lakes,       name: OSU          }
+  - { date: 2017-11-04, region: Midwest,           name: Illinois     }
+  - { date: 2017-11-04, region: Mountain West,     name: Colorado     }
+  - { date: 2017-11-04, region: Canada,            name: Ottawa       }
+  - { date: 2017-11-04, region: UK,                name: Warwick      }
+  - { date: 2017-11-05, region: South Central,     name: Georgia Tech }
+  - { date: 2017-11-04, region: Illinois,          name: Northern Illinois, eligible: HS }
+  - { date: 2017-11-04, region: Maryland,          name: UMD,               eligible: HS, cancelled: yes }
+  - { date: 2017-11-05, region: NorCal,            name: Valley Christian,  eligible: HS }
+  - { date: 2017-11-05, region: Texas,             name: LASA,              eligible: HS }

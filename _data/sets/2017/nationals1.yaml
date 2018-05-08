@@ -1,0 +1,13 @@
+slot:        NAQT ICT
+prev:        [past NAQT ICTs]
+diff:        Nationals
+diffstar:    ●●●●
+eligible:    Qualify at NAQT SCT
+name:        NAQT ICT
+firstmirror: 2018-04-14
+announced:   2017-11-13
+announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20670
+clear:       never
+packetsurl:  never
+mirrors:
+  - { date: 2018-04-14, region: Upper Midwest,   name: Chicago  }

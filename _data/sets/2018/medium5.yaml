@@ -1,0 +1,17 @@
+slot:        “Spring Medium”
+prev:        [Terrapin XXIX, SMT, EMT, MYSTERIUM]
+diff:        Medium
+diffstar:    ●●
+eligible:    Closed; HS-only mirrors
+name:        Terrapin
+# announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=97&t=21251
+# announced:   2018-04-26
+announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=21274
+announced:   2018-05-08
+clear:       2019-03-09
+firstonline: 2019-02-23
+firstmirror: 2019-03-02
+online:
+  - { date: 2019-02-23, name: Online          }
+mirrors:
+  - { date: 2019-03-02, region: Mid-Atlantic,                 name: UMD          }

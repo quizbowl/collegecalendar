@@ -1,0 +1,25 @@
+slot:        ACF Regionals
+prev:        [past ACF Regionals, WAO, MLK, VCU Closed]
+diff:        Regionals
+diffstar:    ●●●
+submission:  Required half-packet
+name:        ACF Regionals
+firstmirror: 2018-01-20
+announced:   2017-05-25
+announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20005
+clear:       2018-01-27
+reallyclear: yes
+packetsurl:  http://collegiate.quizbowlpackets.com/2108/
+mirrors:
+  - { date: 2018-01-20, region: Canada,              name: Toronto        }
+  - { date: 2018-01-20, region: Northeast,           name: Connecticut    }
+  - { date: 2018-01-20, region: Mid-Atlantic,        name: Virginia       }
+  - { date: 2018-01-20, region: Upper Mid-Atlantic,  name: Penn State     }
+  - { date: 2018-01-20, region: Southeast (Central), name: Georgia Tech   }
+  - { date: 2018-01-20, region: Texas/LA,            name: Rice           }
+  - { date: 2018-01-20, region: Florida,             name: UCF            }
+  - { date: 2018-01-20, region: North,               name: Minnesota      }
+  - { date: 2018-01-20, region: Great Lakes,         name: UIUC           }
+  - { date: 2018-01-20, region: Great Plains,        name: Kansas State   }
+  - { date: 2018-01-20, region: California,          name: UCSD           }
+  - { date: 2018-01-27, region: UK,                  name: Oxford-Brookes }

@@ -1,0 +1,30 @@
+- name: Fall
+  year: 2017
+  slots:
+    - easy1
+    - medium1
+    - medium2
+    - easy2
+    - medium3
+    - easy3
+
+- name: Spring
+  year: 2018
+  slots:
+    - regionals1
+    - regionals2
+    - open1
+    - medium4
+    - easy4
+    - nationals1
+    - nationals2
+
+- name: Summer
+  year: 2018
+#   slots:
+#     - open1
+
+- name: UK
+  year: 2017–2018
+#   slots:
+#     - open1

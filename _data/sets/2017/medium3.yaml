@@ -1,0 +1,26 @@
+slot:        “Fall Medium 3”
+prev:        [Missouri Open, STIMPY (in March), SUBMIT (in March), DEES]
+diff:        Medium
+diffstar:    ●●
+eligible:    Open
+submission:  Required if open team
+name:        WAO II
+firstmirror: 2017-11-11
+announced:   2017-06-27
+announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20129
+clear:       May??
+online:    
+  - { date: 2018-02-04,  name: Online }
+mirrors:
+  - { date: 2017-11-11, region: Southeast,        name: Georgia          }
+  - { date: 2017-11-11, region: Upper Midwest,    name: Michigan State   }
+  - { date: 2017-11-18, region: Canada,           name: Waterloo         }
+  - { date: 2017-11-18, region: Florida,          name: Central Florida  }
+  - { date: 2017-11-18, region: Lower Midwest,    name: Missouri         }
+  - { date: 2017-11-18, region: Northeast,        name: Princeton        }
+  - { date: 2017-11-18, region: UK,               name: Oxford           }
+  - { date: 2017-12-23, region: Upper Midwest,    name: New Trier Varsity, eligible: HS }
+  - { date: 2018-01-27, region: NorCal,           name: Stanford         }
+  - { date: 2018-02-17, region: Mid-Atlantic,     name: VCU              }
+  - { date: 2018-02-17, region: SoCal,            name: UCSD             }
+  - { date: 2018-05-31, name: NASAT tryouts, eligible: HS }

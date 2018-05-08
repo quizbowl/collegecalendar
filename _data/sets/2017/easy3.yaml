@@ -1,0 +1,13 @@
+slot:        “Late Fall Novice”
+prev:        [past Delta Burkes]
+diff:        Easy
+diffstar:    ●
+name:        Delta Burke
+firstmirror: 2017-11-11
+announced:   2017-09-04
+announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20364
+clear:       May??
+mirrors:
+  - { date: 2017-11-11, region: Florida,        name: Valencia         }
+  - { date: 2017-11-18, region: Upper Midwest,  name: Northwestern     }
+  - { date: 2018-02-17, region: Mid-Atlantic,   name: VCU, cancelled: yes }

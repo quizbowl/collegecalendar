@@ -1,0 +1,29 @@
+slot:        “Fall Medium 1”
+prev:        [EFT 2016, MFT, PADAWAN, IFT]
+diff:        Medium
+diffstar:    ●●
+name:        EFT
+firstmirror: 2017-09-30
+firstonline: 2017-09-16
+announced:   2017-03-23
+announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=19786
+clear:       2018-01-23
+packetsurl:  http://collegiate.quizbowlpackets.com/2048/
+online:
+  - { date: 2017-09-16, name: Online }
+  - { date: 2017-12-26, name: Online (closed) }
+mirrors:
+  - { date: 2017-09-30, region: Florida,           name: New College     }
+  - { date: 2017-09-30, region: Northeast,         name: Yale            }
+  - { date: 2017-10-07, region: Lower Midwest,     name: WUSTL           }
+  - { date: 2017-10-07, region: UK,                name: Oxford (open)   }
+  - { date: 2017-10-14, region: Canada,            name: Toronto         }
+  - { date: 2017-10-14, region: Minnesota,         name: Minnesota       }
+  - { date: 2017-10-14, region: Mid-Atlantic,      name: Virginia        }
+  - { date: 2017-10-14, region: Pacific Northwest, name: Boise State     }
+  - { date: 2017-10-14, region: Southeast,         name: Georgia Tech    }
+  - { date: 2017-10-14, region: Southeast,         name: Louisville      }
+  - { date: 2017-10-14, region: SoCal,             name: UCSD            }
+  - { date: 2017-10-15, region: NorCal,            name: Stanford        }
+  - { date: 2017-10-21, region: UK,                name: Oxford (closed) }
+  - { date: 2017-10-21, region: Upper Midwest,     name: Michigan        }

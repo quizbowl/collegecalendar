@@ -1,0 +1,28 @@
+slot:        “Spring Medium”
+prev:        [EMT, Oxford Open/OAT, MYSTERIUM, WIT]
+diff:        Medium
+diffstar:    ●●
+eligible:    Undergrad; HS, chimera, grad with permission
+name:        SMT
+firstmirror: 2018-03-10
+firstonline: 2018-02-24
+announced:   2017-09-13
+announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20424
+clear:       Fall 2018??!
+online:
+  - { date: 2018-02-24, name: Online }
+mirrors:
+  - { date: 2018-03-10, region: Mid-Atlantic,   name: Johns Hopkins            }
+  - { date: 2018-03-10, region: UK,             name: Imperial College, London }
+  - { date: 2018-03-17, region: Canada,         name: Carleton                 }
+  - { date: 2018-03-24, region: Lower Midwest,  name: WUSTL                    }
+  - { date: 2018-03-31, region: North,          name: Minnesota                }
+  - { date: 2018-03-31, region: Northeast,      name: Harvard                  }
+  - { date: 2018-03-31, region: South Atlantic, name: Virginia Tech            }
+  - { date: 2018-03-31, region: Upper Midwest,  name: Michigan                 }
+  - { date: 2018-04-07, region: Florida,        name: Florida                  }
+  - { date: 2018-04-14, region: High School,    name: Texas Invitational       }
+  - { date: 2018-04-28, region: NorCal,         name: Stanford                 }
+  - { date: 2018-04-28, region: Northwest,      name: Washington               }
+  - { date: 2018-05-12, region: Upper Midwest,  name: Chicago                  }
+  - { date: 2018-05-31, region: Ohio,           name: NASAT Tryouts, eligible: HS }
