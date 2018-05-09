@@ -8,7 +8,7 @@ firstmirror: 2018-03-10
 firstonline: 2018-02-24
 announced:   2017-09-13
 announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20424
-clear:       Fall 2018??!
+clear:       2018-05-12
 online:
   - { date: 2018-02-24, name: Online }
 mirrors:
@@ -25,4 +25,4 @@ mirrors:
   - { date: 2018-04-28, region: NorCal,         name: Stanford                 }
   - { date: 2018-04-28, region: Northwest,      name: Washington               }
   - { date: 2018-05-12, region: Upper Midwest,  name: Chicago                  }
-  - { date: 2018-05-31, region: Ohio,           name: NASAT Tryouts, eligible: HS }
+  - { date: 2018-05-12, region: Ohio,           name: NASAT Tryouts, eligible: HS }
