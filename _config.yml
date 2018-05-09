@@ -20,6 +20,7 @@ email: your-email@example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://collegequizbowlcalendar.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  quizbowl
+google_analytics: UA-8654955-6
 
 # Build settings
 markdown: kramdown
