@@ -2,4 +2,4 @@
 layout: home
 ---
 
-Click on a season above to view the calendar.
+Click on a season in the menu above to view the calendar.

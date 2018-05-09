@@ -12,7 +12,7 @@ This site is intended to replace teams having to search the forums each month to
 
 ## Status
 
-This site is a work in progress and is meant to serve the whole community. You can help make it into what you want it to be. Submit corrections and improvements to the [GitHub repository for this site](https://github.com/quizbowl/collegecalendar).
+This site is a work in progress and is meant to serve and be maintained by the whole community. You can help make it into what you want it to be. Submit corrections and improvements to the [GitHub repository for this site](https://github.com/quizbowl/collegecalendar).
 
 To coordinate events, please use the [hsquizbowl.org forums](http://www.hsquizbowl.org/forums/viewforum.php?f=34). This is the intended venue for participating in community review before posting announcements or claiming dates unilaterally.
 
