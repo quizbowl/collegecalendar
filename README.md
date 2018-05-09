@@ -25,7 +25,7 @@ Key | Description | Example
 `firstonline` | Date of first online mirror          | `2017-09-16`
 `firstmirror` | Date of first mirror                 | `2017-09-30`
 `online`      | List of online mirrors               | `{ date: 2017-09-16, name: Online }`
-`mirrors`     | List of mirrors                      | `{ date: 2017-09-30, region: Northeast, name: Yale }`
+`mirrors`     | List of mirrors                      | `{ date: 2017-09-30, region: Northeast, name: Yale,` <br /> `eligible: HS, cancelled: yes }`
 `clear`       | Date when the set is clear           | `2018-01-23`
 `reallyclear` | Is the set confirmed to be clear     | `yes`
 `packetsurl`  | URL to packets on archive            | `http://collegiate.quizbowlpackets.com/2048/`
