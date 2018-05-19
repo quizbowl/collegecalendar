@@ -115,6 +115,11 @@ button#collapse {
     width: 10em;
 }
 
+dfn {
+    font-style: normal;
+    font-weight: 600;
+    border-bottom: 1px dotted currentColor;
+}
 .ebol {
     display: none;
 }
