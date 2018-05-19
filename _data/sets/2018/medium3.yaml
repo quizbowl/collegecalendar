@@ -2,4 +2,9 @@ slot:        “Fall Medium 3”
 prev:        [past Penn Bowls, Terrapin, DRAGOON, QUARK]
 diff:        Medium
 diffstar:    ●●◖
-name:        Penn Bowl??
+name:        Penn Bowl
+firstmirror: 2018-10-20
+announced:   2018-05-16
+announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=21304
+mirrors:
+  - { date: 2017-10-20, region: Mid-Atlantic,   name: Penn          }
