@@ -13,9 +13,13 @@ Contributions are certainly welcome. Anyone with a GitHub account can easily sub
 
 Some guidelines: Non-trivial pull requests should be left open for at least 48 hours to allow for review. Please don’t forget to test your changes locally. Don’t blindly push upstream if you’re a contributor with commit permissions. Keep the code clean and the commit graph sane.
 
+## Spec
+
 The layout of the main calendar pages (which contains the large tables) is defined by `_layouts/year.html`.
 
-Information about each set is stored in a separate YAML file in the `_data` folder. The following list of keys are supported:
+The order of tournaments within each part of a year (such as Fall or Spring) is defined by <code>\_data/sets/_‹year›_/seasons.yaml</code>.
+
+Information about each set is stored in a separate YAML file in the <code>\_data/sets/_‹year›_/</code> folder. The following list of keys are supported:
 
 Key | Description | Example
 -|-|-

@@ -19,12 +19,12 @@
     - nationals1
     - nationals2
 
-- name: Summer
-  year: 2018
+# - name: Summer
+#   year: 2018
 #   slots:
 #     - open1
 
-- name: UK
-  year: 2017–2018
+# - name: UK
+#   year: 2017–2018
 #   slots:
 #     - open1
