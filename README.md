@@ -38,6 +38,7 @@ Key | Description | Example
 `mirrors`     | List of mirrors                      | `{ date: 2017-09-30, region: Northeast, name: Yale,` <br /> `eligible: HS, cancelled: yes }`
 `clear`       | Date when the set is clear           | `2018-01-23`
 `reallyclear` | Is the set confirmed to be clear     | `yes`
+`ebol`        | Is the set participating in EBOL     | `no`
 `packetsurl`  | URL to packets on archive            | `http://collegiate.quizbowlpackets.com/2048/`
 
 The spec is likely to change. Watch this repository to keep tabs on any changes.
