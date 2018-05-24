@@ -9,6 +9,7 @@ announced:   2017-11-22
 announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20584
 clear:       2018-04-13
 reallyclear: yes
+packetsurl:  http://collegiate.quizbowlpackets.com/2103/
 mirrors:
   - { date: 2018-03-03, region: Mid-Atlantic, name: UMD       }
   - { date: 2018-03-03, region: Midwest,      name: Minnesota }

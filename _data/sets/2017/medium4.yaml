@@ -9,6 +9,8 @@ firstonline: 2018-02-24
 announced:   2017-09-13
 announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20424
 clear:       2018-05-12
+reallyclear: yes
+packetsurl:  http://collegiate.quizbowlpackets.com/2095/
 online:
   - { date: 2018-02-24, name: Online }
 mirrors:
