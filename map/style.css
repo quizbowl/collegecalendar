@@ -1,0 +1,120 @@
+.state-only {
+	fill: #ccc;
+}
+
+.state-boundary {
+	fill: none;
+	stroke: #888;
+	stroke-linejoin: bevel;
+}
+
+.state.selected {
+	fill: #ff880033;
+	stroke: #000;
+}
+
+.state.selected2 {
+	stroke: #000;
+	stroke-width: 1.75px;
+	fill-opacity: 0.7;
+	stroke-linejoin: bevel;
+
+}
+
+.region-label {
+	font-size: 15px;
+	font-weight: 700;
+	font-family: 'BentonSans', sans-serif;
+	paint-order: stroke;
+	stroke: black;
+	fill: white;
+	stroke-width: 2.5px;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+}
+.region-label-region {
+	font-family: 'BentonSansCond', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	stroke: none; fill: black;
+}
+.region-label {
+	/*display: none;*/
+}
+
+
+.place-label {
+	font-size: 10px;
+	font-weight: 300;
+	font-family: 'BentonSansComp', sans-serif;
+	fill: black;
+}
+.main .place-label {
+	display: none;
+}
+.main:hover .place-label {
+	display: block;
+}
+
+.legend .place-label {
+	font-size: 14px;
+	/*font-family: 'BentonSansCond', sans-serif;*/
+}
+.legend-label {
+	font-size: 19px;
+	font-family: 'BentonSansCond', sans-serif;
+}	
+.legend-label-small {
+	font-size: 14px;
+	fill: #888;
+	text-decoration: underline;
+	font-family: 'BentonSansCond', sans-serif;
+}
+
+circle.circle-small {
+	/*fill: #3dab89d8;*/
+	fill: white;
+	stroke: black;
+	stroke-width: 1px;
+}
+circle.circle-large {
+	/*fill: #fb4880;*/
+	fill: white;
+	stroke: black;
+	stroke-width: 1.5px;
+}
+
+
+
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+.sphere {
+  fill: none;
+  stroke: #ccc;
+  shape-rendering: crispEdges;
+}
+
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-opacity: .2;
+}
+
+.mesh {
+  fill: none;
+  stroke: #000;
+}
+
+.radius {
+	fill: none;
+	stroke: black;
+	stroke-linecap: round;
+	stroke-width: 1.5px;
+	stroke-dasharray: 0px 5px;
+}
+.radius + .radius {
+	stroke-dasharray: 0px 15px;
+}
