@@ -127,64 +127,56 @@ document.getElementById('collapse').onclick = function() {
 </tbody>
 
 <tbody class="mirrors">
+{% assign regions = "0P|Online playtest,0L|Online,1A|New England,1B|New York,2A|N. Mid-Atlantic,2B|S. Mid-Atlantic,3A|Upper South,3B|Deep
+South,3C|Florida,4A|Texas/Louisiana,5A|S. California,5B|N. California,6A|Pacific Northwest,6B|Rocky Mountains,7A|Great Plains,7B|Missouri,8A|Upper
+Midwest,8B|Central Midwest,8C|Eastern Midwest,CA|Canada,UK|UK,z|Other" | split: ',' %}
+{% for region_ in regions %}
+{% assign region = region_ | split: "|" | first %}
+{% assign region_name = region_ | split: "|" | last %}
 <tr>
-<th>First week mirrors</th>
+<th><!-- {{ region }}  -->{{ region_name }}</th>
 {% for slot_id in season.slots %}
 {% assign set = site.data.sets[page.year][slot_id] %}
 {% assign mirrors = set.mirrors %}
-{% assign firstmirrorcutoff = mirrors[0].date | date: '%s' | plus: 86400 %}
-{% assign lastmirror = mirrors.last.date | date: '%s' | plus: 0 %}
-<td {% if lastmirror <= firstmirrorcutoff %}rowspan="2"{% endif %}>
-<ul>
-{% for mirror in mirrors %}
-{% assign mirrordate = mirror.date | date: '%s' | plus: 0 %}
-{% if mirrordate <= firstmirrorcutoff %}
-<li>
-{% if mirror.cancelled %}<del>{% endif %}
-<time>{{ mirror.date | date: '%-m/%-d' }}</time>
-<u>{{ mirror.region }}
-{%- if mirror.eligible %} ({{ mirror.eligible }}){% endif -%}
-</u>
-<!-- <br /> -->
-{{ mirror.name }}
-{% if mirror.cancelled %} <strong>(cancelled)</strong></del>{% endif %}
-</li>
+{% assign mirrors_region = mirrors | where_exp: "mirror", "mirror.region == region" %}
+{% assign firstmirror = mirrors[0] %}
+{% if mirrors %}
+{% assign firstmirror = mirrors | sort: "date" | first %}
 {% endif %}
-{% endfor %}
-</ul>
-</td>
-{% endfor %}
-</tr>
-
-<tr>
-<th>“Late mirrors”</th>
-{% for slot_id in season.slots %}
-{% assign set = site.data.sets[page.year][slot_id] %}
-{% assign mirrors = set.mirrors %}
-{% assign firstmirrorcutoff = mirrors[0].date | date: '%s' | plus: 86400 %}
+{% assign firstmirrordate = firstmirror.date | date: '%s' | plus: 0 %}
+{% assign firstmirrorcutoff = firstmirror.date | date: '%s' | plus: 86400 %}
 {% assign lastmirror = mirrors.last.date | date: '%s' | plus: 0 %}
-{% if lastmirror > firstmirrorcutoff %}
 <td>
 <ul>
-{% for mirror in mirrors %}
+{% for mirror in mirrors_region %}
 {% assign mirrordate = mirror.date | date: '%s' | plus: 0 %}
-{% if mirrordate > firstmirrorcutoff %}
+{% assign dayslate = mirrordate | minus: firstmirrordate | divided_by: 86400 %}
+{% assign weekslate = dayslate | divided_by: 7 %}
 <li>
+{% if mirror.url %}<a href="{{ mirror.url }}">{% endif %}
 {% if mirror.cancelled %}<del>{% endif %}
-<time>{{ mirror.date | date: '%-m/%-d' }}</time>
-<u>{{ mirror.region }}
-{%- if mirror.eligible %} ({{ mirror.eligible }}){% endif -%}
-</u>
-{{ mirror.name }}
-{% if mirror.cancelled %} <strong>(cancelled)</strong></del>{% endif %}
-</li>
+<time {% if mirrordate>= firstmirrorcutoff %}class="late"{% endif %}>
+{% if dayslate > 0 %}
+<small>
++{% if dayslate >= 7 %}{{ weekslate }}w{% else %}{{ dayslate }}d{% endif %}
+{{ "•••••••••••••••••••••••••••••" | slice: 0, weekslate }}
+</small>
 {% endif %}
+
+{{ mirror.date | date: '%-m/%-d' -}}
+{% if mirrordate >= firstmirrorcutoff %}<span title="Late mirror"></span>{% endif %}
+</time>
+{{- mirror.name }}
+{%- if mirror.eligible %} <abbr class="eligibility" title="Eligibility: {{ mirror.eligible }}">{{ mirror.eligible }}</abbr>{% endif -%}
+{%- if mirror.cancelled %}</del> <strong>cancelled</strong>{% endif %}
+{% if mirror.url %}</a>{% endif %}
+</li>
 {% endfor %}
 </ul>
 </td>
-{% endif %}
 {% endfor %}
 </tr>
+{% endfor %}
 </tbody>
 
 <tbody>

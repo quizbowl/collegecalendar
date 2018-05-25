@@ -103,17 +103,32 @@ table.season {
         text-indent: -1em;
     }
 
-    u {
+    .eligibility {
         color: forestgreen;
+        font-weight: 600;
+        text-decoration: none;
+        border-bottom: 1px dotted currentColor;
     }
     time {
         font-weight: 500;
         display: inline-block;
-        width: 2.75em;
+        width: 3em;
         color: darken($brand-color, 18%);
         text-decoration: inherit;
         text-indent: 0;
         // font-variant-numeric: tabular-nums;
+        position: relative;
+    }
+    td:hover time.late small {
+        display: block;
+    }
+    time.late small {
+        display: none;
+        position: absolute;
+        top: -0.6em;
+        font-size: 0.6em;
+        color: lighten(#2abf83,6%);
+        width: max-content;
     }
     .globo time {
         width: 4.25em;
@@ -139,4 +154,8 @@ dfn {
 }
 .ebol {
     display: none;
+}
+
+a:link, a:visited {
+    color: $brand-color;
 }
