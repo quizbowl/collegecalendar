@@ -61,16 +61,16 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 3C	1	Marianna	FL	USA	30.787403	-85.232581		Chipola	Chipola College
 3C	1	Tallahassee	FL	USA	30.441878	-84.298489		Florida State	Florida State University
 3C	1	Orlando	FL	USA	28.521294	-81.465755		Valencia	Valencia College
-4	2	Baton Rouge	LA	USA	30.413258	-91.180002	LSU	Louisiana State	Louisiana State University
-4	2	Richardson	TX	USA	32.985454	-96.754319	UT-Dallas	Texas-Dallas	University of Texas-Dallas
-4	2	Austin	TX	USA	30.284919	-97.734057	UT	Texas	The University of Texas at Austin
-4	2	Houston	TX	USA	29.717394	-95.401831		Rice	Rice University
-4	1	New Orleans	LA	USA	29.940348	-90.120728		Tulane	Tulane University
-4	1	Lafayette	LA	USA	30.211440	-92.020412	UL-Lafayette	Louisiana-Lafayette	University of Louisiana at Lafayette
-4	1	Ruston	LA	USA	32.526375	-92.648110	LA Tech	Louisiana Tech	Louisiana Tech University
-4	1	College Station	TX	USA	30.618531	-96.336499	TAMU	Texas A&M	Texas A&M
-4	1	Denton	TX	USA	33.207488	-97.152586		North Texas	University of North Texas
-4	1	El Paso	TX	USA	31.770854	-106.504622	UTEP	Texas-El Paso	University of Texas at El Paso
+4A	2	Baton Rouge	LA	USA	30.413258	-91.180002	LSU	Louisiana State	Louisiana State University
+4A	2	Richardson	TX	USA	32.985454	-96.754319	UT-Dallas	Texas-Dallas	University of Texas-Dallas
+4A	2	Austin	TX	USA	30.284919	-97.734057	UT	Texas	The University of Texas at Austin
+4A	2	Houston	TX	USA	29.717394	-95.401831		Rice	Rice University
+4A	1	New Orleans	LA	USA	29.940348	-90.120728		Tulane	Tulane University
+4A	1	Lafayette	LA	USA	30.211440	-92.020412	UL-Lafayette	Louisiana-Lafayette	University of Louisiana at Lafayette
+4A	1	Ruston	LA	USA	32.526375	-92.648110	LA Tech	Louisiana Tech	Louisiana Tech University
+4A	1	College Station	TX	USA	30.618531	-96.336499	TAMU	Texas A&M	Texas A&M
+4A	1	Denton	TX	USA	33.207488	-97.152586		North Texas	University of North Texas
+4A	1	El Paso	TX	USA	31.770854	-106.504622	UTEP	Texas-El Paso	University of Texas at El Paso
 5A	2	Berkeley	CA	USA	37.871899	-122.258540		Berkeley	University of California-Berkeley
 5A	2	Stanford	CA	USA	37.427475	-122.169719		Stanford	Stanford University
 5A	1	Davis	CA	USA	38.538232	-121.761712	UC-Davis	Davis	University of California-Davis
@@ -115,16 +115,16 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 8C	1	Cleveland	OH	USA	41.504341	-81.608384		Case Western	Case Western Reserve University
 8C	1	Pittsburgh	PA	USA	40.442808	-79.943013	CMU	Carnegie Mellon	Carnegie Mellon University
 8C	1	Pittsburgh	PA	USA	40.444353	-79.960835	Pitt	Pittsburgh	Pittsburgh University
-9	2	Waterloo	ON	Canada	43.472285	-80.544858		Waterloo	University of Waterloo
-9	2	Hamilton	ON	Canada	43.260879	-79.919225		McMaster	McMaster University
-9	2	Toronto	ON	Canada	43.662892	-79.395656		Toronto	University of Toronto
-9	2	Kingston	ON	Canada	44.225280	-76.495141		Queen’s	Queen’s University
-9	2	Ottawa	ON	Canada	45.387581	-75.696020		Carleton University	Carleton University
-9	1	Montreal	QC	Canada	45.504785	-73.577151		McGill	McGill University
-10	2	Cambridge	England	UK	52.204267	0.114908		Cambridge	Cambridge
-10	2	London	England	UK	51.498800	-0.174877		Imperial College	Imperial College London
-10	2	Oxford	England	UK	51.754816	-1.254367		Oxford	University of Oxford
-10	2	Coventry	England	UK	52.379442	-1.563193		Warwick	Warwick
-10	1	Southampton	England	UK	50.936580	-1.396017		Southampton	Southampton University
-10	1	Edinburgh	Scotland	UK	55.944516	-3.189241		Edinburgh	University of Edinburgh
-10	1	Belfast	Northern Ireland	UK	54.584409	-5.934049		Queen’s	Queen’s University Belfast
+CA	2	Waterloo	ON	Canada	43.472285	-80.544858		Waterloo	University of Waterloo
+CA	2	Hamilton	ON	Canada	43.260879	-79.919225		McMaster	McMaster University
+CA	2	Toronto	ON	Canada	43.662892	-79.395656		Toronto	University of Toronto
+CA	2	Kingston	ON	Canada	44.225280	-76.495141		Queen’s	Queen’s University
+CA	2	Ottawa	ON	Canada	45.387581	-75.696020		Carleton University	Carleton University
+CA	1	Montreal	QC	Canada	45.504785	-73.577151		McGill	McGill University
+UK	2	Cambridge	England	UK	52.204267	0.114908		Cambridge	Cambridge
+UK	2	London	England	UK	51.498800	-0.174877		Imperial College	Imperial College London
+UK	2	Oxford	England	UK	51.754816	-1.254367		Oxford	University of Oxford
+UK	2	Coventry	England	UK	52.379442	-1.563193		Warwick	Warwick
+UK	1	Southampton	England	UK	50.936580	-1.396017		Southampton	Southampton University
+UK	1	Edinburgh	Scotland	UK	55.944516	-3.189241		Edinburgh	University of Edinburgh
+UK	1	Belfast	Northern Ireland	UK	54.584409	-5.934049		Queen’s	Queen’s University Belfast

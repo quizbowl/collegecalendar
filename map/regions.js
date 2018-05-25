@@ -116,7 +116,7 @@ var mapdata = {
 		{
 			"parent": "South",
 			"name": "LaTex",
-			"id": "4",
+			"id": "4A",
 			"color": 8,
 			"label": [60, 0],
 			"map": "us",
@@ -257,7 +257,7 @@ var mapdata = {
 		{
 			"parent": "Canada",
 			"name": "",
-			"id": "9",
+			"id": "CA",
 			"color": 18,
 			"label": [0, 10],
 			"map": "ca",
@@ -270,7 +270,7 @@ var mapdata = {
 		{
 			"parent": "UK",
 			"name": "",
-			"id": "10",
+			"id": "UK",
 			"color": 19,
 			"label": [15, 25],
 			"map": "uk",
