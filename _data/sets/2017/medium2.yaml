@@ -10,9 +10,8 @@ announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=19987
 clear:       2017-12-03
 reallyclear: yes
 packetsurl:  http://collegiate.quizbowlpackets.com/2056/
-online:
-  - { date: 2017-12-03, name: Online }
 mirrors:
+  - { date: 2017-12-03, region: 0L, name: Online, eligible: Open }
   - { date: 2017-10-14, region: UK, name: Cambridge          }
   - { date: 2017-10-21, region: CA, name: Queen’s University }
   - { date: 2017-10-21, region: 8A, name: UMN                }

@@ -12,7 +12,6 @@ clear:       2019-04-27
 firstonline: 2019-02-23
 firstmirror: 2019-03-02
 ebol:        yes
-online:
-  - { date: 2019-02-23, name: Online          }
 mirrors:
+  - { date: 2019-02-23, region: 0P, name: Online, eligible: Open }
   - { date: 2019-03-02, region: 2A, name: UMD          }

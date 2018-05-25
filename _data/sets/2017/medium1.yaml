@@ -10,10 +10,9 @@ announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=19786
 clear:       2018-01-23
 reallyclear: yes
 packetsurl:  http://collegiate.quizbowlpackets.com/2048/
-online:
-  - { date: 2017-09-16, name: Online }
-  - { date: 2017-12-26, name: Online (closed) }
 mirrors:
+  - { date: 2017-09-16, region: 0P, name: Online, eligible: Open }
+  - { date: 2017-12-26, region: 0L, name: Online, eligible: Closed }
   - { date: 2017-09-30, region: 3C, name: New College     }
   - { date: 2017-09-30, region: 1A, name: Yale            }
   - { date: 2017-10-07, region: 7B, name: WUSTL           }

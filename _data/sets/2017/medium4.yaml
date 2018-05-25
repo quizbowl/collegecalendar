@@ -11,9 +11,8 @@ announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20424
 clear:       2018-05-12
 reallyclear: yes
 packetsurl:  http://collegiate.quizbowlpackets.com/2095/
-online:
-  - { date: 2018-02-24, name: Online }
 mirrors:
+  - { date: 2018-02-24, region: 0P, name: Online, eligible: Open }
   - { date: 2018-03-10, region: 2A, name: Johns Hopkins            }
   - { date: 2018-03-10, region: UK, name: Imperial College, London }
   - { date: 2018-03-17, region: CA, name: Carleton                 }

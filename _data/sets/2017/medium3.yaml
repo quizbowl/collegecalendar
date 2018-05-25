@@ -9,9 +9,8 @@ firstmirror: 2017-11-11
 announced:   2017-06-27
 announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20129
 clear:       May??
-online:    
-  - { date: 2018-02-04,  name: Online }
 mirrors:
+  - { date: 2018-02-04, region: 0L, name: Online, eligible: Open }
   - { date: 2017-11-11, region: 3B, name: Georgia          }
   - { date: 2017-11-11, region: 8C, name: Michigan State   }
   - { date: 2017-11-18, region: CA, name: Waterloo         }

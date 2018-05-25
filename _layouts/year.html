@@ -107,30 +107,11 @@ document.getElementById('collapse').onclick = function() {
 {% assign set = site.data.sets[page.year][slot_id] %}
 <td>
 {% if set.firstonline %}
-<time>{{ set.firstonline | date: '%-m/%-d' }}</time> (online)<br />
+<time>{{ set.firstonline | date: '%-m/%-d' }}</time> (online playtest)<br />
 {% endif %}
 {% if set.firstmirror %}
 <time>{{ set.firstmirror | date: '%-m/%-d' }}</time>
 {% endif %}
-</td>
-{% endfor %}
-</tr>
-
-<tr>
-<th>Online/playtest mirror</th>
-{% for slot_id in season.slots %}
-{% assign set = site.data.sets[page.year][slot_id] %}
-<td>
-<ul>
-{% for mirror in set.online %}
-<li>
-{% if mirror.cancelled %}<del>{% endif %}
-<time>{{ mirror.date | date: '%-m/%-d' }}</time>
-{{ mirror.name }}
-{% if mirror.cancelled %} <strong>(cancelled)</strong></del>{% endif %}
-</li>
-{% endfor %}
-</ul>
 </td>
 {% endfor %}
 </tr>
