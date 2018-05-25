@@ -134,7 +134,9 @@ document.getElementById('collapse').onclick = function() {
 </td>
 {% endfor %}
 </tr>
+</tbody>
 
+<tbody class="mirrors">
 <tr>
 <th>First week mirrors</th>
 {% for slot_id in season.slots %}
@@ -193,7 +195,9 @@ document.getElementById('collapse').onclick = function() {
 {% endif %}
 {% endfor %}
 </tr>
+</tbody>
 
+<tbody>
 <tr>
 <th>Question content is not clear until at least</th>
 {% for slot_id in season.slots %}

@@ -63,8 +63,8 @@ table.season {
         width: 12.5em; // max-width: 15em;
     }
     th {
-        min-width: 12em;
-        width: 12em;
+        min-width: 12.5em;
+        width: 12.5em;
         font-weight: 500;
     }
     .strong td, th.strong {
@@ -74,6 +74,23 @@ table.season {
         &:nth-child(even) {
             background-color: inherit;
         }
+    }
+
+    thead, tbody {
+        display: block;
+    }
+    tbody.mirrors {
+        // background: #f3f5ff;
+        margin: 0.75em 0;
+        th {
+            // background: darken(#f3f5ff, 3%);
+        }
+        height: 312px;
+        /* Just for the demo          */
+        overflow-y: auto;
+        /* Trigger vertical scroll    */
+        overflow-x: hidden;
+        /* Hide the horizontal scroll */
     }
 
     ul {
