@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<p><button id="collapse">Show fewer rows</button><br /><br /></p>
+<p><button id="collapse">Show more rows</button><br /><br /></p>
 <script>
 document.getElementById('collapse').onclick = function() {
     document.body.dataset.toggle =
@@ -205,20 +205,6 @@ Midwest,8B|Central Midwest,8C|Eastern Midwest,CA|Canada,UK|UK,z|Other" | split: 
 {% endfor %}
 </tr>
 
-<tr class="toggle ebol">
-<th>Participating in EBOL?</th>
-{% for slot_id in season.slots %}
-{% assign set = site.data.sets[page.year][slot_id] %}
-<td>
-{% if set.ebol == true %}
-yes
-{% else %}
-{{ set.ebol }}
-{% endif %}
-</td>
-{% endfor %}
-</tr>
-
 <tr class="toggle">
 <th>Packets on archive?</th>
 {% for slot_id in season.slots %}
@@ -228,6 +214,20 @@ yes
 <a href="{{ set.packetsurl }}">{{ season.year }} {{ set.name }} packets</a>
 {% else %}
 {{ set.packetsurl }}
+{% endif %}
+</td>
+{% endfor %}
+</tr>
+
+<tr class="toggle ebol">
+<th>Participating in EBOL?</th>
+{% for slot_id in season.slots %}
+{% assign set = site.data.sets[page.year][slot_id] %}
+<td>
+{% if set.ebol == true %}
+yes
+{% else %}
+{{ set.ebol }}
 {% endif %}
 </td>
 {% endfor %}
