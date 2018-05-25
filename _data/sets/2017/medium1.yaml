@@ -14,17 +14,17 @@ online:
   - { date: 2017-09-16, name: Online }
   - { date: 2017-12-26, name: Online (closed) }
 mirrors:
-  - { date: 2017-09-30, region: Florida,           name: New College     }
-  - { date: 2017-09-30, region: Northeast,         name: Yale            }
-  - { date: 2017-10-07, region: Lower Midwest,     name: WUSTL           }
-  - { date: 2017-10-07, region: UK,                name: Oxford (open)   }
-  - { date: 2017-10-14, region: Canada,            name: Toronto         }
-  - { date: 2017-10-14, region: Minnesota,         name: Minnesota       }
-  - { date: 2017-10-14, region: Mid-Atlantic,      name: Virginia        }
-  - { date: 2017-10-14, region: Pacific Northwest, name: Boise State     }
-  - { date: 2017-10-14, region: Southeast,         name: Georgia Tech    }
-  - { date: 2017-10-14, region: Southeast,         name: Louisville      }
-  - { date: 2017-10-14, region: SoCal,             name: UCSD            }
-  - { date: 2017-10-15, region: NorCal,            name: Stanford        }
-  - { date: 2017-10-21, region: UK,                name: Oxford (closed) }
-  - { date: 2017-10-21, region: Upper Midwest,     name: Michigan        }
+  - { date: 2017-09-30, region: 3C, name: New College     }
+  - { date: 2017-09-30, region: 1A, name: Yale            }
+  - { date: 2017-10-07, region: 7B, name: WUSTL           }
+  - { date: 2017-10-07, region: UK, name: Oxford, eligible: Open }
+  - { date: 2017-10-14, region: CA, name: Toronto         }
+  - { date: 2017-10-14, region: 8A, name: Minnesota       }
+  - { date: 2017-10-14, region: 2B, name: Virginia        }
+  - { date: 2017-10-14, region: 6A, name: Boise State     }
+  - { date: 2017-10-14, region: 3B, name: Georgia Tech    }
+  - { date: 2017-10-14, region: 3A, name: Louisville      }
+  - { date: 2017-10-14, region: 5A, name: UCSD            }
+  - { date: 2017-10-15, region: 5B, name: Stanford        }
+  - { date: 2017-10-21, region: UK, name: Oxford, eligible: Closed }
+  - { date: 2017-10-21, region: 8C, name: Michigan        }

@@ -10,4 +10,4 @@ announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20670
 clear:       never
 packetsurl:  never
 mirrors:
-  - { date: 2018-04-14, region: Upper Midwest,   name: Chicago  }
+  - { date: 2018-04-14, region: 8B,   name: Chicago  }

@@ -12,15 +12,15 @@ clear:       May??
 online:    
   - { date: 2018-02-04,  name: Online }
 mirrors:
-  - { date: 2017-11-11, region: Southeast,        name: Georgia          }
-  - { date: 2017-11-11, region: Upper Midwest,    name: Michigan State   }
-  - { date: 2017-11-18, region: Canada,           name: Waterloo         }
-  - { date: 2017-11-18, region: Florida,          name: Central Florida  }
-  - { date: 2017-11-18, region: Lower Midwest,    name: Missouri         }
-  - { date: 2017-11-18, region: Northeast,        name: Princeton        }
-  - { date: 2017-11-18, region: UK,               name: Oxford           }
-  - { date: 2017-12-23, region: Upper Midwest,    name: New Trier Varsity, eligible: HS }
-  - { date: 2018-01-27, region: NorCal,           name: Stanford         }
-  - { date: 2018-02-17, region: Mid-Atlantic,     name: VCU              }
-  - { date: 2018-02-17, region: SoCal,            name: UCSD             }
-  - { date: 2018-05-31, name: NASAT tryouts, eligible: HS }
+  - { date: 2017-11-11, region: 3B, name: Georgia          }
+  - { date: 2017-11-11, region: 8C, name: Michigan State   }
+  - { date: 2017-11-18, region: CA, name: Waterloo         }
+  - { date: 2017-11-18, region: 3C, name: Central Florida  }
+  - { date: 2017-11-18, region: 7B, name: Missouri         }
+  - { date: 2017-11-18, region: 2A, name: Princeton        }
+  - { date: 2017-11-18, region: UK, name: Oxford           }
+  - { date: 2017-12-23, region: 8B, name: New Trier Varsity, eligible: HS }
+  - { date: 2018-01-27, region: 5B, name: Stanford         }
+  - { date: 2018-02-17, region: 2B, name: VCU              }
+  - { date: 2018-02-17, region: 5A, name: UCSD             }
+  - { date: 2018-05-31, region: z,  name: Tryouts, eligible: HS NASAT }

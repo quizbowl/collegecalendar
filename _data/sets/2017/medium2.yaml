@@ -13,15 +13,15 @@ packetsurl:  http://collegiate.quizbowlpackets.com/2056/
 online:
   - { date: 2017-12-03, name: Online }
 mirrors:
-  - { date: 2017-10-14, region: UK,                 name: Cambridge          }
-  - { date: 2017-10-21, region: Canada,             name: Queen’s University }
-  - { date: 2017-10-21, region: Minnesota,          name: UMN                }
-  - { date: 2017-10-21, region: NorCal,             name: Stanford           }
-  - { date: 2017-10-21, region: South Atlantic,     name: UGA                }
-  - { date: 2017-10-28, region: Florida,            name: New College        }
-  - { date: 2017-10-28, region: Lower Mid-Atlantic, name: UNC                }
-  - { date: 2017-10-28, region: Northeast,          name: Harvard            }
-  - { date: 2017-10-28, region: South,              name: Rice               }
-  - { date: 2017-10-28, region: Upper Midwest,      name: Chicago            }
-  - { date: 2017-11-18, region: SoCal,              name: UC Irvine          }
-  - { date: 2017-11-19, region: Lower Midwest,      name: Missouri-Columbia  }
+  - { date: 2017-10-14, region: UK, name: Cambridge          }
+  - { date: 2017-10-21, region: CA, name: Queen’s University }
+  - { date: 2017-10-21, region: 8A, name: UMN                }
+  - { date: 2017-10-21, region: 5B, name: Stanford           }
+  - { date: 2017-10-21, region: 3B, name: UGA                }
+  - { date: 2017-10-28, region: 3C, name: New College        }
+  - { date: 2017-10-28, region: 2B, name: UNC                }
+  - { date: 2017-10-28, region: 1A, name: Harvard            }
+  - { date: 2017-10-28, region: 4A, name: Rice               }
+  - { date: 2017-10-28, region: 8B, name: Chicago            }
+  - { date: 2017-11-18, region: 5A, name: UC Irvine          }
+  - { date: 2017-11-19, region: 7B, name: Missouri-Columbia  }

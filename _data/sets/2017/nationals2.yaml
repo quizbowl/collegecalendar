@@ -12,4 +12,4 @@ clear:       2018-04-22
 reallyclear: yes
 packetsurl:  http://collegiate.quizbowlpackets.com/2139/
 mirrors:
-  - { date: 2018-04-21, region: New England,   name: MIT  }
+  - { date: 2018-04-21, region: 1A,   name: MIT  }

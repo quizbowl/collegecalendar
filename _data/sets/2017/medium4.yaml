@@ -14,17 +14,17 @@ packetsurl:  http://collegiate.quizbowlpackets.com/2095/
 online:
   - { date: 2018-02-24, name: Online }
 mirrors:
-  - { date: 2018-03-10, region: Mid-Atlantic,   name: Johns Hopkins            }
-  - { date: 2018-03-10, region: UK,             name: Imperial College, London }
-  - { date: 2018-03-17, region: Canada,         name: Carleton                 }
-  - { date: 2018-03-24, region: Lower Midwest,  name: WUSTL                    }
-  - { date: 2018-03-31, region: North,          name: Minnesota                }
-  - { date: 2018-03-31, region: Northeast,      name: Harvard                  }
-  - { date: 2018-03-31, region: South Atlantic, name: Virginia Tech            }
-  - { date: 2018-03-31, region: Upper Midwest,  name: Michigan                 }
-  - { date: 2018-04-07, region: Florida,        name: Florida                  }
-  - { date: 2018-04-14, region: High School,    name: Texas Invitational       }
-  - { date: 2018-04-28, region: NorCal,         name: Stanford                 }
-  - { date: 2018-04-28, region: Northwest,      name: Washington               }
-  - { date: 2018-05-12, region: Upper Midwest,  name: Chicago                  }
-  - { date: 2018-05-12, region: Ohio,           name: NASAT Tryouts, eligible: HS }
+  - { date: 2018-03-10, region: 2A, name: Johns Hopkins            }
+  - { date: 2018-03-10, region: UK, name: Imperial College, London }
+  - { date: 2018-03-17, region: CA, name: Carleton                 }
+  - { date: 2018-03-24, region: 7B, name: WUSTL                    }
+  - { date: 2018-03-31, region: 8A, name: Minnesota                }
+  - { date: 2018-03-31, region: 1A, name: Harvard                  }
+  - { date: 2018-03-31, region: 2B, name: Virginia Tech            }
+  - { date: 2018-03-31, region: 8C, name: Michigan                 }
+  - { date: 2018-04-07, region: 3C, name: Florida                  }
+  - { date: 2018-04-14, region: 4A, name: Texas Invitational       , eligible: HS}
+  - { date: 2018-04-28, region: 5B, name: Stanford                 }
+  - { date: 2018-04-28, region: 6A, name: Washington               }
+  - { date: 2018-05-12, region: 8B, name: Chicago                  }
+  - { date: 2018-05-12, region: 8C, name: Ohio, eligible: HS NASAT }

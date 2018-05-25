@@ -8,6 +8,6 @@ announced:   2017-09-04
 announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20364
 clear:       May??
 mirrors:
-  - { date: 2017-11-11, region: Florida,        name: Valencia         }
-  - { date: 2017-11-18, region: Upper Midwest,  name: Northwestern     }
-  - { date: 2018-02-17, region: Mid-Atlantic,   name: VCU, cancelled: yes }
+  - { date: 2017-11-11, region: 3C, name: Valencia         }
+  - { date: 2017-11-18, region: 8B, name: Northwestern     }
+  - { date: 2018-02-17, region: 2B, name: VCU, cancelled: yes }

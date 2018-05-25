@@ -15,4 +15,4 @@ ebol:        yes
 online:
   - { date: 2019-02-23, name: Online          }
 mirrors:
-  - { date: 2019-03-02, region: Mid-Atlantic,                 name: UMD          }
+  - { date: 2019-03-02, region: 2A, name: UMD          }

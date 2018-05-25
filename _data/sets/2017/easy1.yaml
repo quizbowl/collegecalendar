@@ -9,18 +9,18 @@ announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20230
 clear:       never
 packetsurl:  never
 mirrors:
-  - { date: 2017-09-23, region: Canada,        name: Carleton          }
-  - { date: 2017-09-23, region: Great Lakes,   name: CMU               }
-  - { date: 2017-09-23, region: Florida,       name: Florida           }
-  - { date: 2017-09-23, region: North,         name: Minnesota         }
-  - { date: 2017-09-23, region: Upper Midwest, name: Michigan          }
-  - { date: 2017-09-23, region: Midwest,       name: Missouri S&T      }
-  - { date: 2017-09-24, region: Midwest,       name: Kentucky          }
-  - { date: 2017-09-30, region: Mid-Atlantic,  name: JHU               }
-  - { date: 2017-09-30, region: Southeast,     name: NC State          }
-  - { date: 2017-10-07, region: NorCal,        name: Berkeley          }
-  - { date: 2017-10-14, region: South,         name: Louisiana Tech    }
-  - { date: 2017-10-21, region: New England,   name: Olin College      }
-  - { date: 2017-10-28, region: Southeast,     name: Pioneer           }
-  - { date: 2017-11-18, region: SoCal,         name: UC Irvine         }
-  - { date: 2017-12-02, region: Upper Midwest, name: Northern Michigan }
+  - { date: 2017-09-23, region: CA, name: Carleton          }
+  - { date: 2017-09-23, region: 8C, name: CMU               }
+  - { date: 2017-09-23, region: 3C, name: Florida           }
+  - { date: 2017-09-23, region: 8A, name: Minnesota         }
+  - { date: 2017-09-23, region: 8C, name: Michigan          }
+  - { date: 2017-09-23, region: 7B, name: Missouri S&T      }
+  - { date: 2017-09-24, region: 3A, name: Kentucky          }
+  - { date: 2017-09-30, region: 2A, name: JHU               }
+  - { date: 2017-09-30, region: 2B, name: NC State          }
+  - { date: 2017-10-07, region: 5B, name: Berkeley          }
+  - { date: 2017-10-14, region: 4A, name: Louisiana Tech    }
+  - { date: 2017-10-21, region: 1A, name: Olin College      }
+  - { date: 2017-10-28, region: 3A, name: Pioneer           }
+  - { date: 2017-11-18, region: 5A, name: UC Irvine         }
+  - { date: 2017-12-02, region: 8A, name: Northern Michigan }

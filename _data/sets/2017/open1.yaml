@@ -11,11 +11,11 @@ clear:       2018-04-13
 reallyclear: yes
 packetsurl:  http://collegiate.quizbowlpackets.com/2103/
 mirrors:
-  - { date: 2018-03-03, region: Mid-Atlantic, name: UMD       }
-  - { date: 2018-03-03, region: Midwest,      name: Minnesota }
-  - { date: 2018-03-03, region: UK,           name: Warwick   }
-  - { date: 2018-03-03, region: Canada,       name: McMaster  }
-  - { date: 2018-03-03, region: Northeast,    name: NYU       }
-  - { date: 2018-03-10, region: NorCal,       name: Stanford  }
-  - { date: 2018-03-24, region: Southeastern, name: Auburn    }
-  - { date: 2018-04-13, region: Texas,        name: "Coach/player hybrid?" }
+  - { date: 2018-03-03, region: 2A, name: UMD       }
+  - { date: 2018-03-03, region: 8A, name: Minnesota }
+  - { date: 2018-03-03, region: UK, name: Warwick   }
+  - { date: 2018-03-03, region: CA, name: McMaster  }
+  - { date: 2018-03-03, region: 2A, name: NYU       }
+  - { date: 2018-03-10, region: 5B, name: Stanford  }
+  - { date: 2018-03-24, region: 3B, name: Auburn    }
+  - { date: 2018-04-13, region: 4A, name: "Coach/player hybrid" }

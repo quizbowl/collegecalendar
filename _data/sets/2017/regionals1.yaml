@@ -11,15 +11,15 @@ clear:       2018-01-27
 reallyclear: yes
 packetsurl:  http://collegiate.quizbowlpackets.com/2108/
 mirrors:
-  - { date: 2018-01-20, region: Canada,              name: Toronto        }
-  - { date: 2018-01-20, region: Northeast,           name: Connecticut    }
-  - { date: 2018-01-20, region: Mid-Atlantic,        name: Virginia       }
-  - { date: 2018-01-20, region: Upper Mid-Atlantic,  name: Penn State     }
-  - { date: 2018-01-20, region: Southeast (Central), name: Georgia Tech   }
-  - { date: 2018-01-20, region: Texas/LA,            name: Rice           }
-  - { date: 2018-01-20, region: Florida,             name: UCF            }
-  - { date: 2018-01-20, region: North,               name: Minnesota      }
-  - { date: 2018-01-20, region: Great Lakes,         name: UIUC           }
-  - { date: 2018-01-20, region: Great Plains,        name: Kansas State   }
-  - { date: 2018-01-20, region: California,          name: UCSD           }
-  - { date: 2018-01-27, region: UK,                  name: Oxford-Brookes }
+  - { date: 2018-01-20, region: CA, name: Toronto        }
+  - { date: 2018-01-20, region: 1A, name: Connecticut    }
+  - { date: 2018-01-20, region: 2B, name: Virginia       }
+  - { date: 2018-01-20, region: 2A, name: Penn State     }
+  - { date: 2018-01-20, region: 3B, name: Georgia Tech   }
+  - { date: 2018-01-20, region: 4A, name: Rice           }
+  - { date: 2018-01-20, region: 3C, name: UCF            }
+  - { date: 2018-01-20, region: 8A, name: Minnesota      }
+  - { date: 2018-01-20, region: 8B, name: UIUC           }
+  - { date: 2018-01-20, region: 7A, name: Kansas State   }
+  - { date: 2018-01-20, region: 5A, name: UCSD           }
+  - { date: 2018-01-27, region: UK, name: Oxford-Brookes }

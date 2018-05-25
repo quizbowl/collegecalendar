@@ -9,20 +9,20 @@ announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20649
 clear:       never
 packetsurl:  never
 mirrors:
-  - { date: 2018-02-03, region: Canada,         name: Waterloo         }
-  - { date: 2018-02-03, region: Central,        name: Missouri         }
-  - { date: 2018-02-03, region: Florida,        name: Florida          }
-  - { date: 2018-02-03, region: Great Lakes,    name: Youngstown State }
-  - { date: 2018-02-03, region: Mid-Atlantic,   name: Georgetown       }
-  - { date: 2018-02-03, region: Midwest,        name: Northwestern     }
-  - { date: 2018-02-03, region: New England,    name: Yale             }
-  - { date: 2018-02-03, region: New York,       name: RIT              }
-  - { date: 2018-02-03, region: North,          name: Carleton College }
-  - { date: 2018-02-03, region: NorCal,         name: Stanford         }
-  - { date: 2018-02-03, region: Northwest,      name: Washington       }
-  - { date: 2018-02-03, region: Rocky Mountain, name: Colorado         }
-  - { date: 2018-02-03, region: South,          name: UT-Dallas        }
-  - { date: 2018-02-03, region: South Central,  name: Western Kentucky }
-  - { date: 2018-02-03, region: Southeast,      name: Georgia          }
-  - { date: 2018-02-03, region: SoCal,          name: UCLA             }
-  - { date: 2018-02-04, region: Carolinas,      name: North Carolina   }
+  - { date: 2018-02-03, region: CA, name: Waterloo         }
+  - { date: 2018-02-03, region: 7B, name: Missouri         }
+  - { date: 2018-02-03, region: 3C, name: Florida          }
+  - { date: 2018-02-03, region: 8C, name: Youngstown State }
+  - { date: 2018-02-03, region: 2A, name: Georgetown       }
+  - { date: 2018-02-03, region: 8B, name: Northwestern     }
+  - { date: 2018-02-03, region: 1A, name: Yale             }
+  - { date: 2018-02-03, region: 1B, name: RIT              }
+  - { date: 2018-02-03, region: 8A, name: Carleton College }
+  - { date: 2018-02-03, region: 5B, name: Stanford         }
+  - { date: 2018-02-03, region: 6A, name: Washington       }
+  - { date: 2018-02-03, region: 6B, name: Colorado         }
+  - { date: 2018-02-03, region: 4A, name: UT-Dallas        }
+  - { date: 2018-02-03, region: 3A, name: Western Kentucky }
+  - { date: 2018-02-03, region: 3B, name: Georgia          }
+  - { date: 2018-02-03, region: 5A, name: UCLA             }
+  - { date: 2018-02-04, region: 2B, name: North Carolina   }

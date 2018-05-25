@@ -8,10 +8,10 @@ announced:   2017-12-15
 announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20769
 clear:       Fall 2018?!
 mirrors:
-  - { date: 2018-03-17, region: Florida,         name: Florida         }
-  - { date: 2018-03-17, region: Upper Midwest,   name: Michigan        }
-  - { date: 2018-03-24, region: Upper Midwest,   name: Michigan Tech   }
-  - { date: 2018-04-07, region: Rocky Mountains, name: BYU             }
-  - { date: 2018-04-14, region: Southeast,       name: Wofford College }
-  - { date: 2018-04-28, region: Northeast,       name: Columbia        }
-  - { date: 2018-12-31, region: Mid-Atlantic,    name: Virginia Tech   }
+  - { date: 2018-03-17, region: 3C, name: Florida         }
+  - { date: 2018-03-17, region: 8B, name: Michigan        }
+  - { date: 2018-03-24, region: 8B, name: Michigan Tech   }
+  - { date: 2018-04-07, region: 6B, name: BYU             }
+  - { date: 2018-04-14, region: 3B, name: Wofford College }
+  - { date: 2018-04-28, region: 2A, name: Columbia        }
+  - { date: 2018-12-31, region: 2B, name: Virginia Tech   }

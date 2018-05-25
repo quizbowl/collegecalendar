@@ -11,22 +11,22 @@ clear:       2017-11-05
 reallyclear: yes
 packetsurl:  http://collegiate.quizbowlpackets.com/2040/
 mirrors:
-  - { date: 2017-11-04, region: New England,       name: MIT          }
-  - { date: 2017-11-04, region: Mid-Atlantic,      name: UMD          }
-  - { date: 2017-11-04, region: South Atlantic,    name: VT           }
-  - { date: 2017-11-04, region: Southeast,         name: Florida      }
-  - { date: 2017-11-04, region: South,             name: Texas        }
-  - { date: 2017-11-04, region: Pacific Northwest, name: Washington   }
-  - { date: 2017-11-04, region: SoCal,             name: Caltech      }
-  - { date: 2017-11-04, region: NorCal,            name: Stanford     }
-  - { date: 2017-11-04, region: North,             name: Minnesota    }
-  - { date: 2017-11-04, region: Great Lakes,       name: OSU          }
-  - { date: 2017-11-04, region: Midwest,           name: Illinois     }
-  - { date: 2017-11-04, region: Mountain West,     name: Colorado     }
-  - { date: 2017-11-04, region: Canada,            name: Ottawa       }
-  - { date: 2017-11-04, region: UK,                name: Warwick      }
-  - { date: 2017-11-05, region: South Central,     name: Georgia Tech }
-  - { date: 2017-11-04, region: Illinois,          name: Northern Illinois, eligible: HS }
-  - { date: 2017-11-04, region: Maryland,          name: UMD,               eligible: HS, cancelled: yes }
-  - { date: 2017-11-05, region: NorCal,            name: Valley Christian,  eligible: HS }
-  - { date: 2017-11-05, region: Texas,             name: LASA,              eligible: HS }
+  - { date: 2017-11-04, region: 1A, name: MIT           }
+  - { date: 2017-11-04, region: 2A, name: UMD           }
+  - { date: 2017-11-04, region: 2B, name: VT            }
+  - { date: 2017-11-04, region: 3C, name: Florida       }
+  - { date: 2017-11-04, region: 4A, name: Texas         }
+  - { date: 2017-11-04, region: 6A, name: Washington    }
+  - { date: 2017-11-04, region: 5A, name: Caltech       }
+  - { date: 2017-11-04, region: 5B, name: Stanford      }
+  - { date: 2017-11-04, region: 8A, name: Minnesota     }
+  - { date: 2017-11-04, region: 8C, name: OSU           }
+  - { date: 2017-11-04, region: 8B, name: Illinois      }
+  - { date: 2017-11-04, region: 6B, name: Colorado      }
+  - { date: 2017-11-04, region: CA, name: Ottawa        }
+  - { date: 2017-11-04, region: UK, name: Warwick       }
+  - { date: 2017-11-05, region: 3B, name: Georgia Tech  }
+  - { date: 2017-11-04, region: 8B, name: Northern Illinois, eligible: HS }
+  - { date: 2017-11-04, region: 2A, name: UMD,               eligible: HS, cancelled: yes }
+  - { date: 2017-11-05, region: 5B, name: Valley Christian,  eligible: HS }
+  - { date: 2017-11-05, region: 4A, name: LASA,              eligible: HS }
