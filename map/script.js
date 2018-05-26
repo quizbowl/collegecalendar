@@ -10,7 +10,7 @@ var path = d3.geo.path()
 // var path_short = path;
 var path_short = d => path(d).replace(/\.(\d\d)\d*/g, '.$1');
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#svg-container").append("svg")
 		.attr("width", width)
 		.attr("height", height);
 
@@ -19,17 +19,17 @@ var svg = d3.select("body").append("svg")
 //     .attr("height", height);
 
 svg.append("path")
-    .datum({type: "Sphere"})
-    .attr("class", "sphere")
-    .attr("d", path_short);
+	.datum({type: "Sphere"})
+	.attr("class", "sphere")
+	.attr("d", path_short);
 
 /*var graticule = d3.geo.graticule()
-    .step([2, 2]);
+	.step([2, 2]);
 
 svg.append("path")
-    .datum(graticule)
-    .attr("class", "graticule")
-    .attr("d", path_short);
+	.datum(graticule)
+	.attr("class", "graticule")
+	.attr("d", path_short);
 */
 
 var color = d3.scale.category20b();
@@ -62,9 +62,9 @@ d3.tsv("colleges.tsv", function(error, colleges) {
 	};
 
 	var regions = mapdata.regions.map(function(region) {
-	 	var children_polys = region.children.map((child) => maps[region.map][1][child] );
-	 	var merged_poly = topojson.merge(maps[region.map][0], children_polys);
-	 	region.poly = merged_poly;
+		var children_polys = region.children.map((child) => maps[region.map][1][child] );
+		var merged_poly = topojson.merge(maps[region.map][0], children_polys);
+		region.poly = merged_poly;
 
 		return region;
 	});
@@ -95,9 +95,23 @@ d3.tsv("colleges.tsv", function(error, colleges) {
 	main.selectAll('.selected3')
 		.data(regions)
 		.enter()
+			// .append("view")
+			// .attr("id", d => d.id)
+			// .attr("viewBox", function (d) {
+			// 	// return '0 0 1000 1000';
+			// 	var bounds = path.bounds(d.poly),
+			// 		width = bounds[1][0] - bounds[0][0],
+			// 		height = bounds[1][1] - bounds[0][1];
+			// 	return [
+			// 		bounds[0][0],
+			// 		bounds[0][1],
+			// 		width,
+			// 		height
+			// 	].join(" ");
+			// })
 			.append("path")
-			.attr("class", "state selected2")
 			.attr("id", d => d.id)
+			.attr("class", "state selected2")
 			.attr("d", d => path_short(d.poly))
 			.attr("fill", function(d, i) { return color(d.color); })
 			// .attr("fill", function(d, i) { return d.color; });
@@ -108,33 +122,33 @@ d3.tsv("colleges.tsv", function(error, colleges) {
 			// .attr("fill", color(10));
 
 
-    main.selectAll(".stateText")
-        .data(regions)
-        .enter()
-	        .append("text")
-	        .attr("x", function(d) {
-	            return path.centroid(d.poly)[0] + d.label[0];
-	        })
-	        .attr("y", function(d) {
-	            return path.centroid(d.poly)[1] + 12 + d.label[1];
-	        })
-	        .attr("text-anchor", "middle")
-	        .attr('class', 'region-label-region region-label')
-	        .text(d => d.name);
-    main.selectAll(".stateText")
-        .data(regions)
-        .enter()
-	        .append("text")
-	        .attr("x", function(d) {
-	            return path.centroid(d.poly)[0] + d.label[0];
-	        })
-	        .attr("y", function(d) {
-	            return path.centroid(d.poly)[1] - 12 + d.label[1];
-	        })
-	        .attr("text-anchor", "middle")
-	        .attr('class', 'region-label')
-	        // .text(d => d.parent + ' (' + d.id + ')');
-	        .text(d => d.parent);
+	main.selectAll(".stateText")
+		.data(regions)
+		.enter()
+			.append("text")
+			.attr("x", function(d) {
+				return path.centroid(d.poly)[0] + d.label[0];
+			})
+			.attr("y", function(d) {
+				return path.centroid(d.poly)[1] + 12 + d.label[1];
+			})
+			.attr("text-anchor", "middle")
+			.attr('class', 'region-label-region region-label')
+			.text(d => d.name);
+	main.selectAll(".stateText")
+		.data(regions)
+		.enter()
+			.append("text")
+			.attr("x", function(d) {
+				return path.centroid(d.poly)[0] + d.label[0];
+			})
+			.attr("y", function(d) {
+				return path.centroid(d.poly)[1] - 12 + d.label[1];
+			})
+			.attr("text-anchor", "middle")
+			.attr('class', 'region-label')
+			// .text(d => d.parent + ' (' + d.id + ')');
+			.text(d => d.parent);
 
 
 	main.selectAll('.place')
@@ -144,6 +158,7 @@ d3.tsv("colleges.tsv", function(error, colleges) {
 		.attr('class', d => (d.active > 1) ? 'circle-large' : 'circle-small')
 		.attr('transform', d => 'translate(' + projection(d.coordinates) +')')
 		.attr('r', d => d.active * 2);
+
 
 const voronoi = d3.geom.voronoi()
 	.x(d => projection(d.coordinates)[0])
@@ -157,33 +172,47 @@ var radiusDeg    = radiusMi / EARTH_RADIUS * 90; // radius in degrees for circle
 main.selectAll('.voronoi')
   .data(voronoi(colleges))
   .enter().append('g')
-    .attr('fill', 'none')
-    // .attr('stroke', 'gold')
-    .attr('pointer-events', 'all')
+	.attr('fill', 'none')
+	// .attr('stroke', 'gold')
+	.attr('pointer-events', 'all')
   .append('path')
-    .attr('d', d => d ? 'M' + d.join('L') + 'Z' : null)
-    .on('mouseover', (d) => {
-    	// distanceLimitedVoronoi
-    	console.log(d)
+	.attr('d', d => d ? 'M' + d.join('L') + 'Z' : null)
+	.on('mouseover', (d) => {
+
+	main.append('text')
+		.datum(d.point)
+		.attr('class', 'place-label place-label-1')
+		.attr('transform', d => 'translate(' + projection(d.coordinates) +')')
+		.attr("x", function(d) { return d.coordinates[0] > -88 ? 6 : -6; })
+		.attr("dy", ".35em")
+		.style("text-anchor", function(d) { return d.coordinates[0] > -88 ? "start" : "end"; })
+		.text(d => d.college);
+	})
+	.on('mouseout', (d) => {
+	  svg.selectAll(".place-label-1").remove();
+	});
+
+/*	.on('mouseover', (d) => {
+		// distanceLimitedVoronoi
 
 var circle = d3.geo.circle().angle(radiusDeg).origin(d.point.coordinates);
 var circle2 = d3.geo.circle().angle(2*radiusDeg).origin(d.point.coordinates);
-console.log(circle);
 svg.append("path")
   .datum(circle)
-    .attr("d", path)
-  	.attr("class", "radius");
+	.attr("d", path)
+	.attr("class", "radius");
 svg.append("path")
   .datum(circle2)
-    .attr("d", path)
-  	.attr("class", "radius");
+	.attr("d", path)
+	.attr("class", "radius");
 
-      // Pop up information
-    })
-    .on('mouseout', (d) => {
-      svg.selectAll(".radius").remove();
-    });
-
+	  // Pop up information
+	})
+	.on('mouseout', (d) => {
+	  svg.selectAll(".radius").remove();
+	});
+*/
+/*
 	main.selectAll('.place-label')
 		.data(colleges)
 		.enter()
@@ -193,7 +222,7 @@ svg.append("path")
 		.attr("x", function(d) { return d.coordinates[0] > -88 ? 6 : -6; })
 		.attr("dy", ".35em")
 		.style("text-anchor", function(d) { return d.coordinates[0] > -88 ? "start" : "end"; })
-		.text(d => d.college);
+		.text(d => d.college);*/
 
 	var legend = svg.append('g')
 		.attr('class', 'legend')
@@ -201,15 +230,15 @@ svg.append("path")
 		.attr('transform', d => 'translate(' + projection([-121, 26]) +')');
 	legend.append('text')
 		.attr('class', 'region-label')
-        .attr("alignment-baseline", "middle")
-        // .attr("text-anchor", "middle")
-	    .text('Region');
+		.attr("alignment-baseline", "middle")
+		// .attr("text-anchor", "middle")
+		.text('Region');
 	legend.append('text')
 		.attr('transform', d => 'translate(0,24)')
-        .attr('class', 'region-label region-label-region')
-        .attr("alignment-baseline", "middle")
-        // .attr("text-anchor", "middle")
-	    .text('Circuit');
+		.attr('class', 'region-label region-label-region')
+		.attr("alignment-baseline", "middle")
+		// .attr("text-anchor", "middle")
+		.text('Circuit');
 
 	legend.append('circle')
 		.attr('class', 'circle-large')
@@ -220,28 +249,30 @@ svg.append("path")
 		.attr('transform', d => 'translate(-16,72)')
 		.attr('r', 2);
 	legend.append('text')
-		.attr('class', 'place-label')
+		// .attr('class', 'place-label')
+		.attr('class', 'legend-label-medium')
 		.attr('transform', d => 'translate(0,48)')
-        .attr("alignment-baseline", "middle")
-	    .text('Hosts tournaments (Core/Active)');
+		.attr("alignment-baseline", "middle")
+		.text('Hosts tournaments (Core/Active)');
 	legend.append('text')
 		.attr('transform', d => 'translate(0,72)')
-        .attr('class', 'place-label')
-        .attr("alignment-baseline", "middle")
-	    .text('Attends tournaments');
+		// .attr('class', 'place-label')
+		.attr('class', 'legend-label-medium')
+		.attr("alignment-baseline", "middle")
+		.text('Attends tournaments');
 
 	legend.append('text')
 		.attr('transform', d => 'translate(32,-64)')
-        .attr('class', 'legend-label')
-        .attr("alignment-baseline", "middle")
-        .attr("text-anchor", "middle")
-	    .text('College quizbowl circuit map');
+		.attr('class', 'legend-label')
+		.attr("alignment-baseline", "middle")
+		.attr("text-anchor", "middle")
+		.text('College quizbowl circuit map');
 	legend.append('text')
 		.attr('transform', d => 'translate(32,-40)')
-        .attr('class', 'legend-label-small')
-        .attr("alignment-baseline", "middle")
-        .attr("text-anchor", "middle")
-	    .text('Draft, for collegequizbowlcalendar.com');
+		.attr('class', 'legend-label-small')
+		.attr("alignment-baseline", "middle")
+		.attr("text-anchor", "middle")
+		.text('Draft, for collegequizbowlcalendar.com');
 
 });
 });
