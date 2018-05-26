@@ -47,7 +47,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 3A	2	Nashville	TN	USA	36.144703	-86.802655		Vanderbilt	Vanderbilt University
 3A	1	Knoxville	TN	USA	35.954401	-83.929456		Tennessee	University of Tennessee-Knoxville
 3B	2	Columbia	SC	USA	33.996112	-81.027428		South Carolina	University of South Carolina
-3B	2	Athens	GA	USA	33.948005	-83.377322		Georgia	University of Georgia
+3B	2	Athens	GA	USA	33.948005	-83.377322	UGA	Georgia	University of Georgia
 3B	2	Atlanta	GA	USA	33.775618	-84.396285	GT	Georgia Tech	Georgia Institute of Technology
 3B	2	Auburn	AL	USA	32.593357	-85.495166		Auburn	Auburn University
 3B	1	Clemson	SC	USA	34.676094	-82.836415		Clemson	Clemson University
