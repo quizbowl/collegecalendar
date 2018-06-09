@@ -173,20 +173,44 @@ main.selectAll('.voronoi')
   .data(voronoi(colleges))
   .enter().append('g')
 	.attr('fill', 'none')
-	// .attr('stroke', 'gold')
+	// .attr('stroke', '#40a94235')
 	.attr('pointer-events', 'all')
   .append('path')
 	.attr('d', d => d ? 'M' + d.join('L') + 'Z' : null)
 	.on('mouseover', (d) => {
+		
+		var marginLeftRight = 8; // adjust the padding values depending on font and font size
+		var paddingLeftRight = 6; // adjust the padding values depending on font and font size
+		var paddingTopBottom = 4;
 
-	main.append('text')
-		.datum(d.point)
-		.attr('class', 'place-label place-label-1')
-		.attr('transform', d => 'translate(' + projection(d.coordinates) +')')
-		.attr("x", function(d) { return d.coordinates[0] > -88 ? 6 : -6; })
-		.attr("dy", ".35em")
-		.style("text-anchor", function(d) { return d.coordinates[0] > -88 ? "start" : "end"; })
-		.text(d => d.college);
+		var text = main.append('text')
+			.datum(d.point)
+			.attr('class', 'place-label place-label-1')
+			.attr('transform', d => 'translate(' + projection(d.coordinates) + ')')
+			.attr("x", function (d) { return - marginLeftRight - 3 * paddingLeftRight / 2; })
+			// .attr("x", function(d) { return d.coordinates[0] > -88 ? 6 : -6; })
+			.attr("dy", ".35em")
+			.style("text-anchor", 'end')
+			// .style("text-anchor", function(d) { return d.coordinates[0] > -88 ? "start" : "end"; })
+			.text(d => d.college);
+			
+			var bb = text[0][0].getBBox();
+
+			main.insert("path", '.place-label-1')
+			.datum(d.point)
+			.attr('class', 'place-label-rect place-label-1')
+			.attr('fill', 'blue')
+			.attr('transform', function (d) {
+				var p = projection(d.coordinates);
+				p[0] = Math.round(p[0]) + .5; p[1] = Math.round(p[1]);
+				return 'translate(' + p + ')';
+			})
+			.attr('d', 'M ' + (- marginLeftRight) + ' 0 ' +
+					   'l ' + (- paddingLeftRight) + ' ' + (- bb.height / 2 - paddingTopBottom / 2) +
+					   'l ' + (- Math.round(bb.width) - 3 * paddingLeftRight / 2) + ' 0 ' +
+					   'l 0 ' + (bb.height + paddingTopBottom) + ' ' +
+					   'l ' + (+ Math.round(bb.width) + 3 * paddingLeftRight / 2) + ' 0 ' +
+					   'Z')
 	})
 	.on('mouseout', (d) => {
 	  svg.selectAll(".place-label-1").remove();
