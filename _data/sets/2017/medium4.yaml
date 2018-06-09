@@ -7,23 +7,25 @@ name:        SMT
 firstmirror: 2018-03-10
 firstonline: 2018-02-24
 announced:   2017-09-13
-announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20424
+announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20424
 clear:       2018-05-12
 reallyclear: yes
 packetsurl:  http://collegiate.quizbowlpackets.com/2095/
 mirrors:
-  - { date: 2018-02-24, region: 0P, name: Online, eligible: Open }
-  - { date: 2018-03-10, region: 2A, name: Johns Hopkins            }
+  - { date: 2018-02-24, region: 0P, name: Online, eligible: Open,    url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20831" }
+  - { date: 2018-03-10, region: 2A, name: Johns Hopkins            , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20879" }
   - { date: 2018-03-10, region: UK, name: Imperial College, London }
-  - { date: 2018-03-17, region: CA, name: Carleton                 }
-  - { date: 2018-03-24, region: 7B, name: WUSTL                    }
-  - { date: 2018-03-31, region: 8A, name: Minnesota                }
-  - { date: 2018-03-31, region: 1A, name: Harvard                  }
-  - { date: 2018-03-31, region: 2B, name: Virginia Tech            }
-  - { date: 2018-03-31, region: 8C, name: Michigan                 }
-  - { date: 2018-04-07, region: 3C, name: Florida                  }
-  - { date: 2018-04-14, region: 4A, name: Texas Invitational       , eligible: HS}
-  - { date: 2018-04-28, region: 5B, name: Stanford                 }
-  - { date: 2018-04-28, region: 6A, name: Washington               }
-  - { date: 2018-05-12, region: 8B, name: Chicago                  }
-  - { date: 2018-05-12, region: 8C, name: Ohio, eligible: HS NASAT }
+  - { date: 2018-03-17, region: CA, name: Carleton                 , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21001" }
+  - { date: 2018-03-24, region: 7B, name: WUSTL                    , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20913" }
+  - { date: 2018-03-31, region: 8A, name: Minnesota                , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20954" }
+  - { date: 2018-03-31, region: 1A, name: Harvard                  , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21009" }
+  - { date: 2018-03-31, region: 2B, name: Virginia Tech            , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20898" }
+  - { date: 2018-03-31, region: 8C, name: Michigan                 , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21007" }
+  - { date: 2018-04-07, region: 3C, name: Florida                  , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20989" }
+  - { date: 2018-04-14, region: 4A, name: Texas Invitational       , eligible: HS, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=20874" }
+  - { date: 2018-04-28, region: 5B, name: Stanford                 , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21102" }
+  - { date: 2018-04-28, region: 6A, name: Washington               , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21201" }
+  - { date: 2018-05-12, region: 8B, name: Chicago                  , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21076" }
+  - { date: 2018-05-12, region: 5A, name: UCLA                     , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21255" }
+  - { date: 2018-04-07, region: 8C, name: Ohio, eligible: HS NASAT , url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=20856" }
+  - { date: 2018-05-12, region: 3A, name: Tennessee, eligible: HS NASAT, url: "http://hsquizbowl.org/forums/viewtopic.php?f=50&t=21129" }

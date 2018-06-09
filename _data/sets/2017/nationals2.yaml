@@ -7,9 +7,9 @@ submission:  Required
 name:        ACF Nationals
 firstmirror: 2018-04-21
 announced:   2017-10-13
-announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20551
+announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20551
 clear:       2018-04-22
 reallyclear: yes
 packetsurl:  http://collegiate.quizbowlpackets.com/2139/
 mirrors:
-  - { date: 2018-04-21, region: 1A,   name: MIT  }
+  - { date: 2018-04-21, region: 1A,   name: MIT, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20551" }

@@ -6,27 +6,27 @@ submission:  Required if not new team
 name:        ACF Fall
 firstmirror: 2017-11-04
 announced:   2017-08-04
-announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20229
+announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20229
 clear:       2017-11-05
 reallyclear: yes
 packetsurl:  http://collegiate.quizbowlpackets.com/2040/
 mirrors:
-  - { date: 2017-11-04, region: 1A, name: MIT           }
-  - { date: 2017-11-04, region: 2A, name: UMD           }
-  - { date: 2017-11-04, region: 2B, name: VT            }
-  - { date: 2017-11-04, region: 3C, name: Florida       }
-  - { date: 2017-11-04, region: 4A, name: Texas         }
-  - { date: 2017-11-04, region: 6A, name: Washington    }
-  - { date: 2017-11-04, region: 5A, name: Caltech       }
-  - { date: 2017-11-04, region: 5B, name: Stanford      }
-  - { date: 2017-11-04, region: 8A, name: Minnesota     }
-  - { date: 2017-11-04, region: 8C, name: OSU           }
-  - { date: 2017-11-04, region: 8B, name: Illinois      }
-  - { date: 2017-11-04, region: 6B, name: Colorado      }
-  - { date: 2017-11-04, region: CA, name: Ottawa        }
-  - { date: 2017-11-04, region: UK, name: Warwick       }
-  - { date: 2017-11-05, region: 3B, name: Georgia Tech  }
-  - { date: 2017-11-04, region: 8B, name: Northern Illinois, eligible: HS }
-  - { date: 2017-11-04, region: 2A, name: UMD,               eligible: HS, cancelled: yes }
-  - { date: 2017-11-05, region: 5B, name: Valley Christian,  eligible: HS }
-  - { date: 2017-11-05, region: 4A, name: LASA,              eligible: HS }
+  - { date: 2017-11-04, region: 1A, name: MIT           , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20376" }
+  - { date: 2017-11-04, region: 2A, name: Maryland      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20298" }
+  - { date: 2017-11-04, region: 2B, name: Virginia Tech , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20373" }
+  - { date: 2017-11-04, region: 3C, name: Florida       , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20409" }
+  - { date: 2017-11-04, region: 4A, name: Texas         , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20292" }
+  - { date: 2017-11-04, region: 6A, name: Washington    , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20327" }
+  - { date: 2017-11-04, region: 5A, name: Caltech       , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20371" }
+  - { date: 2017-11-04, region: 5B, name: Stanford      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20347" }
+  - { date: 2017-11-04, region: 8A, name: Minnesota     , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20341" }
+  - { date: 2017-11-04, region: 8C, name: OSU           , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20343" }
+  - { date: 2017-11-04, region: 8B, name: Illinois      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20365" }
+  - { date: 2017-11-04, region: 6B, name: Colorado      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20295" }
+  - { date: 2017-11-04, region: CA, name: Ottawa        , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20411" }
+  - { date: 2017-11-04, region: UK, name: Warwick       , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20363" }
+  - { date: 2017-11-05, region: 3B, name: Georgia Tech  , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20440" }
+  - { date: 2017-11-04, region: 8B, name: Northern Illinois, eligible: HS, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=20293" }
+  - { date: 2017-11-04, region: 2A, name: UMD,               eligible: HS, cancelled: yes, url: "http://hsquizbowl.org/forums/viewtopic.php?f=20&t=20410" }
+  - { date: 2017-11-05, region: 5B, name: Valley Christian,  eligible: HS, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=20571" }
+  - { date: 2017-11-05, region: 4A, name: LASA,              eligible: HS, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=20611" }

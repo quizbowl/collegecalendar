@@ -6,20 +6,20 @@ submission:  Required half-packet
 name:        ACF Regionals
 firstmirror: 2018-01-20
 announced:   2017-05-25
-announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20005
+announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20005
 clear:       2018-01-27
 reallyclear: yes
 packetsurl:  http://collegiate.quizbowlpackets.com/2108/
 mirrors:
-  - { date: 2018-01-20, region: CA, name: Toronto        }
-  - { date: 2018-01-20, region: 1A, name: Connecticut    }
-  - { date: 2018-01-20, region: 2B, name: Virginia       }
-  - { date: 2018-01-20, region: 2A, name: Penn State     }
-  - { date: 2018-01-20, region: 3B, name: Georgia Tech   }
-  - { date: 2018-01-20, region: 4A, name: Rice           }
-  - { date: 2018-01-20, region: 3C, name: UCF            }
-  - { date: 2018-01-20, region: 8A, name: Minnesota      }
-  - { date: 2018-01-20, region: 8B, name: UIUC           }
-  - { date: 2018-01-20, region: 7A, name: Kansas State   }
-  - { date: 2018-01-20, region: 5A, name: UCSD           }
-  - { date: 2018-01-27, region: UK, name: Oxford-Brookes }
+  - { date: 2018-01-20, region: CA, name: Toronto        , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20706" }
+  - { date: 2018-01-20, region: 1A, name: Connecticut    , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20755" }
+  - { date: 2018-01-20, region: 2B, name: Virginia       , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20766" }
+  - { date: 2018-01-20, region: 2A, name: Penn State     , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20669" }
+  - { date: 2018-01-20, region: 3B, name: Georgia Tech   , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20705" }
+  - { date: 2018-01-20, region: 4A, name: Rice           , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20749" }
+  - { date: 2018-01-20, region: 3C, name: UCF            , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20778" }
+  - { date: 2018-01-20, region: 8A, name: Minnesota      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20740" }
+  - { date: 2018-01-20, region: 8B, name: UIUC           , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20742" }
+  - { date: 2018-01-20, region: 7A, name: Kansas State   , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20788" }
+  - { date: 2018-01-20, region: 5A, name: UCSD           , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20774" }
+  - { date: 2018-01-27, region: UK, name: Oxford-Brookes , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20686" }
