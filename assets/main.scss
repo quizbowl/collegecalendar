@@ -84,6 +84,8 @@ table.season {
         margin: 0.75em 0;
         th {
             // background: darken(#f3f5ff, 3%);
+
+            text-indent: 1em;
         }
         height: 312px;
         /* Just for the demo          */
@@ -119,6 +121,7 @@ table.season {
         // font-variant-numeric: tabular-nums;
         position: relative;
     }
+    td time.late small,
     td:hover time.late small {
         display: block;
     }
