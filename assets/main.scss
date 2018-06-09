@@ -139,6 +139,21 @@ table.season {
     del {
         color: #b63;
     }
+
+    tbody.mirrors {
+        th, td {
+            border-bottom-width: 0;
+        }
+        tr.same th, tr.same td {
+            border-top-style: dotted;
+        }
+        tr:not(.same) th, tr:not(.same) td {
+            border-top-width: 2px;
+        }
+        tr:last-of-type th, tr:last-of-type td {
+            border-bottom-width: 2px;
+        }
+    }
 }
 
 body:not([data-toggle="toggle"]) .toggle {

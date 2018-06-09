@@ -132,11 +132,18 @@ document.getElementById('collapse').onclick = function() {
 {% assign regions = "0P|Online playtest,0L|Online,1A|New England,1B|New York,2A|N. Mid-Atlantic,2B|S. Mid-Atlantic,3A|Upper South,3B|Deep
 South,3C|Florida,4A|Texas/Louisiana,5A|S. California,5B|N. California,6A|Pacific Northwest,6B|Rocky Mountains,7A|Great Plains,7B|Missouri,8A|Upper
 Midwest,8B|Central Midwest,8C|Eastern Midwest,CA|Canada,UK|UK" | split: ',' %}
+{% assign lst = 0 %}
 {% for region_ in regions %}
 {% assign region = region_ | split: "|" | first %}
 {% assign region_name = region_ | split: "|" | last %}
-<tr>
-<th><!-- {{ region }}  -->{{ region_name }}</th>
+
+{% assign nxt = region | slice: 0, 1 %}
+<tr {% if lst == nxt %}class="same"{% endif %}>
+{% assign lst = nxt %}
+<th class="region">
+<!-- {{ region }}  -->
+{{ region_name }}
+</th>
 {% for slot_id in season.slots %}
 {% assign set = site.data.sets[page.year][slot_id] %}
 {% assign mirrors = set.mirrors %}
