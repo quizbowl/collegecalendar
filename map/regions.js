@@ -116,7 +116,7 @@ var mapdata = {
 		},
 		{
 			"parent": "South",
-			"name": "LaTex",
+			"name": "Texas/Louisiana",
 			"id": "4A",
 			"color": 8,
 			"label": [60, 0],
@@ -183,7 +183,7 @@ var mapdata = {
 			"name": "Great Plains",
 			"id": "7A",
 			"color": 13,
-			"label": [0, 0],
+			"label": [0, 10],
 			"map": "us",
 			"children": [
 				// KS, OK
@@ -207,7 +207,7 @@ var mapdata = {
 			"name": "Upper Midwest",
 			"id": "8A",
 			"color": 15,
-			"label": [-16, 70],
+			"label": [-16, 66],
 			"map": "us",
 			"children": [
 				// MN, WI, IA
@@ -273,7 +273,7 @@ var mapdata = {
 			"name": "",
 			"id": "UK",
 			"color": 19,
-			"label": [15, 25],
+			"label": [19, 25],
 			"map": "uk",
 			"children": [
 				'ENG', 'SCT', 'WLS', 'NIR',

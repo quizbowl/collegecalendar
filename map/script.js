@@ -254,49 +254,36 @@ svg.append("path")
 		.attr('transform', d => 'translate(' + projection([-121, 26]) +')');
 	legend.append('text')
 		.attr('class', 'region-label')
-		.attr("alignment-baseline", "middle")
-		// .attr("text-anchor", "middle")
 		.text('Region');
 	legend.append('text')
 		.attr('transform', d => 'translate(0,24)')
 		.attr('class', 'region-label region-label-region')
-		.attr("alignment-baseline", "middle")
-		// .attr("text-anchor", "middle")
 		.text('Circuit');
 
 	legend.append('circle')
 		.attr('class', 'circle-large')
-		.attr('transform', d => 'translate(-16,48)')
+		.attr('transform', d => 'translate(-16,44)')
 		.attr('r', 4);
 	legend.append('circle')
 		.attr('class', 'circle-small')
-		.attr('transform', d => 'translate(-16,72)')
+		.attr('transform', d => 'translate(-16,68)')
 		.attr('r', 2);
 	legend.append('text')
 		// .attr('class', 'place-label')
 		.attr('class', 'legend-label-medium')
 		.attr('transform', d => 'translate(0,48)')
-		.attr("alignment-baseline", "middle")
 		.text('Hosts tournaments (Core/Active)');
 	legend.append('text')
 		.attr('transform', d => 'translate(0,72)')
 		// .attr('class', 'place-label')
 		.attr('class', 'legend-label-medium')
-		.attr("alignment-baseline", "middle")
 		.text('Attends tournaments');
 
 	legend.append('text')
-		.attr('transform', d => 'translate(32,-64)')
+		.attr('transform', d => 'translate(32,-40)')
 		.attr('class', 'legend-label')
-		.attr("alignment-baseline", "middle")
 		.attr("text-anchor", "middle")
 		.text('College quizbowl circuit map');
-	legend.append('text')
-		.attr('transform', d => 'translate(32,-40)')
-		.attr('class', 'legend-label-small')
-		.attr("alignment-baseline", "middle")
-		.attr("text-anchor", "middle")
-		.text('Draft, for collegequizbowlcalendar.com');
 
 });
 });
