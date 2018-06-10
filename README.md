@@ -17,7 +17,7 @@ Some guidelines: Non-trivial pull requests should be left open for at least 48 h
 
 The layout of the main calendar pages (which contains the large tables) is defined by `_layouts/year.html`.
 
-The order of tournaments within each part of a year (such as Fall or Spring) is defined by <code>\_data/sets/_‹year›_/seasons.yaml</code>.
+The order of tournaments within each part of a year (e.g. Fall or Spring) is defined by <code>\_data/sets/_‹year›_/seasons.yaml</code>.
 
 Information about each set is stored in a separate YAML file in the <code>\_data/sets/_‹year›_/</code> folder. The following list of keys are supported:
 
@@ -34,11 +34,12 @@ Key | Description | Example
 `announceurl` | URL of global announcement           | `http://hsquizbowl.org/forums/viewtopic.php?f=8&t=19786`
 `firstonline` | Date of first online mirror          | `2017-09-16`
 `firstmirror` | Date of first mirror                 | `2017-09-30`
-`online`      | List of online mirrors               | `{ date: 2017-09-16, name: Online }`
-`mirrors`     | List of mirrors                      | `{ date: 2017-09-30, region: Northeast, name: Yale,` <br /> `eligible: HS, cancelled: yes }`
+`mirrors`     | List of mirrors                      | `{ date: 2017-09-30, region: 1A, name: Yale,` <br /> `eligible: HS, cancelled: yes }`
 `clear`       | Date when the set is clear           | `2018-01-23`
 `reallyclear` | Is the set confirmed to be clear     | `yes`
 `ebol`        | Is the set participating in EBOL     | `no`
 `packetsurl`  | URL to packets on archive            | `http://collegiate.quizbowlpackets.com/2048/`
+
+Information about the geographic regions is stored in `map/regions.js`. The two-letter region IDs are also defined by `_layouts/year.html`, but this duplication will eventually be removed.
 
 The spec is likely to change. Watch this repository to keep tabs on any changes.
