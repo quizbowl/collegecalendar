@@ -81,18 +81,34 @@ table.season {
     }
     tbody.mirrors {
         // background: #f3f5ff;
-        margin: 0.75em 0;
+        margin: 0 0;
         th {
             // background: darken(#f3f5ff, 3%);
 
-            text-indent: 1em;
+            // text-indent: 1em;
         }
-        height: 312px;
+        max-height: 312px;
         /* Just for the demo          */
         overflow-y: auto;
         /* Trigger vertical scroll    */
         overflow-x: hidden;
         /* Hide the horizontal scroll */
+    }
+    th:hover .pin,
+    th .pin[data-toggle="toggle"] {
+        visibility: visible
+    }
+    .pin {
+        display: inline-block;
+        width: 1.375em;
+        text-decoration: none;
+        visibility: hidden;
+    }
+    .pin:link, .pin:visited {
+        color: inherit;
+    }
+    .pin:hover {
+        // color: #ab9d23;
     }
 
     ul {
