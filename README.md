@@ -42,4 +42,6 @@ Key | Description | Example
 
 Information about the geographic regions is stored in `map/regions.js`. The two-letter region IDs are also defined by `_layouts/year.html`, but this duplication will eventually be removed.
 
+Information about the colleges on the circuit map is stored in `map/colleges.tsv`.
+
 The spec is likely to change. Watch this repository to keep tabs on any changes.
