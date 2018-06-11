@@ -114,7 +114,7 @@ layout: page
 </tr>
 </tbody>
 
-<tbody class="mirrors toggle">
+<tbody class="mirrors">
 {% assign regions = "0P|Online playtest,0L|Online,1A|New England,1B|New York,2A|N. Mid-Atlantic,2B|S. Mid-Atlantic,3A|Upper South,3B|Deep
 South,3C|Florida,4A|Texas/Louisiana,5A|S. California,5B|N. California,6A|Pacific Northwest,6B|Rocky Mountains,7A|Great Plains,7B|Missouri,8A|Upper
 Midwest,8B|Central Midwest,8C|Eastern Midwest,CA|Canada,UK|UK" | split: ',' %}
@@ -127,6 +127,7 @@ Midwest,8B|Central Midwest,8C|Eastern Midwest,CA|Canada,UK|UK" | split: ',' %}
 <tr {% if lst == nxt %}class="same"{% endif %}>
 {% assign lst = nxt %}
 <th class="region">
+<a class="pin" href="#" data-region="{{ region }}">☆</a>
 {{ region_name }}
 </th>
 {% for slot_id in season.slots %}
