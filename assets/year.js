@@ -11,7 +11,8 @@ function mapPins(f) {
 
 function getFromLocalStorage() {
 	try {
-		var a = JSON.parse(window.localStorage['pinned']);
+		var str = window.localStorage['pinned'] || '[]';
+		var a = JSON.parse(str);
 
 		mapPins(function (p) {
 			if (a.includes(p.dataset.region)) {
