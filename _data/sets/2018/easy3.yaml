@@ -3,5 +3,7 @@ prev:        [past Delta Burkes]
 diff:        Easy
 diffstar:    ●
 name:        Delta Burke??
-firstmirror: 2018-11-10
+firstmirror: 2018-11-03
 clear:       “April or later”
+mirrors:
+  - { date: 2017-11-11, region: 3C, name: Valencia }
