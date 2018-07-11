@@ -7,5 +7,6 @@ name:        Sun God Invitational
 firstmirror: 2018-11-10
 announced:   2017-11-29
 announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20713
+ebol:        yes
 mirrors:
   - { date: 2017-11-10, region: 2A, name: Johns Hopkins          }
