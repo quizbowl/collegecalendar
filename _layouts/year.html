@@ -95,11 +95,12 @@ layout: page
 {% for slot_id in season.slots %}
 {% assign set = site.data.sets[page.year][slot_id] %}
 <td>
-{% if set.firstonline %}
-<time>{{ set.firstonline | date: '%-m/%-d' }}</time> (online playtest)<br />
-{% endif %}
 {% if set.firstmirror %}
 <time>{{ set.firstmirror | date: '%-m/%-d' }}</time>
+{% endif %}
+{% if set.firstonline %}
+<br />
+<time>{{ set.firstonline | date: '%-m/%-d' }}</time> (online playtest)
 {% endif %}
 </td>
 {% endfor %}
