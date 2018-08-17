@@ -3,16 +3,19 @@ prev:        [EFT 2017, EFT 2016, MFT, PADAWAN, IFT]
 diff:        Medium
 diffstar:    ●●
 eligible:    Closed; HS allowed; chimera by permission
-name:        EFT 2018
+name:        EFT
 firstmirror: 2018-09-29
 firstonline: 2017-09-22
 announced:   2017-12-31
-announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=20808
+announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20808
 mirrors:
   - { date: 2018-09-22, region: 0P, name: Online, eligible: Open }
+  - { date: 2018-09-29, region: 8B, name: Michigan, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21639" }
   - { date: 2018-10-06, region: 7B, name: WUSTL }
   - { date: 2018-10-06, region: 8A, name: Minnesota }
-  - { date: 2018-09-29, region: 1A, name: Yale }
+  - { date: 2018-10-13, region: CA, name: Carleton, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21596" }
   - { date: TBD,        region: 6A, name: Boise State }
   - { date: TBD,        region: 5B, name: Stanford }
+  - { date: TBD,        region: 5A, name: UCSD }
+  - { date: TBD,        region: 2A, name: Maryland }
   - { date: 2018-11-03, region: 3C, name: Valencia }
