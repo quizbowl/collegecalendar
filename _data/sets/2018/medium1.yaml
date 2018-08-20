@@ -9,7 +9,7 @@ firstonline: 2017-09-22
 announced:   2017-12-31
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20808
 mirrors:
-  - { date: 2018-09-22, region: 0P, name: Online, eligible: Open }
+  - { date: 2018-09-22, region: 0P, name: Online, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21659" }
   - { date: 2018-09-29, region: 8B, name: Michigan, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21639" }
   - { date: 2018-10-06, region: 7B, name: WUSTL }
   - { date: 2018-10-06, region: 8A, name: Minnesota }
@@ -17,5 +17,5 @@ mirrors:
   - { date: TBD,        region: 6A, name: Boise State }
   - { date: TBD,        region: 5B, name: Stanford }
   - { date: TBD,        region: 5A, name: UCSD }
-  - { date: TBD,        region: 2A, name: Maryland }
+  - { date: TBD,        region: 2A, name: UMD }
   - { date: 2018-11-03, region: 3C, name: Valencia }
