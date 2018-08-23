@@ -16,7 +16,7 @@ mirrors:
   - { date: 2017-09-23, region: 8C, name: Michigan         , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20421" }
   - { date: 2017-09-23, region: 7B, name: Missouri S&T     , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20380" }
   - { date: 2017-09-24, region: 3A, name: Kentucky         , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20309" }
-  - { date: 2017-09-30, region: 2A, name: JHU              , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20303" }
+  - { date: 2017-09-30, region: 2A, name: Johns Hopkins    , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20303" }
   - { date: 2017-09-30, region: 2B, name: NC State         , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20302" }
   - { date: 2017-10-07, region: 5B, name: Berkeley         , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20413" }
   - { date: 2017-10-14, region: 4A, name: Louisiana Tech   , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20396" }
