@@ -13,8 +13,9 @@ mirrors:
   - { date: 2018-09-29, region: 8B, name: Michigan, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21639" }
   - { date: 2018-10-06, region: 7B, name: WUSTL }
   - { date: 2018-10-06, region: 8A, name: Minnesota }
+  - { date: 2018-10-06, region: 1A, name: Yale }
   - { date: 2018-10-13, region: CA, name: Carleton, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21596" }
-  - { date: TBD,        region: 6A, name: Boise State }
+  - { date: 2018-10-13, region: 6A, name: Boise State, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21698" }
   - { date: TBD,        region: 5B, name: Stanford }
   - { date: TBD,        region: 5A, name: UCSD }
   - { date: TBD,        region: 2A, name: UMD }

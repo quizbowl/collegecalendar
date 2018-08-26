@@ -12,7 +12,7 @@ reallyclear: yes
 packetsurl:  http://collegiate.quizbowlpackets.com/2040/
 mirrors:
   - { date: 2017-11-04, region: 1A, name: MIT           , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20376" }
-  - { date: 2017-11-04, region: 2A, name: Maryland      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20298" }
+  - { date: 2017-11-04, region: 2A, name: UMD           , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20298" }
   - { date: 2017-11-04, region: 2B, name: Virginia Tech , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20373" }
   - { date: 2017-11-04, region: 3C, name: Florida       , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20409" }
   - { date: 2017-11-04, region: 4A, name: Texas         , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20292" }
