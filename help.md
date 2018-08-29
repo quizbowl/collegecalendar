@@ -22,4 +22,4 @@ title: New to quizbowl?
 
 - How to get better at playing quizbowl
 
-TODO more links to be added (feel free to suggest)
+Feel free to improve this page! (You can try editing it [directly on GitHub](https://github.com/quizbowl/collegecalendar/edit/master/help.md))
