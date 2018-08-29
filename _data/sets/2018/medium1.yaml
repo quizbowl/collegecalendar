@@ -20,3 +20,4 @@ mirrors:
   - { date: TBD,        region: 5A, name: UCSD }
   - { date: TBD,        region: 2A, name: UMD }
   - { date: 2018-11-03, region: 3C, name: Valencia }
+  - { date: 2018-12-01, region: 2A, name: Penn, eligible: HS, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=21710" }
