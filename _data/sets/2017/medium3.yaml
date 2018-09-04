@@ -8,7 +8,9 @@ name:        WAO II
 firstmirror: 2017-11-11
 announced:   2017-06-27
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20129
-clear:       May??
+clear:       2018-06-28
+reallyclear: yes
+packetsurl:  http://collegiate.quizbowlpackets.com/1997/
 mirrors:
   - { date: 2018-02-04, region: 0L, name: Online, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20698" }
   - { date: 2017-11-11, region: 3B, name: Georgia         , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20415" }
