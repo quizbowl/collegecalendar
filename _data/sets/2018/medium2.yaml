@@ -8,8 +8,10 @@ announced:   2018-05-16
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21304
 ebol:        yes
 mirrors:
+  - { date: 2018-10-20, region: 1A, name: Harvard          }
   - { date: 2018-10-20, region: 2A, name: Penn          }
   - { date: 2018-10-20, region: 8A, name: Minnesota     }
-  - { date: 2018-10-27, region: 7B, name: Truman State  }
-  - { date: TBD       , region: 3B, name: Auburn        }
+  - { date: 2018-10-20, region: 8B, name: Chicago     }
+  - { date: 2018-10-27, region: 7B, name: Truman State, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21484"  }
+  - { date: 2018-10-27, region: 3B, name: Auburn        }
   - { date: TBD       , region: UK, name: Cambridge     }

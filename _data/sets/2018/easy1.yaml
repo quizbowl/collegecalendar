@@ -13,3 +13,4 @@ mirrors:
   - { date: 2018-10-06, region: 2A, name: Johns Hopkins, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21684" }
   - { date: 2018-10-06, region: 5B, name: Stanford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21726" }
   - { date: 2018-10-13, region: 8B, name: Chicago, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21679" }
+  - { date: 2018-10-27, region: 7B, name: Missouri S&T, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21747" }
