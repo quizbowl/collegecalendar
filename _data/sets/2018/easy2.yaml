@@ -23,3 +23,4 @@ mirrors:
   - { date: 2018-11-03, region: 8B, name: UIUC, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21688" }
   - { date: 2018-11-03, region: 8B, name: UIUC, eligible: HS only, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=21706" }
   - { date: 2018-11-03, region: 6B, name: Colorado, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21664" }
+  - { date: 2018-11-03, region: UK, name: Warwick }
