@@ -13,12 +13,12 @@ mirrors:
   - { date: 2018-09-29, region: 8B, name: Michigan, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21639" }
   - { date: 2018-09-29, region: 2A, name: UMD, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21736" }
   - { date: 2018-10-06, region: 7B, name: WUSTL, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21749" }
-  - { date: 2018-10-06, region: 8A, name: Minnesota }
-  - { date: 2018-10-13, region: 1A, name: Yale }
+  - { date: 2018-10-06, region: 8A, name: Minnesota, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21768" }
+  - { date: 2018-10-13, region: 1A, name: Yale, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21786" }
   - { date: 2018-10-13, region: CA, name: Carleton, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21596" }
   - { date: 2018-10-13, region: 6A, name: Boise State, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21698" }
   - { date: 2018-10-13, region: 3B, name: Georgia Tech, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21714" }
-  - { date: TBD,        region: 5B, name: Stanford }
+  - { date: 2018-11-10, region: 5B, name: Stanford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21770" }
   - { date: TBD,        region: 5A, name: UCSD }
   - { date: 2018-10-13, region: UK, name: Oxford, eligible: Open }
   - { date: 2018-10-20, region: UK, name: Oxford }

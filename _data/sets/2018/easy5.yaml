@@ -6,3 +6,6 @@ eligible:    Closed; undergrad or HS; grad by permission
 name:        ILLIAC
 announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=21741
 announced:   2018-09-04
+mirrors:
+  - { date: 2019-03-23, region: 8B, name: UIUC }
+  - { date: 2019-04-06, region: 8B, name: Stevenson, eligible: HS only }

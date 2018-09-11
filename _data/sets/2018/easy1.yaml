@@ -6,11 +6,13 @@ name:        NAQT Collegiate Novice
 clear:       never
 packetsurl:  never
 mirrors:
+  - { date: 2018-09-15, region: 3B, name: Georgia Tech, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21761" }
   - { date: 2018-09-22, region: 8A, name: Minnesota, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21678" }
   - { date: 2018-09-22, region: 8C, name: CMU, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21683" }
   - { date: 2018-09-22, region: 3C, name: Florida, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21711" }
   - { date: 2018-09-22, region: 8C, name: Michigan State, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21740" }
   - { date: 2018-10-06, region: 2A, name: Johns Hopkins, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21684" }
+  - { date: 2018-10-06, region: 4A, name: Louisiana Tech, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21772" }
   - { date: 2018-10-06, region: 5B, name: Stanford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21726" }
   - { date: 2018-10-13, region: 8B, name: Chicago, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21679" }
   - { date: 2018-10-27, region: 7B, name: Missouri S&T, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21747" }

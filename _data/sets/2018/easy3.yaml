@@ -4,6 +4,8 @@ diff:        Easy
 diffstar:    ●
 name:        Delta Burke
 firstmirror: 2018-11-03
+announced:   2018-09-07
+announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21767
 clear:       “April or later”
 mirrors:
   - { date: 2018-11-03, region: 3C, name: Valencia }
