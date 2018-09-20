@@ -16,7 +16,7 @@ mirrors:
   - { date: 2017-11-11, region: 3B, name: Georgia         , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20415" }
   - { date: 2017-11-11, region: 8C, name: Michigan State  , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20432" }
   - { date: 2017-11-18, region: CA, name: Waterloo        , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20656" }
-  - { date: 2017-11-18, region: 3C, name: Central Florida , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20654" }
+  - { date: 2017-11-18, region: 3C, name: UCF             , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20654" }
   - { date: 2017-11-18, region: 7B, name: Missouri        , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20548" }
   - { date: 2017-11-18, region: 2A, name: Princeton       , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20527" }
   - { date: 2017-11-18, region: UK, name: Oxford          }
