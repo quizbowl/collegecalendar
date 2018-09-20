@@ -147,7 +147,9 @@ table.season {
         top: -0.6em;
         font-size: 0.6em;
         color: lighten(#2abf83,6%);
+        width: -moz-max-content;
         width: max-content;
+        white-space: nowrap;
     }
     .globo time {
         width: 4.25em;
