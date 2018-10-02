@@ -8,13 +8,14 @@ firstmirror: 2018-09-29
 firstonline: 2017-09-22
 announced:   2017-12-31
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20808
+clear:       March 2019??
 mirrors:
   - { date: 2018-09-22, region: 0P, name: Online, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21659" }
   - { date: 2018-09-29, region: 8B, name: Michigan, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21639" }
   - { date: 2018-09-29, region: 2A, name: UMD, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21736" }
   - { date: 2018-10-06, region: 7B, name: WUSTL, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21749" }
   - { date: 2018-10-06, region: 8A, name: Minnesota, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21768" }
-  - { date: 2018-10-06, region: 3C, name: UCF, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21791" }
+  - { date: 2018-10-13, region: 3C, name: UCF, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21791" }
   - { date: 2018-10-13, region: 1A, name: Yale, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21786" }
   - { date: 2018-10-13, region: CA, name: Carleton, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21596" }
   - { date: 2018-10-13, region: 6A, name: Boise State, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21698" }
@@ -25,3 +26,4 @@ mirrors:
   - { date: 2018-10-20, region: UK, name: Oxford }
   - { date: 2018-10-27, region: 2B, name: Virginia Tech, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21841" }
   - { date: 2018-12-01, region: 2A, name: Penn, eligible: HS only, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=21710" }
+  - { date: 2019-02-28, region: 8C, name: Solon, eligible: HS only }
