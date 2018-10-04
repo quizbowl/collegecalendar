@@ -109,6 +109,19 @@ layout: page
 {% endfor %}
 </tr>
 
+<tr>
+<th>Last mirror</th>
+{% for slot_id in season.slots %}
+{% assign set = site.data.sets[page.year][slot_id] %}
+<td>
+{% if set.mirrors %}
+{% assign lastmirror = set.mirrors | where_exp: "mirror", "mirror.date != 'TBD'" | sort: "date" | last %}
+<time>{{ lastmirror.date | date: '%-m/%-d' }}</time>
+{% endif %}
+</td>
+{% endfor %}
+</tr>
+
 <tr class="toggle">
 <th>Mirrors</th>
 {% for slot_id in season.slots %}
