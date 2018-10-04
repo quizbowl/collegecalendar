@@ -9,3 +9,4 @@ announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21767
 clear:       “April or later”
 mirrors:
   - { date: 2018-11-03, region: 3C, name: Valencia }
+  - { date: TBD       , region: 8B, name: Purdue }

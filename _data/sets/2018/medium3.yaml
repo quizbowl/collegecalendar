@@ -11,7 +11,7 @@ announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20713
 ebol:        yes
 mirrors:
   - { date: 2018-09-29, region: 0P, name: Online, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21627" }
-  - { date: 2018-11-10, region: 2A, name: Johns Hopkins }
+  - { date: 2018-11-10, region: 2A, name: Johns Hopkins, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21884" }
   - { date: 2018-11-10, region: 8B, name: UIUC, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21727" }
   - { date: 2018-11-17, region: CA, name: Toronto, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21834" }
   - { date: 2018-11-24, region: UK, name: Southampton }
