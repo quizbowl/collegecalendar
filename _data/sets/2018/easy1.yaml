@@ -16,5 +16,6 @@ mirrors:
   - { date: 2018-10-06, region: 5B, name: Stanford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21726" }
   - { date: 2018-10-13, region: 8B, name: Chicago, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21679" }
   - { date: 2018-10-27, region: 7B, name: Missouri S&T, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21747" }
+  - { date: 2018-10-27, region: 2A, name: NYU, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21888" }
   - { date: 2018-09-22, region: CA, name: McMaster, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21792" }
   - { date: 2018-09-29, region: CA, name: Carleton, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21817" }

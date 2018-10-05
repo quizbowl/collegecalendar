@@ -6,7 +6,7 @@ eligible:    Closed; undergrad or HS; grad by permission
 name:        ILLIAC
 firstmirror: 2019-03-23
 announced:   2018-09-04
-announceurl: http://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=21741
+announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21741
 clear:       “summer 2019”
 mirrors:
   - { date: 2019-03-23, region: 8B, name: UIUC }
