@@ -97,13 +97,24 @@ layout: page
 <th>First mirror</th>
 {% for slot_id in season.slots %}
 {% assign set = site.data.sets[page.year][slot_id] %}
-<td>
-{% if set.firstmirror %}
-<time>{{ set.firstmirror | date: '%-m/%-d' }}</time>
+
+{% assign firstmirror = set.firstmirror %}
+{% if firstmirror == nil and set.mirrors %}
+{% assign firstmirror = set.mirrors | where_exp: "mirror", "mirror.region != '0P'" | where_exp: "mirror", "mirror.date != 'TBD'" | sort: "date" | first %}
+{% assign firstmirror = firstmirror.date %}
 {% endif %}
-{% if set.firstonline %}
+{% assign firstonline = set.firstonline %}
+{% if firstonline == nil and set.mirrors %}
+{% assign firstonline = set.mirrors | where_exp: "mirror", "mirror.region == '0P'" | where_exp: "mirror", "mirror.date != 'TBD'" | sort: "date" | first %}
+{% assign firstonline = firstonline.date %}
+{% endif %}
+<td>
+{% if firstmirror %}
+<time>{{ firstmirror | date: '%-m/%-d' }}</time>
+{% endif %}
+{% if firstonline %}
 <br />
-<time>{{ set.firstonline | date: '%-m/%-d' }}</time> (online playtest)
+<time>{{ firstonline | date: '%-m/%-d' }}</time> (online playtest)
 {% endif %}
 </td>
 {% endfor %}
