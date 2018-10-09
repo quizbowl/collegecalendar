@@ -12,7 +12,7 @@ mirrors:
   - { date: 2018-10-20, region: 2A, name: Penn, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21304" }
   - { date: 2018-10-20, region: 8A, name: Minnesota, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21836" }
   - { date: 2018-10-20, region: 8B, name: Chicago, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21831" }
-  - { date: 2018-10-20, region: 5B, name: Stanford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21822" }
+  - { date: 2018-10-20, region: 5B, name: Stanford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21822", eligible: Open }
   - { date: 2018-10-27, region: 7B, name: Truman State, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21484" }
   - { date: 2018-10-27, region: 2B, name: North Carolina, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21761" }
   - { date: 2018-10-27, region: 3B, name: Auburn, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21759" }
