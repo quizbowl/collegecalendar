@@ -18,3 +18,4 @@ mirrors:
   - { date: 2018-10-27, region: 3B, name: Auburn, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21759" }
   - { date: 2018-10-27, region: CA, name: Queen’s, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21854" }
   - { date: 2018-10-27, region: UK, name: Cambridge }
+  - { date: 2018-12-01, region: 6A, name: Washington, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21919", eligible: Open }
