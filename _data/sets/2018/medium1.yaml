@@ -24,6 +24,7 @@ mirrors:
   - { date: 2018-10-27, region: 5A, name: UCSD, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21915", }
   - { date: 2018-10-13, region: UK, name: Oxford, eligible: Open }
   - { date: 2018-10-20, region: UK, name: Oxford }
+  - { date: 2018-10-20, region: UK, name: Edinburgh }
   - { date: 2018-11-10, region: 2B, name: Virginia Tech, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21841" }
   - { date: 2018-12-01, region: 2A, name: Penn, eligible: HS only, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=21710" }
   - { date: 2019-02-24, region: 8C, name: Solon, eligible: HS only }
