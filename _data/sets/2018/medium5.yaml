@@ -14,4 +14,7 @@ firstmirror: 2019-03-02
 ebol:        yes
 mirrors:
   - { date: 2019-02-23, region: 0P, name: Online, eligible: Open }
-  - { date: 2019-03-02, region: 2A, name: UMD          }
+  - { date: 2019-03-02, region: 2A, name: UMD }
+  - { date: 2019-03-02, region: 1A, name: MIT }
+  - { date: 2019-03-16, region: 8C, name: Michigan State }
+  - { date: TBA       , region: 5B, name: Stanford }
