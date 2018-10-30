@@ -11,7 +11,7 @@ announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21563
 mirrors:
   - { date: 2018-11-03, region: 1A, name: MIT, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21673" }
   - { date: 2018-11-03, region: 2A, name: UMD, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21735" }
-  - { date: 2018-11-03, region: 2B, name: Tusculum, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21699" }
+  - { date: 2018-11-03, region: 2B, name: Tusculum, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21699", cancelled: yes }
   - { date: 2018-11-03, region: 3B, name: Georgia Tech, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21672" }
   - { date: 2018-11-03, region: 3C, name: Florida, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21972" }
   - { date: 2018-11-03, region: 4A, name: LASA, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21720" }
