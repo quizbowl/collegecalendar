@@ -8,3 +8,17 @@ name:        ACF Regionals
 firstmirror: 2019-01-26
 announced:   2018-08-06
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21588
+mirrors:
+  - { date: 2019-01-26, region: 1A, name: MIT/Harvard }
+  - { date: 2019-01-26, region: 2A, name: Swarthmore }
+  - { date: 2019-01-26, region: 2B, name: Duke }
+  - { date: 2019-01-26, region: 3B, name: Georgia Tech }
+  - { date: 2019-01-26, region: 3C, name: UCF }
+  - { date: 2019-01-26, region: 4A, name: UT-Austin }
+  - { date: 2019-01-26, region: 5B, name: Stanford }
+  - { date: 2019-01-26, region: 7A, name: Kansas State }
+  - { date: 2019-01-26, region: 8A, name: Minnesota }
+  - { date: 2019-01-26, region: 8B, name: UIUC }
+  - { date: 2019-01-26, region: 8C, name: CMU }
+  - { date: 2019-01-26, region: CA, name: Toronto }
+  - { date: 2019-01-26, region: UK, name: TBD }
