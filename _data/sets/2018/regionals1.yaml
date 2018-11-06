@@ -9,9 +9,9 @@ firstmirror: 2019-01-26
 announced:   2018-08-06
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21588
 mirrors:
-  - { date: 2019-01-26, region: 1A, name: MIT/Harvard }
-  - { date: 2019-01-26, region: 2A, name: Swarthmore }
-  - { date: 2019-01-26, region: 2B, name: Duke }
+  - { date: 2019-01-26, region: 1A, name: MIT/Harvard, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22048" }
+  - { date: 2019-01-26, region: 2A, name: Swarthmore, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22051" }
+  - { date: 2019-01-26, region: 2B, name: Duke, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22047" }
   - { date: 2019-01-26, region: 3B, name: Georgia Tech }
   - { date: 2019-01-26, region: 3C, name: UCF }
   - { date: 2019-01-26, region: 4A, name: UT-Austin }
@@ -21,4 +21,4 @@ mirrors:
   - { date: 2019-01-26, region: 8B, name: UIUC }
   - { date: 2019-01-26, region: 8C, name: CMU }
   - { date: 2019-01-26, region: CA, name: Toronto }
-  - { date: 2019-01-26, region: UK, name: TBD }
+  - { date: 2019-01-26, region: UK, name: Oxford-Brookes }

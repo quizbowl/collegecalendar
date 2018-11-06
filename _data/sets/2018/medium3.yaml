@@ -19,5 +19,6 @@ mirrors:
   - { date: 2018-11-17, region: 5A, name: UCSD, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22017", eligibile: Open }
   - { date: 2018-11-24, region: UK, name: Southampton }
   - { date: 2018-12-01, region: 4A, name: UT-Austin, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22006" }
+  - { date: 2018-12-01, region: 5B, name: Stanford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22046", eligibile: Open }
   - { date: 2018-12-01, region: 1A, name: Brown, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22035" }
   - { date: 2018-12-15, region: 8B, name: New Trier, eligible: HS only, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=21752" }
