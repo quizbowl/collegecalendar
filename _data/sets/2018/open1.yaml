@@ -13,3 +13,4 @@ mirrors:
   - { date: 2019-03-30, region: 1A, name: Yale }
   - { date: TBD       , region: 2A, name: Johns Hopkins }
   - { date: TBD       , region: 8A, name: Minnesota }
+  - { date: TBD       , region: 8C, name: OSU }
