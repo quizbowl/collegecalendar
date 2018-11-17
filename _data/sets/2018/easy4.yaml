@@ -5,3 +5,7 @@ diffstar:    ●
 name:        FST
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21591
 announced:   2018-08-06
+mirrors:
+  - { date: 2019-03-29, region: 3C, name: Florida }
+  - { date: TBA       , region: 2A, name: Princeton }
+  - { date: 2019-03-30, region: 2A, name: Penn State, eligible: "HS only" }
