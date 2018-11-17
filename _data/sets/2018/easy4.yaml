@@ -3,9 +3,10 @@ prev:        [FST, SUN, MUT]
 diff:        Easy
 diffstar:    ●
 name:        FST
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21591
+firstmirror: 2018-03-23
 announced:   2018-08-06
+announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21591
 mirrors:
-  - { date: 2019-03-29, region: 3C, name: Florida }
-  - { date: TBA       , region: 2A, name: Princeton }
+  - { date: 2019-03-23, region: 3C, name: Florida }
+  - { date: TBD       , region: 2A, name: Princeton }
   - { date: 2019-03-30, region: 2A, name: Penn State, eligible: "HS only" }
