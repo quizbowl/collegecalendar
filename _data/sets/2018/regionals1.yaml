@@ -20,5 +20,5 @@ mirrors:
   - { date: 2019-01-26, region: 8A, name: Minnesota }
   - { date: 2019-01-26, region: 8B, name: UIUC, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22070" }
   - { date: 2019-01-26, region: 8C, name: CMU, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22071" }
-  - { date: 2019-01-26, region: CA, name: Toronto }
+  - { date: 2019-01-26, region: CA, name: Toronto, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22104" }
   - { date: 2019-01-26, region: UK, name: Oxford-Brookes }
