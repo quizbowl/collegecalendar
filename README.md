@@ -1,6 +1,6 @@
 # College quizbowl calendar
 
-This is the repository for [collegequizbowlcalendar.com](http://collegequizbowlcalendar.com/),
+This is the repository for [collegequizbowlcalendar.com](https://collegequizbowlcalendar.com/),
 a static site coded in [Jekyll](https://jekyllrb.com/) that is intended to centralize information about the college quizbowl calendar.
 
 ## License
