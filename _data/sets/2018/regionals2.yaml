@@ -12,11 +12,12 @@ mirrors:
   - { date: 2019-02-09, region: CA, name: Queen’s      , url: "" }
   - { date: 2019-02-09, region: 1A, name: Brown        , url: "" }
   - { date: 2019-02-09, region: 1B, name: Colgate      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22180" }
+  - { date: 2019-02-09, region: 2A, name: Rutgers      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22202" }
   - { date: 2019-02-09, region: 2B, name: Virginia Tech, url: "" }
-  - { date: 2019-02-09, region: 3B, name: Auburn       , url: "" }
+  - { date: 2019-02-09, region: 3B, name: Auburn       , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22207" }
   - { date: 2019-02-09, region: 3C, name: Florida      , url: "" }
-  - { date: 2019-02-09, region: CA, name: UCSD         , url: "" }
-  - { date: 2019-02-09, region: CA, name: Berkeley     , url: "" }
+  - { date: 2019-02-09, region: 5A, name: UCSD         , url: "" }
+  - { date: 2019-02-09, region: 5B, name: Berkeley     , url: "" }
   - { date: 2019-02-09, region: 6B, name: Colorado     , url: "" }
   - { date: 2019-02-09, region: 7B, name: Missouri     , url: "" }
-  
+  - { date: 2019-02-09, region: 8C, name: Michigan     , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22203" }
