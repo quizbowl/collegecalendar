@@ -14,7 +14,7 @@ mirrors:
   - { date: 2017-12-03, region: 0L, name: Online, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20586" }
   - { date: 2017-10-14, region: UK, name: Cambridge         }
   - { date: 2017-10-21, region: 2A, name: Penn              , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=19987" }
-  - { date: 2017-10-21, region: CA, name: Queen’s University, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20435" }
+  - { date: 2017-10-21, region: CA, name: Queen’s           , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20435" }
   - { date: 2017-10-21, region: 8A, name: Minnesota         , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20342" }
   - { date: 2017-10-21, region: 5B, name: Stanford          , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20296" }
   - { date: 2017-10-21, region: 3B, name: Georgia           , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20416" }
