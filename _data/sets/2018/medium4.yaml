@@ -9,9 +9,11 @@ announced:   2018-03-30
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21140
 mirrors:
   - { date: 2018-12-22, region: 0P, name: Online, eligible: Open }
-  - { date: 2019-01-19, region: 8C, name: MSU, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21140" }
-  - { date: 2019-03-02, region: 8C, name: North Carolina }
-  - { date: TBD       , region: 1A, name: NYU }
+  - { date: 2019-02-16, region: 1A, name: NYU }
+  - { date: 2019-02-16, region: 2B, name: UVA }
+  - { date: TBD       , region: 2B, name: North Carolina }
   - { date: TBD       , region: 8A, name: Iowa }
-  - { date: TBD       , region: CA, name: Toronto }
+  - { date: 2019-01-19, region: 8C, name: MSU, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21140" }
+  - { date: TBD       , region: CA, name: Carleton }
+  - { date: 2019-01-19, region: UK, name: Warwick, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22244" }
   - { date: 2019-05-04, region: 2B, name: TJHSST, eligible: "HS only", url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=21547" }

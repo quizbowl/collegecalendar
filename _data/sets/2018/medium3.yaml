@@ -8,6 +8,7 @@ firstmirror: 2018-11-10
 firstonline: 2018-09-29
 announced:   2017-11-29
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20713
+clear:       2018-12-29
 ebol:        yes
 mirrors:
   - { date: 2018-09-29, region: 0P, name: Online, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21627" }
@@ -22,3 +23,4 @@ mirrors:
   - { date: 2018-12-01, region: 5B, name: Stanford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22046", eligibile: Open }
   - { date: 2018-12-01, region: 1A, name: Brown, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22035" }
   - { date: 2018-12-15, region: 8B, name: New Trier, eligible: HS only, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=21752" }
+  - { date: 2018-12-29, region: 0L, name: Online Closed, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22060" }

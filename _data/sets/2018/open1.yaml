@@ -13,7 +13,7 @@ mirrors:
   - { date: 2019-03-09, region: CA, name: Toronto }
   - { date: 2019-03-30, region: 1A, name: Yale }
   - { date: 2019-03-30, region: 3B, name: Georgia Tech }
-  - { date: TBD       , region: 2A, name: Johns Hopkins }
-  - { date: TBD       , region: 8A, name: Minnesota }
+  - { date: 2019-03-09, region: 2A, name: Johns Hopkins, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22251" }
+  - { date: 2019-03-30, region: 8A, name: Minnesota, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22246" }
   - { date: TBD       , region: 8C, name: OSU }
   - { date: TBD       , region: 0L, name: Online }

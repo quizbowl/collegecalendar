@@ -12,5 +12,5 @@ mirrors:
   - { date: 2019-03-23, region: 8B, name: UIUC }
   - { date: 2019-03-24, region: 4A, name: Texas Invitational, eligible: HS only }
   - { date: 2019-04-06, region: 8B, name: Stevenson, eligible: HS only }
-  - { date: TBD       , region: 2A, name: JHU, eligible: HS allowed }
+  - { date: TBD       , region: 2A, name: Johns Hopkins, eligible: HS allowed }
   - { date: TBD       , region: 1A, name: Harvard }
