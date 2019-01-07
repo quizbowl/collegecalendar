@@ -18,6 +18,6 @@ mirrors:
   - { date: 2019-02-09, region: 3C, name: Florida      , url: "" }
   - { date: 2019-02-09, region: 5A, name: UCSD         , url: "" }
   - { date: 2019-02-09, region: 5B, name: Berkeley     , url: "" }
-  - { date: 2019-02-09, region: 6B, name: Colorado     , url: "" }
-  - { date: 2019-02-09, region: 7B, name: Missouri     , url: "" }
+  - { date: 2019-02-09, region: 6B, name: Colorado     , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20728" }
+  - { date: 2019-02-09, region: 7B, name: Missouri     , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22263" }
   - { date: 2019-02-09, region: 8C, name: Michigan     , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22203" }
