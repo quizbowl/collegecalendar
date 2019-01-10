@@ -14,7 +14,7 @@ mirrors:
   - { date: 2019-01-26, region: 2B, name: Duke, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22047" }
   - { date: 2019-01-26, region: 3B, name: Georgia Tech, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22053" }
   - { date: 2019-01-26, region: 3C, name: UCF, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22238" }
-  - { date: 2019-01-26, region: 4A, name: UT-Austin }
+  - { date: 2019-01-26, region: 4A, name: UT-Austin, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22286" }
   - { date: 2019-01-26, region: 5B, name: Stanford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22240" }
   - { date: 2019-01-26, region: 7A, name: Kansas State, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22057" }
   - { date: 2019-01-26, region: 8A, name: Minnesota, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22116" }
