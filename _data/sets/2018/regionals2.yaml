@@ -21,4 +21,6 @@ mirrors:
   - { date: 2019-02-10, region: 5B, name: Berkeley     , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22284" }
   - { date: 2019-02-09, region: 6B, name: Colorado     , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20728" }
   - { date: 2019-02-09, region: 7B, name: Missouri     , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22263" }
+  - { date: 2019-02-09, region: 8A, name: Minnesota    , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22320" }
+  - { date: 2019-02-09, region: 8B, name: Northwestern , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22312" }
   - { date: 2019-02-09, region: 8C, name: Michigan     , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22203" }
