@@ -10,12 +10,13 @@ clear:       never
 packetsurl:  never
 mirrors:
   - { date: 2019-02-09, region: CA, name: Queen’s      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22258" }
-  - { date: 2019-02-09, region: 1A, name: Brown        , url: "" }
+  - { date: 2019-02-09, region: 1A, name: Brown        , cancelled: true }
+  - { date: 2019-02-09, region: 1A, name: Harvard      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22366" }
   - { date: 2019-02-09, region: 1B, name: Colgate      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22180" }
   - { date: 2019-02-09, region: 2A, name: Rutgers      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22202" }
   - { date: 2019-02-09, region: 2B, name: Virginia Tech, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22219" }
   - { date: 2019-02-09, region: 3B, name: Auburn       , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22207" }
-  - { date: 2019-02-09, region: 3C, name: Florida      , url: "" }
+  - { date: 2019-02-09, region: 3C, name: Florida      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22344" }
   - { date: 2019-02-09, region: 4A, name: Rice         , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22304" }
   - { date: 2019-02-09, region: 5A, name: UCSD         , url: "" }
   - { date: 2019-02-10, region: 5B, name: Berkeley     , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22284" }
