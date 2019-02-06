@@ -8,5 +8,8 @@ announced:   2018-08-06
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21591
 mirrors:
   - { date: 2019-03-23, region: 3C, name: Florida }
+  - { date: 2019-03-23, region: 2B, name: VCU }
+  - { date: 2019-03-23, region: CA, name: Carleton, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22370" }
   - { date: TBD       , region: 2A, name: Princeton }
+  - { date: TBD       , region: 6B, name: Colorado }
   - { date: 2019-03-30, region: 2A, name: Penn State, eligible: "HS only" }
