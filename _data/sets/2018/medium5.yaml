@@ -14,7 +14,7 @@ firstmirror: 2019-03-02
 ebol:        yes
 mirrors:
   - { date: 2019-02-23, region: 0P, name: Online, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22302" }
-  - { date: 2019-03-02, region: 2A, name: UMD }
+  - { date: 2019-03-02, region: 2A, name: UMD, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22375" }
   - { date: 2019-03-02, region: 1A, name: MIT, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22373" }
   - { date: 2019-03-16, region: 8C, name: Michigan State }
   - { date: 2019-03-02, region: 3B, name: Georgia Tech, cancelled: yes }
