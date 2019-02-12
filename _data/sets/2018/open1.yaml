@@ -10,7 +10,7 @@ announced:   2018-08-23
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21685
 mirrors:
   - { date: 2019-03-09, region: 5B, name: Stanford }
-  - { date: 2019-03-09, region: CA, name: Toronto }
+  - { date: 2019-03-09, region: CA, name: Toronto, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22393" }
   - { date: 2019-03-30, region: 1A, name: Yale }
   - { date: 2019-03-30, region: 3B, name: Georgia Tech, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22266" }
   - { date: 2019-03-09, region: 2A, name: Johns Hopkins, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22251" }

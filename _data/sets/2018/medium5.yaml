@@ -19,6 +19,6 @@ mirrors:
   - { date: 2019-03-16, region: 8C, name: Michigan State, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22377" }
   - { date: 2019-03-02, region: 3B, name: Georgia Tech, cancelled: yes }
   - { date: TBD       , region: 5B, name: Stanford }
-  - { date: 2019-03-10, region: CA, name: Toronto }
+  - { date: 2019-03-10, region: CA, name: Toronto, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22392" }
   - { date: TBD       , region: 8B, name: Illinois, eligible: HS NASAT }
   - { date: 2019-03-24, region: 4A, name: Texas Invitational, eligible: HS only }
