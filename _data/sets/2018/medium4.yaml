@@ -10,7 +10,7 @@ announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21140
 mirrors:
   - { date: 2018-12-22, region: 0P, name: Online, eligible: Open }
   - { date: 2019-02-16, region: 1A, name: NYU, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22319" }
-  - { date: 2019-02-16, region: 2B, name: UVA, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22281" }
+  - { date: 2019-02-16, region: 2B, name: UVA, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22281", cancelled: yes }
   - { date: 2019-01-19, region: 3C, name: Florida, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22273" }
   - { date: 2019-03-02, region: 8A, name: Iowa, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22260" }
   - { date: 2019-01-19, region: 8C, name: MSU, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21140" }
