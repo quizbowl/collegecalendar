@@ -13,5 +13,6 @@ mirrors:
   - { date: 2019-03-24, region: 4A, name: Texas Invitational, eligible: HS only }
   - { date: 2019-04-06, region: 8B, name: Stevenson, eligible: HS only }
   - { date: 2019-03-02, region: 6B, name: BYU, eligible: HS allowed, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22371" }
-  - { date: TBD       , region: 2A, name: Johns Hopkins, eligible: HS allowed }
+  - { date: 2019-03-16, region: 3C, name: Florida, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22406" }
+  - { date: 2019-03-31, region: 2A, name: Johns Hopkins, eligible: HS allowed, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22418" }
   - { date: TBD       , region: 1A, name: Harvard }
