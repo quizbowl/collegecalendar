@@ -11,7 +11,7 @@ announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21685
 mirrors:
   - { date: 2019-03-09, region: 5B, name: Stanford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22402" }
   - { date: 2019-03-09, region: CA, name: Toronto, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22393" }
-  - { date: 2019-03-30, region: 1A, name: Yale }
+  - { date: 2019-03-30, region: 1A, name: Yale, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22420" }
   - { date: 2019-03-30, region: 3B, name: Georgia Tech, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22266" }
   - { date: 2019-03-09, region: 2A, name: Johns Hopkins, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22251" }
   - { date: 2019-03-30, region: 8A, name: Minnesota, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22246" }

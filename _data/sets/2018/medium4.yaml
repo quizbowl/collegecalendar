@@ -14,7 +14,7 @@ mirrors:
   - { date: 2019-01-19, region: 3C, name: Florida, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22273" }
   - { date: 2019-03-02, region: 8A, name: Iowa, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22260" }
   - { date: 2019-01-19, region: 8C, name: MSU, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21140" }
-  - { date: 2019-03-23, region: 8C, name: Wright State, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22334" }
+  - { date: 2019-03-30, region: 8C, name: Wright State, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22334" }
   - { date: 2019-02-23, region: CA, name: McMaster, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22352",eligible: Semi-open }
   - { date: 2019-01-19, region: UK, name: Warwick, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22244" }
   - { date: 2019-05-04, region: 2B, name: TJHSST, eligible: "HS only", url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=21547" }
