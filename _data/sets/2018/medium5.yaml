@@ -19,9 +19,10 @@ mirrors:
   - { date: 2019-03-02, region: 3B, name: Georgia Tech, cancelled: yes }
   - { date: 2019-03-02, region: 3B, name: Auburn, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22413" }
   - { date: 2019-03-02, region: 5B, name: Stanford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22401" }
-  - { date: 2019-03-10, region: CA, name: Toronto, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22392" }
+  - { date: 2019-03-09, region: CA, name: Toronto, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22392" }
   - { date: 2019-03-16, region: 8C, name: Michigan State, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22377" }
   - { date: 2019-04-20, region: 7B, name: WUSTL, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22433" }
+  - { date: 2019-04-20, region: 5A, name: UCSB }
   - { date: 2019-02-24, region: 8B, name: Illinois, eligible: HS NASAT }
   - { date: TBD       , region: 7B, name: Missouri, eligible: HS NASAT }
   - { date: 2019-03-23, region: 2B, name: Virginia, eligible: HS NASAT }

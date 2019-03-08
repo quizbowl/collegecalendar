@@ -10,6 +10,9 @@ mirrors:
   - { date: 2019-03-23, region: 3C, name: Florida, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22407" }
   - { date: 2019-03-23, region: 2B, name: VCU }
   - { date: 2019-03-23, region: CA, name: Carleton, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22370" }
-  - { date: TBD       , region: 2A, name: Princeton }
+  - { date: 2019-04-27, region: 2A, name: Princeton }
+  - { date: 2019-04-27, region: 1A, name: Amherst, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22479" }
+  - { date: 2019-04-27, region: 6A, name: Washington }
   - { date: TBD       , region: 6B, name: Colorado }
+  - { date: TBD       , region: 8B, name: Chicago }
   - { date: 2019-03-30, region: 2A, name: Penn State, eligible: "HS only" }
