@@ -15,6 +15,8 @@ mirrors:
   - { date: 2019-03-02, region: 6B, name: BYU, eligible: HS allowed, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22371" }
   - { date: 2019-03-16, region: 3C, name: Florida, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22406" }
   - { date: 2019-03-31, region: 2A, name: Johns Hopkins, eligible: HS allowed, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22418" }
+  - { date: 2019-04-06, region: 3B, name: Georgia, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22503" }
+  - { date: 2019-04-06, region: 3B, name: Georgia, eligible: HS only, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=22502" }
   - { date: 2019-04-27, region: 2A, name: Princeton, eligible: HS allowed, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22440" }
   - { date: TBD       , region: 1A, name: Brown }
   - { date: 2019-04-20, region: 0L, name: Online, eligible: HS only, url: "http://www.hsquizbowl.org/forums/viewtopic.php?f=1&t=22451" }
