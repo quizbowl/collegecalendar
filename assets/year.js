@@ -4,6 +4,10 @@ document.getElementById('collapse').onclick = function() {
 	this.innerText =
 		(this.innerText == 'Show fewer rows') ? 'Show more rows' : 'Show fewer rows';
 }
+document.addEventListener("keypress", function onPress(event) {
+	if (event.keyCode === 72 || event.keyCode === 104) // h
+		document.getElementById('collapse').onclick();
+});
 
 function mapPins(f) {
 	return Array.from(document.getElementsByClassName('pin')).map(f);
