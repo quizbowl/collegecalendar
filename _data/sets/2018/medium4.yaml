@@ -7,6 +7,7 @@ name:        Spartan Housewrite
 firstmirror: 2019-01-19
 announced:   2018-03-30
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21140
+ebol:        no
 mirrors:
   - { date: 2018-12-22, region: 0P, name: Online, eligible: Open }
   - { date: 2019-02-16, region: 1A, name: NYU, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22319" }

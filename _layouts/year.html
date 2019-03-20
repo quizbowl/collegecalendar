@@ -247,6 +247,8 @@ Midwest,8B|Central Midwest,8C|Eastern Midwest,CA|Canada,UK|UK" | split: ',' %}
 <td>
 {% if set.ebol == true %}
 yes
+{% elsif set.ebol == false %}
+no
 {% else %}
 {{ set.ebol }}
 {% endif %}
