@@ -19,3 +19,4 @@ mirrors:
   - { date: 2019-02-23, region: CA, name: McMaster, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22352",eligible: Semi-open }
   - { date: 2019-01-19, region: UK, name: Warwick, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22244" }
   - { date: 2019-05-04, region: 2B, name: TJHSST, eligible: "HS only", url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=21547" }
+  - { date: 2019-03-30, region: 0L, name: Online, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22530" }

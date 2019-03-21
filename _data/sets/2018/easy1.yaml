@@ -20,3 +20,4 @@ mirrors:
   - { date: 2018-09-22, region: CA, name: McMaster, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21792" }
   - { date: 2018-09-29, region: CA, name: Carleton, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21817" }
   - { date: 2018-12-01, region: 8A, name: Northern Michigan }
+  - { date: 2019-03-30, region: 1A, name: Brandeis, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22505" }
