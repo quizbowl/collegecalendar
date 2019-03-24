@@ -15,5 +15,5 @@ mirrors:
   - { date: 2019-04-27, region: 1A, name: Amherst, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22479" }
   - { date: 2019-04-27, region: 6A, name: Washington }
   - { date: TBD       , region: 6B, name: Colorado }
-  - { date: TBD       , region: 8B, name: Chicago }
+  - { date: 2019-05-11, region: 8B, name: Chicago, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22539" }
   - { date: 2019-03-30, region: 2A, name: Penn State, eligible: "HS only" }
