@@ -3,17 +3,17 @@ prev:        [FST, SUN, MUT]
 diff:        Easy
 diffstar:    ●
 name:        FST
-firstmirror: 2018-03-23
+firstmirror: 2019-03-23
 announced:   2018-08-06
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21591
 ebol:        no
 mirrors:
   - { date: 2019-03-23, region: 3C, name: Florida, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22407" }
-  - { date: 2019-03-23, region: 2B, name: VCU }
+  - { date: 2019-03-23, region: 2B, name: VCU, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22231" }
   - { date: 2019-03-23, region: CA, name: Carleton, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22370" }
-  - { date: 2019-04-27, region: 2A, name: Princeton }
+  - { date: 2019-04-28, region: 2A, name: Princeton, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22440" }
   - { date: 2019-04-27, region: 1A, name: Amherst, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22479" }
-  - { date: 2019-04-27, region: 6A, name: Washington }
+  - { date: 2019-04-27, region: 6A, name: Washington, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22497" }
   - { date: TBD       , region: 6B, name: Colorado }
   - { date: 2019-05-11, region: 8B, name: Chicago, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22539" }
   - { date: 2019-03-30, region: 2A, name: Penn State, eligible: "HS only" }
