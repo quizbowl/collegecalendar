@@ -8,6 +8,9 @@ name:        PIANO
 # announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=97&t=21134
 announced:   2018-08-23
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21685
+clear:       2019-04-01
+reallyclear: yes
+packetsurl:  http://collegiate.quizbowlpackets.com/2207/
 ebol:        no
 mirrors:
   - { date: 2019-03-09, region: 5B, name: Stanford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22402" }
