@@ -138,7 +138,11 @@ layout: page
 {% for slot_id in season.slots %}
 {% assign set = site.data.sets[page.year][slot_id] %}
 {% assign mirrors = set.mirrors | where_exp: "mirror", "mirror.cancelled == nil" %}
-<td><strong>{{ mirrors | size }}</strong></td>
+<td>
+{% if set %}
+<strong>{{ mirrors | size }}</strong>
+{% endif %}
+</td>
 {% endfor %}
 </tr>
 </tbody>
