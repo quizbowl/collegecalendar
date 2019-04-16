@@ -167,9 +167,11 @@ Midwest,8B|Central Midwest,8C|Eastern Midwest,CA|Canada,UK|UK" | split: ',' %}
 {% assign set = site.data.sets[page.year][slot_id] %}
 {% assign mirrors = set.mirrors %}
 {% assign mirrors_region = mirrors | where_exp: "mirror", "mirror.region == region" %}
-{% assign firstmirror = mirrors[0] %}
 {% if mirrors %}
 {% assign firstmirror = mirrors | where_exp: "mirror", "mirror.region != '0P'" | where_exp: "mirror", "mirror.date != 'TBD'" | sort: "date" | first %}
+{% if firstmirror %}{% else %}
+{% assign firstmirror = mirrors[0] %}
+{% endif %}
 {% endif %}
 <!-- should probably just use firstmirror here -->
 {% assign firstmirrordate = firstmirror.date | date: '%s' | plus: 0 %}
