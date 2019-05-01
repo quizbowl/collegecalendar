@@ -23,4 +23,5 @@ mirrors:
   - { date: 2019-04-20, region: 1A, name: Brown, cancelled: yes, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22609" }
   - { date: 2019-04-21, region: 0L, name: Online, eligible: HS only, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=22451" }
   - { date: 2019-05-04, region: 0L, name: Online, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22657" }
+  - { date: 2019-05-18, region: 0L, name: Online, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22661" }
   - { date: 2019-05-18, region: 2B, name: Bard High School Early College, eligible: HS only, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=22646" }
