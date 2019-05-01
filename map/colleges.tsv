@@ -119,7 +119,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 8B	2	Urbana-Champaign	IL	USA	40.101952	-88.227161	UIUC	Illinois	University of Illinois at Urbana-Champaign
 8B	1	Bloomington	IL	USA	40.490889	-88.990654		Illinois Wesleyan	Illinois Wesleyan University
 8B	1	Notre Dame	IN	USA	41.700191	-86.237933		Notre Dame	University of Notre Dame
-8B	1	Valparaiso University	IN	USA	41.463273	-87.042381		Valparaiso University	Valparaiso University University
+8B	1	Valparaiso	IN	USA	41.463273	-87.042381		Valparaiso	Valparaiso University
 8B	1	West Lafayette	IN	USA	40.423705	-86.921195		Purdue	Purdue University
 8C	2	Ann Arbor	MI	USA	42.278044	-83.738224		Michigan	University of Michigan-Ann Arbor
 8C	2	East Lansing	MI	USA	42.701848	-84.482172	MSU	Michigan State	Michigan State University
