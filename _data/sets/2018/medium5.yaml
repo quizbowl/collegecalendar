@@ -8,9 +8,11 @@ name:        Terrapin
 # announced:   2018-04-26
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21274
 announced:   2018-05-08
-clear:       2019-05-17
 firstonline: 2019-02-23
 firstmirror: 2019-03-02
+clear:       2019-05-14
+reallyclear: yes
+packetsurl:  http://collegiate.quizbowlpackets.com/2149/
 ebol:        yes
 mirrors:
   - { date: 2019-02-23, region: 0P, name: Online, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22302" }
