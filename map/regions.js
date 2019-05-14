@@ -106,7 +106,7 @@ var mapdata = {
 			"name": "Florida",
 			"id": "3C",
 			"color": 7,
-			"label": [45, 40],
+			"label": [46, 46],
 			"map": "us",
 			"children": [
 				// FL south
@@ -195,7 +195,7 @@ var mapdata = {
 			"name": "Missouri",
 			"id": "7B",
 			"color": 14,
-			"label": [0, 21],
+			"label": [13, 26],
 			"map": "us",
 			"children": [
 				// MO
@@ -223,7 +223,7 @@ var mapdata = {
 			"name": "Central",
 			"id": "8B",
 			"color": 16,
-			"label": [0, 30],
+			"label": [10, 30],
 			"map": "us",
 			"children": [
 				// IL
@@ -240,7 +240,7 @@ var mapdata = {
 			"name": "Eastern",
 			"id": "8C",
 			"color": 17,
-			"label": [10, 37],
+			"label": [11, 35],
 			"map": "us",
 			"children": [
 				// MI south
@@ -260,7 +260,7 @@ var mapdata = {
 			"name": "",
 			"id": "CA",
 			"color": 18,
-			"label": [0, 10],
+			"label": [0, 12],
 			"map": "ca",
 			"children": [
 				3501, 3502, 3506, 3507, 3509, 3510, 3511, 3512, 3513, 3514, 3515, 3516, 3518, 3519, 3520, 3521, 3522, 3523, 3524, 3525, 3526, 3528, 3529, 3530, 3531, 3532, 3534, 3536, 3537, 3538, 3539, 3540, 3541, 3542, 3543, 3544, 3546, 3547,

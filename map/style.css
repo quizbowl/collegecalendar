@@ -37,6 +37,10 @@
 	font-weight: 400;
 	stroke: none; fill: black;
 }
+.region-label-id {
+	font-size: 11px;
+	font-weight: 400;
+}
 .region-label {
 	/*display: none;*/
 }

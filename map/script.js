@@ -147,9 +147,20 @@ d3.tsv("colleges.tsv", function(error, colleges) {
 			})
 			.attr("text-anchor", "middle")
 			.attr('class', 'region-label')
-			// .text(d => d.parent + ' (' + d.id + ')');
 			.text(d => d.parent);
-
+	main.selectAll(".stateText")
+		.data(regions)
+		.enter()
+			.append("text")
+			.attr("x", function(d) {
+				return path.centroid(d.poly)[0] + d.label[0];
+			})
+			.attr("y", function(d) {
+				return path.centroid(d.poly)[1] - 30 + d.label[1];
+			})
+			.attr("text-anchor", "middle")
+			.attr('class', 'region-label region-label-region region-label-id')
+			.text(d => d.id);
 
 	main.selectAll('.place')
 		.data(colleges)
