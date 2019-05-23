@@ -1,0 +1,11 @@
+slot:        “Fall Medium 2”
+prev:        [past Penn Bowls, Terrapin, DRAGOON, QUARK]
+diff:        Medium
+diffstar:    ●●◖
+name:        Penn Bowl
+firstmirror: 2019-10-19
+announced:   2019-05-20
+announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22723
+mirrors:
+  - { date: TBD,        region: 1A, name: Harvard }
+  - { date: 2019-10-19, region: 2A, name: Penn, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22723" }
