@@ -17,4 +17,5 @@ mirrors:
   - { date: TBD       , region: 6B, name: Colorado }
   - { date: 2019-05-11, region: 8B, name: Chicago, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22539" }
   - { date: 2019-06-15, region: 0L, name: Online, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22730" }
+  - { date: 2019-08-03, region: 4A, name: UL-Lafayette, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22821" }
   - { date: 2019-03-30, region: 2A, name: Penn State, eligible: "HS only" }

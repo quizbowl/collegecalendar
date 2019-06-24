@@ -7,6 +7,9 @@ name:        Spartan Housewrite
 firstmirror: 2019-01-19
 announced:   2018-03-30
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21140
+clear:       2019-06-03
+reallyclear: yes
+packetsurl:  http://collegiate.quizbowlpackets.com/2185/
 ebol:        no
 mirrors:
   - { date: 2018-12-22, region: 0P, name: Online, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22030" }
