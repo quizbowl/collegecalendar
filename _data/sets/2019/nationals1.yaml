@@ -1,0 +1,11 @@
+slot:        NAQT ICT
+prev:        [past NAQT ICTs]
+diff:        Nationals
+diffstar:    ●●●●
+eligible:    Qualify at NAQT SCT
+name:        NAQT ICT
+firstmirror: 2020-04-04
+clear:       never
+packetsurl:  never
+mirrors:
+  - { date: 2020-04-04, region: 8B, name: Chicago }
