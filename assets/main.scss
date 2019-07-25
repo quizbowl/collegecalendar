@@ -50,6 +50,15 @@ table {
             background-color: inherit;
         }
     }
+
+    th[rowspan] + th[colspan] {
+        border-bottom: 0;
+        padding-bottom: 2px;
+    }
+    thead tr + tr th {
+        border-top: 0;
+        padding-top: 2px;
+    }
 }
 
 table.season {
