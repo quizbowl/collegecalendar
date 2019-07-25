@@ -4,10 +4,11 @@ diff:        Medium
 diffstar:    ●●
 eligible:    Closed; HS allowed; chimera by permission
 name:        EFT
-firstmirror: 2019-09-21
-firstonline: 2019-09-14
+firstmirror: 2019-09-28
+firstonline: 2019-09-21
 announced:   2019-04-16
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22625
 mirrors:
-  - { date: 2019-09-14, region: 0P, name: Online, eligible: Open }
+  - { date: 2019-09-21, region: 0P, name: Online, eligible: Open }
   - { date: TBD,        region: 2A, name: Columbia }
+  - { date: 2019-09-28, region: 4A, name: Rice }
