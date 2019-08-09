@@ -1,0 +1,9 @@
+slot:        “Early Fall Novice”
+prev:        [Collegiate Novice, ICCS, VCU Novice, EACNT]
+diff:        Easy
+diffstar:    ●
+name:        NAQT Collegiate Novice?
+clear:       never
+packetsurl:  never
+mirrors:
+  - { date: 2019-09-21, region: 8C, name: Carnegie Mellon, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=23047" }

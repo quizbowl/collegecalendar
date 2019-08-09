@@ -10,8 +10,12 @@ announced:   2019-04-16
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22625
 mirrors:
   - { date: 2019-09-21, region: 0P, name: Online, eligible: Open }
+  - { date: 2019-10-05, region: 1A, name: MIT }
   - { date: 2019-10-05, region: 2A, name: Columbia }
-  - { date: 2019-10-05, region: 2B, name: UNC }
+  - { date: 2019-10-05, region: 2B, name: North Carolina }
+  - { date: 2019-10-05, region: 3B, name: Auburn }
   - { date: 2019-09-28, region: 4A, name: Rice }
   - { date: 2019-10-19, region: 5A, name: UCSD }
-  - { date: 2019-10-05, region: 8C, name: MSU }
+  - { date: 2019-10-19, region: 6A, name: Idaho }
+  - { date: 2019-10-05, region: 7B, name: WUSTL }
+  - { date: 2019-10-05, region: 8C, name: Michigan State }
