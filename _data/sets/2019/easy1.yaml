@@ -7,3 +7,4 @@ clear:       never
 packetsurl:  never
 mirrors:
   - { date: 2019-09-21, region: 8C, name: Carnegie Mellon, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=23047" }
+  - { date: 2019-09-21, region: 3B, name: Georgia Tech, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=23074" }
