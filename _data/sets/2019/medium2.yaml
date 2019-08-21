@@ -6,9 +6,12 @@ name:        Penn Bowl
 firstmirror: 2019-10-19
 announced:   2019-05-20
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22723
+clear:       2019-12-15
 mirrors:
   - { date: 2019-10-19, region: 1A, name: Harvard }
   - { date: 2019-10-19, region: 2A, name: Penn, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22723" }
   - { date: 2019-10-19, region: 3B, name: Auburn }
   - { date: TBD,        region: 2B, name: UNC }
   - { date: TBD,        region: 7B, name: Truman State }
+  - { date: 2019-10-26, region: UK, name: Cambridge }
+  - { date: 2019-12-14, region: 8B, name: New Trier, eligible: HS only }
