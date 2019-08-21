@@ -61,6 +61,26 @@ table {
     }
 }
 
+table.summary {
+    thead th {
+        font-weight: 500;
+    }
+    thead th:not([style]) {
+        min-width: 2.35em;
+    }
+    th,
+    td {
+        padding: 4px 8px;
+    }
+    .strong td, th.strong {
+        font-weight: 900;
+    }
+}
+.active   { background: #f3f5ff; }
+.playtest { background: #e6fadd; }
+.clear    { background: #f5e7e9; }
+.pad { padding: 0.15em 0.3em; }
+
 table.season {
     width: auto;
     th,

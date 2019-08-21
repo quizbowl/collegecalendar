@@ -266,6 +266,159 @@ no
 </table>
 
 {% endfor %}
+<br /><br />
+
+
+<h3 id="summary"><a href="#summary">Summary</a></h3>
+{% assign scripts = "⁰¹²³⁴⁵⁶⁷⁸⁹" %}
+{% for season in site.data.sets[page.year].seasons %}
+<table class="summary">
+<thead>
+<tr>
+<th style="width: 12.5em;">{{ season.name }} {{ season.year }}</th>
+<th style="width: 5em;">Difficulty</th>
+<th style="width: 4em;">Known mirrors</th>
+
+{% comment %}The plus 1 makes the week start on Saturday (0)
+{% assign startdayofweek = season.start | date: '%w' | plus: 1 | modulo: 7 %}
+{% assign startsecondstoadd = 7 | minus: startdayofweek | modulo: 7 | times: 86400 %}
+{% endcomment %}
+
+{% assign seasonstart = season.start | date: '%s' | plus: 0 %}
+{% assign seasonseconds = 86400 | times: 7 | times: season.weeks %}
+{% assign seasonend   = seasonstart | plus: seasonseconds %}
+{% assign seasonweeks = seasonend | minus: seasonstart | divided_by: 604800 %}
+{% assign seasonweeksplus1 = seasonweeks | plus: 1 %}
+
+<th>≤</th>
+{% for weeksafter in (0..seasonweeks) %}
+{% assign secondsafter = weeksafter | times: 604800 %}
+{% assign current = seasonstart | plus: secondsafter %}
+<th>
+<time>
+<!-- {{- current | date: '%a' -}} -->
+{{- current | date: '%b' -}}<br>
+{{- current | date: '%-d' -}}
+</time>
+</th>
+{% endfor %}
+<th>≥</th>
+</tr>
+</thead>
+<tbody>
+
+{% for slot_id in season.slots %}
+{% assign set = site.data.sets[page.year][slot_id] %}
+{% unless set %}
+{% continue %}
+{% endunless %}
+<tr>
+<th class="strong">
+{%- if set.announceurl -%}<a href="{{ set.announceurl }}">{%- endif -%}
+{{- set.name -}}
+{%- if set.announceurl -%}</a>{%- endif -%}
+</th>
+<td>{{ set.diffstar | replace: "in Div II)", "" | replace: "(", "" }}</td>
+{% assign mirrors = set.mirrors | where_exp: "mirror", "mirror.date != 'TBD'" %}
+
+{% assign lastmirror = nil %}
+{% assign lastmirrordate = nil %}
+{% assign firstmirror = set.firstmirror %}
+{% if firstmirror == nil and set.mirrors %}
+{% assign firstmirror = set.mirrors | where_exp: "mirror", "mirror.region != '0P'" | where_exp: "mirror", "mirror.date != 'TBD'" | sort: "date" | first %}
+{% assign firstmirror = firstmirror.date %}
+{% endif %}
+{% if set.mirrors %}
+{% assign lastmirror = set.mirrors | where_exp: "mirror", "mirror.date != 'TBD'" | sort: "date" | last %}
+{% endif %}
+{% assign firstonline = set.firstonline %}
+{% if firstonline == nil and set.mirrors %}
+{% assign firstonline = set.mirrors | where_exp: "mirror", "mirror.region == '0P'" | where_exp: "mirror", "mirror.date != 'TBD'" | sort: "date" | first %}
+{% assign firstonline = firstonline.date %}
+{% endif %}
+{% assign firstmirrordate = firstmirror | date: "%s" | plus: 0 %}
+{% assign firstonlinedate = firstonline | date: "%s" | plus: 0 %}
+{% assign lastmirrordate = firstmirrordate | plus: 86400 %}
+{% if lastmirror %}
+{% assign lastmirrordate = lastmirror.date | date: "%s" | plus: 0 %}
+{% endif %}
+{% assign cleardate = set.clear | date: "%s" | plus: 0 %}
+
+<td>{{ mirrors | where_exp: "mirror", "mirror.cancelled == nil" | size }}</td>
+
+{% for weeksafter in (-1..seasonweeksplus1) %}
+{% assign secondsafter = weeksafter | times: 604800 %}
+{% assign current = seasonstart | plus: secondsafter %}
+{% assign nextweek = current | plus: 604800 %}
+{% assign firstweekofseason = forloop.first %}
+{% assign lastweekofseason = forloop.last %}
+
+{% assign mirrorsthisweek = "" | split: ',' %}
+{% assign mirrorscancelled = "" | split: ',' %}
+{% assign mirrorslate = "" | split: ',' %}
+
+{% for mirror in mirrors %}
+{% assign mirrordate = mirror.date | date: '%s' | plus: 0 %}
+
+{% assign afterstart = firstweekofseason %}{% if mirrordate >= current %}{% assign afterstart = true %}{% endif %}
+{% assign beforeend  = lastweekofseason %}{% if mirrordate < nextweek %}{% assign beforeend = true %}{% endif %}
+
+{% if afterstart and beforeend %}
+{% if mirror.cancelled %}
+{% assign mirrorscancelled = mirrorscancelled | push: mirror %}
+{% continue %}
+{% endif %}
+
+{% assign mirrorsthisweek = mirrorsthisweek | push: mirror %}
+{% assign mirrorweekday = mirror.date | date: '%w' %}
+{% if mirrorweekday != '6' %}
+{% assign mirrorslate = mirrorslate | push: mirror %}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% assign mirrorsthisweekonline = mirrorsthisweek | where_exp: "mirror", "mirror.region contains '0'" %}
+{% assign mirrorsthisweekcancelled = set.mirror | where_exp: "mirror", "mirror.cancelled == true" %}
+
+{% assign class = "" %}
+{% if firstmirrordate <= current and current <= lastmirrordate %}
+{% assign class = "active" %}
+{% elsif current == firstonlinedate or firstweekofseason and firstonlinedate != 0 and firstonlinedate < nextweek %}
+{% assign class = "playtest" %}
+{% endif %}
+{% if current <= cleardate and cleardate < nextweek or lastweekofseason %}
+{% assign class = "clear" %}
+{% endif %}
+
+<td class="{{ class }}">
+{% if mirrorsthisweek.size > 0 %}
+{% if mirrorsthisweek.size > 4 %}<b>{% endif -%}
+{{ mirrorsthisweek | size }}
+{%- if mirrorsthisweek.size > 4 %}</b>{% endif %}
+{%- endif %}
+
+{% if mirrorslate.size > 0 -%}
+ª{%- if mirrorslate.size > 1 %}{{ scripts | slice: mirrorslate.size, 1 }}{% endif -%}
+{%- endif -%}
+{%- if mirrorsthisweekonline.size > 0 -%}
+º{%- if mirrorsthisweekonline.size > 1 %}{{ scripts | slice: mirrorsthisweekonline.size, 1 }}{%- endif -%}
+{%- endif -%}
+{% if mirrorscancelled.size > 0 -%}
+*{%- if mirrorscancelled.size > 1 %}{{ scripts | slice: mirrorscancelled.size, 1 }}{% endif -%}
+{%- endif -%}
+{%- if current <= cleardate and cleardate < nextweek or lastweekofseason -%}
+†
+{%- endif %}
+</td>
+{% endfor %}
+
+</tr>
+{% endfor %}
+
+</tbody>
+</table>
+{% endfor %}
+<br /><br />
+
 
 {% include key.html %}
 
