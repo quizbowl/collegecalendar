@@ -379,7 +379,7 @@ no
 {% assign mirrorsthisweekonline = mirrorsthisweek | where_exp: "mirror", "mirror.region contains '0'" %}
 {% assign mirrorsthisweekcancelled = set.mirror | where_exp: "mirror", "mirror.cancelled == true" %}
 
-{% assign class = "" %}
+{% assign class = nil %}
 {% if firstmirrordate <= current and current <= lastmirrordate %}
 {% assign class = "active" %}
 {% elsif current == firstonlinedate or firstweekofseason and firstonlinedate != 0 and firstonlinedate < nextweek %}
@@ -394,6 +394,8 @@ no
 {% if mirrorsthisweek.size > 4 %}<b>{% endif -%}
 {{ mirrorsthisweek | size }}
 {%- if mirrorsthisweek.size > 4 %}</b>{% endif %}
+{% elsif class and current == firstmirrordate %}
+0
 {%- endif %}
 
 {% if mirrorslate.size > 0 -%}
