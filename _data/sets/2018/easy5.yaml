@@ -7,7 +7,9 @@ name:        ILLIAC
 firstmirror: 2019-03-02
 announced:   2018-09-04
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21741
-clear:       “summer 2019”
+clear:       2019-07-09
+reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/2286/
 ebol:        no
 mirrors:
   - { date: 2019-03-23, region: 8B, name: UIUC, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22428" }

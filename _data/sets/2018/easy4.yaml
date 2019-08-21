@@ -6,6 +6,9 @@ name:        FST
 firstmirror: 2019-03-23
 announced:   2018-08-06
 announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21591
+clear:       2019-08-15
+reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/2087/
 ebol:        no
 mirrors:
   - { date: 2019-03-23, region: 3C, name: Florida, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22407" }
