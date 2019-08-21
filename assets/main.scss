@@ -207,3 +207,6 @@ dfn {
 a:link, a:visited {
     color: $brand-color;
 }
+h3 > a[href^="#"] {
+    color: inherit;
+}

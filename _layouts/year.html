@@ -9,7 +9,7 @@ layout: page
 <br /><br />
 
 {% for season in site.data.sets[page.year].seasons %}
-<h3>{{ season.name }} {{ season.year }}</h3>
+<h3 id="{{season.name}}"><a href="#{{season.name}}">{{ season.name }} {{ season.year }}</a></h3>
 
 <table class="season">
 <thead>
@@ -186,7 +186,7 @@ Midwest,8B|Central Midwest,8C|Eastern Midwest,CA|Canada,UK|UK" | split: ',' %}
 <li>
 {% if mirror.url %}<a href="{{ mirror.url }}">{% endif %}
 {% if mirror.cancelled %}<del>{% endif %}
-<time {% if mirrordate>= firstmirrorcutoff %}class="late"{% endif %}>
+<time {% if mirrordate >= firstmirrorcutoff %}class="late"{% endif %}>
 {% if dayslate > 0 %}
 <small>
 {% if dayslate >= 7 %}{{ weekslate }}w{% else %}{{ dayslate }}d{% endif %}
