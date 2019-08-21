@@ -19,18 +19,18 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 2A	2	New York	NY	USA	40.729513	-73.996461	NYU	New York	New York University
 2A	2	New Brunswick	NJ	USA	40.500819	-74.447399		Rutgers	Rutgers University-New Brunswick
 2A	2	Princeton	NJ	USA	40.343989	-74.651448		Princeton	Princeton University
-2A	2	University Park	PA	USA	40.814796	-77.865313		Penn State	Pennsylvania State University
+2A	2	University Park	PA	USA	40.814796	-77.865313	PSU	Penn State	Pennsylvania State University
 2A	2	Philadelphia	PA	USA	39.952219	-75.193214		Penn	University of Pennsylvania
 2A	2	Newark	DE	USA	39.677950	-75.750611		Delaware	University of Delaware
 2A	2	Baltimore	MD	USA	39.329901	-76.620518	JHU	Johns Hopkins	Johns Hopkins University
-2A	2	College Park	MD	USA	38.986918	-76.942554		Maryland	University of Maryland-College Park
+2A	2	College Park	MD	USA	38.986918	-76.942554	UMD	Maryland	University of Maryland-College Park
 2A	2	Washington	DC	USA	38.907609	-77.072258		Georgetown	Georgetown University
 2A	1	Poughkeepsie	NY	USA	41.686799	-73.895700		Vassar	Vassar College
 2A	1	Swarthmore	PA	USA	39.906841	-75.355648		Swarthmore	Swarthmore College
 2A	1	Gettysburg	PA	USA	39.834949	-77.232193		Gettysburg	Gettysburg College
 2A	1	Villanova	PA	USA	40.037056	-75.343580		Villanova	Villanova University
 2B	2	Richmond	VA	USA	37.549505	-77.450972		VCU	Virginia Commonwealth University
-2B	2	Charlottesville	VA	USA	38.033553	-78.507977		Virginia	University of Virginia
+2B	2	Charlottesville	VA	USA	38.033553	-78.507977	UVA	Virginia	University of Virginia
 2B	2	Blacksburg	VA	USA	37.228384	-80.423417	VT	Virginia Tech	Virginia Polytechnic Institute and State University
 2B	2	Durham	NC	USA	36.001426	-78.938229		Duke	Duke University
 2B	1	Fairfax	VA	USA	38.831488	-77.311944	GMU	George Mason	George Mason University
@@ -100,7 +100,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 7B	2	Columbia	MO	USA	38.940381	-92.327738	Mizzou	Missouri	University of Missouri-Columbia
 7B	2	Kirksville	MO	USA	40.186563	-92.580864		Truman State	Truman State University
 7B	2	St. Louis	MO	USA	38.648790	-90.310796		WUSTL	Washington University in St. Louis
-8A	2	Minneapolis	MN	USA	44.975354	-93.233074		Minnesota	University of Minnesota-Twin Cities
+8A	2	Minneapolis	MN	USA	44.975354	-93.233074	UMN	Minnesota	University of Minnesota-Twin Cities
 8A	1	Appleton	WI	USA	44.261576	-88.398100		Lawrence	Lawrence University
 8A	1	Houghton	MI	USA	47.116775	-88.546022		Michigan Tech	Michigan Technological University
 8A	1	Marquette	MI	USA	46.559603	-87.404487		Northern Michigan	Northern Michigan University
