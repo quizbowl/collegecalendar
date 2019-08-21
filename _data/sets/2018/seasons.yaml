@@ -1,5 +1,7 @@
 - name: Fall
   year: 2018
+  start: 2018-09-15
+  weeks: 15
   slots:
     - easy1
     - medium1
@@ -10,6 +12,8 @@
 
 - name: Spring
   year: 2019
+  start: 2019-01-19
+  weeks: 17
   slots:
     - medium4
     - regionals1
