@@ -4,7 +4,7 @@ title: Difficulty scale
 ---
 
 This page explains the purpose of the difficulty scale used by this website
-(called “the college quizbowl calendar difficulty scale”).
+(preferably called “the college quizbowl calendar difficulty scale”).
 
 Traditional <dfn>difficulty terms</dfn> like “Regular”
 and vague qualifiers like “Fall-plus” or “Regular-minus”
