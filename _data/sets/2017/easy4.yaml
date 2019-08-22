@@ -5,15 +5,15 @@ diffstar:    ●
 name:        FST
 firstmirror: 2018-03-17
 announced:   2017-12-15
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20769
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20769
 clear:       2018-09-06
 reallyclear: yes
-packetsurl:  http://collegiate.quizbowlpackets.com/2177/
+packetsurl:  https://collegiate.quizbowlpackets.com/2177/
 mirrors:
-  - { date: 2018-03-17, region: 3C, name: Florida        , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20993" }
-  - { date: 2018-03-17, region: 8B, name: Michigan       , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20768" }
-  - { date: 2018-03-24, region: 8B, name: Michigan Tech  , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20919" }
-  - { date: 2018-04-07, region: 6B, name: BYU            , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20914" }
-  - { date: 2018-04-14, region: 3B, name: Wofford College, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21096" }
-  - { date: 2018-04-28, region: 2A, name: Columbia       , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21182" }
+  - { date: 2018-03-17, region: 3C, name: Florida        , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20993" }
+  - { date: 2018-03-17, region: 8B, name: Michigan       , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20768" }
+  - { date: 2018-03-24, region: 8B, name: Michigan Tech  , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20919" }
+  - { date: 2018-04-07, region: 6B, name: BYU            , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20914" }
+  - { date: 2018-04-14, region: 3B, name: Wofford College, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21096" }
+  - { date: 2018-04-28, region: 2A, name: Columbia       , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21182" }
   - { date: 2018-09-01, region: 2B, name: Virginia Tech  }

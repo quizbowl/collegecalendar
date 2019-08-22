@@ -16,7 +16,7 @@ This site was started in March 2018 by Ophir Lifshitz and entrusted to the commu
 
 This site is a work in progress and is meant to serve and be maintained by the whole community. You can help make it into what you want it to be. Submit corrections and improvements to the [GitHub repository for this site](https://github.com/quizbowl/collegecalendar). If you don’t know how, ask for help.
 
-To coordinate events, please use the [hsquizbowl.org forums](http://www.hsquizbowl.org/forums/viewforum.php?f=34). This is the intended venue for participating in community review before posting announcements or claiming dates unilaterally. Try not to clutter the [announcement thread](http://www.hsquizbowl.org/forums/viewtopic.php?f=97&t=21398) with short-term updates and requests; use GitHub issues for that instead.
+To coordinate events, please use the [hsquizbowl.org forums](https://hsquizbowl.org/forums/viewforum.php?f=34). This is the intended venue for participating in community review before posting announcements or claiming dates unilaterally. Try not to clutter the [announcement thread](https://hsquizbowl.org/forums/viewtopic.php?f=97&t=21398) with short-term updates and requests; use GitHub issues for that instead.
 
 Crude to-do list:
 

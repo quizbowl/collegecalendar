@@ -5,11 +5,11 @@ diffstar:    ●
 name:        Delta Burke
 firstmirror: 2018-11-03
 announced:   2018-09-07
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21767
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21767
 clear:       2019-08-20
 reallyclear: yes
 packetsurl:  https://collegiate.quizbowlpackets.com/2362/
 ebol:        no
 mirrors:
   - { date: 2018-11-03, region: 3C, name: Valencia }
-  - { date: 2019-03-02, region: 8B, name: Purdue, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22289" }
+  - { date: 2019-03-02, region: 8B, name: Purdue, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22289" }

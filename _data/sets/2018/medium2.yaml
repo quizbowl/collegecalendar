@@ -5,22 +5,22 @@ diffstar:    ●●◖
 name:        Penn Bowl
 firstmirror: 2018-10-20
 announced:   2018-05-16
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21304
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21304
 clear:       2018-12-09
 reallyclear: yes
-packetsurl:  http://collegiate.quizbowlpackets.com/2253/
+packetsurl:  https://collegiate.quizbowlpackets.com/2253/
 ebol:        yes
 mirrors:
-  - { date: 2018-10-27, region: 1A, name: Harvard, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21799" }
-  - { date: 2018-10-20, region: 2A, name: Penn, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21304" }
-  - { date: 2018-10-20, region: 8A, name: Minnesota, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21836", cancelled: yes }
-  - { date: 2018-10-20, region: 8B, name: Chicago, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21831" }
-  - { date: 2018-10-20, region: 5B, name: Stanford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21822", eligible: Open }
-  - { date: 2018-10-20, region: 4A, name: LASA, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21966" }
-  - { date: 2018-10-27, region: 7B, name: Truman State, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21484" }
-  - { date: 2018-10-27, region: 2B, name: North Carolina, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21762" }
-  - { date: 2018-10-27, region: 3B, name: Auburn, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21759" }
-  - { date: 2018-10-27, region: CA, name: Queen’s, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21854" }
+  - { date: 2018-10-27, region: 1A, name: Harvard, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21799" }
+  - { date: 2018-10-20, region: 2A, name: Penn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21304" }
+  - { date: 2018-10-20, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21836", cancelled: yes }
+  - { date: 2018-10-20, region: 8B, name: Chicago, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21831" }
+  - { date: 2018-10-20, region: 5B, name: Stanford, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21822", eligible: Open }
+  - { date: 2018-10-20, region: 4A, name: LASA, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21966" }
+  - { date: 2018-10-27, region: 7B, name: Truman State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21484" }
+  - { date: 2018-10-27, region: 2B, name: North Carolina, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21762" }
+  - { date: 2018-10-27, region: 3B, name: Auburn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21759" }
+  - { date: 2018-10-27, region: CA, name: Queen’s, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21854" }
   - { date: 2018-10-27, region: UK, name: Cambridge }
-  - { date: 2018-12-01, region: 6A, name: Washington, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21919", eligible: Open }
-  - { date: 2018-12-09, region: 0L, name: Online, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22001", eligible: Open }
+  - { date: 2018-12-01, region: 6A, name: Washington, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21919", eligible: Open }
+  - { date: 2018-12-09, region: 0L, name: Online, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22001", eligible: Open }

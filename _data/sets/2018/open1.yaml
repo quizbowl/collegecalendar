@@ -5,20 +5,20 @@ diffstar:    ●●●◖
 eligible:    Open
 name:        PIANO
 # announced:   2018-03-30
-# announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=97&t=21134
+# announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=97&t=21134
 announced:   2018-08-23
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21685
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21685
 clear:       2019-04-01
 reallyclear: yes
-packetsurl:  http://collegiate.quizbowlpackets.com/2207/
+packetsurl:  https://collegiate.quizbowlpackets.com/2207/
 ebol:        no
 mirrors:
-  - { date: 2019-03-09, region: 5B, name: Stanford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22402" }
-  - { date: 2019-03-09, region: CA, name: Toronto, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22393" }
-  - { date: 2019-03-30, region: 1A, name: Yale, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22420" }
-  - { date: 2019-03-30, region: 3B, name: Georgia Tech, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22266" }
-  - { date: 2019-03-09, region: 2A, name: Johns Hopkins, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22251" }
-  - { date: 2019-03-30, region: 8A, name: Minnesota, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22246" }
-  - { date: 2019-03-30, region: UK, name: Oxford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22553" }
-  - { date: 2019-03-24, region: 8C, name: OSU, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22380" }
-  - { date: 2019-03-10, region: 0L, name: Online, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22449" }
+  - { date: 2019-03-09, region: 5B, name: Stanford, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22402" }
+  - { date: 2019-03-09, region: CA, name: Toronto, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22393" }
+  - { date: 2019-03-30, region: 1A, name: Yale, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22420" }
+  - { date: 2019-03-30, region: 3B, name: Georgia Tech, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22266" }
+  - { date: 2019-03-09, region: 2A, name: Johns Hopkins, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22251" }
+  - { date: 2019-03-30, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22246" }
+  - { date: 2019-03-30, region: UK, name: Oxford, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22553" }
+  - { date: 2019-03-24, region: 8C, name: OSU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22380" }
+  - { date: 2019-03-10, region: 0L, name: Online, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22449" }

@@ -6,16 +6,16 @@ eligible:    Open
 name:        CMST
 firstmirror: 2018-03-03
 announced:   2017-11-22
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20584
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20584
 clear:       2018-04-13
 reallyclear: yes
-packetsurl:  http://collegiate.quizbowlpackets.com/2103/
+packetsurl:  https://collegiate.quizbowlpackets.com/2103/
 mirrors:
-  - { date: 2018-03-03, region: 2A, name: UMD      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20747" }
-  - { date: 2018-03-03, region: 8A, name: Minnesota, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20691" }
-  - { date: 2018-03-03, region: UK, name: Warwick  , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20827" }
-  - { date: 2018-03-03, region: CA, name: McMaster , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20883" }
-  - { date: 2018-03-03, region: 2A, name: NYU      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20880" }
-  - { date: 2018-03-10, region: 5B, name: Stanford , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20781" }
-  - { date: 2018-03-24, region: 3B, name: Auburn   , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20782" }
+  - { date: 2018-03-03, region: 2A, name: UMD      , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20747" }
+  - { date: 2018-03-03, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20691" }
+  - { date: 2018-03-03, region: UK, name: Warwick  , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20827" }
+  - { date: 2018-03-03, region: CA, name: McMaster , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20883" }
+  - { date: 2018-03-03, region: 2A, name: NYU      , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20880" }
+  - { date: 2018-03-10, region: 5B, name: Stanford , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20781" }
+  - { date: 2018-03-24, region: 3B, name: Auburn   , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20782" }
   - { date: 2018-04-13, region: 4A, name: "Coach/player hybrid" }

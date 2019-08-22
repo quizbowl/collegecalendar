@@ -7,22 +7,22 @@ name:        Sun God Invitational
 firstmirror: 2018-11-10
 firstonline: 2018-09-29
 announced:   2017-11-29
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20713
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20713
 clear:       2018-12-29
 reallyclear: yes
-packetsurl:  http://collegiate.quizbowlpackets.com/2271/
+packetsurl:  https://collegiate.quizbowlpackets.com/2271/
 ebol:        yes
 mirrors:
-  - { date: 2018-09-29, region: 0P, name: Online, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21627" }
-  - { date: 2018-11-10, region: 2A, name: Johns Hopkins, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21884" }
-  - { date: 2018-11-10, region: 8B, name: UIUC, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21727" }
-  - { date: 2018-11-10, region: 2A, name: Rutgers, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21931" }
-  - { date: 2018-11-10, region: 3C, name: NCF, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21995" }
-  - { date: 2018-11-17, region: CA, name: Toronto, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21834" }
-  - { date: 2018-11-17, region: 5A, name: UCSD, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22017", eligibile: Open }
-  - { date: 2018-11-24, region: UK, name: Southampton, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22119" }
-  - { date: 2018-12-01, region: 4A, name: UT-Austin, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22006" }
-  - { date: 2018-12-01, region: 5B, name: Stanford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22046", eligibile: Open }
-  - { date: 2018-12-01, region: 1A, name: Brown, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22035" }
-  - { date: 2018-12-15, region: 8B, name: New Trier, eligible: HS only, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=21752" }
-  - { date: 2018-12-29, region: 0L, name: Online Closed, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22060" }
+  - { date: 2018-09-29, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21627" }
+  - { date: 2018-11-10, region: 2A, name: Johns Hopkins, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21884" }
+  - { date: 2018-11-10, region: 8B, name: UIUC, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21727" }
+  - { date: 2018-11-10, region: 2A, name: Rutgers, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21931" }
+  - { date: 2018-11-10, region: 3C, name: NCF, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21995" }
+  - { date: 2018-11-17, region: CA, name: Toronto, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21834" }
+  - { date: 2018-11-17, region: 5A, name: UCSD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22017", eligibile: Open }
+  - { date: 2018-11-24, region: UK, name: Southampton, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22119" }
+  - { date: 2018-12-01, region: 4A, name: UT-Austin, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22006" }
+  - { date: 2018-12-01, region: 5B, name: Stanford, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22046", eligibile: Open }
+  - { date: 2018-12-01, region: 1A, name: Brown, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22035" }
+  - { date: 2018-12-15, region: 8B, name: New Trier, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=21752" }
+  - { date: 2018-12-29, region: 0L, name: Online Closed, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22060" }

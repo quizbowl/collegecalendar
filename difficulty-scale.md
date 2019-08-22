@@ -9,7 +9,7 @@ This page explains the purpose of the difficulty scale used by this website
 Traditional <dfn>difficulty terms</dfn> like “Regular”
 and vague qualifiers like “Fall-plus” or “Regular-minus”
 are non-standard and confusing and should be deprecated
-([read more](http://hsquizbowl.org/forums/viewtopic.php?f=9&amp;t=21177)).
+([read more](https://hsquizbowl.org/forums/viewtopic.php?f=9&t=21177)).
 
 <table>
     <thead>
@@ -22,48 +22,48 @@ are non-standard and confusing and should be deprecated
     <tbody>
         <!-- <tr>
             <td>◖</td>
-            <td><a href="http://collegiate.quizbowlpackets.com/2040/">2013 Collegiate Novice</a></td>
+            <td><a href="https://collegiate.quizbowlpackets.com/2040/">2013 Collegiate Novice</a></td>
             <td></td>
             <td>“Fall-minus”</td>
         </tr> -->
         <tr>
             <td>●</td>
-            <td><a href="http://collegiate.quizbowlpackets.com/2040/">2017 ACF Fall</a></td>
+            <td><a href="https://collegiate.quizbowlpackets.com/2040/">2017 ACF Fall</a></td>
             <td rowspan="2"></td>
             <td></td>
         </tr>
         <tr>
             <td>●◖</td>
-            <td><a href="http://collegiate.quizbowlpackets.com/2329/">2019 ILLIAC</a></td>
+            <td><a href="https://collegiate.quizbowlpackets.com/2329/">2019 ILLIAC</a></td>
             <td rowspan="2">“Fall-plus”<br />“Regular-minus”</td>
         </tr>
         <tr>
             <td>●●</td>
-            <td><a href="http://collegiate.quizbowlpackets.com/2048/">2017 EFT</a></td>
+            <td><a href="https://collegiate.quizbowlpackets.com/2048/">2017 EFT</a></td>
             <td rowspan="3" style="width: 11em;">old “Regular difficulty” was ambiguous and referred to any of these</td>
         </tr>
         <tr>
             <td>●●◖</td>
-            <td><a href="http://collegiate.quizbowlpackets.com/1872/">2016 Terrapin</a></td>
+            <td><a href="https://collegiate.quizbowlpackets.com/1872/">2016 Terrapin</a></td>
             <td rowspan="3">“Regular-plus”<br />“Nationals-minus”</td>
         </tr>
         <tr>
             <td>●●●</td>
-            <td><a href="http://collegiate.quizbowlpackets.com/2108/">2018 ACF Regionals</a></td>
+            <td><a href="https://collegiate.quizbowlpackets.com/2108/">2018 ACF Regionals</a></td>
         </tr>
         <tr>
             <td>●●●◖</td>
-            <td><a href="http://collegiate.quizbowlpackets.com/2103/">2018 CMST</a></td>
+            <td><a href="https://collegiate.quizbowlpackets.com/2103/">2018 CMST</a></td>
             <td rowspan="2"></td>
         </tr>
         <tr>
             <td>●●●●</td>
-            <td><a href="http://collegiate.quizbowlpackets.com/2139/">2018 ACF Nationals</a></td>
+            <td><a href="https://collegiate.quizbowlpackets.com/2139/">2018 ACF Nationals</a></td>
             <td></td>
         </tr>
         <!-- <tr>
             <td>●●●●●</td>
-            <td><a href="http://collegiate.quizbowlpackets.com/2180/">2018 Chicago Open</a></td>
+            <td><a href="https://collegiate.quizbowlpackets.com/2180/">2018 Chicago Open</a></td>
             <td></td>
             <td>“Nationals-plus”</td>
         </tr> -->

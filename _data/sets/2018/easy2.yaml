@@ -7,26 +7,26 @@ eligible:    Closed; HS-only mirrors
 name:        ACF Fall
 firstmirror: 2018-11-03
 announced:   2018-08-01
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21563
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21563
 clear:       2018-11-08
 reallyclear: yes
-packetsurl:  http://collegiate.quizbowlpackets.com/2187/
+packetsurl:  https://collegiate.quizbowlpackets.com/2187/
 ebol:        no
 mirrors:
-  - { date: 2018-11-03, region: 1A, name: MIT, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21673" }
-  - { date: 2018-11-03, region: 2A, name: UMD, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21735" }
-  - { date: 2018-11-03, region: 2B, name: Tusculum, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21699", cancelled: yes }
-  - { date: 2018-11-03, region: 3B, name: Georgia Tech, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21672" }
-  - { date: 2018-11-03, region: 3C, name: Florida, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21972" }
-  - { date: 2018-11-03, region: 4A, name: LASA, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21720" }
-  - { date: 2018-11-03, region: 4A, name: LASA, eligible: HS only, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=21717" }
-  - { date: 2018-11-03, region: 6A, name: Washington, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21669" }
-  - { date: 2018-11-03, region: 5B, name: Stanford, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21697" }
-  - { date: 2018-11-03, region: 5A, name: UCLA, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21991" }
-  - { date: 2018-11-03, region: 8A, name: Minnesota, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21674" }
-  - { date: 2018-11-04, region: 8C, name: OSU, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21709" }
-  - { date: 2018-11-03, region: 8B, name: UIUC, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21688" }
-  - { date: 2018-11-03, region: 8B, name: UIUC, eligible: HS only, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=21706" }
-  - { date: 2018-11-03, region: 6B, name: Colorado, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21664" }
-  - { date: 2018-11-03, region: CA, name: Toronto, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21899" }
-  - { date: 2018-11-03, region: UK, name: Warwick, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21787" }
+  - { date: 2018-11-03, region: 1A, name: MIT, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21673" }
+  - { date: 2018-11-03, region: 2A, name: UMD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21735" }
+  - { date: 2018-11-03, region: 2B, name: Tusculum, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21699", cancelled: yes }
+  - { date: 2018-11-03, region: 3B, name: Georgia Tech, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21672" }
+  - { date: 2018-11-03, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21972" }
+  - { date: 2018-11-03, region: 4A, name: LASA, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21720" }
+  - { date: 2018-11-03, region: 4A, name: LASA, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=21717" }
+  - { date: 2018-11-03, region: 6A, name: Washington, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21669" }
+  - { date: 2018-11-03, region: 5B, name: Stanford, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21697" }
+  - { date: 2018-11-03, region: 5A, name: UCLA, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21991" }
+  - { date: 2018-11-03, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21674" }
+  - { date: 2018-11-04, region: 8C, name: OSU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21709" }
+  - { date: 2018-11-03, region: 8B, name: UIUC, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21688" }
+  - { date: 2018-11-03, region: 8B, name: UIUC, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=21706" }
+  - { date: 2018-11-03, region: 6B, name: Colorado, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21664" }
+  - { date: 2018-11-03, region: CA, name: Toronto, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21899" }
+  - { date: 2018-11-03, region: UK, name: Warwick, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21787" }

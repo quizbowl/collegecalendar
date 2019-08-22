@@ -5,20 +5,20 @@ diffstar:    ●
 name:        FST
 firstmirror: 2019-03-23
 announced:   2018-08-06
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21591
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21591
 clear:       2019-08-15
 reallyclear: yes
 packetsurl:  https://collegiate.quizbowlpackets.com/2087/
 ebol:        no
 mirrors:
-  - { date: 2019-03-23, region: 3C, name: Florida, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22407" }
-  - { date: 2019-03-23, region: 2B, name: VCU, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22231" }
-  - { date: 2019-03-23, region: CA, name: Carleton, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22370" }
-  - { date: 2019-04-28, region: 2A, name: Princeton, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22440" }
-  - { date: 2019-04-27, region: 1A, name: Amherst, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22479" }
-  - { date: 2019-04-27, region: 6A, name: Washington, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22497" }
+  - { date: 2019-03-23, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22407" }
+  - { date: 2019-03-23, region: 2B, name: VCU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22231" }
+  - { date: 2019-03-23, region: CA, name: Carleton, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22370" }
+  - { date: 2019-04-28, region: 2A, name: Princeton, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22440" }
+  - { date: 2019-04-27, region: 1A, name: Amherst, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22479" }
+  - { date: 2019-04-27, region: 6A, name: Washington, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22497" }
   - { date: TBD       , region: 6B, name: Colorado }
-  - { date: 2019-05-11, region: 8B, name: Chicago, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22539" }
-  - { date: 2019-06-15, region: 0L, name: Online, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22730" }
-  - { date: 2019-08-03, region: 4A, name: UL-Lafayette, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22821" }
+  - { date: 2019-05-11, region: 8B, name: Chicago, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22539" }
+  - { date: 2019-06-15, region: 0L, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22730" }
+  - { date: 2019-08-03, region: 4A, name: UL-Lafayette, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22821" }
   - { date: 2019-03-30, region: 2A, name: Penn State, eligible: "HS only" }

@@ -6,7 +6,7 @@ eligible:    Closed; HS allowed; special exceptions by permission
 name:        MWT
 firstmirror: 2020-01-18
 announced:   2019-04-03
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22581
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22581
 ebol:        no
 mirrors:
   - { date: 2019-12-21, region: 0P, name: Online, eligible: Open }

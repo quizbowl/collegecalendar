@@ -6,22 +6,22 @@ name:        Penn Bowl
 firstmirror: 2017-10-14
 # firstonline: 2017-12-03
 announced:   2017-05-21
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=19987
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=19987
 clear:       2017-12-03
 reallyclear: yes
-packetsurl:  http://collegiate.quizbowlpackets.com/2056/
+packetsurl:  https://collegiate.quizbowlpackets.com/2056/
 mirrors:
-  - { date: 2017-12-03, region: 0L, name: Online, eligible: Open, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20586" }
+  - { date: 2017-12-03, region: 0L, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20586" }
   - { date: 2017-10-14, region: UK, name: Cambridge         }
-  - { date: 2017-10-21, region: 2A, name: Penn              , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=19987" }
-  - { date: 2017-10-21, region: CA, name: Queen’s           , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20435" }
-  - { date: 2017-10-21, region: 8A, name: Minnesota         , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20342" }
-  - { date: 2017-10-21, region: 5B, name: Stanford          , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20296" }
-  - { date: 2017-10-21, region: 3B, name: Georgia           , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20416" }
-  - { date: 2017-10-28, region: 3C, name: New College       , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20425" }
-  - { date: 2017-10-28, region: 2B, name: North Carolina    , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20519" }
-  - { date: 2017-10-28, region: 1A, name: Harvard           , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20433" }
-  - { date: 2017-10-28, region: 4A, name: Rice              , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20504" }
-  - { date: 2017-10-28, region: 8B, name: Chicago           , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20360" }
-  - { date: 2017-11-18, region: 5A, name: UC Irvine         , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20595"}
-  - { date: 2017-11-19, region: 7B, name: Missouri          , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20547" }
+  - { date: 2017-10-21, region: 2A, name: Penn              , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=19987" }
+  - { date: 2017-10-21, region: CA, name: Queen’s           , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20435" }
+  - { date: 2017-10-21, region: 8A, name: Minnesota         , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20342" }
+  - { date: 2017-10-21, region: 5B, name: Stanford          , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20296" }
+  - { date: 2017-10-21, region: 3B, name: Georgia           , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20416" }
+  - { date: 2017-10-28, region: 3C, name: New College       , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20425" }
+  - { date: 2017-10-28, region: 2B, name: North Carolina    , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20519" }
+  - { date: 2017-10-28, region: 1A, name: Harvard           , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20433" }
+  - { date: 2017-10-28, region: 4A, name: Rice              , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20504" }
+  - { date: 2017-10-28, region: 8B, name: Chicago           , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20360" }
+  - { date: 2017-11-18, region: 5A, name: UC Irvine         , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20595"}
+  - { date: 2017-11-19, region: 7B, name: Missouri          , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20547" }

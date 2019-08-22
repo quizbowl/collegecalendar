@@ -6,7 +6,7 @@ eligible:    Open
 name:        Terrapin Open
 firstmirror: 2020-02-22
 announced:   2019-08-14
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=23078
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23078
 ebol:        yes
 mirrors:
   - { date: 2020-02-22, region: 2A, name: UMD }

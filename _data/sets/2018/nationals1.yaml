@@ -6,8 +6,8 @@ eligible:    Qualify at NAQT SCT
 name:        NAQT ICT
 firstmirror: 2019-04-06
 announced:   2018-12-05
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22159
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22159
 clear:       never
 packetsurl:  never
 mirrors:
-  - { date: 2019-04-06, region: 8B, name: Chicago, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22159" }
+  - { date: 2019-04-06, region: 8B, name: Chicago, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22159" }

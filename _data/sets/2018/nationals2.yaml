@@ -7,10 +7,10 @@ submission:  Required
 name:        ACF Nationals
 firstmirror: 2019-04-13
 announced:   2018-08-16
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21635
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21635
 clear:       2019-04-16
 reallyclear: yes
-packetsurl:  http://collegiate.quizbowlpackets.com/2301/
+packetsurl:  https://collegiate.quizbowlpackets.com/2301/
 ebol:        no
 mirrors:
-  - { date: 2019-04-13, region: 2A, name: Penn, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=21635" }
+  - { date: 2019-04-13, region: 2A, name: Penn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21635" }

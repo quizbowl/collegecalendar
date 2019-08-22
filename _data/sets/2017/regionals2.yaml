@@ -5,24 +5,24 @@ diffstar:    ●●● (or ● in Div II)
 name:        NAQT SCT
 firstmirror: 2018-02-03
 announced:   2017-11-06
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20649
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20649
 clear:       never
 packetsurl:  never
 mirrors:
-  - { date: 2018-02-03, region: CA, name: Waterloo        , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20731" }
-  - { date: 2018-02-03, region: 7B, name: Missouri        , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20798" }
-  - { date: 2018-02-03, region: 3C, name: Florida         , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20727" }
-  - { date: 2018-02-03, region: 8C, name: Youngstown State, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20750" }
-  - { date: 2018-02-03, region: 2A, name: Georgetown      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20764" }
-  - { date: 2018-02-03, region: 8B, name: Northwestern    , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20745" }
-  - { date: 2018-02-03, region: 1A, name: Yale            , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20725" }
-  - { date: 2018-02-03, region: 1B, name: RIT             , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20724" }
-  - { date: 2018-02-03, region: 8A, name: Carleton College, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20733" }
-  - { date: 2018-02-03, region: 5B, name: Stanford        , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20718" }
-  - { date: 2018-02-03, region: 6A, name: Washington      , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20945" }
-  - { date: 2018-02-03, region: 6B, name: Colorado        , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20728" }
-  - { date: 2018-02-03, region: 4A, name: UT-Dallas       , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20741" }
-  - { date: 2018-02-03, region: 3A, name: Western Kentucky, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20848" }
-  - { date: 2018-02-03, region: 3B, name: Georgia         , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20730" }
-  - { date: 2018-02-03, region: 5A, name: UCLA            , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20744" }
+  - { date: 2018-02-03, region: CA, name: Waterloo        , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20731" }
+  - { date: 2018-02-03, region: 7B, name: Missouri        , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20798" }
+  - { date: 2018-02-03, region: 3C, name: Florida         , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20727" }
+  - { date: 2018-02-03, region: 8C, name: Youngstown State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20750" }
+  - { date: 2018-02-03, region: 2A, name: Georgetown      , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20764" }
+  - { date: 2018-02-03, region: 8B, name: Northwestern    , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20745" }
+  - { date: 2018-02-03, region: 1A, name: Yale            , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20725" }
+  - { date: 2018-02-03, region: 1B, name: RIT             , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20724" }
+  - { date: 2018-02-03, region: 8A, name: Carleton College, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20733" }
+  - { date: 2018-02-03, region: 5B, name: Stanford        , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20718" }
+  - { date: 2018-02-03, region: 6A, name: Washington      , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20945" }
+  - { date: 2018-02-03, region: 6B, name: Colorado        , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20728" }
+  - { date: 2018-02-03, region: 4A, name: UT-Dallas       , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20741" }
+  - { date: 2018-02-03, region: 3A, name: Western Kentucky, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20848" }
+  - { date: 2018-02-03, region: 3B, name: Georgia         , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20730" }
+  - { date: 2018-02-03, region: 5A, name: UCLA            , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20744" }
   - { date: 2018-02-04, region: 2B, name: North Carolina  }

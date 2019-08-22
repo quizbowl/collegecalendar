@@ -7,6 +7,6 @@ name:        LIT
 firstonline: 2020-02-29
 firstmirror: 2020-03-07
 announced:   2019-06-05
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22780
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22780
 mirrors:
   - { date: 2020-02-29, region: 0P, name: Online, eligible: Open }

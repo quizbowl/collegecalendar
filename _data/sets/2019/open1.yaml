@@ -6,8 +6,8 @@ eligible:    Open
 name:        “Summer” Open
 firstmirror: 2019-11-09
 announced:   2018-11-27
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=22134
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22134
 mirrors:
-  - { date: 2019-11-09, region: 2A, name: NYU, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=23059" }
+  - { date: 2019-11-09, region: 2A, name: NYU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23059" }
   - { date: TBD,        region: 2B, name: Virginia }
-  - { date: 2019-11-23, region: 3B, name: Georgia Tech, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=23071" }
+  - { date: 2019-11-23, region: 3B, name: Georgia Tech, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23071" }

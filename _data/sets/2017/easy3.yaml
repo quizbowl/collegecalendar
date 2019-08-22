@@ -5,11 +5,11 @@ diffstar:    ●
 name:        Delta Burke
 firstmirror: 2017-11-11
 announced:   2017-09-04
-announceurl: http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20364
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20364
 clear:       2018-06-28
 reallyclear: yes
-packetsurl:  http://collegiate.quizbowlpackets.com/2065/
+packetsurl:  https://collegiate.quizbowlpackets.com/2065/
 mirrors:
-  - { date: 2017-11-11, region: 3C, name: Valencia         , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20364" }
-  - { date: 2017-11-18, region: 8B, name: Northwestern     , url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20604" }
-  - { date: 2018-02-17, region: 2B, name: VCU, cancelled: yes, url: "http://hsquizbowl.org/forums/viewtopic.php?f=8&t=20389" }
+  - { date: 2017-11-11, region: 3C, name: Valencia         , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20364" }
+  - { date: 2017-11-18, region: 8B, name: Northwestern     , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20604" }
+  - { date: 2018-02-17, region: 2B, name: VCU, cancelled: yes, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20389" }

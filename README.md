@@ -31,14 +31,14 @@ Key | Description | Example
 `eligible`    | Eligibility details                  | `Closed`
 `submission`  | Packet submission details            | `Required`
 `announced`   | Date of global announcement          | `2017-03-23`
-`announceurl` | URL of global announcement           | `http://hsquizbowl.org/forums/viewtopic.php?f=8&t=19786`
+`announceurl` | URL of global announcement           | `https://hsquizbowl.org/forums/viewtopic.php?f=8&t=19786`
 `firstonline` | Date of first online mirror          | `2017-09-16`
 `firstmirror` | Date of first mirror                 | `2017-09-30`
 `mirrors`     | List of mirrors                      | `{ date: 2017-09-30, region: 1A, name: Yale,` <br /> `eligible: HS, cancelled: yes }`
 `clear`       | Date when the set is clear           | `2018-01-23`
 `reallyclear` | Is the set confirmed to be clear     | `yes`
 `ebol`        | Is the set participating in EBOL     | `no`
-`packetsurl`  | URL to packets on archive            | `http://collegiate.quizbowlpackets.com/2048/`
+`packetsurl`  | URL to packets on archive            | `https://collegiate.quizbowlpackets.com/2048/`
 
 Information about the geographic regions is stored in `map/regions.js`. The two-letter region IDs are also defined by `_layouts/year.html`, but this duplication will eventually be removed.
 
