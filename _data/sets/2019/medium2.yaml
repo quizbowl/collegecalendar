@@ -14,4 +14,4 @@ mirrors:
   - { date: TBD,        region: 2B, name: UNC }
   - { date: TBD,        region: 7B, name: Truman State }
   - { date: 2019-10-26, region: UK, name: Cambridge }
-  - { date: 2019-12-14, region: 8B, name: New Trier, eligible: HS only }
+  - { date: 2019-12-14, region: 8B, name: New Trier, eligible: HS only, url: "http://hsquizbowl.org/forums/viewtopic.php?f=1&t=23108" }
