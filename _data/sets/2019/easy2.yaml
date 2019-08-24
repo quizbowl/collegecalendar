@@ -11,3 +11,4 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23034
 clear:       2019-11-04
 ebol:        no
 mirrors:
+  - { date: 2019-11-02, region: CA, name: Carleton, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23114" }

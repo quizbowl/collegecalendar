@@ -10,3 +10,4 @@ mirrors:
   - { date: 2019-09-21, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23086" }
   - { date: 2019-09-21, region: 8B, name: Michigan, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23087" }
   - { date: 2019-09-21, region: 8C, name: Carnegie Mellon, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23047" }
+  - { date: 2019-09-28, region: CA, name: Carleton, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23115" }
