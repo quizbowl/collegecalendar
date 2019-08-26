@@ -11,3 +11,4 @@ mirrors:
   - { date: 2019-11-09, region: 2A, name: NYU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23059" }
   - { date: TBD,        region: 2B, name: Virginia }
   - { date: 2019-11-23, region: 3B, name: Georgia Tech, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23071" }
+  - { date: 2019-11-23, region: UK, name: TBD }
