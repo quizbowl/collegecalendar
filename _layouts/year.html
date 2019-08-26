@@ -271,10 +271,11 @@ no
 <h3 id="summary"><a href="#summary">Summary</a></h3>
 {% assign scripts = "⁰¹²³⁴⁵⁶⁷⁸⁹" -%}
 {% for season in site.data.sets[page.year].seasons -%}
+<h4>{{ season.name }} {{ season.year }}</h4>
 <table class="summary">
 <thead>
 <tr>
-<th style="width: 12.5em;">{{ season.name }} {{ season.year }}</th>
+<th style="width: 12.5em;">Tournament name</th>
 <th style="width: 5em;">Difficulty</th>
 <th style="width: 4em;">Known mirrors</th>
 {% assign seasonstart = season.start | date: '%s' | plus: 0 -%}
