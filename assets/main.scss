@@ -75,6 +75,9 @@ table.summary {
     .strong td, th.strong {
         font-weight: 900;
     }
+    col.newMonth {
+        background: linear-gradient(to right, #f3f3f3 0%, transparent 0.5em);
+    }
 }
 .active   { background: #f3f5ff; }
 .playtest { background: #e6fadd; }

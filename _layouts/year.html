@@ -271,18 +271,29 @@ no
 <h3 id="summary"><a href="#summary">Summary</a></h3>
 {% assign scripts = "⁰¹²³⁴⁵⁶⁷⁸⁹" -%}
 {% for season in site.data.sets[page.year].seasons -%}
-<h4>{{ season.name }} {{ season.year }}</h4>
-<table class="summary">
-<thead>
-<tr>
-<th style="width: 12.5em;">Tournament name</th>
-<th style="width: 5em;">Difficulty</th>
-<th style="width: 4em;">Known mirrors</th>
+{% assign prevMonth = season.start | date: '%b' %}
 {% assign seasonstart = season.start | date: '%s' | plus: 0 -%}
 {% assign seasonseconds = 86400 | times: 7 | times: season.weeks -%}
 {% assign seasonend   = seasonstart | plus: seasonseconds -%}
 {% assign seasonweeks = seasonend | minus: seasonstart | divided_by: 604800 -%}
 {% assign seasonweeksplus1 = seasonweeks | plus: 1 -%}
+
+<h4>{{ season.name }} {{ season.year }}</h4>
+<table class="summary">
+<col span="4" />
+{% for weeksafter in (0..seasonweeks) -%}
+{% assign secondsafter = weeksafter | times: 604800 -%}
+{% assign current = seasonstart | plus: secondsafter -%}
+{% assign currentMonth = current | date: '%b' -%}
+<col{% if prevMonth != currentMonth %} class="newMonth"{% endif %} />
+{% assign prevMonth = currentMonth -%}
+{% endfor -%}
+<col />
+<thead>
+<tr>
+<th style="width: 12.5em;">Tournament name</th>
+<th style="width: 5em;">Difficulty</th>
+<th style="width: 4em;">Known mirrors</th>
 
 <th>≤</th>
 {% for weeksafter in (0..seasonweeks) -%}
