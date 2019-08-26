@@ -11,4 +11,16 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23034
 clear:       2019-11-04
 ebol:        no
 mirrors:
+  - { date: 2019-11-02, region: 1A, name: Yale, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23121" }
+  - { date: 2019-11-02, region: 2A, name: Maryland }
+  - { date: 2019-11-02, region: 2B, name: Duke }
+  - { date: 2019-11-03, region: 3B, name: Georgia Tech }
+  - { date: 2019-11-02, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23120" }
+  - { date: 2019-11-02, region: 4A, name: UT-Austin }
+  - { date: 2019-11-02, region: 5B, name: Berkeley }
+  - { date: 2019-11-02, region: 6A, name: Washington }
+  - { date: 2019-11-02, region: 6B, name: Colorado, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23114" }
+  - { date: 2019-11-02, region: 8A, name: Minnesota }
+  - { date: 2019-11-02, region: 8B, name: Chicago }
+  - { date: 2019-11-02, region: 8C, name: OSU }
   - { date: 2019-11-02, region: CA, name: Carleton, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23114" }
