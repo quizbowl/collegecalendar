@@ -75,6 +75,9 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 4A	1	College Station	TX	USA	30.618531	-96.336499	TAMU	Texas A&M	Texas A&M
 4A	1	Denton	TX	USA	33.207488	-97.152586		North Texas	University of North Texas
 4A	1	El Paso	TX	USA	31.770854	-106.504622	UTEP	Texas-El Paso	University of Texas at El Paso
+4B	1	Las Cruces	NM	USA	32.276736	-106.747752		NMSU	New Mexico State University
+4B	2	Tuscon	AZ	USA	32.235173	-110.950995		Arizona	University of Arizona
+4B	2	Tempe	AZ	USA	33.421959	-111.938138	ASU	Arizona State	Arizona State University
 5A	2	Berkeley	CA	USA	37.871899	-122.258540		Berkeley	University of California-Berkeley
 5A	2	Stanford	CA	USA	37.427475	-122.169719		Stanford	Stanford University
 5A	1	Davis	CA	USA	38.538232	-121.761712	UC-Davis	UC Davis	University of California-Davis
