@@ -329,7 +329,7 @@ no
 {% assign firstmirrordate = firstmirror | date: "%s" | plus: 0 -%}
 {% assign firstonlinedate = firstonline | date: "%s" | plus: 0 -%}
 {% assign lastmirrordate = firstmirrordate | plus: 86400 -%}
-{% if lastmirror -%}
+{% if lastmirror and lastmirror.region != '0P' -%}
 {% assign lastmirrordate = lastmirror.date | date: "%s" | plus: 0 -%}
 {% endif -%}
 {% assign cleardate = set.clear | date: "%s" | plus: 0 -%}
