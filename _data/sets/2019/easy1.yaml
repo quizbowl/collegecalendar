@@ -8,6 +8,7 @@ packetsurl:  never
 mirrors:
   - { date: 2019-09-21, region: 3B, name: Georgia Tech, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23074" }
   - { date: 2019-09-21, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23086" }
+  - { date: 2019-09-21, region: 7B, name: Missouri, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23154" }
   - { date: 2019-09-21, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23132" }
   - { date: 2019-09-21, region: 8B, name: Michigan, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23087" }
   - { date: 2019-09-21, region: 8C, name: Carnegie Mellon, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23047" }
