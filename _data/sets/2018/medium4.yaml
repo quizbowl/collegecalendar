@@ -13,7 +13,7 @@ packetsurl:  https://collegiate.quizbowlpackets.com/2185/
 ebol:        no
 mirrors:
   - { date: 2018-12-22, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22030" }
-  - { date: 2019-02-16, region: 1A, name: NYU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22319" }
+  - { date: 2019-02-16, region: 2A, name: NYU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22319" }
   - { date: 2019-02-16, region: 2B, name: Virginia, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22281", cancelled: yes }
   - { date: 2019-01-19, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22273" }
   - { date: 2019-03-02, region: 8A, name: Iowa, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22260" }

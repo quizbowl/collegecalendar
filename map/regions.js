@@ -32,7 +32,7 @@ var mapdata = {
 			"name": "New York",
 			"id": "1B",
 			"color": 2,
-			"label": [14, 5],
+			"label": [14, 7],
 			"map": "us",
 			"children": [
 				// NY north
@@ -106,7 +106,7 @@ var mapdata = {
 			"name": "Florida",
 			"id": "3C",
 			"color": 7,
-			"label": [46, 46],
+			"label": [-41, 17],
 			"map": "us",
 			"children": [
 				// FL south
@@ -148,7 +148,7 @@ var mapdata = {
 			"name": "S. California",
 			"id": "5A",
 			"color": 9,
-			"label": [26, 7],
+			"label": [26, 8],
 			"map": "us",
 			"children": [
 				// CA south
@@ -212,7 +212,7 @@ var mapdata = {
 			"name": "Missouri",
 			"id": "7B",
 			"color": 14,
-			"label": [13, 26],
+			"label": [-13, 16],
 			"map": "us",
 			"children": [
 				// MO

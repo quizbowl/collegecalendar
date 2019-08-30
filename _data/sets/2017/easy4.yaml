@@ -11,7 +11,7 @@ reallyclear: yes
 packetsurl:  https://collegiate.quizbowlpackets.com/2177/
 mirrors:
   - { date: 2018-03-17, region: 3C, name: Florida        , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20993" }
-  - { date: 2018-03-17, region: 8B, name: Michigan       , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20768" }
+  - { date: 2018-03-17, region: 8C, name: Michigan       , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20768" }
   - { date: 2018-03-24, region: 8B, name: Michigan Tech  , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20919" }
   - { date: 2018-04-07, region: 6B, name: BYU            , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20914" }
   - { date: 2018-04-14, region: 3B, name: Wofford College, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21096" }

@@ -17,7 +17,7 @@ mirrors:
   - { date: 2018-11-10, region: 2A, name: Johns Hopkins, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21884" }
   - { date: 2018-11-10, region: 8B, name: UIUC, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21727" }
   - { date: 2018-11-10, region: 2A, name: Rutgers, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21931" }
-  - { date: 2018-11-10, region: 3C, name: NCF, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21995" }
+  - { date: 2018-11-10, region: 3C, name: New College, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21995" }
   - { date: 2018-11-17, region: CA, name: Toronto, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21834" }
   - { date: 2018-11-17, region: 5A, name: UCSD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22017", eligibile: Open }
   - { date: 2018-11-24, region: UK, name: Southampton, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22119" }

@@ -15,7 +15,7 @@ mirrors:
   - { date: 2017-11-04, region: 2A, name: UMD           , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20298" }
   - { date: 2017-11-04, region: 2B, name: Virginia Tech , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20373" }
   - { date: 2017-11-04, region: 3C, name: Florida       , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20409" }
-  - { date: 2017-11-04, region: 4A, name: Texas         , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20292" }
+  - { date: 2017-11-04, region: 4A, name: UT-Austin     , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20292" }
   - { date: 2017-11-04, region: 6A, name: Washington    , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20327" }
   - { date: 2017-11-04, region: 5A, name: Caltech       , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20371" }
   - { date: 2017-11-04, region: 5B, name: Stanford      , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20347" }

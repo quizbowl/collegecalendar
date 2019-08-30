@@ -10,7 +10,7 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22581
 ebol:        no
 mirrors:
   - { date: 2019-12-21, region: 0P, name: Online, eligible: Open }
-  - { date: 2020-01-18, region: 8B, name: Michigan }
+  - { date: 2020-01-18, region: 8C, name: Michigan }
   - { date: TBD       , region: 2A, name: Rutgers }
   - { date: TBD       , region: 3B, name: Auburn }
   - { date: TBD       , region: 5A, name: UCSD }
