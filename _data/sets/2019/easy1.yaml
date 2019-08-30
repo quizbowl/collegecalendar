@@ -14,6 +14,7 @@ mirrors:
   - { date: 2019-09-21, region: 8C, name: CMU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23047" }
   - { date: 2019-09-21, region: CA, name: Toronto }
   - { date: 2019-09-28, region: CA, name: Carleton, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23115" }
+  - { date: 2019-10-12, region: 2A, name: Johns Hopkins, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23161" }
   - { date: 2019-10-12, region: 3A, name: JCTC, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23131" }
   - { date: 2019-10-12, region: 8B, name: Chicago, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23141" }
   - { date: 2019-10-26, region: 2A, name: Swarthmore }
