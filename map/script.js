@@ -241,10 +241,20 @@ svg.append("path")
 	.attr("d", path)
 	.attr("class", "radius");
 
+// TODO label circles with 100 and 200 mi
+// TODO circles overlap college name labels in mouseover precedence?
+svg.append("text")
+	.datum(d.point)
+	.attr('class', 'place-label place-label-1')
+	.attr('transform', d => 'translate(' + projection(d.coordinates) + ')')
+	.text("100 mi.")
+	.attr("class", "radius-label place-label");
+	
 	  // Pop up information
 	})
 	.on('mouseout', (d) => {
 	  svg.selectAll(".radius").remove();
+	  svg.selectAll(".radius-label").remove();
 	});
 */
 /*
