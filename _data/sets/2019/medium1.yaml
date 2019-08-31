@@ -15,7 +15,7 @@ mirrors:
   - { date: 2019-10-05, region: 2A, name: Columbia }
   - { date: 2019-10-05, region: 2A, name: UMD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23148" }
   - { date: 2019-10-05, region: 2B, name: North Carolina, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23136" }
-  - { date: 2019-10-05, region: 3B, name: Auburn }
+  - { date: 2019-10-05, region: 3B, name: Auburn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23163" }
   - { date: 2019-10-05, region: 3C, name: UCF }
   - { date: 2019-09-28, region: 4A, name: Rice, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23072" }
   - { date: 2019-10-19, region: 4B, name: Arizona State }

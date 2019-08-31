@@ -18,10 +18,12 @@ mirrors:
   - { date: 2019-11-02, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23120" }
   - { date: 2019-11-02, region: 4A, name: UT-Austin, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23135" }
   - { date: 2019-11-02, region: 5B, name: Berkeley, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23156" }
-  - { date: 2019-11-02, region: 6A, name: Washington }
+  - { date: 2019-11-02, region: 5B, name: Berkeley, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23165" }
+  - { date: 2019-11-02, region: 6A, name: Washington, eligible: HS allowed, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23164" }
   - { date: 2019-11-02, region: 6B, name: Colorado, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23114" }
   - { date: 2019-11-02, region: 7B, name: Missouri, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23134" }
   - { date: 2019-11-02, region: 8A, name: Minnesota }
   - { date: 2019-11-02, region: 8B, name: Chicago, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23140" }
+  - { date: 2019-11-02, region: 8B, name: Chicago, eligible: HS only }
   - { date: 2019-11-02, region: 8C, name: OSU }
   - { date: 2019-11-02, region: CA, name: Carleton, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23114" }
