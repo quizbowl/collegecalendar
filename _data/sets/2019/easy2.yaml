@@ -24,6 +24,6 @@ mirrors:
   - { date: 2019-11-02, region: 7B, name: Missouri, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23134" }
   - { date: 2019-11-02, region: 8A, name: Minnesota }
   - { date: 2019-11-02, region: 8B, name: Chicago, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23140" }
-  - { date: 2019-11-02, region: 8B, name: Chicago, eligible: HS only }
+  - { date: 2019-11-02, region: 8B, name: Chicago, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23167" }
   - { date: 2019-11-02, region: 8C, name: OSU }
   - { date: 2019-11-02, region: CA, name: Carleton, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23114" }
