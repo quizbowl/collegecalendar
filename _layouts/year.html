@@ -86,7 +86,7 @@ layout: page
 {% assign set = site.data.sets[page.year][slot_id] -%}
 <td>
 {%- if set.announced -%}
-<time>{{ set.announced | date: '%-m/%-d/%y' }}</time>
+<time datetime="{{ set.announced | date: '%F' }}">{{ set.announced | date: '%-m/%-d/%y' }}</time>
 {%- endif -%}
 </td>
 {% endfor -%}
@@ -109,10 +109,10 @@ layout: page
 {% endif -%}
 <td>
 {%- if firstmirror -%}
-<time>{{ firstmirror | date: '%-m/%-d' }}</time>
+<time datetime="{{ firstmirror | date: '%F' }}">{{ firstmirror | date: '%-m/%-d' }}</time>
 {%- endif -%}
 {%- if firstonline -%}
-<br /><time>{{ firstonline | date: '%-m/%-d' }}</time> (online playtest)
+<br /><time datetime="{{ firstonline | date: '%F' }}">{{ firstonline | date: '%-m/%-d' }}</time> (online playtest)
 {%- endif -%}
 </td>
 {% endfor -%}
@@ -125,7 +125,7 @@ layout: page
 <td>
 {%- if set.mirrors -%}
 {% assign lastmirror = set.mirrors | where_exp: "mirror", "mirror.date != 'TBD'" | sort: "date" | last -%}
-<time>{{ lastmirror.date | date: '%-m/%-d' }}</time>
+<time datetime="{{ lastmirror.date | date: '%F' }}">{{ lastmirror.date | date: '%-m/%-d' }}</time>
 {%- endif -%}
 </td>
 {% endfor -%}
@@ -186,7 +186,7 @@ Midwest,8B|Central Midwest,8C|Eastern Midwest,CA|Canada,UK|UK" | replace: '
 <li>
 {%- if mirror.url %}<a href="{{ mirror.url }}">{% endif -%}
 {%- if mirror.cancelled %}<del>{% endif -%}
-<time{% if mirrordate >= firstmirrorcutoff %} class="late" title="Late mirror"{% endif %}>
+<time datetime="{{ mirror.date | date: '%F' }}"{% if mirrordate >= firstmirrorcutoff %} class="late" title="Late mirror"{% endif %}>
 {%- if dayslate > 0 -%}
 <small>
 {%- if dayslate >= 7 %}{{ weekslate }}w{% else %}{{ dayslate }}d{% endif %} {% comment %}{% endcomment %}
@@ -220,7 +220,7 @@ Midwest,8B|Central Midwest,8C|Eastern Midwest,CA|Canada,UK|UK" | replace: '
 {% if set.clear contains "" -%}
 {{ set.clear -}}
 {% else -%}
-<time>
+<time datetime="{{ set.clear | date: '%F' }}">
 {{- set.clear | date: '%-m/%-d' -}}
 </time>
 {%- if set.reallyclear -%}
@@ -299,7 +299,7 @@ no
 {% for weeksafter in (0..seasonweeks) -%}
 {% assign secondsafter = weeksafter | times: 604800 -%}
 {% assign current = seasonstart | plus: secondsafter -%}
-<th><time><!-- {{- current | date: '%a' -}} -->
+<th><time datetime="{{ current | date: '%G-W%V' }}"><!-- {{- current | date: '%a' -}} -->
 {{- current | date: '%b' -}}<br>
 {{- current | date: '%-d' -}}
 </time></th>
