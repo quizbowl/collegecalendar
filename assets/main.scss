@@ -169,11 +169,12 @@ table.season {
         // font-variant-numeric: tabular-nums;
         position: relative;
     }
-    td time.late small,
-    td:hover time.late small {
+    td time.late[data-late]::after,
+    td:hover time.late[data-late]::after {
         display: block;
     }
-    time.late small {
+    time.late[data-late]::after {
+        content: attr(data-late);
         display: none;
         position: absolute;
         top: -0.6em;
