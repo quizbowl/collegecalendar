@@ -161,6 +161,11 @@ Midwest,8B|Central Midwest,8C|Eastern Midwest,CA|Canada,UK|UK" | replace: '
 <th class="region">
 <a class="pin" href="#" data-region="{{ region }}">☆</a>
 {{ region_name }}
+{% comment -%}
+{% if nxt != "0" -%}
+<img class="icon" src="../k/College quizbowl circuit map.svg#{{region}}" width="250" />
+{%- endif -%}
+{% endcomment %}
 </th>
 {% for slot_id in season.slots -%}
 {% assign set = site.data.sets[page.year][slot_id] -%}

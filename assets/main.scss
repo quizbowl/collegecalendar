@@ -234,3 +234,22 @@ a:link, a:visited {
 h3 > a[href^="#"] {
     color: inherit;
 }
+
+/*
+.region {
+    position: relative;
+}
+.region img.icon {
+    max-width: none;
+    display: none;
+}
+.region:hover img.icon {
+    display: block;
+    position: absolute;
+    z-index: 4;
+    left: 225px; bottom: 0;
+    background: white;
+    border: 1px solid #888;
+    padding: 8px;
+}
+*/

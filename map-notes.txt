@@ -1,0 +1,136 @@
+// ({#,#[EntityProperty["AdministrativeDivision", "Position"]]}&)/@EntityClassList["AdministrativeDivision"][[;;3]]
+// https://stackoverflow.com/questions/18727925/trying-to-modify-voronoi-map-in-d3js?rq=1
+// https://en.wikipedia.org/wiki/Ecclesiastical_region
+
+https://www.iplaycornhole.com/assets/images/logos/conference-map-colors@2x.png
+http://www.usaclimbing.org/Regional.htm
+https://www.usa.rugby/club/geographical-unions/
+http://www.olssons.us/2014/05/18/jack-at-the-2014-regionals-climbing-competition/
+https://parall.ax/blog/view/2985/tutorial-creating-an-interactive-svg-map
+
+https://css-tricks.com/svg-fragment-identifiers-work/
+https://github.com/jgoodall/us-maps
+
+New England
+Northeast
+Mid-Atlantic
+South Atlantic
+Southeast
+South Central
+South
+Southern California
+Northern California
+Pacific Northwest
+Rocky Mountains
+North
+Great Lakes
+Midwest
+Canada
+UK
+
+
+Carolinas
+Central
+Florida
+Florida
+Florida
+Florida
+Florida
+Florida
+Florida
+Great Lakes
+Great Lakes
+Great Lakes
+Great Plains
+High School
+High School
+Illinois
+Lower Mid-Atlantic
+Lower Midwest
+Lower Midwest
+Lower Midwest
+Lower Midwest
+Michigan
+Mid-Atlantic
+Mid-Atlantic
+Mid-Atlantic
+Mid-Atlantic
+Mid-Atlantic
+Mid-Atlantic
+Mid-Atlantic
+Midwest
+Midwest
+Midwest
+Minnesota
+Minnesota
+Mountain West
+New England
+New England
+NorCal
+NorCal
+NorCal
+NorCal
+NorCal
+NorCal
+NorCal
+North
+North
+North
+North
+Northeast
+Northeast
+Northeast
+Northeast
+Northeast
+Northeast
+Northwest
+Northwest
+Pacific Northwest
+Pacific Northwest
+Pacific Northwest
+Rocky Mountains
+Rocky Mountains
+Rocky Mountains
+SoCal
+SoCal
+SoCal
+SoCal
+SoCal
+SoCal
+South
+South
+South
+South
+South
+South Atlantic
+South Atlantic
+South Atlantic
+South Central
+South Central
+Southeast
+Southeast
+Southeast
+Southeast
+Southeast
+Southeast
+Southeast (Central)
+Southeast (North)
+Southeastern
+Southwest
+Southwest
+Texas
+Texas/LA
+UK
+UK
+UK
+UK
+UK
+UK
+UK
+UK
+Upper Mid-Atlantic
+Upper Midwest
+Upper Midwest
+Upper Midwest
+Upper Midwest
+Upper Midwest

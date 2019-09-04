@@ -1,0 +1,103 @@
+{
+    "regions" : [
+        {
+            "number" : 1,
+            "name" : "New England",
+            "states" : ["VT", "RI", "NH", "MA", "ME", "CT"],
+            "link" : "r1",
+            "colorOnMap" : "#d4e2ed",
+            "markerX" : 1070,
+            "markerY" : 212
+        },
+        {
+            "number" : 2,
+            "name" : "Northeast",
+            "states" : ["NY", "NJ", "DE", "PA", "CT"],
+            "link" : "r2",
+            "colorOnMap" : "#28a1d8",
+            "markerX" : 1013,
+            "markerY" : 320
+        },
+        {
+            "number" : 3,
+            "name" : "Mid-Atlantic",
+            "states" : ["VA", "PA", "MD", "DE", "WV"],
+            "link" : "r3",
+            "colorOnMap" : "#99b9ce",
+            "markerX" : 997,
+            "markerY" : 437
+        },
+        {
+            "number" : 4,
+            "name" : "Southeast",
+            "states" : ["NC", "TN", "SC", "MS", "KY"],
+            "link" : "r4",
+            "colorOnMap" : "#7ec8ed",
+            "markerX" : 800,
+            "markerY" : 505
+        },
+        {
+            "number" : 5,
+            "name" : "Great Lakes",
+            "states" : ["IL", "IN", "MI", "MN", "OH", "WI"],
+            "link" : "r5",
+            "colorOnMap" : "#28a1d8",
+            "markerX" : 735,
+            "markerY" : 300
+        },
+        {
+            "number" : 6,
+            "name" : "Midwest",
+            "states" : ["NE", "KS", "MO", "IA"],
+            "link" : "r6",
+            "colorOnMap" : "#d4e2ed",
+            "markerX" : 595,
+            "markerY" : 365
+        },
+        {
+            "number" : 7,
+            "name" : "Florida",
+            "states" : ["GA", "FL", "AL"],
+            "link" : "r11",
+            "colorOnMap" : "#28a1d8",
+            "markerX" : 985,
+            "markerY" : 400
+        },
+        {
+            "number" : 8,
+            "name" : "South",
+            "states" : ["AR", "NM", "LA", "OK", "TX"],
+            "link" : "r7",
+            "colorOnMap" : "#b8e5f8",
+            "markerX" : 490,
+            "markerY" : 510
+        },
+        {
+            "number" : 9,
+            "name" : "Rocky Mountains",
+            "states" : ["WY", "UT", "SD", "ND", "MT", "CO"],
+            "link" : "r8",
+            "colorOnMap" : "#99b9ce",
+            "markerX" : 410,
+            "markerY" : 225
+        },
+        {
+            "number" : 10,
+            "name" : "California",
+            "states" : ["NV", "CA", "AZ"],
+            "link" : "r9",
+            "colorOnMap" : "#28a1d8",
+            "markerX" : 210,
+            "markerY" : 365
+        },
+        {
+            "number" : 11,
+            "name" : "Pacific Northwest",
+            "states" : ["ID", "WA", "OR"],
+            "link" : "r10",
+            "colorOnMap" : "#7ec8ed",
+            "markerX" : 230,
+            "markerY" : 200
+        }
+    ]
+}
