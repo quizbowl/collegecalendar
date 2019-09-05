@@ -22,7 +22,7 @@ mirrors:
   - { date: 2019-11-02, region: 6A, name: Washington, eligible: HS allowed, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23164" }
   - { date: 2019-11-02, region: 6B, name: Colorado, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23114" }
   - { date: 2019-11-02, region: 7B, name: Missouri, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23134" }
-  - { date: 2019-11-02, region: 8A, name: Minnesota }
+  - { date: 2019-11-02, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23183" }
   - { date: 2019-11-02, region: 8B, name: Chicago, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23140" }
   - { date: 2019-11-02, region: 8B, name: Chicago, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23167" }
   - { date: 2019-11-02, region: 8C, name: OSU }
