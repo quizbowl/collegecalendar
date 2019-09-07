@@ -26,4 +26,7 @@ mirrors:
   - { date: 2019-10-05, region: 8A, name: Minnesota }
   - { date: 2019-10-12, region: 8C, name: Michigan State }
   - { date: 2019-10-05, region: CA, name: Toronto }
+  - { date: 2019-09-28, region: UK, name: Oxford Magdalen, eligible: Open }
+  - { date: 2019-10-19, region: UK, name: Glasgow }
+  - { date: 2019-10-19, region: UK, name: Oxford Brookes }
   - { date: 2019-12-07, region: 2A, name: Penn, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23166" }
