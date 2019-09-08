@@ -12,7 +12,7 @@ ebol:        yes
 mirrors:
   - { date: 2019-09-21, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23124" }
   - { date: 2019-10-05, region: 1A, name: MIT, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23096" }
-  - { date: 2019-10-05, region: 2A, name: Columbia }
+  - { date: 2019-10-05, region: 2A, name: Columbia, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23195" }
   - { date: 2019-10-05, region: 2A, name: UMD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23148" }
   - { date: 2019-10-05, region: 2B, name: North Carolina, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23136" }
   - { date: 2019-10-05, region: 3B, name: Auburn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23163" }
