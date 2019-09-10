@@ -16,14 +16,14 @@ mirrors:
   - { date: 2019-10-05, region: 2A, name: UMD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23148" }
   - { date: 2019-10-05, region: 2B, name: North Carolina, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23136" }
   - { date: 2019-10-05, region: 3B, name: Auburn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23163" }
-  - { date: 2019-10-05, region: 3C, name: UCF }
+  - { date: 2019-10-05, region: 3C, name: UCF, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23214" }
   - { date: 2019-09-28, region: 4A, name: Rice, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23072" }
-  - { date: 2019-10-19, region: 4B, name: Arizona State }
-  - { date: 2019-10-19, region: 5A, name: UCSD }
-  - { date: 2019-11-09, region: 5B, name: Stanford }
+  - { date: 2019-10-19, region: 4B, name: Arizona State, eligible: HS allowed, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23198" }
+  - { date: 2019-10-19, region: 5A, name: UCSD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23200" }
+  - { date: 2019-11-09, region: 5B, name: Stanford, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23209" }
   - { date: 2019-10-19, region: 6A, name: Boise State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23189" }
-  - { date: 2019-10-05, region: 7B, name: WUSTL }
-  - { date: 2019-10-05, region: 8A, name: Minnesota }
+  - { date: 2019-10-05, region: 7B, name: WUSTL, eligible: HS allowed, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23208" }
+  - { date: 2019-10-05, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23206" }
   - { date: 2019-10-12, region: 8C, name: Michigan State }
   - { date: 2019-10-05, region: CA, name: Toronto }
   - { date: 2019-09-28, region: UK, name: Oxford Magdalen, eligible: Open }
