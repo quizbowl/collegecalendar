@@ -9,14 +9,13 @@
     - easy2
     - open1
     - easy3
-    - medium3
 
 - name: Spring
   year: 2020
   start: 2020-01-18
   weeks: 17
   slots:
-    - medium4
+    - medium3
     - regionals1
     - regionals2
     - open2

@@ -1,0 +1,11 @@
+slot:        “Late Fall Novice”
+prev:        [past Delta Burkes]
+diff:        Easy
+diffstar:    ●
+name:        Delta Burke
+firstmirror: 2019-11-09
+announced:   2019-09-11
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23223
+ebol:        no
+mirrors:
+  - { date: 2019-11-09, region: 3C, name: Valencia }
