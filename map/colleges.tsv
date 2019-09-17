@@ -4,6 +4,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 1A	2	Providence	RI	USA	41.826772	-71.402548		Brown	Brown University
 1A	1	Storrs	CT	USA	41.807741	-72.253981	UConn	Connecticut	University of Connecticut
 1A	2	New Haven	CT	USA	41.316324	-72.922343		Yale	Yale University
+1A	1	Brunswick	ME	USA	43.907503	-69.961774		Bowdoin	Bowdoin College
 1A	1	Hanover	NH	USA	43.704441	-72.288694		Dartmouth	Dartmouth College
 1A	1	Medford	MA	USA	42.407484	-71.119023		Tufts	Tufts University
 1A	1	Waltham	MA	USA	42.364989	-71.258663		Brandeis	Brandeis University
@@ -144,6 +145,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 8C	1	Cleveland	OH	USA	41.504341	-81.608384		Case Western	Case Western Reserve University
 8C	2	Pittsburgh	PA	USA	40.442808	-79.943013	CMU	Carnegie Mellon	Carnegie Mellon University
 8C	1	Pittsburgh	PA	USA	40.444353	-79.960835	Pitt	Pittsburgh	Pittsburgh University
+8C	1	Morgantown	WV	USA	39.641788	-79.951903	WVU	West Virginia	West Virginia University
 CA	2	Waterloo	ON	Canada	43.472285	-80.544858		Waterloo	University of Waterloo
 CA	2	Hamilton	ON	Canada	43.260879	-79.919225		McMaster	McMaster University
 CA	2	Toronto	ON	Canada	43.662892	-79.395656		Toronto	University of Toronto
