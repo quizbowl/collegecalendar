@@ -10,7 +10,7 @@ clear:       2019-12-15
 mirrors:
   - { date: 2019-10-19, region: 1A, name: Harvard, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23184" }
   - { date: 2019-10-19, region: 2A, name: Penn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22723" }
-  - { date: TBD,        region: 2B, name: North Carolina }
+  - { date: TBD,        region: 2B, name: North Carolina, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23239" }
   - { date: 2019-10-19, region: 3B, name: Auburn }
   - { date: 2019-10-26, region: 3C, name: UCF }
   - { date: 2019-10-19, region: 4A, name: UT-Austin, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23188" }
