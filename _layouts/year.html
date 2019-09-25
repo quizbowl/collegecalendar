@@ -8,7 +8,8 @@ layout: page
 <p><button id="collapse">Show more rows</button> (or press <kbd>H</kbd>)</p>
 <br /><br />
 
-{% for season in site.data.sets[page.year].seasons %}
+
+{% for season in site.data.sets[page.year].seasons -%}
 <h3 id="{{season.name}}"><a href="#{{season.name}}">{{ season.name }} {{ season.year }}</a></h3>
 
 <table class="season">
@@ -421,6 +422,18 @@ no
 </tbody>
 </table>
 {% endfor %}
+
+{% assign mirrors = 0 -%}
+{% for season in site.data.sets[page.year].seasons -%}
+{% for slot_id in season.slots -%}
+{% assign set = site.data.sets[page.year][slot_id] -%}
+{% if set.mirrors -%}
+{% assign cancelledmirrors = set.mirrors | where_exp: "mirror", "mirror.cancelled == true" -%}
+{% assign mirrors = mirrors | plus: cancelledmirrors.size -%}
+{% endif -%}
+{% endfor -%}
+{% endfor -%}
+<p>Cancelled mirrors this year: {{ mirrors }}</p>
 <br /><br />
 
 
