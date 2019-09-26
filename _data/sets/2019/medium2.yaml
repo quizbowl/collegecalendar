@@ -16,7 +16,7 @@ mirrors:
   - { date: 2019-10-19, region: 4A, name: UT-Austin, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23188" }
   - { date: 2019-10-19, region: 5B, name: Stanford, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23211" }
   - { date: 2019-10-26, region: 7B, name: Truman State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23178" }
-  - { date: 2019-10-19, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23271" }
+  - { date: 2019-10-19, region: 8A, name: Minnesota, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23271" }
   - { date: 2019-10-19, region: 8C, name: Michigan, eligible: HS allowed, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23238" }
   - { date: 2019-10-26, region: UK, name: Cambridge }
   - { date: 2019-12-14, region: 8B, name: New Trier, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23108" }
