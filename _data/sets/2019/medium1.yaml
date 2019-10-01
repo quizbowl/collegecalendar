@@ -24,7 +24,7 @@ mirrors:
   - { date: 2019-10-19, region: 6A, name: Boise State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23189" }
   - { date: 2019-10-05, region: 7B, name: WUSTL, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23208" }
   - { date: 2019-10-05, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23206" }
-  - { date: 2019-10-12, region: 8C, name: Michigan State }
+  - { date: 2019-10-12, region: 8C, name: Michigan State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23233" }
   - { date: 2019-10-05, region: CA, name: Toronto, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23221" }
   - { date: 2019-09-29, region: UK, name: Oxford Magdalen, eligible: Open }
   - { date: 2019-10-19, region: UK, name: Oxford Brookes }
