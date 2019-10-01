@@ -81,6 +81,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 4A	1	Ruston	LA	USA	32.526375	-92.648110	LA Tech	Louisiana Tech	Louisiana Tech University
 4A	1	College Station	TX	USA	30.618531	-96.336499	TAMU	Texas A&M	Texas A&M
 4A	1	Denton	TX	USA	33.207488	-97.152586		North Texas	University of North Texas
+4A	1	Houston	TX	USA	29.720790	-95.344062	UH	Houston	University of Houston
 4B	1	El Paso	TX	USA	31.770854	-106.504622	UTEP	Texas-El Paso	University of Texas at El Paso
 4B	1	Las Cruces	NM	USA	32.276736	-106.747752		NMSU	New Mexico State University
 4B	1	Tuscon	AZ	USA	32.235173	-110.950995		Arizona	University of Arizona
