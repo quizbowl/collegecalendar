@@ -19,7 +19,7 @@ mirrors:
   - { date: 2019-10-05, region: 3C, name: UCF, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23214" }
   - { date: 2019-09-28, region: 4A, name: Rice, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23072" }
   - { date: 2019-10-26, region: 4B, name: Arizona State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23198" }
-  - { date: 2019-10-26, region: 5A, name: UCSD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23200" }
+  - { date: 2019-10-26, region: 5A, name: UCSD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23200", cancelled: yes }
   - { date: 2019-10-05, region: 5B, name: Stanford, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23209" }
   - { date: 2019-10-19, region: 6A, name: Boise State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23189" }
   - { date: 2019-10-05, region: 7B, name: WUSTL, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23208" }
