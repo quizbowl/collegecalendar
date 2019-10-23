@@ -5,6 +5,7 @@ title: Difficulty scale
 
 This page explains the purpose of the difficulty scale used by this website
 (preferably called “the college quizbowl calendar difficulty scale”).
+The unit of difficulty is a “dot” (not “circle” or “star”).
 
 Traditional <dfn>difficulty terms</dfn> like “Regular”
 and vague qualifiers like “Fall-plus” or “Regular-minus”
