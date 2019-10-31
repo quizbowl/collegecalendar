@@ -3,9 +3,7 @@ layout: page
 title: Difficulty scale
 ---
 
-This page explains the purpose of the difficulty scale used by this website
-(preferably called “the college quizbowl calendar difficulty scale”).
-The unit of difficulty is a “dot” (not “circle” or “star”).
+This page explains the purpose of the difficulty scale used by this website.[^1]
 
 Traditional <dfn>difficulty terms</dfn> like “Regular”
 and vague qualifiers like “Fall-plus” or “Regular-minus”
@@ -89,3 +87,6 @@ please avoid using half-dots for rating your own tournament’s difficulty.
 Please also avoid using the ambiguous abbreviation “regs.”
 
 <!-- explain correspondence to HS difficulty levels? -->
+
+[^1]: This scale is preferably called “the college quizbowl calendar difficulty scale,”
+      and the unit of difficulty is a “dot” (not “circle” or “star”).

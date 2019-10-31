@@ -42,6 +42,12 @@ body {
 //     background-color: lighten(desaturate($brand-color, 10%), 30%);
 // }
 
+.footnotes {
+    margin-top: 4em;
+    padding-top: 2em;
+    border-top: 1px solid #888;
+}
+
 table {
     width: auto;
 
