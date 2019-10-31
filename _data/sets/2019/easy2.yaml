@@ -29,4 +29,5 @@ mirrors:
   - { date: 2019-11-02, region: 8B, name: Chicago, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23167" }
   - { date: 2019-11-02, region: 8C, name: OSU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23217" }
   - { date: 2019-11-02, region: CA, name: Carleton, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23114" }
+  - { date: 2019-11-02, region: UK, name: Warwick }
   - { date: 2019-11-02, region: AS, name: Yale-NUS Singapore, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23337" }
