@@ -14,4 +14,6 @@ mirrors:
   - { date: 2019-11-16, region: 4A, name: UT-Austin, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23357" }
   - { date: 2019-11-16, region: 5B, name: Stanford, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23212" }
   - { date: 2019-11-16, region: 8B, name: UIUC, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23194" }
+  - { date: 2019-11-23, region: CA, name: McMaster, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23392" }
   - { date: 2019-11-23, region: UK, name: TBD }
+  - { date: 2019-12-07, region: 0L, name: Online, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23404" }
