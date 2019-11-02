@@ -89,18 +89,18 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 4B	1	Las Cruces	NM	USA	32.276736	-106.747752		NMSU	New Mexico State University
 4B	1	Tuscon	AZ	USA	32.235173	-110.950995		Arizona	University of Arizona
 4B	2	Tempe	AZ	USA	33.421959	-111.938138	ASU	Arizona State	Arizona State University
-5A	2	Berkeley	CA	USA	37.871899	-122.258540		Berkeley	University of California-Berkeley
-5A	2	Stanford	CA	USA	37.427475	-122.169719		Stanford	Stanford University
-5A	1	San Francisco	CA	USA	37.762626	-122.458515	UCSF	UC San Francisco	University of California-San Francisco
-5A	1	Davis	CA	USA	38.538232	-121.761712	UC-Davis	UC Davis	University of California-Davis
-5B	2	La Jolla	CA	USA	32.880060	-117.234013	UCSD	UC San Diego	University of California-San Diego
-5B	2	Los Angeles	CA	USA	34.068921	-118.445181		UCLA	University of California-Los Angeles
-5B	1	Los Angeles	CA	USA	34.021883	-118.285867		USC	University of Southern California
-5B	1	Claremont	CA	USA	34.094399	-117.708296		Claremont Colleges	Claremont Colleges
+5B	2	Berkeley	CA	USA	37.871899	-122.258540		Berkeley	University of California-Berkeley
+5B	2	Stanford	CA	USA	37.427475	-122.169719		Stanford	Stanford University
+5B	1	San Francisco	CA	USA	37.762626	-122.458515	UCSF	UC San Francisco	University of California-San Francisco
+5B	1	Davis	CA	USA	38.538232	-121.761712	UC-Davis	UC Davis	University of California-Davis
 5B	1	Fresno	CA	USA	36.812445	-119.745781		Fresno State	California State University-Fresno
-5B	1	Irvine	CA	USA	33.640495	-117.844296	UC-Irvine	UC Irvine	University of California-Irvine
-5B	1	Pasadena	CA	USA	34.137658	-118.125269		Caltech	California Institute of Technology
-5B	1	Santa Barbara	CA	USA	34.413963	-119.848947	UCSB	UC Santa Barbara	University of California-Santa Barbara
+5A	2	La Jolla	CA	USA	32.880060	-117.234013	UCSD	UC San Diego	University of California-San Diego
+5A	2	Los Angeles	CA	USA	34.068921	-118.445181		UCLA	University of California-Los Angeles
+5A	1	Los Angeles	CA	USA	34.021883	-118.285867		USC	University of Southern California
+5A	1	Claremont	CA	USA	34.094399	-117.708296		Claremont Colleges	Claremont Colleges
+5A	1	Irvine	CA	USA	33.640495	-117.844296	UC-Irvine	UC Irvine	University of California-Irvine
+5A	1	Pasadena	CA	USA	34.137658	-118.125269		Caltech	California Institute of Technology
+5A	1	Santa Barbara	CA	USA	34.413963	-119.848947	UCSB	UC Santa Barbara	University of California-Santa Barbara
 6A	2	Seattle	WA	USA	47.655335	-122.303520	UW	Washington	University of Washington
 6A	2	Boise	ID	USA	43.603313	-116.201649		Boise State	Boise State University
 6A	1	Eugene	OR	USA	44.044830	-123.072606		Oregon	University of Oregon
