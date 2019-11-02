@@ -11,6 +11,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 1A	1	Chestnut Hill	MA	USA	42.335549	-71.168495	BC	Boston College	Boston College
 1A	1	Needham	MA	USA	42.293167	-71.263665		Olin	Olin College
 1A	1	Amherst	MA	USA	42.370910	-72.517003		Amherst	Amherst College
+1A	1	Williamstown	MA	USA	42.713023	-73.203008		Williams	Williams College
 1A	1	Middletown	CT	USA	41.556610	-72.656904		Wesleyan	Wesleyan University
 1B	1	Rochester	NY	USA	43.130553	-77.626003		Rochester	University of Rochester
 1B	1	Hamilton	NY	USA	42.816615	-75.540176		Colgate	Colgate University
@@ -44,6 +45,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 2B	1	Williamsburg	VA	USA	37.271674	-76.713378	W&M	William & Mary	The College of William & Mary
 2B	2	Chapel Hill	NC	USA	35.904912	-79.046913	UNC	North Carolina	The University of North Carolina at Chapel Hill
 2B	1	Raleigh	NC	USA	35.784663	-78.682095		NC State	North Carolina State University
+2B	1	Elon	NC	USA	36.106527	-79.502838		Elon	Elon University
 2B	1	Winston-Salem	NC	USA	36.135250	-80.276342		Wake Forest	Wake Forest University
 2B	1	Johnson City	TN	USA	36.302537	-82.370193		ETSU	East Tennessee State University
 2B	1	Greeneville	TN	USA	36.172330	-82.760796		Tusculum	Tusculum University
@@ -62,6 +64,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 3B	1	Charleston	SC	USA	32.783612	-79.937176		Charleston	College of Charleston
 3B	1	Spartanburg	SC	USA	34.958066	-81.934490		Wofford	Wofford College
 3B	1	Tuscaloosa	AL	USA	33.214023	-87.539142		Alabama	University of Alabama
+3B	1	Starkville	MI	USA	33.464331	-88.799425		Mississippi State	Mississippi State University
 3C	2	Gainesville	FL	USA	29.643633	-82.354930		Florida	University of Florida
 3C	2	Orlando	FL	USA	28.602427	-81.200060	UCF	Central Florida	University of Central Florida
 3C	2	Sarasota	FL	USA	27.384828	-82.558703	NCF	New College of Florida	New College of Florida
@@ -88,9 +91,11 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 4B	2	Tempe	AZ	USA	33.421959	-111.938138	ASU	Arizona State	Arizona State University
 5A	2	Berkeley	CA	USA	37.871899	-122.258540		Berkeley	University of California-Berkeley
 5A	2	Stanford	CA	USA	37.427475	-122.169719		Stanford	Stanford University
+5A	1	San Francisco	CA	USA	37.762626	-122.458515	UCSF	UC San Francisco	University of California-San Francisco
 5A	1	Davis	CA	USA	38.538232	-121.761712	UC-Davis	UC Davis	University of California-Davis
 5B	2	La Jolla	CA	USA	32.880060	-117.234013	UCSD	UC San Diego	University of California-San Diego
 5B	2	Los Angeles	CA	USA	34.068921	-118.445181		UCLA	University of California-Los Angeles
+5B	1	Los Angeles	CA	USA	34.021883	-118.285867		USC	University of Southern California
 5B	1	Claremont	CA	USA	34.094399	-117.708296		Claremont Colleges	Claremont Colleges
 5B	1	Fresno	CA	USA	36.812445	-119.745781		Fresno State	California State University-Fresno
 5B	1	Irvine	CA	USA	33.640495	-117.844296	UC-Irvine	UC Irvine	University of California-Irvine
@@ -127,18 +132,22 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 8A	1	Sioux Falls	SD	USA	43.522604	-96.739689		Augustana	Augustana University
 8A	1	Des Moines	IA	USA	41.602913	-93.655298		Drake	Drake University
 8A	2	Iowa City	IA	USA	41.662696	-91.554900		Iowa	University of Iowa
+8A	1	Grinnell	IA	USA	41.751119	-92.719848		Grinnell	Grinnell College
 8A	1	Ames	IA	USA	42.026619	-93.646465		Iowa State	Iowa State University
 8B	2	Chicago	IL	USA	41.788608	-87.598713		Chicago	The University of Chicago
 8B	1	DeKalb	IL	USA	41.929474	-88.750365	NIU	Northern Illinois	Northern Illinois University
 8B	2	Evanston	IL	USA	42.056459	-87.675267		Northwestern	Northwestern University
+8B	1	Chicago	IL	USA	41.924020	-87.654726		DePaul	DePaul University
 8B	2	Urbana-Champaign	IL	USA	40.101952	-88.227161	UIUC	Illinois	University of Illinois at Urbana-Champaign
 8B	1	Bloomington	IL	USA	40.490889	-88.990654		Illinois Wesleyan	Illinois Wesleyan University
+8B	1	Bloomington	IN	USA	39.169100	-86.519789		Indiana	Indiana University
 8B	1	Notre Dame	IN	USA	41.700191	-86.237933		Notre Dame	University of Notre Dame
 8B	1	Valparaiso	IN	USA	41.463273	-87.042381		Valparaiso	Valparaiso University
 8B	1	West Lafayette	IN	USA	40.423705	-86.921195		Purdue	Purdue University
 8C	2	Ann Arbor	MI	USA	42.278044	-83.738224		Michigan	University of Michigan-Ann Arbor
 8C	2	East Lansing	MI	USA	42.701848	-84.482172	MSU	Michigan State	Michigan State University
 8C	2	Columbus	OH	USA	40.014191	-83.030914	OSU	Ohio State	The Ohio State University
+8C	1	Detroit	MI	USA	42.359369	-83.071606		Wayne State	Wayne State University
 8C	1	Gambier	OH	USA	40.371897	-82.398308		Kenyon	Kenyon College
 8C	1	Youngstown	OH	USA	41.106260	-80.647700	YSU	Youngstown State	Youngstown State University
 8C	1	Oxford	OH	USA	39.510533	-84.730877		Miami	Miami University
