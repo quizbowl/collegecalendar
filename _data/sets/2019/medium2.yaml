@@ -21,4 +21,5 @@ mirrors:
   - { date: 2019-10-19, region: 8C, name: Michigan, eligible: HS allowed, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23238" }
   - { date: 2019-10-26, region: CA, name: Queen’s, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23330" }
   - { date: 2019-10-26, region: UK, name: Cambridge }
+  - { date: 2019-11-30, region: 0L, name: Online, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23409" }
   - { date: 2019-12-14, region: 8B, name: New Trier, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23108" }
