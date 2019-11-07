@@ -86,7 +86,9 @@ Although difficulty varies on a continuous scale in reality,
 please avoid using half-dots for rating your own tournament’s difficulty.
 Please also avoid using the ambiguous abbreviation “regs.”
 
-<!-- explain correspondence to HS difficulty levels? -->
+Any correspondence of high school difficulties to this scale is unreliable
+in part because the HS canon (total knowledge tested) is too different.
+But HS nationals is near Medium difficulty.
 
 [^1]: This scale is preferably called “the college quizbowl calendar difficulty scale,”
       and the unit of difficulty is a “dot” (not “circle” or “star”).
