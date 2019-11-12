@@ -7,3 +7,4 @@ firstmirror: 2020-03-14
 announced:   2019-07-01
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22892
 mirrors:
+  - { date: 2020-02-29, region: 5B, name: Stanford, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23470" }

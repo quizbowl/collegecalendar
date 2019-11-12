@@ -11,15 +11,17 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23290
 clear:       2020-01-27
 ebol:        yes
 mirrors:
-  - { date: 2020-01-25, region: 1A, name: Yale }
+  - { date: 2020-01-25, region: 1A, name: Yale, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23440" }
   - { date: 2020-01-25, region: 2A, name: Rutgers, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23434" }
   - { date: 2020-01-25, region: 2B, name: North Carolina, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23437" }
-  - { date: 2020-01-25, region: 3B, name: Georgia Tech }
-  - { date: 2020-01-25, region: 3C, name: Florida }
+  - { date: 2020-01-25, region: 3B, name: Georgia Tech, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23467" }
+  - { date: 2020-01-25, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23444" }
   - { date: 2020-01-25, region: 4A, name: Rice }
-  - { date: 2020-01-25, region: 5A, name: UCSD }
-  - { date: 2020-01-25, region: 6A, name: British Columbia }
+  - { date: 2020-01-25, region: 5A, name: UCSD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23442" }
+  - { date: 2020-01-25, region: 6A, name: British Columbia, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23468" }
+  - { date: 2020-01-25, region: 7A, name: Kansas State }
   - { date: 2020-01-25, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23435" }
-  - { date: 2020-01-25, region: 8B, name: UIUC }
+  - { date: 2020-01-25, region: 8B, name: UIUC, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23464" }
   - { date: 2020-01-25, region: 8C, name: CMU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23438" }
   - { date: 2020-01-25, region: CA, name: Toronto, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23433" }
+  - { date: 2020-01-25, region: UK, name: Oxford Brookes }

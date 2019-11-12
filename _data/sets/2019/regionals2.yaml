@@ -9,3 +9,15 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23408
 clear:       never
 packetsurl:  never
 mirrors:
+  - { date: 2020-02-08, region: 1A, name: MIT }
+  - { date: 2020-02-08, region: 1B, name: Cornell }
+  - { date: 2020-02-08, region: 2A, name: Penn }
+  - { date: 2020-02-08, region: 3B, name: Auburn }
+  - { date: 2020-02-08, region: 3C, name: UCF }
+  - { date: 2020-02-08, region: 4A, name: UT-Austin }
+  - { date: 2020-02-08, region: 6A, name: Washington }
+  - { date: 2020-02-08, region: 6B, name: Colorado }
+  - { date: 2020-02-08, region: 7B, name: Missouri }
+  - { date: 2020-02-08, region: 8B, name: Purdue }
+  - { date: 2020-02-08, region: 8C, name: Michigan, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23472" }
+  - { date: 2020-02-08, region: CA, name: Toronto, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23473" }

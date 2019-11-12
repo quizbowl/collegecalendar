@@ -11,5 +11,5 @@ reallyclear: yes
 packetsurl:  https://collegiate.quizbowlpackets.com/2362/
 ebol:        no
 mirrors:
-  - { date: 2018-11-03, region: 3C, name: Valencia }
+  - { date: 2018-11-03, region: 3C, name: Valencia, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21767" }
   - { date: 2019-03-02, region: 8B, name: Purdue, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22289" }
