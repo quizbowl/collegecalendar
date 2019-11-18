@@ -16,7 +16,7 @@ mirrors:
   - { date: 2020-01-25, region: 2B, name: North Carolina, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23437" }
   - { date: 2020-01-25, region: 3B, name: Georgia Tech, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23467" }
   - { date: 2020-01-25, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23444" }
-  - { date: 2020-01-25, region: 4A, name: Rice }
+  - { date: 2020-01-25, region: 4A, name: Rice, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23488" }
   - { date: 2020-01-25, region: 5A, name: UCSD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23442" }
   - { date: 2020-01-25, region: 6A, name: British Columbia, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23468" }
   - { date: 2020-01-25, region: 7A, name: Kansas State }

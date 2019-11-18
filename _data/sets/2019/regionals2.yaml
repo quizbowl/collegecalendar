@@ -10,7 +10,7 @@ clear:       never
 packetsurl:  never
 mirrors:
   - { date: 2020-02-08, region: 1A, name: MIT }
-  - { date: 2020-02-08, region: 1B, name: Cornell }
+  - { date: 2020-02-08, region: 1B, name: Cornell, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23495" }
   - { date: 2020-02-08, region: 2A, name: Penn }
   - { date: 2020-02-08, region: 3B, name: Auburn }
   - { date: 2020-02-08, region: 3C, name: UCF }
