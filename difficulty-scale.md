@@ -90,5 +90,6 @@ Any correspondence of high school difficulties to this scale is unreliable
 in part because the HS canon (total knowledge tested) is too different.
 But HS nationals is near Medium difficulty.
 
-[^1]: This scale is preferably called “the college quizbowl calendar difficulty scale,”
+[^1]: This scale is preferably called “the college quizbowl calendar difficulty scale”
+      (or “the collegequizbowlcalendar.com difficulty scale”),
       and the unit of difficulty is a “dot” (not “circle” or “star” or “level”).
