@@ -11,3 +11,4 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22780
 mirrors:
   - { date: 2020-02-29, region: 0P, name: Online, eligible: Open }
   - { date: 2020-03-28, region: 2A, name: John Hopkins }
+  - { date: 2020-03-21, region: 3B, name: Auburn }
