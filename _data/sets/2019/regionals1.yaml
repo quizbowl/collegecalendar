@@ -19,7 +19,7 @@ mirrors:
   - { date: 2020-01-25, region: 4A, name: Rice, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23488" }
   - { date: 2020-01-25, region: 5A, name: UCSD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23442" }
   - { date: 2020-01-25, region: 6A, name: British Columbia, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23468" }
-  - { date: 2020-01-25, region: 7A, name: Kansas State }
+  - { date: 2020-01-25, region: 7A, name: Kansas State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23509" }
   - { date: 2020-01-25, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23435" }
   - { date: 2020-01-25, region: 8B, name: UIUC, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23464" }
   - { date: 2020-01-25, region: 8C, name: CMU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23438" }

@@ -18,3 +18,4 @@ mirrors:
   - { date: TBD,        region: 4A, name: North Texas }
   - { date: 2020-02-01, region: 5A, name: UCSD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23425" }
   - { date: TBD,        region: 6B, name: Colorado }
+  - { date: TBD,        region: 8A, name: Iowa }
