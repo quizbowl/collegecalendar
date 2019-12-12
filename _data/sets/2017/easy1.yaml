@@ -1,7 +1,7 @@
 slot:        “Early Fall Novice”
 prev:        [Collegiate Novice, ICCS, VCU Novice, EACNT]
 diff:        Easy
-diffstar:    ●
+diffdots:    ●
 name:        NAQT Collegiate Novice
 firstmirror: 2017-09-23
 announced:   2017-08-04

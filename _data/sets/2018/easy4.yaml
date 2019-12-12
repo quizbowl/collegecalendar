@@ -1,7 +1,7 @@
 slot:        “Spring Novice 1”
 prev:        [FST, SUN, MUT]
 diff:        Easy
-diffstar:    ●
+diffdots:    ●
 name:        FST
 fullname:    Florida Spring Tournament
 firstmirror: 2019-03-23

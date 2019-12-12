@@ -1,7 +1,7 @@
 slot:        ACF Regionals
 prev:        [past ACF Regionals, WAO, MLK, VCU Closed]
 diff:        Regionals
-diffstar:    ●●●
+diffdots:    ●●●
 submission:  Required half-packet
 name:        ACF Regionals
 firstmirror: 2018-01-20

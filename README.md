@@ -27,7 +27,7 @@ Key | Description | Example
 `slot`        | Name of the standard slot            | `“Fall Medium 1”`
 `prev`        | List of sets previously in this slot | `[EFT 2016, MFT, PADAWAN, IFT]`
 `diff`        | Difficulty name                      | `Medium`
-`diffstar`    | Difficulty rating                    | `●●`
+`diffdots`    | Difficulty rating                    | `●●`
 `eligible`    | Eligibility details                  | `Closed`
 `submission`  | Packet submission details            | `Required`
 `announced`   | Date of global announcement          | `2017-03-23`

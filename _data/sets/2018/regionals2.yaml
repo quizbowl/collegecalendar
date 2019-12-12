@@ -1,7 +1,7 @@
 slot:        NAQT SCT
 prev:        [past NAQT SCTs]
 diff:        Regionals (or Easy in Div II)
-diffstar:    ●●● (or ● in Div II)
+diffdots:    ●●● (or ● in Div II)
 name:        NAQT SCT
 fullname:    NAQT Sectional Championship Tournament
 firstmirror: 2019-02-09

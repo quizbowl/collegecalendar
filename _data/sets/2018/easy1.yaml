@@ -1,7 +1,7 @@
 slot:        “Early Fall Novice”
 prev:        [Collegiate Novice, ICCS, VCU Novice, EACNT]
 diff:        Easy
-diffstar:    ●
+diffdots:    ●
 name:        NAQT Collegiate Novice
 clear:       never
 packetsurl:  never

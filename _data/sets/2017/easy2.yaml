@@ -1,7 +1,7 @@
 slot:        ACF Fall
 prev:        [past ACF Falls]
 diff:        Easy
-diffstar:    ●
+diffdots:    ●
 submission:  Required if not new team
 name:        ACF Fall
 firstmirror: 2017-11-04

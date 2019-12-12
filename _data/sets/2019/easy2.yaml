@@ -1,7 +1,7 @@
 slot:        ACF Fall
 prev:        [past ACF Falls]
 diff:        Easy
-diffstar:    ●
+diffdots:    ●
 submission:  Required if not new team
 eligible:    Closed; HS-only mirrors
 name:        ACF Fall

@@ -1,7 +1,7 @@
 slot:        “Winter Medium”
 prev:        [Oxford Open/OAT, WIT]
 diff:        Medium (“Regular”)
-diffstar:    ●●◖
+diffdots:    ●●◖
 eligible:    Closed; HS allowed; special exceptions by permission
 name:        SHW
 fullname:    Spartan Housewrite

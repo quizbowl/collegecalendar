@@ -1,7 +1,7 @@
 slot:        “Spring Medium”
 prev:        [Terrapin 2016, SMT, EMT, MYSTERIUM]
 diff:        Medium
-diffstar:    ●●
+diffdots:    ●●
 eligible:    Closed; HS-only mirrors
 name:        Terrapin
 # announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=97&t=21251
