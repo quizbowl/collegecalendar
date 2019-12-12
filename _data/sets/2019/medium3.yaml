@@ -14,7 +14,8 @@ mirrors:
   - { date: 2020-01-18, region: 8C, name: Michigan, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23439" }
   - { date: TBD,        region: 1A, name: Harvard }
   - { date: 2020-02-15, region: 2A, name: Rutgers, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23405" }
-  - { date: 2020-02-01, region: 3B, name: Auburn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23479" }
+  - { date: 2020-02-01, region: 2B, name: VCU }
+  - { date: 2020-01-18, region: 3B, name: Auburn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23479" }
   - { date: 2020-02-22, region: 4A, name: North Texas, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23512" }
   - { date: 2020-02-01, region: 5A, name: UCSD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23425" }
   - { date: TBD,        region: 6B, name: Colorado }

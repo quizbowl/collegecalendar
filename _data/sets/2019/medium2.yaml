@@ -7,6 +7,7 @@ firstmirror: 2019-10-19
 announced:   2019-05-20
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22723
 clear:       2019-12-15
+ebol:        yes
 mirrors:
   - { date: 2019-10-19, region: 1A, name: Harvard, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23184" }
   - { date: 2019-10-19, region: 2A, name: Penn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22723" }

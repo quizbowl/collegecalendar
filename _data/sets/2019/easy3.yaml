@@ -10,4 +10,5 @@ ebol:        no
 mirrors:
   - { date: 2019-11-09, region: 3C, name: Valencia, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23223" }
   - { date: 2019-11-09, region: 3A, name: Jefferson CC, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23453" }
+  - { date: 2020-01-18, region: 0L, name: Online, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23562" }
   - { date: 2020-02-29, region: 2B, name: Virginia Tech, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23536" }
