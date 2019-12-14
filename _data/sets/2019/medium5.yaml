@@ -3,7 +3,7 @@ prev:        [PADAWAN]
 diff:        Medium
 diffdots:    ●●◖
 name:        WORKSHOP
-firstmirror: 2020-03-14
+firstmirror: 2020-02-15
 announced:   2019-07-01
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22892
 ebol:        no
@@ -12,5 +12,5 @@ mirrors:
   - { date: 2020-02-29, region: 5B, name: Stanford, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23470" }
   - { date: 2020-02-29, region: 3B, name: Georgia, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23508" }
   - { date: 2020-02-29, region: 8C, name: Michigan State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23507" }
-  - { date: 2020-05-02, region: 1A, name: NYU }
+  - { date: 2020-05-02, region: 1A, name: NYU, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23571" }
   - { date: TBD,        region: 8A, name: Minnesota }

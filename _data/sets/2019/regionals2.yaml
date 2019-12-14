@@ -20,6 +20,6 @@ mirrors:
   - { date: 2020-02-08, region: 6A, name: Washington }
   - { date: 2020-02-08, region: 6B, name: Colorado }
   - { date: 2020-02-08, region: 7B, name: Missouri, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23545" }
-  - { date: 2020-02-08, region: 8B, name: Purdue }
+  - { date: 2020-02-08, region: 8B, name: Purdue, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23567" }
   - { date: 2020-02-08, region: 8C, name: Michigan, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23472" }
   - { date: 2020-02-08, region: CA, name: Toronto, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23473" }
