@@ -336,6 +336,8 @@ no
 
 {% assign lastmirror = nil -%}
 {% assign lastmirrordate = nil -%}
+{% assign firstidealmirrordate = set.firstideal | date: "%s" | plus: 0 -%}
+{% assign lastidealmirrordate = set.lastideal | date: "%s" | plus: 0 -%}
 {% assign firstmirror = set.firstmirror -%}
 {% if firstmirror == nil and set.mirrors -%}
 {% assign firstmirror = set.mirrors | where_exp: "mirror", "mirror.region != '0P'" | where_exp: "mirror", "mirror.date != 'TBD'" | sort: "date" | first -%}
@@ -392,7 +394,9 @@ no
 {% assign mirrorsthisweekcancelled = set.mirror | where_exp: "mirror", "mirror.cancelled == true" -%}
 
 {% assign class = nil -%}
-{% if firstmirrordate <= current and current <= lastmirrordate -%}
+{% if firstidealmirrordate <= current and current <= lastidealmirrordate -%}
+{% assign class = "ideal" -%}
+{% elsif firstmirrordate <= current and current <= lastmirrordate -%}
 {% assign class = "active" -%}
 {% elsif current == firstonlinedate or firstweekofseason and firstonlinedate != 0 and firstonlinedate < nextweek -%}
 {% assign class = "playtest" -%}
