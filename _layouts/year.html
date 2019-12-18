@@ -290,7 +290,7 @@ no
 {% assign seasonweeks = seasonend | minus: seasonstart | divided_by: 604800 -%}
 {% assign seasonweeksplus1 = seasonweeks | plus: 1 -%}
 
-<h4>{{ season.name }} {{ season.year }}</h4>
+<h4 id="{{ season.name }}-summary">{{ season.name }} {{ season.year }}</h4>
 <table class="summary">
 <col span="4" />
 {% for weeksafter in (0..seasonweeks) -%}
