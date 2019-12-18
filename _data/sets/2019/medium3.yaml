@@ -12,7 +12,7 @@ ebol:        no
 mirrors:
   - { date: 2019-12-21, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23382" }
   - { date: 2020-01-18, region: 8C, name: Michigan, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23439" }
-  - { date: TBD,        region: 1A, name: Harvard }
+  - { date: 2020-02-29, region: 1A, name: Harvard, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23577" }
   - { date: 2020-02-15, region: 2A, name: Rutgers, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23405" }
   - { date: 2020-02-01, region: 2B, name: VCU }
   - { date: 2020-01-18, region: 3B, name: Auburn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23479" }
@@ -20,3 +20,4 @@ mirrors:
   - { date: 2020-02-01, region: 5A, name: UCSD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23425" }
   - { date: TBD,        region: 6B, name: Colorado }
   - { date: 2020-02-29, region: 8A, name: Iowa, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23522" }
+  - { date: 2020-01-11, region: CA, name: Waterloo, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23572" }
