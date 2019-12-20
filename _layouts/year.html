@@ -405,7 +405,9 @@ no
 {% assign class = "clear" -%}
 {% endif -%}
 
-<td{% if class %} class="{{ class }}"{% endif %}>
+<td{% if class %} class="{{ class }}"{% endif %}{% if mirrorsthisweek.size > 0 %} title="
+{%- assign mirrorsthisweeksorted = mirrorsthisweek | sort: "region" %}
+{%- for mtw in mirrorsthisweeksorted %}{{ mtw.region }}: {{ mtw.name }}{% if forloop.last == false %}&#xa;{% endif %}{% endfor %}"{% endif %}>
 {%- if mirrorsthisweek.size > 0 -%}
 {% if mirrorsthisweek.size > 4 %}<b>{% endif -%}
 {{- mirrorsthisweek | size }} {% comment %}{% endcomment %}
