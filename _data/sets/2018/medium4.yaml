@@ -20,7 +20,7 @@ mirrors:
   - { date: 2019-03-02, region: 8A, name: Iowa, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22260" }
   - { date: 2019-01-19, region: 8C, name: Michigan State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=21140" }
   - { date: 2019-03-30, region: 8C, name: Wright State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22334" }
-  - { date: 2019-02-23, region: CA, name: McMaster, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22352",eligible: Semi-open }
+  - { date: 2019-02-23, region: CA, name: McMaster, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22352", eligible: Semi-open }
   - { date: 2019-01-19, region: UK, name: Warwick, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22244" }
-  - { date: 2019-05-04, region: 2B, name: TJHSST, cancelled: yes, eligible: "HS only", url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=21547" }
+  - { date: 2019-05-04, region: 2B, name: TJHSST, cancelled: yes, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=21547" }
   - { date: 2019-03-30, region: 0L, name: Online, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22530" }

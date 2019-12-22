@@ -33,3 +33,4 @@ mirrors:
   - { date: 2019-10-19, region: UK, name: Oxford Brookes }
   - { date: 2019-10-19, region: UK, name: Glasgow }
   - { date: 2019-12-07, region: 2A, name: Penn, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23166" }
+  - { date: 2020-01-19, region: 0L, name: Online HS, eligible: HS only open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23595" }
