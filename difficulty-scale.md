@@ -68,8 +68,8 @@ are non-standard and confusing and should be deprecated
         </tr> -->
     </tbody>
 </table>
-    
-<p>This site uses the following four-level scale:</p>
+
+This site uses the following four-level scale:
 
 {% include scale.html %}
 
@@ -89,6 +89,8 @@ Please also avoid using the ambiguous abbreviation “regs.”
 Any correspondence of high school difficulties to this scale is unreliable
 in part because the HS canon (total knowledge tested) is too different.
 But HS nationals is near Medium difficulty.
+
+This scale is undefined for other difficulties extrapolated beyond its extremes.
 
 [^1]: This scale is preferably called “the college quizbowl calendar difficulty scale”
       (or “the collegequizbowlcalendar.com difficulty scale,”
