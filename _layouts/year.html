@@ -168,7 +168,7 @@ Midwest,8B|Central Midwest,8C|Eastern Midwest,CA|Canada,UK|UK,AS|Asia" | replace
 <tr{% if lst == nxt %} class="same"{% endif %}>
 {% assign lst = nxt -%}
 <th class="region">
-<a class="pin" href="#" data-region="{{ region }}">☆</a>
+<a class="pin" href="#" data-region="{{ region }}" title="{{ region }}">☆</a>
 {{ region_name }}
 {% comment -%}
 {% if nxt != "0" -%}
@@ -407,7 +407,12 @@ no
 
 <td{% if class %} class="{{ class }}"{% endif %}{% if mirrorsthisweek.size > 0 %} title="
 {%- assign mirrorsthisweeksorted = mirrorsthisweek | sort: "region" %}
-{%- for mtw in mirrorsthisweeksorted %}{{ mtw.region }}: {{ mtw.name }}{% if forloop.last == false %}&#xa;{% endif %}{% endfor %}"{% endif %}>
+{%- for mtw in mirrorsthisweeksorted %}{{ mtw.region }}: {{ mtw.name }}
+{%- assign mtwd = mtw.date | date: '%w' -%}{%- if mtwd != '6' -%}ª{% endif %}
+{%- if mtw.region contains '0' %}º{% endif %}
+{%- if forloop.last == false %}&#xa;{% endif %}
+{%- endfor %}"{% endif %}>
+{% comment %}add symbols after mirror name{% endcomment %}
 {%- if mirrorsthisweek.size > 0 -%}
 {% if mirrorsthisweek.size > 4 %}<b>{% endif -%}
 {{- mirrorsthisweek | size }} {% comment %}{% endcomment %}
