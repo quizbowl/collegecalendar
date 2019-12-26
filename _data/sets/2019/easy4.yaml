@@ -12,4 +12,4 @@ ebol:        no
 mirrors:
   - { date: 2020-04-11, region: 2A, name: Princeton }
   - { date: TBD,        region: 3B, name: South Carolina }
-  - { date: 2020-04-11, region: 8C, name: Penn State }
+  - { date: 2020-04-11, region: 8C, name: Penn State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23614" }
