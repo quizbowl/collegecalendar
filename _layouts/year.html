@@ -174,7 +174,7 @@ Midwest,8B|Central Midwest,8C|Eastern Midwest,CA|Canada,UK|UK,AS|Asia" | replace
 {% assign lst = nxt -%}
 <th class="region" title="{{ region }}">
 <a class="pin" href="#" data-region="{{ region }}" title="Pin this region">☆</a>
-{{ region_name }}
+{{ region_name -}}
 {% comment -%}
 {% if nxt != "0" -%}
 <img class="icon" src="../k/College quizbowl circuit map.svg#{{region}}" width="250" />
@@ -375,7 +375,7 @@ no
 {% assign mirrorsthisweek = "" | split: ',' -%}
 {% assign mirrorscancelled = "" | split: ',' -%}
 {% assign mirrorsexelg = "" | split: ',' -%}
-{% assign mirrorslate = "" | split: ',' -%}
+{% assign mirrorsnotsat = "" | split: ',' -%}
 
 {% for mirror in mirrors -%}
 {% assign mirrordate = mirror.date | date: '%s' | plus: 0 -%}
@@ -392,7 +392,7 @@ no
 {% assign mirrorsthisweek = mirrorsthisweek | push: mirror -%}
 {% assign mirrorweekday = mirror.date | date: '%w' -%}
 {% if mirrorweekday != '6' -%}
-{% assign mirrorslate = mirrorslate | push: mirror -%}
+{% assign mirrorsnotsat = mirrorsnotsat | push: mirror -%}
 {% endif -%}
 {% if mirror.eligible -%}
 {% assign mirrorsexelg = mirrorsexelg | push: mirror -%}
@@ -431,8 +431,8 @@ no
 {% elsif class and current == firstmirrordate -%}
 0 {% comment %}{% endcomment %}
 {%- endif -%}
-{% if mirrorslate.size > 0 -%}
-ª{%- if mirrorslate.size > 1 %}{{ scripts | slice: mirrorslate.size, 1 }}{% endif -%}
+{% if mirrorsnotsat.size > 0 -%}
+ª{%- if mirrorsnotsat.size > 1 %}{{ scripts | slice: mirrorsnotsat.size, 1 }}{% endif -%}
 {%- endif -%}
 {%- if mirrorsthisweekonline.size > 0 -%}
 º{%- if mirrorsthisweekonline.size > 1 %}{{ scripts | slice: mirrorsthisweekonline.size, 1 }}{%- endif -%}
