@@ -14,3 +14,4 @@ mirrors:
   - { date: 2020-03-28, region: 2A, name: John Hopkins }
   - { date: 2020-03-21, region: 3B, name: Auburn }
   - { date: 2020-03-14, region: 6B, name: BYU }
+  - { date: 2020-03-28, region: 4A, name: Texas Invitational, eligible: HS only }
