@@ -369,6 +369,7 @@ no
 
 {% assign mirrorsthisweek = "" | split: ',' -%}
 {% assign mirrorscancelled = "" | split: ',' -%}
+{% assign mirrorsexelg = "" | split: ',' -%}
 {% assign mirrorslate = "" | split: ',' -%}
 
 {% for mirror in mirrors -%}
@@ -387,6 +388,9 @@ no
 {% assign mirrorweekday = mirror.date | date: '%w' -%}
 {% if mirrorweekday != '6' -%}
 {% assign mirrorslate = mirrorslate | push: mirror -%}
+{% endif -%}
+{% if mirror.eligible -%}
+{% assign mirrorsexelg = mirrorsexelg | push: mirror -%}
 {% endif -%}
 {% endif -%}
 {% endfor -%}
@@ -410,6 +414,7 @@ no
 {%- for mtw in mirrorsthisweeksorted %}{{ mtw.region }}: {{ mtw.name }}
 {%- assign mtwd = mtw.date | date: '%w' -%}{%- if mtwd != '6' -%}ª{% endif %}
 {%- if mtw.region contains '0' %}º{% endif %}
+{%- if mtw.eligible %}˘ ({{mtw.eligible}}){% endif %}
 {%- if forloop.last == false %}&#xa;{% endif %}
 {%- endfor %}"{% endif %}>
 {% comment %}add symbols after mirror name{% endcomment %}
@@ -428,6 +433,9 @@ no
 {%- endif -%}
 {% if mirrorscancelled.size > 0 -%}
 *{%- if mirrorscancelled.size > 1 %}{{ scripts | slice: mirrorscancelled.size, 1 }}{% endif -%}
+{%- endif -%}
+{% if mirrorsexelg.size > 0 -%}
+˘{%- if mirrorsexelg.size > 1 %}{{ scripts | slice: mirrorsexelg.size, 1 }}{% endif -%}
 {%- endif -%}
 {%- if current <= cleardate and cleardate < nextweek or lastweekofseason -%}
 †
