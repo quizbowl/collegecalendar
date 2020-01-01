@@ -12,6 +12,7 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23078
 ebol:        yes
 mirrors:
   - { date: TBD, region: 1A, name: Brown }
-  - { date: TBD, region: 2A, name: UMD }
+  - { date: 2020-02-22, region: 2A, name: UMD }
   - { date: 2020-02-22, region: 3B, name: Georgia Tech }
+  - { date: 2020-03-14, region: 5B, name: Stanford }
   - { date: TBD, region: CA, name: Toronto }
