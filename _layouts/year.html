@@ -453,6 +453,41 @@ no
 {% endfor -%}
 
 </tbody>
+<tfoot>
+<tr>
+<th>Total mainstream mirrors</span></th>
+<th></th>
+{% for weeksafter in (-2..seasonweeksplus1) -%}
+<th>
+{% assign total = 0 -%}
+{% assign secondsafter = weeksafter | times: 604800 -%}
+{% assign current = seasonstart | plus: secondsafter -%}
+{% assign nextweek = current | plus: 604800 -%}
+{% assign firstweekofseason = forloop.first -%}
+{% assign lastweekofseason = forloop.last -%}
+
+{% for slot_id in season.slots -%}
+{% assign set = site.data.sets[page.year][slot_id] -%}
+{% for mirror in set.mirrors -%}
+{% assign mirrordate = mirror.date | date: '%s' | plus: 0 -%}
+
+{% assign afterstart = firstweekofseason %}{% if mirrordate >= current %}{% assign afterstart = true %}{% endif -%}
+{% assign beforeend  = lastweekofseason %}{% if mirrordate < nextweek %}{% assign beforeend = true %}{% endif -%}
+{% comment %}The -2 is a hack to rollup the known mirrors grand total.{% endcomment -%}
+{% if weeksafter == -2 or afterstart and beforeend -%}
+{% if mirror.cancelled != nil or mirror.date == 'TBD' or mirror.eligible contains 'HS' or mirror.region contains '0' -%}
+{% else -%}
+{% assign total = total | plus: 1 -%}
+{% endif -%}
+{% endif -%}
+{% endfor -%}
+{% endfor -%}
+
+{% if total > 0 %}{{ total }}{% endif %}
+</th>
+{% endfor %}
+</tr>
+</tfoot>
 </table>
 {% endfor %}
 

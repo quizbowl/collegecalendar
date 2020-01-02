@@ -68,7 +68,7 @@ table {
 }
 
 table.summary {
-    thead th {
+    thead th, tfoot th {
         font-weight: 500;
     }
     thead th:not([style]) {
