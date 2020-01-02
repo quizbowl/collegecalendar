@@ -27,7 +27,7 @@ mirrors:
   - { date: 2019-04-20, region: 6A, name: Washington, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22517" }
   - { date: 2019-04-20, region: 5A, name: UCSB, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22493" }
   - { date: 2019-05-04, region: 8B, name: Illinois, eligible: HS NASAT }
-  - { date: TBD       , region: 7B, name: Missouri, eligible: HS NASAT }
+  - { date: TBD       , region: 7B, name: Missouri, eligible: HS NASAT, cancelled: yes }
   - { date: 2019-03-23, region: 2B, name: Virginia, eligible: HS NASAT }
   - { date: 2019-04-20, region: 2A, name: UMD, cancelled: yes, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=22571" }
   - { date: 2019-03-24, region: 4A, name: Texas Invitational, eligible: HS only }

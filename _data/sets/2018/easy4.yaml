@@ -1,4 +1,4 @@
-slot:        “Spring Novice 1”
+slot:        “Spring Novice 2”
 prev:        [FST, SUN, MUT]
 diff:        Easy
 diffdots:    ●
@@ -18,7 +18,7 @@ mirrors:
   - { date: 2019-04-28, region: 2A, name: Princeton, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22440" }
   - { date: 2019-04-27, region: 1A, name: Amherst, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22479" }
   - { date: 2019-04-27, region: 6A, name: Washington, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22497" }
-  - { date: TBD       , region: 6B, name: Colorado }
+  - { date: TBD       , region: 6B, name: Colorado, cancelled: yes }
   - { date: 2019-05-11, region: 8B, name: Chicago, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22539" }
   - { date: 2019-06-15, region: 0L, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22730" }
   - { date: 2019-08-03, region: 4A, name: UL-Lafayette, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22821" }

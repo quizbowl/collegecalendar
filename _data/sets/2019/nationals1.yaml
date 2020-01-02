@@ -9,4 +9,4 @@ firstmirror: 2020-04-04
 clear:       never
 packetsurl:  never
 mirrors:
-  - { date: 2020-04-04, region: 8B, name: Chicago }
+  - { date: 2020-04-04, region: 8B, name: "Chicago, IL" }

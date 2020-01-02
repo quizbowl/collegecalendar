@@ -11,4 +11,4 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22159
 clear:       never
 packetsurl:  never
 mirrors:
-  - { date: 2019-04-06, region: 8B, name: Chicago, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22159" }
+  - { date: 2019-04-06, region: 8B, name: "Chicago, IL", url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22159" }
