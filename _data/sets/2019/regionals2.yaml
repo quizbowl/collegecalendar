@@ -16,8 +16,9 @@ mirrors:
   - { date: 2020-02-08, region: 3B, name: Auburn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23598" }
   - { date: 2020-02-08, region: 3C, name: UCF }
   - { date: 2020-02-08, region: 4A, name: UT-Austin, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23594" }
+  - { date: 2020-02-08, region: 5A, name: UCLA, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23626" }
   - { date: 2020-02-08, region: 5B, name: Berkeley, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23593" }
-  - { date: 2020-02-08, region: 6A, name: Washington }
+  - { date: 2020-02-08, region: 6A, name: Washington, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23624" }
   - { date: 2020-02-08, region: 6B, name: Colorado, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23596" }
   - { date: 2020-02-08, region: 7B, name: Missouri, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23545" }
   - { date: 2020-02-08, region: 8B, name: Purdue, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23567" }

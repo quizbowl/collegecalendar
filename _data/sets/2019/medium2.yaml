@@ -8,7 +8,9 @@ firstideal:  2019-10-19
 lastideal:   2019-10-26
 announced:   2019-05-20
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22723
-clear:       2019-12-15
+clear:       2019-12-30
+reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/2409/
 ebol:        yes
 mirrors:
   - { date: 2019-10-19, region: 1A, name: Harvard, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23184" }
