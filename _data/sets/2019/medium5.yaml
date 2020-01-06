@@ -14,3 +14,4 @@ mirrors:
   - { date: 2020-02-29, region: 8C, name: Michigan State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23507" }
   - { date: 2020-05-02, region: 1A, name: NYU, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23571" }
   - { date: TBD,        region: 8A, name: Minnesota }
+  - { date: 2020-03-01, region: 8B, name: Illinois, eligible: HS NASAT, url: "https://hsquizbowl.org/forums/viewtopic.php?f=49&t=23634" }
