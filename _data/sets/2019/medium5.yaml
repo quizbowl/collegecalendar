@@ -11,6 +11,7 @@ mirrors:
   - { date: 2020-02-15, region: 4A, name: UT-Austin, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23521" }
   - { date: 2020-02-29, region: 5B, name: Stanford, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23470" }
   - { date: 2020-02-29, region: 3B, name: Georgia, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23508" }
+  - { date: 2020-02-29, region: 2B, name: NC State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23660" }
   - { date: 2020-02-29, region: 8C, name: Michigan State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23507" }
   - { date: 2020-05-02, region: 1A, name: NYU, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23571" }
   - { date: TBD,        region: 8A, name: Minnesota }
