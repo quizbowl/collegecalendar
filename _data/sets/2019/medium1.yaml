@@ -11,6 +11,8 @@ firstonline: 2019-09-21
 # lastideal:   2019-10-05
 announced:   2019-04-16
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22625
+clear:       2020-01-20
+reallyclear: yes
 ebol:        yes
 mirrors:
   - { date: 2019-09-21, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23124" }
