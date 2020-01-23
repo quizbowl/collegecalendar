@@ -13,6 +13,7 @@ mirrors:
   - { date: 2019-12-21, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23382" }
   - { date: 2020-01-18, region: 8C, name: Michigan, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23439" }
   - { date: 2020-02-29, region: 1A, name: Harvard, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23577" }
+  - { date: 2020-02-29, region: 1B, name: RIT, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23701" }
   - { date: 2020-02-15, region: 2A, name: Rutgers, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23405" }
   - { date: 2020-02-01, region: 2B, name: VCU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23587" }
   - { date: 2020-01-18, region: 3B, name: Auburn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23479" }
