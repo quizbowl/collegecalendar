@@ -6,7 +6,9 @@ eligible:    Qualify at NAQT SCT
 name:        NAQT ICT
 fullname:    NAQT Intercollegiate Championship Tournament
 firstmirror: 2020-04-04
+announced:   2020-01-25
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23707
 clear:       never
 packetsurl:  never
 mirrors:
-  - { date: 2020-04-04, region: 8B, name: "Chicago, IL" }
+  - { date: 2020-04-04, region: 8B, name: "Chicago, IL", url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23707" }
