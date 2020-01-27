@@ -13,6 +13,8 @@ mirrors:
   - { date: 2020-02-29, region: 3B, name: Georgia, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23508" }
   - { date: 2020-02-29, region: 2B, name: NC State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23660" }
   - { date: 2020-02-29, region: 8C, name: Michigan State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23507" }
+  - { date: 2020-03-21, region: 2A, name: Swarthmore, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23716" }
   - { date: 2020-03-21, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23700" }
   - { date: 2020-05-02, region: 1A, name: NYU, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23571" }
+  - { date: 2020-02-22, region: 5A, name: USC, eligible: HS allowed, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23717" }
   - { date: 2020-03-01, region: 8B, name: Illinois, eligible: HS NASAT, url: "https://hsquizbowl.org/forums/viewtopic.php?f=49&t=23634" }

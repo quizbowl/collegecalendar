@@ -12,4 +12,8 @@ ebol:        no
 mirrors:
   - { date: 2020-04-11, region: 2A, name: Princeton }
   - { date: TBD,        region: 3B, name: South Carolina }
+  - { date: 2020-03-28, region: 8A, name: Minnesota }
+  - { date: 2020-05-09, region: 8B, name: Chicago }
   - { date: 2020-04-11, region: 8C, name: Penn State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23614" }
+  - { date: 2020-03-08, region: CA, name: Toronto, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23714" }
+  - { date: 2020-03-14, region: CA, name: Carleton, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23715" }
