@@ -9,6 +9,6 @@ firstmirror: 2020-04-18
 announced:   2019-09-20
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23261
 clear:       2020-04-20
-ebol:        yes
+ebol:        maybe
 mirrors:
   - { date: 2020-04-18, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23261" }

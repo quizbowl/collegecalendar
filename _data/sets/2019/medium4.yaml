@@ -9,6 +9,7 @@ firstonline: 2020-03-01
 firstmirror: 2020-03-07
 announced:   2019-06-05
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22780
+ebol:        no
 mirrors:
   - { date: 2020-03-01, region: 0P, name: Online, eligible: Open }
   - { date: 2020-03-28, region: 2A, name: John Hopkins }
