@@ -407,7 +407,9 @@ no
 {% assign class = "ideal" -%}
 {% elsif firstmirrordate <= current and current <= lastmirrordate -%}
 {% assign class = "active" -%}
-{% elsif current == firstonlinedate or firstweekofseason and firstonlinedate != 0 and firstonlinedate < nextweek -%}
+{% elsif current <= firstonlinedate and firstonlinedate < nextweek %}
+{% assign class = "playtest" -%}
+{% elsif firstweekofseason and firstonlinedate != 0 and firstonlinedate < nextweek -%}
 {% assign class = "playtest" -%}
 {% endif -%}
 {% if current <= cleardate and cleardate < nextweek or lastweekofseason -%}
