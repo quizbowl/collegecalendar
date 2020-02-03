@@ -10,6 +10,7 @@ announced:   2019-09-27
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23290
 clear:       2020-01-27
 reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/2393/
 ebol:        yes
 mirrors:
   - { date: 2020-01-25, region: 1A, name: Yale, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23440" }
