@@ -20,48 +20,48 @@ are non-standard and confusing and should be deprecated
     </thead>
     <tbody>
         <!-- <tr>
-            <td>◖</td>
+            <td class="diffdots">◖</td>
             <td><a href="https://collegiate.quizbowlpackets.com/2040/">2013 Collegiate Novice</a></td>
             <td></td>
             <td>“Fall-minus”</td>
         </tr> -->
         <tr>
-            <td>●</td>
+            <td class="diffdots">●</td>
             <td><a href="https://collegiate.quizbowlpackets.com/2040/">2017 ACF Fall</a></td>
             <td rowspan="2"></td>
             <td></td>
         </tr>
         <tr>
-            <td>●◖</td>
+            <td class="diffdots">●◖</td>
             <td><a href="https://collegiate.quizbowlpackets.com/2329/">2019 ILLIAC</a></td>
             <td rowspan="2">“Fall-plus”<br />“Regular-minus”</td>
         </tr>
         <tr>
-            <td>●●</td>
+            <td class="diffdots">●●</td>
             <td><a href="https://collegiate.quizbowlpackets.com/2048/">2017 EFT</a></td>
             <td rowspan="3" style="width: 11em;">old “Regular difficulty” was ambiguous and referred to any of these</td>
         </tr>
         <tr>
-            <td>●●◖</td>
+            <td class="diffdots">●●◖</td>
             <td><a href="https://collegiate.quizbowlpackets.com/1872/">2016 Terrapin</a></td>
             <td rowspan="3">“Regular-plus”<br />“Nationals-minus”</td>
         </tr>
         <tr>
-            <td>●●●</td>
+            <td class="diffdots">●●●</td>
             <td><a href="https://collegiate.quizbowlpackets.com/2108/">2018 ACF Regionals</a></td>
         </tr>
         <tr>
-            <td>●●●◖</td>
+            <td class="diffdots">●●●◖</td>
             <td><a href="https://collegiate.quizbowlpackets.com/2103/">2018 CMST</a></td>
             <td rowspan="2"></td>
         </tr>
         <tr>
-            <td>●●●●</td>
+            <td class="diffdots">●●●●</td>
             <td><a href="https://collegiate.quizbowlpackets.com/2139/">2018 ACF Nationals</a></td>
             <td></td>
         </tr>
         <!-- <tr>
-            <td>●●●●●</td>
+            <td class="diffdots">●●●●●</td>
             <td><a href="https://collegiate.quizbowlpackets.com/2180/">2018 Chicago Open</a></td>
             <td></td>
             <td>“Nationals-plus”</td>
@@ -95,4 +95,4 @@ This scale is undefined for other difficulties extrapolated beyond its extremes.
 [^1]: This scale is preferably called “the college quizbowl calendar difficulty scale”
       (or “the collegequizbowlcalendar.com difficulty scale,”
       or “the difficulty scale used by the college quizbowl calendar”),
-      and the unit of difficulty is a “dot” (not “circle” or “star” or “level”).
+      and the unit of difficulty is a “dot” (not “circle” or “star” or “level” or “pip”).
