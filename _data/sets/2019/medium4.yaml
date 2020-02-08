@@ -12,12 +12,12 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22780
 ebol:        no
 mirrors:
   - { date: 2020-03-01, region: 0P, name: Online, eligible: Open }
-  - { date: 2020-03-28, region: 2A, name: John Hopkins }
+  - { date: 2020-03-28, region: 2A, name: John Hopkins, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23760" }
   - { date: 2020-03-21, region: 2B, name: Duke }
   - { date: 2020-03-21, region: 3B, name: Auburn }
   - { date: 2020-03-21, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23754" }
   - { date: 2020-03-14, region: 6B, name: BYU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23648" }
-  - { date: 2020-03-14, region: 4A, name: Texas }
+  - { date: 2020-03-14, region: 4A, name: Texas, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23758" }
   - { date: 2020-05-02, region: 6A, name: Washington }
   - { date: TBD,        region: 5B, name: Stanford }
   - { date: 2020-03-21, region: 8B, name: UIUC, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23752" }
