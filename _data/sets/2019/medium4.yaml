@@ -5,13 +5,13 @@ diffdots:    ●●
 eligible:    Closed; HS allowed
 name:        LIT
 fullname:    Longhorn Invitational Tournament
-firstonline: 2020-03-01
-firstmirror: 2020-03-07
+firstonline: 2020-03-08
+firstmirror: 2020-03-14
 announced:   2019-06-05
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22780
 ebol:        no
 mirrors:
-  - { date: 2020-03-01, region: 0P, name: Online, eligible: Open }
+  - { date: 2020-03-08, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23808" }
   - { date: 2020-03-28, region: 2A, name: John Hopkins, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23760" }
   - { date: 2020-03-21, region: 2B, name: Duke }
   - { date: 2020-03-21, region: 3B, name: Auburn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23777" }
