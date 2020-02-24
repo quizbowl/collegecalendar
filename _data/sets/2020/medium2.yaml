@@ -1,0 +1,12 @@
+slot:        “Fall Medium 2”
+prev:        [past Penn Bowls, Terrapin, DRAGOON, QUARK]
+diff:        Regionals
+diffdots:    ●●●
+name:        Penn Bowl
+firstmirror: 2020-10-31
+firstideal:  2020-10-31
+lastideal:   2020-11-07
+announced:   2020-02-21
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23816
+mirrors:
+  - { date: 2020-10-31, region: 2A, name: Penn }

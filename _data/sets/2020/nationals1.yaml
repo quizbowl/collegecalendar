@@ -1,0 +1,12 @@
+slot:        NAQT ICT
+prev:        [past NAQT ICTs]
+diff:        Nationals (or Med. in Div II)
+diffdots:    ●●●● (or ●● in Div II)
+eligible:    Qualify at NAQT SCT
+name:        NAQT ICT
+fullname:    NAQT Intercollegiate Championship Tournament
+firstmirror: 2021-04-10
+clear:       never
+packetsurl:  never
+mirrors:
+  - { date: 2021-04-10, region: 8B, name: "Chicago, IL" }

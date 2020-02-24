@@ -1,0 +1,25 @@
+- name: Fall
+  year: 2020
+  start: 2020-09-12
+  weeks: 15
+  slots:
+    - easy1
+    - medium1
+    - easy2
+    - medium2
+    - open1
+    - medium3
+    - easy3
+
+- name: Spring
+  year: 2021
+  start: 2021-01-16
+  weeks: 17
+  slots:
+    - regionals1
+    - regionals2
+    - medium4
+    - open2
+    - easy4
+    - nationals1
+    - nationals2
