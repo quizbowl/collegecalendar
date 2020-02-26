@@ -82,6 +82,8 @@ table {
 }
 
 table.summary {
+    width: max-content;
+    table-layout: fixed;
     thead th, tfoot th {
         font-weight: 500;
     }
