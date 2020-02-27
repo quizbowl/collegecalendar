@@ -77,6 +77,10 @@ This scale was designed to be unambiguous and easy to communicate,
 especially to people not well-versed in quizbowl.
 It assumes that there are only a few fundamental levels in quizbowl’s difficulty progression.
 
+Two primary thresholds define Easy, Medium, and Regionals difficulty:
+Easy is too easy for experts, and Regionals is too hard for beginners.
+The final threshold is between Regionals and Nationals difficulty.
+
 If you plan to write a tournament,
 please consider targeting one of these four difficulty levels.
 Like overly long questions, difficulty creep is selfish and insular;
