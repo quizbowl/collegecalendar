@@ -11,9 +11,9 @@ firstonline: 2019-09-21
 # lastideal:   2019-10-05
 announced:   2019-04-16
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22625
-clear:       2020-02-26
+clear:       2020-03-06
 reallyclear: yes
-packetsurl:  https://collegiate.quizbowlpackets.com/2369/
+packetsurl:  https://collegiate.quizbowlpackets.com/2451/
 ebol:        yes
 mirrors:
   - { date: 2019-09-21, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23124" }
