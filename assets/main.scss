@@ -259,6 +259,13 @@ h4 > a[href^="#"] {
     color: inherit;
 }
 
+.fruits {
+    display: inline-block;
+    svg {
+        vertical-align: middle;
+    }
+}
+
 /*
 .region {
     position: relative;
