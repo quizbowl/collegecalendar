@@ -49,8 +49,20 @@ layout: page
 {% for slot_id in season.slots -%}
 {% assign set = site.data.sets[page.year][slot_id] -%}
 <td>
-{{- set.diff -}}<br />
-<span class="diffdots">{{- set.diffdots -}}</span></td>
+{%- assign difffruit = set.diff | replace: "Easy", "Blueberry" | replace: "Medium", "Kiwi" | replace: "Med.", "Kiwi" | replace: "Regionals ", "Pom. " | replace: "Regionals", "Pomegranate" | replace: "Nationals", "Grapefruit" -%}
+<!-- {{- set.diff -}}<br /> -->
+<span title="{{ set.diff }}">{{- difffruit -}}</span><br />
+{%- assign diffdotsfirst = set.diffdots | split: " (or" | first -%}
+{%- assign diffdotsint  = diffdotsfirst | remove: "◖" | size -%}
+{%- assign diffdotsfrac = diffdotsfirst | remove: "●" | size | divide: 2 -%}
+{%- capture fruiturl %}/assets/img/fruit{{ diffdotsint }}.svg{% endcapture -%}
+{%- capture fruitimg     %}<img class="fruit fruit{{ diffdotsint }}" src="{{ fruiturl }}" height="18" />{% endcapture -%}
+{%- capture halffruitimg %}<img class="fruit fruit{{ diffdotsint }} half" src="{{ fruiturl }}" height="18" />{% endcapture -%}
+<span title="{{ set.diffdots }}">{{ set.diffdots
+        | replace: " ●●", ' <img class="fruit fruit2" src="/assets/img/fruit2.svg" height="18" /><img class="fruit fruit2" src="/assets/img/fruit2.svg" height="18" />'
+        | replace: " ●", ' <img class="fruit fruit1" src="/assets/img/fruit1.svg" height="18" />'
+        | replace: "●", fruitimg | replace: "◖", halffruitimg }}</span><br>
+<!-- <span class="diffdots">{{- set.diffdots -}}</span> --></td>
 {% endfor -%}
 </tr>
 
@@ -308,7 +320,7 @@ no
 <thead>
 <tr>
 <th style="width: 12.5em;">Tournament name</th>
-<th style="width: 7.5em;">Difficulty</th>
+<th style="width: 8em;">Difficulty</th>
 <th style="width: 3.5em;">Known mirrors</th>
 
 <th>≤</th>
@@ -335,7 +347,19 @@ no
 {{- set.name -}}
 {%- if set.announceurl -%}</a>{%- endif -%}
 </th>
-<td class="diffdots">{{ set.diffdots | replace: "in Div II)", "" | replace: "(", "" }}</td>
+<!-- <td class="diffdots">{{ set.diffdots | replace: "in Div II)", "" | replace: "(", "" }}</td> -->
+<td>
+{%- assign diffdotsfirst = set.diffdots | split: " (or" | first -%}
+{%- assign diffdotsint  = diffdotsfirst | remove: "◖" | size -%}
+{%- assign diffdotsfrac = diffdotsfirst | remove: "●" | size | divide: 2 -%}
+{%- capture fruiturl %}/assets/img/fruit{{ diffdotsint }}.svg{% endcapture -%}
+{%- capture fruitimg     %}<img class="fruit fruit{{ diffdotsint }}" src="{{ fruiturl }}" height="18" />{% endcapture -%}
+{%- capture halffruitimg %}<img class="fruit fruit{{ diffdotsint }} half" src="{{ fruiturl }}" height="18" />{% endcapture -%}
+<span title="{{ set.diffdots }}">{{ set.diffdots
+        | replace: " ●●", ' <img class="fruit fruit2" src="/assets/img/fruit2.svg" height="18" /><img class="fruit fruit2" src="/assets/img/fruit2.svg" height="18" />'
+        | replace: " ●", ' <img class="fruit fruit1" src="/assets/img/fruit1.svg" height="18" />'
+        | replace: "●", fruitimg | replace: "◖", halffruitimg
+        | replace: "in Div II)", "" | replace: "(", "" }}</span></td>
 {% assign mirrors = set.mirrors | where_exp: "mirror", "mirror.date != 'TBD'" -%}
 
 {% assign lastmirror = nil -%}

@@ -77,9 +77,9 @@ This scale was designed to be unambiguous and easy to communicate,
 especially to people not well-versed in quizbowl.
 It assumes that there are only a few fundamental levels in quizbowl’s difficulty progression.
 
-Two primary thresholds define Easy, Medium, and Regionals difficulty:
-Easy is too easy for experts, and Regionals is too hard for beginners.
-The final threshold is between Regionals and Nationals difficulty.
+Two primary thresholds define Blueberry, Kiwi, and Pomegranate difficulty:
+Blueberry is too easy for experts, and Pomegranate is too hard for beginners.
+The final threshold is between Pomegranate and Grapefruit difficulty.
 
 If you plan to write a tournament,
 please consider targeting one of these four difficulty levels.
@@ -92,21 +92,21 @@ Please also avoid using the ambiguous abbreviation “regs.”
 
 Any correspondence of high school difficulties to this scale is unreliable
 in part because the HS canon (total knowledge tested) is too different.
-But HS nationals is near Medium difficulty.
+But HS nationals is near Kiwi difficulty.
 
 This scale is undefined for other difficulties extrapolated beyond its extremes.
 
 [^1]: This scale is preferably called “the college quizbowl calendar difficulty scale”
       (or “the collegequizbowlcalendar.com difficulty scale,”
       or “the difficulty scale used by the college quizbowl calendar”),
-      and the unit of difficulty is a “dot” (not “circle” or “star” or “level” or “pip”).
+      and the unit of difficulty is a “fruit” (not “dot” or “circle” or “star” or “level” or “pip”).
 
 [^2]: Think of these levels as ordinal categories, like four different fruits.
       For example, blueberry, kiwi, pomegranate, and grapefruit are unrelated by color or family,
       but can still be ordered by size and tartness:
         <span style="display: inline-block;">
-        <img src="/assets/img/fruit1.svg" height="11" />
-        <img src="/assets/img/fruit2.svg" height="18" />
-        <img src="/assets/img/fruit3.svg" height="22" />
-        <img src="/assets/img/fruit4.svg" height="28" />
+        <img class="fruit fruit1" src="/assets/img/fruit1.svg" height="11" />
+        <img class="fruit fruit2" src="/assets/img/fruit2.svg" height="18" />
+        <img class="fruit fruit3" src="/assets/img/fruit3.svg" height="22" />
+        <img class="fruit fruit4" src="/assets/img/fruit4.svg" height="28" />
         </span>

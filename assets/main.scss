@@ -259,6 +259,15 @@ h4 > a[href^="#"] {
     color: inherit;
 }
 
+.half {
+    object-fit: cover;
+    object-position: left;
+    width: 10px;
+    &.fruit2 { width: 8px; }
+}
+.diffdots, .olddiff {
+    background-repeat: repeat no-repeat;
+    color: rgba(155, 155, 155, 0.5);
 }
 
 /*
