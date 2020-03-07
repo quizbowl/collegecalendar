@@ -55,6 +55,7 @@ layout: page
 {%- assign diffdotsfirst = set.diffdots | split: " (or" | first -%}
 {%- assign diffdotsint  = diffdotsfirst | remove: "◖" | size -%}
 {%- assign diffdotsfrac = diffdotsfirst | remove: "●" | size | divide: 2 -%}
+{%- if set.diff == "Nationals" %}{% assign diffdotsint = 4 %}{% endif -%}
 {%- capture fruiturl %}/assets/img/fruit{{ diffdotsint }}.svg{% endcapture -%}
 {%- capture fruitimg     %}<img class="fruit fruit{{ diffdotsint }}" src="{{ fruiturl }}" height="18" />{% endcapture -%}
 {%- capture halffruitimg %}<img class="fruit fruit{{ diffdotsint }} half" src="{{ fruiturl }}" height="18" />{% endcapture -%}
@@ -352,6 +353,7 @@ no
 {%- assign diffdotsfirst = set.diffdots | split: " (or" | first -%}
 {%- assign diffdotsint  = diffdotsfirst | remove: "◖" | size -%}
 {%- assign diffdotsfrac = diffdotsfirst | remove: "●" | size | divide: 2 -%}
+{%- if set.diff == "Nationals" %}{% assign diffdotsint = 4 %}{% endif -%}
 {%- capture fruiturl %}/assets/img/fruit{{ diffdotsint }}.svg{% endcapture -%}
 {%- capture fruitimg     %}<img class="fruit fruit{{ diffdotsint }}" src="{{ fruiturl }}" height="18" />{% endcapture -%}
 {%- capture halffruitimg %}<img class="fruit fruit{{ diffdotsint }} half" src="{{ fruiturl }}" height="18" />{% endcapture -%}
