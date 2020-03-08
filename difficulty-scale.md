@@ -104,7 +104,7 @@ This scale is undefined for other difficulties extrapolated beyond its extremes.
 [^2]: Think of these levels as ordinal categories, like four different fruits.
       For example, blueberry, kiwi, pomegranate, and grapefruit are unrelated by color or family,
       but can still be ordered by size and tartness:
-        <span style="display: inline-block;">
+        <span class="fruits">
         <img class="fruit fruit1" src="/assets/img/fruit1.svg" height="11" />
         <img class="fruit fruit2" src="/assets/img/fruit2.svg" height="18" />
         <img class="fruit fruit3" src="/assets/img/fruit3.svg" height="22" />
