@@ -16,7 +16,7 @@ mirrors:
   - { date: 2020-03-07, region: 0L, name: Online, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23735" }
   - { date: 2020-03-07, region: CA, name: Toronto, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23741" }
   - { date: 2020-03-21, region: 2A, name: Swarthmore, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23716" }
-  - { date: 2020-03-21, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23700", eligible: HS allowed }
+  - { date: 2020-03-21, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23700", eligible: Open }
   - { date: 2020-03-28, region: 3C, name: UCF, url: "https://hsquizbowl.org/forums/viewtopic.php?p=366545#p366545" }
   - { date: 2020-05-02, region: 1A, name: NYU, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23571" }
   - { date: 2020-02-23, region: 5A, name: USC, eligible: HS allowed, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23717" }
