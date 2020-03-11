@@ -16,10 +16,10 @@
   start: 2021-01-16
   weeks: 17
   slots:
+    - open2
     - regionals1
     - regionals2
     - medium4
-    - open2
     - easy4
     - nationals1
     - nationals2
