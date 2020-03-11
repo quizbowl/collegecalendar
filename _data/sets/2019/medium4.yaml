@@ -13,8 +13,8 @@ ebol:        no
 mirrors:
   - { date: 2020-03-08, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23808" }
   - { date: TBD,        region: 1A, name: Harvard, cancelled: yes }
-  - { date: 2020-03-28, region: 2A, name: Johns Hopkins, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23760" }
-  - { date: 2020-03-21, region: 2B, name: Duke }
+  - { date: 2020-03-28, region: 2A, name: Johns Hopkins, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23760", cancelled: yes }
+  - { date: 2020-03-21, region: 2B, name: Duke, cancelled: yes }
   - { date: 2020-03-21, region: 3B, name: Auburn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23777" }
   - { date: 2020-03-21, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23754", cancelled: yes }
   - { date: 2020-03-14, region: 6B, name: BYU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23648" }
@@ -24,4 +24,4 @@ mirrors:
   - { date: 2020-03-21, region: 8B, name: UIUC, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23752" }
   - { date: 2020-03-28, region: 4A, name: Texas Invitational, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23744" }
   - { date: 2020-04-11, region: 8B, name: UIUC, eligible: HS only }
-  - { date: 2020-05-09, region: 2A, name: Ridgewood HS, eligible: HS only }
+  - { date: 2020-05-09, region: 2A, name: Ridgewood HS, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23753" }
