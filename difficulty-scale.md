@@ -77,7 +77,7 @@ This scale was designed to be unambiguous and easy to communicate,
 especially to people not well-versed in quizbowl.
 It assumes that there are only a few fundamental levels in quizbowl’s difficulty progression.
 
-Two primary thresholds define Blueberry, Kiwi, and Pomegranate difficulty:
+Two primary <dfn>thresholds</dfn> define Blueberry, Kiwi, and Pomegranate difficulty:
 Blueberry is too easy for experts, and Pomegranate is too hard for beginners.
 The final threshold is between Pomegranate and Grapefruit difficulty.
 
