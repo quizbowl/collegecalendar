@@ -24,6 +24,7 @@ Information about each set is stored in a separate YAML file in the <code>\_data
 Key | Description | Example
 -|-|-
 `name`        | Name of the set                      | `EFT 2017`
+`fullname`    | Full name of the set                 | `Early Fall Tournament 2017`
 `slot`        | Name of the standard slot            | `“Fall Medium 1”`
 `prev`        | List of sets previously in this slot | `[EFT 2016, MFT, PADAWAN, IFT]`
 `diff`        | Difficulty name                      | `Medium`
@@ -34,6 +35,8 @@ Key | Description | Example
 `announceurl` | URL of global announcement           | `https://hsquizbowl.org/forums/viewtopic.php?f=8&t=19786`
 `firstonline` | Date of first online mirror          | `2017-09-16`
 `firstmirror` | Date of first mirror                 | `2017-09-30`
+`firstideal`  | Date of first ideal mirror           | `2017-10-19`
+`lastideal`   | Date of last ideal mirror            | `2017-10-26`
 `mirrors`     | List of mirrors                      | `{ date: 2017-09-30, region: 1A, name: Yale,` <br /> `eligible: HS, cancelled: yes }`
 `clear`       | Date when the set is clear           | `2018-01-23`
 `reallyclear` | Is the set confirmed to be clear     | `yes`
