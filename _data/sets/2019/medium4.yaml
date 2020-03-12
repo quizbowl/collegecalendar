@@ -15,7 +15,7 @@ mirrors:
   - { date: TBD,        region: 1A, name: Harvard, cancelled: yes }
   - { date: 2020-03-28, region: 2A, name: Johns Hopkins, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23760", cancelled: yes }
   - { date: 2020-03-21, region: 2B, name: Duke, cancelled: yes }
-  - { date: 2020-03-21, region: 3B, name: Auburn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23777" }
+  - { date: 2020-03-21, region: 3B, name: Auburn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23777", cancelled: yes }
   - { date: 2020-03-21, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23754", cancelled: yes }
   - { date: 2020-03-14, region: 6B, name: BYU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23648" }
   - { date: 2020-03-14, region: 4A, name: Texas, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23758", cancelled: yes }
