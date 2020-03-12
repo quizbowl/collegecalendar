@@ -1,0 +1,13 @@
+slot:        “Fall Medium 1”
+prev:        [EFT 2019, EFT 2018, EFT 2017, EFT 2016, MFT, PADAWAN, IFT]
+diff:        Medium
+diffdots:    ●●
+eligible:    Closed; HS allowed
+name:        LIT
+fullname:    Longhorn Invitational Tournament
+firstonline: 2020-03-08
+announced:   2019-06-05
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22780
+ebol:        no
+mirrors:
+  - { date: 2020-03-08, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23808" }
