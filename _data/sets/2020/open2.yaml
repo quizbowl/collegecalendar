@@ -1,10 +1,9 @@
-slot:        “Winter Open”
-prev:        []
-diff:        Medium
-diffdots:    ●●◖
+slot:        “Spring Open”
+prev:        [Terrapin Open, PIANO, CMST, TTIAC, “stanford housewrite”, George Oppen, Cane Ridge Revival]
+diff:        Nationals
+diffdots:    ●●●◖
 eligible:    Open
-name:        Early 2021 open
-firstmirror: 2021-01-16
-announced:   2019-08-09
-announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23052
+name:        Illinois Open
+announced:   2020-01-15
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23678
 mirrors:
