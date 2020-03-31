@@ -49,8 +49,10 @@ layout: page
 {% for slot_id in season.slots -%}
 {% assign set = site.data.sets[page.year][slot_id] -%}
 <td>
-{{- set.diff -}}<br />
-<span class="diffdots">{{- set.diffdots -}}</span></td>
+{{- set.diff -}}
+{%- if set.diffd2 %} (or {% if set.diffd2 == "Medium" %}Med.{% else %}{{ set.diffd2 }}{% endif %} in Div II){% endif %}<br />
+<span class="diffdots {{ set.diffdots }}">{{- set.diffdots -}}</span>
+{%- if set.diffd2 %} (or <span class="diffdots {{ set.diffdotsd2 }}">{{ set.diffdotsd2 }}</span> in Div II){% endif %}</td>
 {% endfor -%}
 </tr>
 
@@ -335,7 +337,9 @@ no
 {{- set.name -}}
 {%- if set.announceurl -%}</a>{%- endif -%}
 </th>
-<td class="diffdots">{{ set.diffdots | replace: "in Div II)", "" | replace: "(", "" }}</td>
+<td>
+<span class="diffdots {{ set.diffdots }}">{{- set.diffdots -}}</span>
+{%- if set.diffd2 %} or <span class="diffdots {{ set.diffdotsd2 }}">{{ set.diffdotsd2 }}</span>{% endif %}</td>
 {% assign mirrors = set.mirrors | where_exp: "mirror", "mirror.date != 'TBD'" -%}
 
 {% assign lastmirror = nil -%}
