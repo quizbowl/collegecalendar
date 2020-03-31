@@ -428,7 +428,7 @@ no
 {%- if mtwd != '6' or firstweekofseason or lastweekofseason %}&#xa;&#x9;{{ mtw.date | date: '%a, %b %-d' }}{% endif %}
 {%- if forloop.last == false %}&#xa;{% endif %}
 {%- endfor %}"{% endif %}>
-{% comment %}add symbols after mirror name{% endcomment %}
+{%- comment %}add symbols after mirror name{% endcomment %}
 {%- if mirrorsthisweek.size > 0 -%}
 {% if mirrorsthisweek.size > 4 %}<b>{% endif -%}
 {{- mirrorsthisweek | size }} {% comment %}{% endcomment %}
@@ -464,7 +464,7 @@ no
 <th></th>
 {% for weeksafter in (-2..seasonweeksplus1) -%}
 <th>
-{% assign total = 0 -%}
+{%- assign total = 0 -%}
 {% assign secondsafter = weeksafter | times: 604800 -%}
 {% assign current = seasonstart | plus: secondsafter -%}
 {% assign nextweek = current | plus: 604800 -%}
@@ -488,7 +488,7 @@ no
 {% endfor -%}
 {% endfor -%}
 
-{% if total > 0 %}{{ total }}{% endif %}
+{% if total > 0 %}{{ total }}{% endif -%}
 </th>
 {% endfor %}
 </tr>
