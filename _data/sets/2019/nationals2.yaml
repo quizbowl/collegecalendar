@@ -12,3 +12,4 @@ clear:       2020-04-20
 ebol:        maybe
 mirrors:
   - { date: 2020-04-18, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23261", cancelled: yes }
+  - { date: 2020-08-08, region: 8B, name: Northwestern, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23261" }

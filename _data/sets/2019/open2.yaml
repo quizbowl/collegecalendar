@@ -17,4 +17,5 @@ mirrors:
   - { date: 2020-03-14, region: 5B, name: Stanford, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23780", cancelled: yes }
   - { date: 2020-03-14, region: 8B, name: Purdue, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23725", cancelled: yes }
   - { date: 2020-03-29, region: CA, name: Toronto, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23633", cancelled: yes }
-  - { date: 2020-03-28, region: 0L, name: Online, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23633" }
+  - { date: 2020-03-28, region: 0L, name: Online, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23928" }
+  - { date: 2020-04-11, region: UK, name: TBD }
