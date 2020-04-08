@@ -69,7 +69,7 @@ are non-standard and confusing and should be deprecated
     </tbody>
 </table>
 
-This site uses the following four-level scale:
+This site uses the following four-level <dfn>categorical scale</dfn>:
 
 {% include scale.html %}
 
@@ -94,7 +94,8 @@ Any correspondence of high school difficulties to this scale is unreliable
 in part because the HS canon (total knowledge tested) is too different.
 But HS nationals is near Medium difficulty.
 
-This scale is undefined for other difficulties extrapolated beyond its extremes.
+This scale is undefined for other difficulties extrapolated beyond its extremes,
+since they have little relevance to the college quizbowl calendar.
 
 [^1]: This scale is preferably called “the college quizbowl calendar difficulty scale”
       (or “the collegequizbowlcalendar.com difficulty scale,”
