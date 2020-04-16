@@ -8,6 +8,9 @@ fullname:    Michigan Winter Tournament
 firstmirror: 2020-01-11
 announced:   2019-04-03
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22581
+clear:       2020-04-16
+reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/2394/
 ebol:        no
 mirrors:
   - { date: 2019-12-21, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23382" }
