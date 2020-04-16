@@ -29,6 +29,8 @@ Key | Description | Example
 `prev`        | List of sets previously in this slot | `[EFT 2016, MFT, PADAWAN, IFT]`
 `diff`        | Difficulty name                      | `Medium`
 `diffdots`    | Difficulty rating                    | `●●`
+`diffd2`      | Difficulty name in Division II       | `Easy`
+`diffdotsd2`  | Difficulty rating in Division II     | `●`
 `eligible`    | Eligibility details                  | `Closed`
 `submission`  | Packet submission details            | `Required`
 `announced`   | Date of global announcement          | `2017-03-23`
@@ -37,7 +39,7 @@ Key | Description | Example
 `firstmirror` | Date of first mirror                 | `2017-09-30`
 `firstideal`  | Date of first ideal mirror           | `2017-10-19`
 `lastideal`   | Date of last ideal mirror            | `2017-10-26`
-`mirrors`     | List of mirrors                      | `{ date: 2017-09-30, region: 1A, name: Yale,` <br /> `eligible: HS, cancelled: yes }`
+`mirrors`     | List of mirrors                      | `{ date: 2017-09-30, region: 1A, name: Yale,` <br /> `eligible: HS, cancelled: yes, url: "..." }`
 `clear`       | Date when the set is clear           | `2018-01-23`
 `reallyclear` | Is the set confirmed to be clear     | `yes`
 `ebol`        | Is the set participating in EBOL     | `no`
