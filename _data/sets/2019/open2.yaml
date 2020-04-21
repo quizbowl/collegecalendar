@@ -9,6 +9,9 @@ firstideal:  2020-02-22
 lastideal:   2020-03-07
 announced:   2019-08-14
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23078
+clear:       2020-04-20
+reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/2459/
 ebol:        yes
 mirrors:
   - { date: 2020-02-29, region: 1A, name: Brown, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23651" }
