@@ -1,0 +1,10 @@
+slot:        “Spring Medium 1”
+prev:        [past Penn Bowls, Terrapin, DRAGOON, QUARK]
+diff:        Medium
+diffdots:    ●●◖
+name:        IKEA
+announced:   2020-04-22
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24058
+mirrors:
+  - { date: TBD, region: 2A, name: Columbia }
+  - { date: TBD, region: 3B, name: Georgia Tech }
