@@ -24,4 +24,4 @@ mirrors:
   - { date: 2020-03-21, region: 8B, name: UIUC, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23752", cancelled: yes }
   - { date: 2020-03-28, region: 4A, name: Texas Invitational, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23744", cancelled: yes }
   - { date: 2020-04-11, region: 8B, name: UIUC, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23749" }
-  - { date: 2020-05-09, region: 2A, name: Ridgewood HS, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23753" }
+  - { date: 2020-05-09, region: 2A, name: Ridgewood HS, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23753", cancelled: yes }
