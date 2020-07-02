@@ -6,7 +6,6 @@
     - easy1
     - medium1
     - easy2
-    - medium2
     - open1
     - medium3
     - easy3
@@ -18,7 +17,9 @@
   slots:
     - regionals1
     - regionals2
+    - medium2
     - medium4
+    - medium5
     - open2
     - easy4
     - nationals1
