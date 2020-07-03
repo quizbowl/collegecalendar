@@ -10,12 +10,12 @@ announced:   2019-08-08
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23049
 ebol:        no
 mirrors:
-  - { date: 2020-04-11, region: 2A, name: Princeton }
+  - { date: 2020-04-11, region: 2A, name: Princeton, cancelled: yes }
   - { date: 2020-03-28, region: 3B, name: South Carolina, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23893", cancelled: yes }
   - { date: 2020-04-11, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23773", cancelled: yes }
-  - { date: 2020-04-25, region: 6A, name: Washington }
+  - { date: 2020-04-25, region: 6A, name: Washington, cancelled: yes }
   - { date: 2020-03-28, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23734", cancelled: yes }
-  - { date: 2020-05-09, region: 8B, name: Chicago }
+  - { date: 2020-05-09, region: 8B, name: Chicago, cancelled: yes }
   - { date: 2020-04-11, region: 8C, name: Penn State, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23614", cancelled: yes }
   - { date: 2020-04-11, region: 0L, name: Penn State Online, eligible: nearby teams only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23935" }
   - { date: 2020-03-08, region: CA, name: Toronto, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23714" }
