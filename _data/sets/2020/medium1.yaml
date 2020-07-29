@@ -10,5 +10,4 @@ announced:   2019-06-05
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22780
 ebol:        no
 mirrors:
-  - { date: 2020-03-08, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23808" }
   - { date: 2020-09-12, region: 4A, name: Texas, eligible: HS only }
