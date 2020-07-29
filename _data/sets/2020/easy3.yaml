@@ -1,0 +1,13 @@
+slot:        “Spring Novice”
+prev:        [FST, SUN, MUT, EMT, SMT]
+diff:        Easy
+diffdots:    ●
+eligible:    Closed; HS-only mirrors
+name:        SUN
+fullname:    Spring Undergraduate Novice
+firstmirror: 2020-03-07
+announced:   2019-08-08
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24283
+clear:       2020-12-01
+ebol:        no
+mirrors:
