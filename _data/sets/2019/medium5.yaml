@@ -6,6 +6,9 @@ name:        WORKSHOP
 firstmirror: 2020-02-22
 announced:   2019-07-01
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22892
+clear:       2020-07-21
+reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/2504/
 ebol:        no
 mirrors:
   - { date: 2020-02-29, region: 4A, name: UT-Austin, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23521" }
