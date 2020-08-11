@@ -1,11 +1,11 @@
 - name: Fall
   year: 2020
-  start: 2020-09-12
-  weeks: 15
+  start: 2020-09-05
+  weeks: 16
   slots:
+    - medium1
     - easy1
     - easy3
-    - medium1
     - medium2
     - easy2
     - medium3

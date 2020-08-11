@@ -10,4 +10,8 @@ announced:   2019-06-05
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22780
 ebol:        no
 mirrors:
+  - { date: 2020-09-05, region: 2B, name: Duke, eligible: Mid-Atlantic }
+  - { date: 2020-10-03, region: 3C, name: Florida, eligible: Southeast }
+  - { date: 2020-09-05, region: 4A, name: Texas, eligible: Great Plains }
+  - { date: TBD,        region: CA, name: Canada }
   - { date: 2020-09-12, region: 4A, name: Texas, eligible: HS only }

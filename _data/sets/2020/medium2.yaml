@@ -10,6 +10,6 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24058
 mirrors:
   - { date: 2020-09-19, region: 0L, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24228" }
   - { date: 2020-09-27, region: 0L, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24228" }
-  - { date: TBD, region: 2A, name: Columbia }
-  - { date: TBD, region: 3B, name: Georgia Tech }
-  - { date: 2020-10-03, region: 2A, name: Georgia Tech, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24324" }
+  - { date: TBD, region: 2A, name: Columbia, eligible: Northeast }
+  - { date: TBD, region: 3B, name: Georgia Tech, eligible: Southeast }
+  - { date: 2020-10-03, region: 2A, name: Mid-Atlantic, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24324" }
