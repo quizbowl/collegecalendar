@@ -4,12 +4,12 @@
   weeks: 15
   slots:
     - easy1
-    - medium1
-    - easy2
-    - medium2
-    - open1
-    - medium3
     - easy3
+    - medium1
+    - medium2
+    - easy2
+    - medium3
+    - open1
 
 - name: Spring
   year: 2021
