@@ -13,3 +13,4 @@ mirrors:
   - { date: TBD,        region: 2A, name: Columbia, eligible: Northeast }
   - { date: 2020-10-24, region: 3B, name: Georgia Tech, eligible: Southeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24334" }
   - { date: 2020-10-03, region: 2A, name: Mid-Atlantic, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24324" }
+  - { date: 2020-10-03, region: 7A, name: Great Plains, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24354" }
