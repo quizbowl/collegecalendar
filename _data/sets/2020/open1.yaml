@@ -8,5 +8,5 @@ firstmirror: 2020-11-14
 announced:   2020-02-21
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23813
 mirrors:
-  - { date: 2020-11-14, region: 3C, name: Florida, eligible: Southeast }
-  - { date: 2020-11-21, region: 0L, name: Online }
+  - { date: 2020-11-14, region: 3C, name: Florida, eligible: Southeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24377" }
+  - { date: 2020-11-21, region: 0L, name: Online, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24378" }
