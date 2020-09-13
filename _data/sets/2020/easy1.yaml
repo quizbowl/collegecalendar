@@ -9,3 +9,5 @@ announced:   2020-03-05
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23856
 ebol:        no
 mirrors:
+  - { date: 2020-11-21, region: 3B, name: Georgia Tech, eligible: Southeast }
+  - { date: 2021-01-17, region: 2A, name: Ridgewood, eligible: HS only }

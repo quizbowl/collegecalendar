@@ -3,8 +3,7 @@ prev:        [past Penn Bowls, Terrapin, DRAGOON, QUARK]
 diff:        Medium
 diffdots:    ●●◖
 name:        IKEA
-firstonline: 2020-09-19
-firstmirror: 2020-10-24
+firstmirror: 2020-09-19
 announced:   2020-04-22
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24058
 mirrors:
@@ -14,3 +13,4 @@ mirrors:
   - { date: 2020-10-24, region: 3B, name: Georgia Tech, eligible: Southeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24334" }
   - { date: 2020-10-03, region: 2A, name: Mid-Atlantic, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24324" }
   - { date: 2020-10-03, region: 7A, name: Great Plains, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24354" }
+  - { date: TBD,        region: 0L, name: HS Open, eligible: HS Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24380" }
