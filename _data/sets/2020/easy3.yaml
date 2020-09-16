@@ -12,3 +12,4 @@ clear:       2020-12-01
 ebol:        no
 mirrors:
   - { date: 2020-09-12, region: 3C, name: Florida, eligible: Southeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24329" }
+  - { date: 2020-10-10, region: 8C, name: MSU, eligible: Midwest, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24456" }

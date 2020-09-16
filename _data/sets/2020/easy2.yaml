@@ -12,7 +12,7 @@ mirrors:
   - { date: 2020-10-17, region: 1A, name: Stony Brook, eligible: Northeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24431" }
   - { date: 2020-10-17, region: 2A, name: NYU, eligible: N. Mid-Atlantic, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24424" }
   - { date: 2020-10-17, region: 2B, name: North Carolina, eligible: S. Mid-Atlantic, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24427" }
-  - { date: 2020-10-17, region: 3B, name: South Carolina, eligible: Southeast }
+  - { date: 2020-10-17, region: 3B, name: South Carolina, eligible: Southeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24454" }
   - { date: 2020-10-17, region: 4A, name: Rice, eligible: South, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24430" }
   - { date: 2020-10-17, region: 5B, name: Berkeley, eligible: California, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24434" }
   - { date: 2020-10-17, region: 6A, name: Colorado, eligible: Northwest, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24445" }

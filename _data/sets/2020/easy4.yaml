@@ -1,0 +1,11 @@
+slot:        “Early Fall Novice”
+prev:        [Collegiate Novice, ICCS, VCU Novice, EACNT]
+diff:        Easy
+diffdots:    ●
+name:        NAQT IS-195
+clear:       never
+packetsurl:  never
+mirrors:
+  - { date: 2020-09-26, region: 6A, name: Idaho }
+  - { date: 2020-09-26, region: CA, name: Toronto }
+  - { date: 2020-10-03, region: 8A, name: Minnesota }

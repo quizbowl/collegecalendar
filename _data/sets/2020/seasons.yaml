@@ -4,9 +4,10 @@
   weeks: 16
   slots:
     - medium1
-    - easy1
     - easy3
     - medium2
+    - easy4
+    - easy1
     - easy2
     - medium3
     - open1
@@ -21,6 +22,6 @@
     - medium4
     - medium5
     - open2
-    - easy4
+    - easy5
     - nationals1
     - nationals2
