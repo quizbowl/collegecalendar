@@ -13,4 +13,6 @@ mirrors:
   "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24459" }
   - { date: 2020-11-21, region: 3B, name: Georgia Tech, eligible: Southeast }
   - { date: 2020-10-10, region: 8A, name: Mounds View, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24482" }
-  - { date: 2021-01-17, region: 2A, name: Ridgewood, eligible: HS only }
+  - { date: 2021-01-17, region: 2A, name: Ridgewood, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24521" }
+  - { date: 2021-04-03, region: 7B, name: Ladue, eligible: HS only }
+  - { date: 2021-04-10, region: 8C, name: Olentangy Berlin, eligible: HS only }
