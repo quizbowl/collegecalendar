@@ -9,12 +9,12 @@ firstmirror: 2020-11-07
 announced:   2020-08-09
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24322
 mirrors:
-  - { date: 2020-11-07, region: 1A, name: Yale, eligible: Northeast }
-  - { date: 2020-11-07, region: 2A, name: Rutgers, eligible: N. Mid-Atlantic }
+  - { date: 2020-11-07, region: 1A, name: Yale, eligible: Northeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24555" }
+  - { date: 2020-11-07, region: 2A, name: Rutgers, eligible: N. Mid-Atlantic, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24556" }
   - { date: 2020-11-07, region: 3A, name: Vanderbilt, eligible: Southeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24544" }
-  - { date: 2020-11-07, region: 4A, name: Texas, eligible: South }
+  - { date: 2020-11-07, region: 4A, name: Texas, eligible: South, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24546" }
   - { date: 2020-11-07, region: 5A, name: USC, eligible: California }
   - { date: 2020-11-07, region: 6A, name: Washington, eligible: Northwest }
   - { date: 2020-11-07, region: 8A, name: Iowa, eligible: North, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24542" }
   - { date: 2020-11-07, region: 8C, name: OSU, eligible: Great Lakes, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24543" }
-  - { date: 2020-11-07, region: CA, name: Toronto, eligible: Canada }
+  - { date: 2020-11-07, region: CA, name: Toronto, eligible: Canada, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24554" }
