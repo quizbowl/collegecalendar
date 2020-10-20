@@ -16,7 +16,7 @@ mirrors:
   - { date: 2020-10-17, region: 3B, name: South Carolina, eligible: Southeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24454" }
   - { date: 2020-10-17, region: 4A, name: Rice, eligible: South, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24430" }
   - { date: 2020-10-17, region: 5B, name: Berkeley, eligible: California, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24434" }
-  - { date: 2020-10-17, region: 6A, name: Colorado, eligible: Northwest, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24445" }
+  - { date: 2020-10-17, region: 6B, name: Colorado, eligible: Northwest, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24445" }
   - { date: 2020-10-17, region: 8A, name: Carleton, eligible: North, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24435" }
   - { date: 2020-10-17, region: 8B, name: Illinois, eligible: Midwest, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24453" }
   - { date: 2020-10-17, region: 8C, name: Chicago, eligible: Great Lakes, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24425" }
