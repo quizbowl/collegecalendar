@@ -21,3 +21,4 @@ mirrors:
   - { date: 2020-11-07, region: 8C, name: OSU, eligible: Great Lakes, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24543" }
   - { date: 2020-11-07, region: CA, name: Toronto, eligible: Canada, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24554" }
   - { date: 2020-11-07, region: UK, name: Warwick }
+  - { date: 2020-11-07, region: 0L, name: Online, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24575" }

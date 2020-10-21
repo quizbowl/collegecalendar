@@ -9,6 +9,7 @@ announced:   2020-03-05
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23856
 ebol:        no
 mirrors:
+  - { date: 2020-12-05, region: 1A, name: MIT, eligible: Northeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24579" }
   - { date: 2020-10-10, region: 2B, name: VCU, eligible: S. Mid-Atlantic, url: 
   "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24459" }
   - { date: 2020-11-21, region: 3B, name: Georgia Tech, eligible: Southeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24565" }
