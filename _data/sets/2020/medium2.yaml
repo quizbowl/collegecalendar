@@ -14,4 +14,5 @@ mirrors:
   - { date: 2020-10-03, region: 2A, name: Mid-Atlantic, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24324" }
   - { date: 2020-10-03, region: 7A, name: Great Plains, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24354" }
   - { date: 2020-12-05, region: 8A, name: Iowa, eligible: Midwest, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24535" }
+  - { date: 2020-12-05, region: 5A, name: UCSD, eligible: West Coast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24613" }
   - { date: 2020-11-08, region: 0L, name: HS Open, eligible: HS Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24380" }
