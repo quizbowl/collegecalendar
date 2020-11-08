@@ -8,6 +8,9 @@ name:        ACF Fall
 firstmirror: 2020-10-17
 announced:   2020-08-09
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24321
+clear:       2020-10-18
+packetsurl:  https://collegiate.quizbowlpackets.com/2548/
+ebol:        no
 mirrors:
   - { date: 2020-10-17, region: 1A, name: Harvard, eligible: Northeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24515" }
   - { date: 2020-10-17, region: 1B, name: Stony Brook, eligible: Northeast/Mid-Atlantic overflow, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24431" }
