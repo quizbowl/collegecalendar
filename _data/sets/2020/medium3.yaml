@@ -9,6 +9,7 @@ firstmirror: 2020-11-07
 announced:   2020-08-09
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24322
 clear:       2020-11-08
+reallyclear: yes
 ebol:        no
 mirrors:
   - { date: 2020-11-07, region: 1A, name: Yale, eligible: Northeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24555" }
