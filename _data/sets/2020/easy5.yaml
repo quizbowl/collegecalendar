@@ -10,3 +10,9 @@ lastideal:   2021-04-18
 announced:   2020-10-24
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24592
 mirrors:
+  - { date: TBD, region: 2B, name: UNC/Duke, eligible: Mid-Atlantic }
+  - { date: TBD, region: 3B, name: Georgia Tech, eligible: Southeast }
+  - { date: TBD, region: 5B, name: Berkeley, eligible: West }
+  - { date: TBD, region: 8B, name: Purdue, eligible: Midwest }
+  - { date: TBD, region: 8C, name: CMU, eligible: Great Lakes }
+  - { date: TBD, region: CA, name: Toronto, eligible: Canada }
