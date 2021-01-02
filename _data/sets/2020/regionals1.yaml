@@ -8,7 +8,9 @@ name:        ACF Regionals
 firstmirror: 2021-01-30
 announced:   2020-10-22
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24586
+ebol:        yes
 mirrors:
+  - { date: 2021-01-30, region: 0L, name: Invitational, eligible: Northeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24756" }
   - { date: 2021-01-30, region: 1A, name: Yale, eligible: Northeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24717" }
   - { date: 2021-01-30, region: 2A, name: NYU, eligible: N. Mid-Atlantic, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24755" }
   - { date: 2021-01-30, region: 3B, name: Georgia Tech, eligible: Southeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24716" }
