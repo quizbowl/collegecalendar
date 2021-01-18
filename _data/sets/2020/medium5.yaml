@@ -9,10 +9,10 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24269
 ebol:        yes
 mirrors:
   - { date: 2021-02-06, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24749" }
-  - { date: 2021-02-13, region: 1A, name: Harvard, eligible: Northeast }
+  - { date: 2021-02-13, region: 1A, name: Harvard, eligible: Northeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24805"}
   - { date: 2021-02-20, region: 2B, name: UNC/Duke, eligible: Mid-Atlantic, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24793" }
   - { date: 2021-03-06, region: 3C, name: Florida, eligible: Southeast }
-  - { date: TBD,        region: 5A, name: Claremont, eligible: West }
-  - { date: TBD,        region: 7B, name: WUSTL, eligible: Lower Midwest }
+  - { date: 2021-03-06, region: 5A, name: Claremont, eligible: West }
+  - { date: 2021-03-27, region: 7B, name: WUSTL, eligible: Lower Midwest }
   - { date: 2021-03-27, region: 8A, name: Minnesota, eligible: Midwest }
   - { date: TBD,        region: UK, name: BSQC }

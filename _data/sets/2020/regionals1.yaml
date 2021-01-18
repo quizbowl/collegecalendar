@@ -17,6 +17,6 @@ mirrors:
   - { date: 2021-01-30, region: 5A, name: USC/Washington, eligible: West, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24798" }
   - { date: 2021-01-30, region: 7A, name: Nebraska, eligible: South Central }
   - { date: 2021-01-30, region: 8A, name: Minnesota, eligible: North, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24742" }
-  - { date: 2021-01-30, region: CA, name: Toronto, eligible: Canada }
+  - { date: 2021-01-30, region: CA, name: Toronto, eligible: Canada, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24812" }
   - { date: 2021-01-30, region: UK, name: Imperial }
   - { date: 2021-01-31, region: 0L, name: Westview HS, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24718" }
