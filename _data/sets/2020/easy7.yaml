@@ -1,0 +1,13 @@
+slot:        “Spring Novice 3”
+prev:        [PACE NSC, ILLIAC, FST, SUN, MUT, EMT, SMT]
+diff:        Easy
+diffdots:    ●◖
+eligible:    Closed
+name:        STASH
+fullname:    Spring TJ Advanced Scholastic Housewrite
+announced:   2020-10-11
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24539
+mirrors:
+  - { date: 2021-03-13, region: 1A, name: NYU, eligible: Northeast }
+  - { date: 2021-03-20, region: 5B, name: UBC, eligible: West }
+  - { date: 2021-02-13, region: CA, name: McGill, eligible: Canada, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24818" }

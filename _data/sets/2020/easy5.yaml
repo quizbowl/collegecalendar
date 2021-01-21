@@ -10,7 +10,9 @@ lastideal:   2021-04-18
 announced:   2020-10-24
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24592
 mirrors:
-  - { date: 2021-03-27, region: 2B, name: UNC/Duke, eligible: Mid-Atlantic, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24779" }
+  - { date: 2021-04-03, region: 1A, name: MIT }
+  - { date: 2021-03-27, region: 2A, name: Rutgers, eligible: N. Mid-Atlantic, url: "https://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=24813" }
+  - { date: 2021-03-27, region: 2B, name: UNC/Duke, eligible: S. Mid-Atlantic, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24779" }
   - { date: TBD, region: 3B, name: Georgia Tech, eligible: Southeast }
   - { date: TBD, region: 5B, name: Berkeley, eligible: West }
   - { date: 2021-03-27, region: 8B, name: Purdue, eligible: Midwest, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24776" }
