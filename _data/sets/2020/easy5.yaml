@@ -15,6 +15,8 @@ mirrors:
   - { date: 2021-03-27, region: 2B, name: UNC/Duke, eligible: S. Mid-Atlantic, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24779" }
   - { date: TBD, region: 3B, name: Georgia Tech, eligible: Southeast }
   - { date: TBD, region: 5B, name: Berkeley, eligible: West }
+  - { date: 2021-03-27, region: 8A, name: Carleton, eligible: Central }
   - { date: 2021-03-27, region: 8B, name: Purdue, eligible: Midwest, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24776" }
   - { date: 2021-03-27, region: 8C, name: CMU, eligible: Great Lakes, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24774" }
   - { date: TBD, region: CA, name: Toronto, eligible: Canada }
+  - { date: TBD, region: UK, name: UK Quizbowl }
