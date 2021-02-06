@@ -9,6 +9,7 @@ firstideal:  2021-03-27
 lastideal:   2021-04-18
 announced:   2020-10-24
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24592
+ebol:        no
 mirrors:
   - { date: 2021-04-03, region: 1A, name: MIT }
   - { date: 2021-03-27, region: 2A, name: Rutgers, eligible: N. Mid-Atlantic, url: "https://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=24813" }
