@@ -100,7 +100,7 @@ since they have little relevance to the college quizbowl calendar.
 [^1]: This scale is preferably called “the college quizbowl calendar difficulty scale”
       (or “the collegequizbowlcalendar.com difficulty scale,”
       or “the difficulty scale used by the college quizbowl calendar”),
-      and the unit of difficulty is a “dot” (not “circle” or “star” or “level” or “pip”).
+      and the unit of difficulty is a “dot” (not “circle” or “star” or “level” or “pip” or “point”).
 
 [^2]: Think of these levels as ordinal categories, like four different fruits.
       For example, blueberry, kiwi, pomegranate, and grapefruit are unrelated by color or family,
