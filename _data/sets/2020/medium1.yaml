@@ -8,6 +8,9 @@ fullname:    Longhorn Invitational Tournament
 firstonline: 2020-03-08
 announced:   2019-06-05
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22780
+clear:       2021-01-19
+reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/2578/
 ebol:        no
 mirrors:
   - { date: 2020-09-26, region: 1B, name: Stony Brook, eligible: Northeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24368" }

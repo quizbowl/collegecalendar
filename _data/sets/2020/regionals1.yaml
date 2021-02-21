@@ -8,6 +8,9 @@ name:        ACF Regionals
 firstmirror: 2021-01-30
 announced:   2020-10-22
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24586
+clear:       2021-02-14
+reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/2592/
 ebol:        yes
 mirrors:
   - { date: 2021-01-30, region: 0L, name: Invitational, eligible: Northeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24756" }
