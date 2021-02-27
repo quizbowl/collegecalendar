@@ -18,5 +18,6 @@ mirrors:
   - { date: 2021-03-13, region: 2B, name: UVA, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24795" }
   - { date: 2020-10-10, region: 8A, name: Mounds View, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24482" }
   - { date: 2021-01-17, region: 2A, name: Ridgewood, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24521" }
+  - { date: 2021-04-03, region: 5A, name: Westview, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24900" }
   - { date: 2021-04-03, region: 7B, name: Ladue, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24783" }
   - { date: 2021-04-10, region: 8C, name: Olentangy Berlin, eligible: HS only }
