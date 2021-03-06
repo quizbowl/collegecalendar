@@ -19,4 +19,5 @@ mirrors:
   - { date: 2021-03-06, region: UK, name: BSQC }
   - { date: 2021-03-06, region: 8B, name: Indiana, eligible: HS NASAT, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24874" }
   - { date: 2021-03-15, region: 8C, name: Ohio, eligible: HS NASAT }
+  - { date: 2021-04-24, region: 0L, name: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24939" }
   - { date: 2021-05-01, region: 0L, name: National HS Supersite, eligible: HS invite only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24896" }
