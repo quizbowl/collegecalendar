@@ -21,6 +21,6 @@ mirrors:
   - { date: 2021-01-17, region: 2A, name: Ridgewood, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24521" }
   - { date: 2021-04-03, region: 5A, name: Westview, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24900" }
   - { date: 2021-04-03, region: 7B, name: Ladue, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24783" }
-  - { date: 2021-04-10, region: 2B, name: East Chapel Hill, eligible: HS only, url: "https://www.hsquizbowl.org/forums/viewtopic.php?f=1&t=24930" }
+  - { date: 2021-04-10, region: 2B, name: East Chapel Hill, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24930" }
   - { date: 2021-05-08, region: 8C, name: Copley, eligible: HS only }
   - { date: 2021-05-15, region: 0L, name: General, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24894" }

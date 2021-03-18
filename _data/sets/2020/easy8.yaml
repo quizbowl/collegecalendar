@@ -9,4 +9,4 @@ ebol:        no
 mirrors:
   - { date: 2021-02-13, region: 2B, name: VCU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24848" }
   - { date: 2021-03-13, region: 8C, name: OSU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24854" }
-  - { date: 2021-03-28, region: 0L, name: HS Open, eligible: HS only open, url: "https://www.hsquizbowl.org/forums/viewtopic.php?f=1&t=24920" }
+  - { date: 2021-03-28, region: 0L, name: HS Open, eligible: HS only open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24920" }
