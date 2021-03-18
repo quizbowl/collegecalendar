@@ -5,6 +5,9 @@ title: Difficulty scale
 
 This page explains the purpose of the difficulty scale used by this website.[^1]
 
+This website uses difficulty ratings to roughly gauge
+the difficulty of *upcoming* college quizbowl events.[^2]
+
 Traditional <dfn>difficulty terms</dfn> like “Regular”
 and vague qualifiers like “Fall-plus” or “Regular-minus”
 are non-standard and confusing and should be deprecated
@@ -86,7 +89,7 @@ please consider targeting one of these four difficulty levels.
 Like overly long questions, difficulty creep is selfish and insular;
 quizbowl does not need to be so hard.
 
-Although difficulty varies on a continuous scale in reality,[^2]
+Although difficulty varies on a continuous scale in reality,[^3]
 please avoid using half-dots for rating your own tournament’s difficulty.
 Please also avoid using the ambiguous abbreviation “regs.”
 
@@ -102,7 +105,11 @@ since they have little relevance to the college quizbowl calendar.
       or “the difficulty scale used by the college quizbowl calendar”),
       and the unit of difficulty is a “dot” (not “circle” or “star” or “level” or “pip” or “point”).
 
-[^2]: Think of these levels as ordinal categories, like four different fruits.
+[^2]: Anticipated difficulty may differ from perceived difficulty in hindsight,
+      so ratings on this website have less utility for other purposes
+      (such as the [quizbowl packet archive](https://collegiate.quizbowlpackets.com/)).
+
+[^3]: Think of these levels as ordinal categories, like four different fruits.
       For example, blueberry, kiwi, pomegranate, and grapefruit are unrelated by color or family,
       but can still be ordered by size and tartness:
         <span class="fruits">
