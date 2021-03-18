@@ -5,8 +5,9 @@ title: Difficulty scale
 
 This page explains the purpose of the difficulty scale used by this website.[^1]
 
-This website uses difficulty ratings to roughly gauge
+This website uses difficulty ratings to roughly communicate
 the difficulty of *upcoming* college quizbowl events.[^2]
+It is meant to help you gauge which events are relevant to you.
 
 Traditional <dfn>difficulty terms</dfn> like “Regular”
 and vague qualifiers like “Fall-plus” or “Regular-minus”
@@ -106,8 +107,8 @@ since they have little relevance to the college quizbowl calendar.
       and the unit of difficulty is a “dot” (not “circle” or “star” or “level” or “pip” or “point”).
 
 [^2]: Anticipated difficulty may differ from perceived difficulty in hindsight,
-      so ratings on this website have less utility for other purposes
-      (such as the [quizbowl packet archive](https://collegiate.quizbowlpackets.com/)).
+      so ratings on this website likely have less utility for other purposes
+      (such as a [quizbowl packet archive](https://collegiate.quizbowlpackets.com/)).
 
 [^3]: Think of these levels as ordinal categories, like four different fruits.
       For example, blueberry, kiwi, pomegranate, and grapefruit are unrelated by color or family,
