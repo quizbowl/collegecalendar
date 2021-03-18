@@ -5,13 +5,18 @@ diffdots:    ●◖
 eligible:    Closed
 name:        STASH
 fullname:    Spring TJ Advanced Scholastic Housewrite
+firstmirror: 2020-12-19
 announced:   2020-10-11
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24539
+# https://hsquizbowl.org/forums/viewtopic.php?f=109&t=22865
+# https://hsquizbowl.org/forums/viewtopic.php?f=109&t=24491
 ebol:        no
 mirrors:
   - { date: 2021-03-13, region: 1A, name: NYU, eligible: Northeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24897" }
   - { date: 2021-04-24, region: 2A, name: Mid-Atlantic, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24882" }
-  - { date: 2021-04-03, region: 3B, name: Southeast, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24881" }
   - { date: 2021-03-20, region: 5B, name: UBC, eligible: West, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24899" }
-  - { date: 2021-03-27, region: 5B, name: West Coast, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24911" }
   - { date: 2021-02-13, region: CA, name: McGill, eligible: Canada, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24818" }
+  - { date: 2021-04-03, region: 3B, name: Southeast, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24881" }
+  - { date: 2021-03-27, region: 5B, name: West Coast, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24911" }
+  - { date: 2021-04-17, region: 8B, name: Great Lakes, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24746" }
+  - { date: 2021-04-17, region: 0L, name: Open, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24977" }

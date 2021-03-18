@@ -19,6 +19,6 @@ mirrors:
   - { date: 2021-04-17, region: 8A, name: Carleton, eligible: Central, url: "https://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=24932" }
   - { date: 2021-03-27, region: 8B, name: Purdue, eligible: Midwest, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24776" }
   - { date: 2021-03-27, region: 8C, name: CMU, eligible: Great Lakes, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24774" }
-  - { date: 2021-03-27, region: CA, name: Toronto, eligible: Canada }
+  - { date: 2021-03-27, region: CA, name: Toronto, eligible: Canada, url: "https://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=24958" }
   - { date: TBD, region: UK, name: UK Quizbowl }
   - { date: 2021-04-10, region: 0L, name: Traditional Academic Tournament, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24885" }
