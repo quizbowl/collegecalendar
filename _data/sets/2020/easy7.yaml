@@ -20,4 +20,4 @@ mirrors:
   - { date: 2021-04-03, region: 3B, name: Southeast, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24881" }
   - { date: 2021-03-27, region: 5B, name: West Coast, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24911" }
   - { date: 2021-04-17, region: 8B, name: Great Lakes, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24746" }
-  - { date: 2021-04-17, region: 0L, name: Open, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24977" }
+  - { date: 2021-04-17, region: 0L, name: Open, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24977", cancelled: yes }

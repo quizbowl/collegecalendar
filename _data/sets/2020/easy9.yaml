@@ -1,0 +1,17 @@
+slot:        “Spring Novice 4”
+prev:        [SMH, ILLIAC, FST, SUN, MUT, EMT, SMT]
+diff:        Easy
+diffdots:    ●◖
+eligible:    Closed
+name:        SMH 2
+fullname:    Southeast-Midwest Housewrite 2
+announced:   2021-03-21
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24985
+ebol:        no
+mirrors:
+  - { date: 2021-04-18, region: 1A, name: Northeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24995" }
+  - { date: 2021-04-17, region: 2A, name: Mid-Atlantic/Southeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24997" }
+  - { date: 2021-05-01, region: 5B, name: West, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24996" }
+  - { date: 2021-04-24, region: 8B, name: Midwest/Central, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25000" }
+  - { date: 2021-05-01, region: CA, name: Canada, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24929" }
+  - { date: 2021-05-01, region: 0L, name: Open, eligible: Open }

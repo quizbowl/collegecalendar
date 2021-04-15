@@ -2,7 +2,9 @@ slot:        “Spring Medium 1”
 prev:        [SMH, LIT, Terrapin 2019, SMT, EMT]
 diff:        Medium
 diffdots:    ●●
-name:        Spring 2022 Medium
+name:        MRNA
 announced:   2021-02-12
-announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=9&t=24878
+# announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=9&t=24878
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25034
+firstmirror: 2022-02-12
 mirrors:
