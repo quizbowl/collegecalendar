@@ -14,4 +14,4 @@ mirrors:
   - { date: 2021-05-01, region: 5B, name: West, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24996" }
   - { date: 2021-04-24, region: 8B, name: Midwest/Central, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25000" }
   - { date: 2021-05-01, region: CA, name: Canada, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24929" }
-  - { date: 2021-05-01, region: 0L, name: Open, eligible: Open }
+  - { date: 2021-05-15, region: 0L, name: Open, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25047" }
