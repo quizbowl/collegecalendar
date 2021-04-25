@@ -49,21 +49,10 @@ layout: page
 {% for slot_id in season.slots -%}
 {% assign set = site.data.sets[page.year][slot_id] -%}
 <td>
-{%- assign difffruit = set.diff | replace: "Easy", "Blueberry" | replace: "Medium", "Kiwi" | replace: "Regionals", "Pomegranate" | replace: "Nationals", "Grapefruit" -%}
-{%- assign diffd2fruit = set.diffd2 | replace: "Easy", "Blueberry" | replace: "Medium", "Kiwi" -%}
-{%- if set.diffd2 %}{%- assign difffruit = difffruit | replace: "egranate", "." -%}{% endif -%}
-<span title="{{ set.diff }}">{{- difffruit -}}
-{%- if set.diffd2 %} (or {{ diffd2fruit }} in Div II){% endif %}</span><br />
-{%- assign diffdotsint  = set.diffdots | remove: "◖" | size -%}
-{%- assign diffdotsfrac = set.diffdots | remove: "●" | size | divide: 2 -%}
-{%- if set.diff == "Nationals" %}{% assign diffdotsint = 4 %}{% endif -%}
-{%- capture fruiturl %}/assets/img/fruit{{ diffdotsint }}.svg{% endcapture -%}
-{%- capture fruitimg     %}<img src="{{ fruiturl }}" height="18" />{% endcapture -%}
-{%- capture halffruitimg %}<img class="half" src="{{ fruiturl }}" height="18" />{% endcapture -%}
-<span title="{{ set.diffdots }}">{{ set.diffdots | replace: "●", fruitimg | replace: "◖", halffruitimg }}</span>
-{%- if set.diffd2 %} (or <span title="{{ set.diffdotsd2 }}">{{ set.diffdotsd2 | replace: "●●", ' <img src="/assets/img/fruit2.svg" height="18" /><img src="/assets/img/fruit2.svg" height="18" />'
-| replace: "●", ' <img src="/assets/img/fruit1.svg" height="18" />'
-}}</span> in Div II){% endif %}</td>
+{{- set.diff -}}
+{%- if set.diffd2 %} (or {% if set.diffd2 == "Medium" %}Med.{% else %}{{ set.diffd2 }}{% endif %} in Div II){% endif %}<br />
+<span class="diffdots {{ set.diffdots }}">{{- set.diffdots -}}</span>
+{%- if set.diffd2 %} (or <span class="diffdots {{ set.diffdotsd2 }}">{{ set.diffdotsd2 }}</span> in Div II){% endif %}</td>
 {% endfor -%}
 </tr>
 
@@ -349,16 +338,8 @@ no
 {%- if set.announceurl -%}</a>{%- endif -%}
 </th>
 <td>
-{%- assign diffdotsint  = set.diffdots | remove: "◖" | size -%}
-{%- assign diffdotsfrac = set.diffdots | remove: "●" | size | divide: 2 -%}
-{%- if set.diff == "Nationals" %}{% assign diffdotsint = 4 %}{% endif -%}
-{%- capture fruiturl %}/assets/img/fruit{{ diffdotsint }}.svg{% endcapture -%}
-{%- capture fruitimg     %}<img src="{{ fruiturl }}" height="18" />{% endcapture -%}
-{%- capture halffruitimg %}<img class="half" src="{{ fruiturl }}" height="18" />{% endcapture -%}
-<span title="{{ set.diffdots }}">{{ set.diffdots | replace: "●", fruitimg | replace: "◖", halffruitimg }}</span>
-{%- if set.diffd2 %} or <span title="{{ set.diffdotsd2 }}">{{ set.diffdotsd2 | replace: "●●", ' <img src="/assets/img/fruit2.svg" height="18" /><img src="/assets/img/fruit2.svg" height="18" />'
-| replace: "●", ' <img src="/assets/img/fruit1.svg" height="18" />'
-}}</span>{% endif %}</td>
+<span class="diffdots {{ set.diffdots }}">{{- set.diffdots -}}</span>
+{%- if set.diffd2 %} or <span class="diffdots {{ set.diffdotsd2 }}">{{ set.diffdotsd2 }}</span>{% endif %}</td>
 {% assign mirrors = set.mirrors | where_exp: "mirror", "mirror.date != 'TBD'" -%}
 
 {% assign lastmirror = nil -%}

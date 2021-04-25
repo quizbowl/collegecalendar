@@ -245,12 +245,6 @@ h4 > a[href^="#"] {
     color: inherit;
 }
 
-.half {
-    object-fit: cover;
-    object-position: left;
-    width: 10px;
-    &[src*="fruit2"] { width: 8px; }
-}
 .diffdots {
     font-family:
         -apple-system,

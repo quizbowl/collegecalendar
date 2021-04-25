@@ -81,9 +81,9 @@ This scale was designed to be unambiguous and easy to communicate,
 especially to people not well-versed in quizbowl.
 It assumes that there are only a few fundamental levels in quizbowl’s difficulty progression.
 
-Two primary <dfn>thresholds</dfn> define Blueberry, Kiwi, and Pomegranate difficulty:
-Blueberry is too easy for experts, and Pomegranate is too hard for beginners.
-The final threshold is between Pomegranate and Grapefruit difficulty.
+Two primary <dfn>thresholds</dfn> define Easy, Medium, and Regionals difficulty:
+Easy is too easy for experts, and Regionals is too hard for beginners.
+The final threshold is between Regionals and Nationals difficulty.
 
 If you plan to write a tournament,
 please consider targeting one of these four difficulty levels.
@@ -96,7 +96,7 @@ Please also avoid using the ambiguous abbreviation “regs.”
 
 Any correspondence of high school difficulties to this scale is unreliable
 in part because the HS canon (total knowledge tested) is too different.
-But HS nationals is near Kiwi difficulty.
+But HS nationals is near Medium difficulty.
 
 This scale is undefined for other difficulties extrapolated beyond its extremes,
 since they have little relevance to the college quizbowl calendar.
@@ -104,7 +104,7 @@ since they have little relevance to the college quizbowl calendar.
 [^1]: This scale is preferably called “the college quizbowl calendar difficulty scale”
       (or “the collegequizbowlcalendar.com difficulty scale,”
       or “the difficulty scale used by the college quizbowl calendar”),
-      and the unit of difficulty is a “fruit” (not “dot” or “circle” or “star” or “level” or “pip” or “point”).
+      and the unit of difficulty is a “dot” (not “circle” or “star” or “level” or “pip” or “point”).
 
 [^2]: Anticipated difficulty may differ from perceived difficulty in hindsight,
       so ratings on this website likely have less utility for other purposes
