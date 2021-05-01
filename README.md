@@ -45,6 +45,8 @@ Key | Description | Example
 `ebol`        | Is the set participating in EBOL     | `no`
 `packetsurl`  | URL to packets on archive            | `https://collegiate.quizbowlpackets.com/2048/`
 
+Dates may be `TBD`.
+
 Information about the geographic regions is stored in `map/regions.js`. The two-letter region IDs are also defined by `_layouts/year.html`, but this duplication will eventually be removed.
 
 Information about the colleges on the circuit map is stored in `map/colleges.tsv`.
