@@ -6,6 +6,9 @@ name:        WORKSHOP
 firstmirror: 2021-02-13
 announced:   2020-07-08
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24269
+clear:       2021-05-06
+reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/2505/
 ebol:        yes
 mirrors:
   - { date: 2021-02-06, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24749" }
