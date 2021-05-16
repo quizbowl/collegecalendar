@@ -9,6 +9,9 @@ firstideal:  2021-03-27
 lastideal:   2021-04-18
 announced:   2020-10-24
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24592
+clear:       2021-05-16
+reallyclear: yes
+packetsurl:  https://hsquizbowl.org/db/questionsets/2593/
 ebol:        no
 mirrors:
   - { date: 2021-04-17, region: 1A, name: MIT, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24923" }
