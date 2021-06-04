@@ -17,3 +17,4 @@ mirrors:
   - { date: 2021-02-20, region: 8B, name: Midwest, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24727" }
   - { date: 2021-03-20, region: UK, name: Oxford Brookes }
   - { date: 2021-03-20, region: 0L, name: Open, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24916" }
+  - { date: 2021-06-26, region: 0L, name: AQBL ONCT, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=2&t=24908" }

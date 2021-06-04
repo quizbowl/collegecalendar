@@ -3,6 +3,11 @@ prev:        [past Penn Bowls, Terrapin, DRAGOON, QUARK]
 diff:        Regionals
 diffdots:    ●●●
 name:        Penn Bowl
+firstmirror: 2021-08-28
+firstideal:  2021-10-23
+lastideal:   2021-10-30
 announced:   2020-11-12
-announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=21&t=23816&p=381366#p381366
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25140
+# https://hsquizbowl.org/forums/viewtopic.php?f=21&t=23816&p=381366#p381366
 mirrors:
+  - { date: 2021-08-28, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25141" }
