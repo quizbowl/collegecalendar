@@ -6,6 +6,9 @@ name:        IKEA
 firstmirror: 2020-09-19
 announced:   2020-04-22
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24058
+clear:       2021-06-15
+reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/2631/
 ebol:        no
 mirrors:
   - { date: 2020-09-19, region: 0L, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24228" }
