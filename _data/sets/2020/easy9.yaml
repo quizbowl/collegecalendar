@@ -7,6 +7,9 @@ name:        SMH 2
 fullname:    Southeast-Midwest Housewrite 2
 announced:   2021-03-21
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24985
+clear:       2021-06-28
+reallyclear: yes
+packetsurl:  https://hsquizbowl.org/db/questionsets/2563/
 ebol:        no
 mirrors:
   - { date: 2021-04-18, region: 1A, name: Northeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24995" }
