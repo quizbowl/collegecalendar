@@ -5,4 +5,8 @@ diffdots:    ●●●●
 submission:  Optional
 eligible:    Qualify at ACF Regionals
 name:        ACF Nationals
+announced:   2021-07-09
+announceurl: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25197"
+firstmirror: 2021-08-07
 mirrors:
+  - { date: 2021-08-07, region: 8B, name: Northwestern, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25197" }
