@@ -10,6 +10,9 @@ announced:   2020-10-11
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24539
 # https://hsquizbowl.org/forums/viewtopic.php?f=109&t=22865
 # https://hsquizbowl.org/forums/viewtopic.php?f=109&t=24491
+clear:       2021-07-31
+reallyclear: yes
+packetsurl:  https://quizbowlpackets.com/2331/
 ebol:        no
 mirrors:
   - { date: 2021-03-13, region: 1A, name: NYU, eligible: Northeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24897" }

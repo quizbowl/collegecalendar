@@ -3,6 +3,9 @@ prev:        [past ACF Falls]
 diff:        Easy
 diffdots:    ●
 submission:  Optional
-eligible:    Closed; HS-only mirrors
+eligible:    Closed; scoring limits; HS-only mirrors
 name:        ACF Fall
+firstmirror: 2021-10-16
+announced:   2021-08-13
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25261
 mirrors:

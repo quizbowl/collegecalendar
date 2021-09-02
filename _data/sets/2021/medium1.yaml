@@ -7,3 +7,7 @@ fullname:    Hari’s Academic Regular(-minus) Invitational
 announced:   2021-03-12
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24961
 mirrors:
+  - { date: 2021-09-25, region: 0P, name: Online, eligible: Open }
+  - { date: TBD, region: 1A, name: Brown }
+  - { date: TBD, region: 3B, name: Georgia Tech }
+  - { date: 2021-10-30, region: UK, name: TBD }

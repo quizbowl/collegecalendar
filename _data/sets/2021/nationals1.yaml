@@ -7,6 +7,8 @@ diffdotsd2:  ●●
 eligible:    Qualify at NAQT SCT
 name:        NAQT ICT
 fullname:    NAQT Intercollegiate Championship Tournament
+firstmirror: 2022-04-02
 clear:       never
 packetsurl:  never
 mirrors:
+  - { date: 2022-04-02, region: 8B, name: "Chicago, IL" }

@@ -4,6 +4,11 @@ diff:        Medium
 diffdots:    ●●◖
 name:        ARCADIA
 fullname:    A Regs-minus Carolina and Duke Invitational of Academia
+firstmirror: 2021-10-30
+firstideal:  2021-10-30
+lastideal:   2021-01-22
 announced:   2021-03-17
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24979
 mirrors:
+  - { date: 2021-10-09, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25313" }
+  - { date: TBD, region: 2B, name: Duke or UNC }
