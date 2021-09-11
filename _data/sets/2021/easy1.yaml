@@ -9,5 +9,6 @@ mirrors:
   - { date: 2021-09-25, region: 1B, name: RIT, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25300" }
   - { date: 2021-09-25, region: 3B, name: Georgia Tech, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25306" }
   - { date: 2021-09-25, region: 8C, name: CMU }
+  - { date: 2021-10-02, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25339" }
   - { date: TBD,        region: 2A, name: Johns Hopkins }
   - { date: 2021-10-30, region: 3A, name: Tennessee }

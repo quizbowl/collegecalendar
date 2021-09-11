@@ -10,8 +10,8 @@
     - medium3
     - medium4
     - open1
-    - easy3
-    - medium5
+#    - easy3
+#    - medium5
 
 - name: Spring
   year: 2022
@@ -23,6 +23,6 @@
     - regionals2
     - medium6
     - medium7
-    - easy5
+#    - easy5
     - nationals1
     - nationals2
