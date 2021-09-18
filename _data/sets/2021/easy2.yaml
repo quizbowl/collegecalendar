@@ -9,3 +9,9 @@ firstmirror: 2021-10-16
 announced:   2021-08-13
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25261
 mirrors:
+  - { date: 2021-10-16, region: 1A, name: MIT, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25359" }
+  - { date: 2021-10-16, region: 1B, name: RIT, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25366" }
+  - { date: 2021-10-16, region: 2B, name: Duke, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25362" }
+  - { date: 2021-10-16, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25358" }
+  - { date: 2021-10-16, region: 8B, name: UIUC, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25360" }
+  - { date: 2021-10-16, region: 8C, name: Case Western, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25363" }
