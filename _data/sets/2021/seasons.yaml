@@ -4,11 +4,11 @@
   weeks: 16
   slots:
     - easy1
-    - medium1
     - easy2
     - medium2
-    - medium3
+    - medium1
     - medium4
+    - medium3
     - open1
 #    - easy3
 #    - medium5
