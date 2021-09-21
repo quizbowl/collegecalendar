@@ -20,4 +20,5 @@ mirrors:
   - { date: 2021-10-16, region: 8B, name: UIUC, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25360" }
   - { date: 2021-10-16, region: 8C, name: Case Western, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25363" }
   - { date: 2021-10-16, region: CA, name: McGill, url: "https://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=25380", online: yes }
+  - { date: 2021-10-16, region: UK, name: Warwick, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25382", online: yes }
   - { date: 2021-10-16, region: 5B, name: California and Georgia online, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=25378" }
