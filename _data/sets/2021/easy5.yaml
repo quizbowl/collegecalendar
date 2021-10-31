@@ -1,0 +1,13 @@
+slot:        “Spring Novice”
+prev:        [Spring Novice, FST, SUN, MUT, EMT, SMT]
+diff:        Easy
+diffdots:    ●
+eligible:    Novices only
+name:        Boilermaker Spring Novice
+firstideal:  2022-03-19
+lastideal:   2022-04-23
+announced:   2021-10-27
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25517
+ebol:        no
+mirrors:
+  - { date: TBD, region: 8B, name: Purdue }
