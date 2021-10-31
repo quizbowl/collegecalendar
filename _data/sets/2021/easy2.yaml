@@ -11,6 +11,7 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25261
 mirrors:
   - { date: 2021-10-16, region: 1A, name: MIT, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25359" }
   - { date: 2021-10-16, region: 1B, name: RIT, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25366" }
+  - { date: 2021-10-16, region: 2A, name: NYU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25465", online: yes }
   - { date: 2021-10-16, region: 2A, name: UMD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25368" }
   - { date: 2021-10-16, region: 2B, name: Duke, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25362" }
   - { date: 2021-10-16, region: 2B, name: Georgia Tech, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25374" }
@@ -21,4 +22,5 @@ mirrors:
   - { date: 2021-10-16, region: 8C, name: Case Western, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25363" }
   - { date: 2021-10-16, region: CA, name: McGill, url: "https://www.hsquizbowl.org/forums/viewtopic.php?f=8&t=25380", online: yes }
   - { date: 2021-10-16, region: UK, name: Warwick, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25382", online: yes }
-  - { date: 2021-10-16, region: 5B, name: California and Georgia online, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=25378" }
+  - { date: 2021-10-16, region: 5B, name: California and Georgia, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=25378", online: yes }
+  - { date: 2021-10-16, region: 0L, name: National, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=25389", online: yes }
