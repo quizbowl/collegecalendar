@@ -8,3 +8,4 @@ firstmirror: 2021-11-13
 announced:   2020-01-15
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23678
 mirrors:
+  - { date: 2021-11-13, region: 8B, name: UIUC, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25388" }
