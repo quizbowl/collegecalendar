@@ -8,6 +8,8 @@ announced:   2021-03-12
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24961
 mirrors:
   - { date: 2021-10-02, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25344" }
-  - { date: TBD, region: 1A, name: Brown }
-  - { date: TBD, region: 3B, name: Georgia Tech }
-  - { date: 2021-10-30, region: UK, name: TBD }
+  - { date: 2021-11-20, region: 1A, name: Brown, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25477" }
+  - { date: TBD, region: 5B, name: Stanford }
+  - { date: 2021-12-04, region: 8B, name: UIUC, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25493" }
+  - { date: 2021-10-30, region: 3B, name: Georgia Tech, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25428" }
+  - { date: 2021-10-30, region: UK, name: Manchester }
