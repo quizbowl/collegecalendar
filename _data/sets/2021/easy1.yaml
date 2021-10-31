@@ -13,3 +13,4 @@ mirrors:
   - { date: 2021-10-02, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25339" }
   - { date: 2021-10-09, region: 2A, name: Johns Hopkins, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25342" }
   - { date: 2021-10-30, region: 3A, name: Tennessee }
+  - { date: 2021-10-30, region: 8B, name: Purdue, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25461" }
