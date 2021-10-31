@@ -12,9 +12,12 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25140
 # https://hsquizbowl.org/forums/viewtopic.php?f=21&t=23816&p=381366#p381366
 mirrors:
   - { date: 2021-08-28, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25141" }
-  - { date: 2021-10-23, region: 1A, name: Harvard }
-  - { date: 2021-10-23, region: 2A, name: Penn }
-  - { date: 2021-10-23, region: 3C, name: Florida }
-  - { date: 2021-10-23, region: 8C, name: Michigan }
-  - { date: 2021-10-23, region: CA, name: Queen’s }
-  - { date: 2021-10-23, region: UK, name: UK }
+  - { date: 2021-10-23, region: 2A, name: Penn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25140" }
+  - { date: 2021-10-23, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25404" }
+  - { date: 2021-10-23, region: 8C, name: Pitt Online, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25451" }
+  - { date: 2021-10-23, region: CA, name: Queen’s, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25440" }
+  - { date: 2021-10-23, region: UK, name: Cambridge }
+  - { date: 2021-10-30, region: 1A, name: Harvard, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25452" }
+  - { date: 2021-10-30, region: 2B, name: Virginia Tech, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25394" }
+  - { date: 2021-10-30, region: 4A, name: UT-Austin, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25453" }
+  - { date: 2021-10-30, region: 8B, name: Chicago, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25472" }
