@@ -8,6 +8,7 @@ announced:   2021-02-12
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25034
 firstmirror: 2022-02-12
 mirrors:
-  - { date: 2022-01-15, region: 0P, name: Online, eligible: Open }
+  - { date: 2022-01-15, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25532" }
   - { date: TBD, region: 3A, name: Vanderbilt }
   - { date: TBD, region: 8A, name: Iowa }
+  - { date: 2022-02-19, region: 0L, name: Online, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=25530" }

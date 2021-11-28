@@ -9,3 +9,6 @@ announced:   2020-01-15
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23678
 mirrors:
   - { date: 2021-11-13, region: 8B, name: UIUC, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25388" }
+  - { date: 2021-11-13, region: 3B, name: Georgia Tech, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25478" }
+  - { date: TBD, region: 1A, name: MIT }
+  - { date: TBD, region: 0L, name: Online }
