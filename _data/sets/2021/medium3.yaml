@@ -8,6 +8,9 @@ name:        ACF Winter
 firstmirror: 2021-11-06
 announced:   2021-08-13
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25262
+clear:       2021-11-08
+reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/2720/
 mirrors:
   - { date: 2021-11-06, region: 1A, name: Brown, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25445" }
   - { date: 2021-11-06, region: 1A, name: Yale, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25475", online: yes }
@@ -16,10 +19,10 @@ mirrors:
   - { date: 2021-11-06, region: 2B, name: Virginia, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25469" }
   - { date: 2021-11-06, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25443" }
   - { date: 2021-11-06, region: 5A, name: UCSD, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25458", online: yes }
-  - { date: 2021-11-06, region: 7A, name: Oklahoma, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25462" }
+  - { date: 2021-11-06, region: 7A, name: Oklahoma, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25462", online: yes }
   - { date: 2021-11-06, region: 7B, name: Missouri, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25446" }
   - { date: 2021-11-06, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25473" }
   - { date: 2021-11-06, region: 8C, name: OSU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25444" }
   - { date: 2021-11-06, region: CA, name: Toronto, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25455", online: yes }
   - { date: 2021-11-06, region: UK, name: Strathclyde and Oxford Brookes, online: yes }
-  - { date: 2021-11-06, region: 0L, name: National, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=25512", eligible: HS only, online: yes }
+  - { date: 2021-11-07, region: 0L, name: National, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=25512", eligible: HS only, online: yes }

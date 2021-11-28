@@ -10,6 +10,9 @@ lastideal:   2021-10-30
 announced:   2020-11-12
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25140
 # https://hsquizbowl.org/forums/viewtopic.php?f=21&t=23816&p=381366#p381366
+clear:       2021-11-25
+reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/2724/
 mirrors:
   - { date: 2021-08-28, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25141" }
   - { date: 2021-10-23, region: 2A, name: Penn, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25140" }

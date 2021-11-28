@@ -8,6 +8,9 @@ name:        ACF Fall
 firstmirror: 2021-10-16
 announced:   2021-08-13
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25261
+clear:       2021-10-17
+reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/2659/
 mirrors:
   - { date: 2021-10-16, region: 1A, name: MIT, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25359" }
   - { date: 2021-10-16, region: 1B, name: RIT, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=25366" }
