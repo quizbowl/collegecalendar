@@ -27,6 +27,7 @@ Key | Description | Example
 `fullname`    | Full name of the set                 | `Early Fall Tournament 2017`
 `slot`        | Name of the standard slot            | `“Fall Medium 1”`
 `prev`        | List of sets previously in this slot | `[EFT 2016, MFT, PADAWAN, IFT]`
+`producedby`  | Who is producing the set (not shown) | `ACF`
 `diff`        | Difficulty name                      | `Medium`
 `diffdots`    | Difficulty rating                    | `●●`
 `diffd2`      | Difficulty name in Division II       | `Easy`
@@ -37,6 +38,7 @@ Key | Description | Example
 `announceurl` | URL of global announcement           | `https://hsquizbowl.org/forums/viewtopic.php?f=8&t=19786`
 `firstonline` | Date of first online mirror          | `2017-09-16`
 `firstmirror` | Date of first mirror                 | `2017-09-30`
+`speculative` | Indicates `firstmirror` is freeform  | `yes`
 `firstideal`  | Date of first ideal mirror           | `2017-10-19`
 `lastideal`   | Date of last ideal mirror            | `2017-10-26`
 `mirrors`     | List of mirrors                      | `{ date: 2017-09-30, region: 1A, name: Yale,` <br /> `eligible: HS, cancelled: yes, url: "..." }`
@@ -45,7 +47,7 @@ Key | Description | Example
 `ebol`        | Is the set participating in EBOL     | `no`
 `packetsurl`  | URL to packets on archive            | `https://collegiate.quizbowlpackets.com/2048/`
 
-Dates may be `TBD`.
+Dates may be `TBD`. If `speculative` is non-empty, the value for `firstmirror` will be interpreted as freeform text instead of a date, allowing for provisional detail when the date is not exactly known (e.g. `"either 2/3 or 2/4"`, `"likely 11/20"`).
 
 Information about the geographic regions is stored in `map/regions.js`. The two-letter region IDs are also defined by `_layouts/year.html`, but this duplication will eventually be removed.
 
