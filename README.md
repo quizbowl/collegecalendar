@@ -49,6 +49,8 @@ Key | Description | Example
 
 Dates may be `TBD`. If `speculative` is non-empty, the value for `firstmirror` will be interpreted as freeform text instead of a date, allowing for provisional detail when the date is not exactly known (e.g. `"either 2/3 or 2/4"`, `"likely 11/20"`).
 
+In general, blank values are used when reliable information does not yet exist. The value for `clear` can be a future date if it is strongly assumed, but should later be changed to match the actual date when the set became clear.
+
 Information about the geographic regions is stored in `map/regions.js`. The two-letter region IDs are also defined by `_layouts/year.html`, but this duplication will eventually be removed.
 
 Information about the colleges on the circuit map is stored in `map/colleges.tsv`.
