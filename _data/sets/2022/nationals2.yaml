@@ -1,0 +1,14 @@
+slot:        NAQT ICT
+prev:        [past NAQT ICTs]
+diff:        Nationals
+diffd2:      Medium
+diffdots:    ●●●●
+diffdotsd2:  ●●
+eligible:    Qualify at NAQT SCT
+name:        NAQT ICT
+fullname:    NAQT Intercollegiate Championship Tournament
+firstmirror: 2023-04-01
+clear:       never
+packetsurl:  never
+mirrors:
+  - { date: 2023-04-01, region: 8B, name: "Chicago, IL" }
