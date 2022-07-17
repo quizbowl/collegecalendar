@@ -75,6 +75,9 @@ table.summary {
     }
     thead th:not([style]) {
         width: 2.4375em;
+        // hack to break short dates like 'Apr 1' onto
+        // two lines without narrowing the cell width
+        word-spacing: 0.1em;
     }
     th,
     td {
