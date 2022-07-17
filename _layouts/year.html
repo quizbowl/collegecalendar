@@ -123,8 +123,13 @@ layout: page
 {% assign firstonline = firstonline.date -%}
 {% endif -%}
 <td>
+{%- if set.speculative -%}
+<p><span class="speculative">{{ set.firstmirror }}</span></p>
+{%- endif -%}
 {%- if firstmirror -%}
+{% unless set.speculative -%}
 <time datetime="{{ firstmirror | date: '%F' }}">{{ firstmirror | date: '%-m/%-d' }}</time>
+{% endunless %}
 {%- endif -%}
 {%- if firstonline -%}
 <br /><time datetime="{{ firstonline | date: '%F' }}">{{ firstonline | date: '%-m/%-d' }}</time> (online playtest)

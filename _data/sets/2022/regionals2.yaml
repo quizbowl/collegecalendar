@@ -6,6 +6,7 @@ diffdots:    ●●●
 diffdotsd2:  ●
 name:        NAQT SCT
 fullname:    NAQT Sectional Championship Tournament
-firstmirror: TBD
+firstmirror: likely 2/3
+speculative: yes
 clear:       never
 packetsurl:  never
