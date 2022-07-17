@@ -1,0 +1,12 @@
+slot:        “Fall Regionals 1”
+prev:        [past ACF Regionals, WAO, MLK, VCU Closed]
+diff:        Regionals
+diffdots:    ●●●
+eligible:    Closed
+name:        Winter Closed
+announced:   2021-03-02
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24935
+firstonline: 2022-09-10
+firstmirror: TBD
+mirrors:
+  - { date: 2022-09-10, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?t=26070" }

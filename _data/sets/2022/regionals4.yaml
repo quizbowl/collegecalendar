@@ -1,0 +1,14 @@
+slot:        “Fall Regionals 2”
+prev:        [past Penn Bowls]
+diff:        Regionals
+diffdots:    ●●●
+eligible:    Closed
+name:        Penn Bowl
+full_name:   2023 Penn Bowl
+announced:   2021-03-02
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=26024
+firstonline: 2022-09-03
+firstmirror: 2022-10-22
+mirrors:
+  - { date: 2022-09-03, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?t=26067" }
+  - { date: 2022-10-22, region: 2A, name: Penn }
