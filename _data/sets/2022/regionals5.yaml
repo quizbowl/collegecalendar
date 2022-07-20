@@ -1,0 +1,12 @@
+slot:        “Spring Regionals 2”
+prev:        [past ACF Regionals]
+diff:        Regionals
+diffdots:    ●●●
+eligible:    Closed, undergraduate
+name:        IQBT UG Championship
+full_name:   IQBT Undergraduate Championship
+announced:   2022-04-27
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=25986
+firstmirror: 2023-03-04
+mirrors:
+  - { date: 2023-03-04, url: "https://hsquizbowl.org/forums/viewtopic.php?t=25986" }
