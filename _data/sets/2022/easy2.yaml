@@ -8,3 +8,21 @@ name:        ACF Fall
 firstmirror: 2022-10-15
 announced:   2022-07-14
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=26156
+mirrors: 
+  - { date: 2022-10-15, region: 1A, name: Harvard }
+  - { date: 2022-10-15, region: 2A, name: Maryland }
+  - { date: 2022-10-15, region: 1B, name: Cornell }
+  - { date: 2022-10-15, region: 2B, name: UNC Chapel Hill }
+  - { date: 2022-10-15, region: 3B, name: Georgia Tech }
+  - { date: 2022-10-15, region: 3C, name: University of Florida }
+  - { date: 2022-10-15, region: 8C, name: Michigan }
+  - { date: 2022-10-15, region: 7B, name: Missouri-Columbia }
+  - { date: 2022-10-15, region: 8A, name: Minnesota }
+  - { date: 2022-10-15, region: 7A, name: Oklahoma }
+  - { date: 2022-10-15, region: 6A, name: Washington }
+  - { date: 2022-10-15, region: 5B, name: UC Berkeley }
+  - { date: 2022-10-15, region: 5A, name: Claremont Colleges }
+  - { date: 2022-10-15, name: Asian Quiz Bowl Alliance }
+  - { date: 2022-10-15, region: 0P, name: Columbia }
+  - { date: 2022-10-15, region: 8B, name: Auburn High School, eligible: HS only }
+  - { date: 2022-10-15, region: 8A, name: Northfield High School, eligible: HS only }
