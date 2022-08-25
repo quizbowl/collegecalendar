@@ -2,7 +2,15 @@ slot:        “Early Fall Novice”
 prev:        [Collegiate Novice, ICCS, VCU Novice, EACNT]
 diff:        Easy
 diffdots:    ●
+eligible:    Closed; scoring limits
 name:        NAQT Collegiate Novice
-firstmirror: TBD
+firstmirror: 2022-09-17
 clear:       never
-packetsurl:  never
+packetsu`rl:  never
+announced:   2022-07-12
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?p=391269
+mirrors:
+  - { date: 2022-09-17, region: 1B, name: RIT, url: "https://hsquizbowl.org/forums/viewtopic.php?p=391384" }
+  - { date: 2022-09-24, region: 8C, name: Carnegie Mellon, url: "https://hsquizbowl.org/forums/viewtopic.php?p=391348" }
+  - { date: 2022-10-01, region: 2A, name: Lehigh, url: "https://hsquizbowl.org/forums/viewtopic.php?p=391343" }
+  - { date: 2022-11-12, region: 2B, name: Tusculum, url: "https://hsquizbowl.org/forums/viewtopic.php?p=391284" }
