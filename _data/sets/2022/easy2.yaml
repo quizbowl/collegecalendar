@@ -23,6 +23,6 @@ mirrors:
   - { date: 2022-10-15, region: 7B, name: Missouri }
   - { date: 2022-10-15, region: 8A, name: Minnesota }
   - { date: 2022-10-15, region: 8C, name: Michigan }
-  - { date: 2022-10-15, name: Asian QB Alliance }
+  - { date: 2022-10-15, region: AS, name: Asian QB Alliance }
   - { date: 2022-10-15, region: 8A, name: Northfield HS, eligible: HS only }
   - { date: 2022-10-15, region: 8B, name: Auburn HS, eligible: HS only }
