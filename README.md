@@ -52,6 +52,35 @@ Dates may be `TBD`. If `speculative` is non-empty, the value for `firstmirror` w
 In general, blank values are used when reliable information does not yet exist. The value for `clear` can be a future date if it is strongly assumed, but should later be changed to match the actual date when the set became clear.
 
 Information about the geographic regions is stored in `map/regions.js`. The two-letter region IDs are also defined by `_layouts/year.html`, but this duplication will eventually be removed.
+For convenience, the regions are listed below:
+
+ID | Region
+-- | --
+0P | Online playtest
+0L | Online
+1A | New England
+1B | New York
+2A | N. Mid-Atlantic
+2B | S. Mid-Atlantic
+3A | Upper South
+3B | Deep South
+3C | Florida
+4A | Texas/Louisiana
+4B | Southwest
+5A | S. California
+5B | N. California
+6A | Pacific Northwest
+6B | Rocky Mountains
+7A | Great Plains
+7B | Missouri
+8A | Upper Midwest
+8B | Central Midwest
+8C | Eastern Midwest
+CA | Canada
+UK | UK
+AS | Asia
+
+Mirrors should generally be ordered in the source file canonically by date (weekend) and then by region, with playtest mirrors first and HS mirrors at the end, unless there is a good reason to order them in another manner.
 
 Information about the colleges on the circuit map is stored in `map/colleges.tsv`.
 
