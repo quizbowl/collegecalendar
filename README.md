@@ -82,6 +82,8 @@ AS | Asia
 
 Mirrors should generally be ordered in the source file canonically by date (weekend) and then by region, with playtest mirrors first and HS mirrors at the end, unless there is a good reason to order them in another manner.
 
+Mirror names (i.e. college or school names) should generally remain consistent with existing convention in this repository. A guiding principle for mirror names is to be short enough to not wrap onto two lines when displayed in the main table, but not be overly abbreviated.
+
 Information about the colleges on the circuit map is stored in `map/colleges.tsv`.
 
 The spec is likely to change. Watch this repository to keep tabs on any changes.
