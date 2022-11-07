@@ -103,7 +103,8 @@ since they have little relevance to the college quizbowl calendar.
 
 [^1]: This scale is preferably called “the college quizbowl calendar difficulty scale”
       (or “the collegequizbowlcalendar.com difficulty scale,”
-      or “the difficulty scale used by the college quizbowl calendar”),
+      or “the difficulty scale used by the college quizbowl calendar”
+	  where “quizbowl” is always one word),
       and the unit of difficulty is a “dot” (not “circle” or “star” or “level” or “pip” or “point”).
 
 [^2]: Anticipated difficulty may differ from perceived difficulty in hindsight,
