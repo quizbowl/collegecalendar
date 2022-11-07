@@ -8,6 +8,7 @@ announced:   2021-03-02
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24935
 firstonline: 2022-09-10
 firstmirror: 2022-09-24
+ebol:        yes
 mirrors:
   - { date: 2022-09-10, region: 0P, name: Online, eligible: Open, url: "https://hsquizbowl.org/forums/viewtopic.php?t=26070" }
   - { date: 2022-09-24, region: 1B, name: MIT, url: "https://hsquizbowl.org/forums/viewtopic.php?t=26209" }
