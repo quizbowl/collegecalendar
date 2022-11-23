@@ -6,6 +6,9 @@ name:        Delta Burke
 firstmirror: 2019-11-09
 announced:   2019-09-11
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23223
+clear:       2022-11-23
+reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/2872/
 ebol:        no
 mirrors:
   - { date: 2019-11-09, region: 3C, name: Valencia, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23223" }

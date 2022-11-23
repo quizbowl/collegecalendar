@@ -6,6 +6,9 @@ name:        Delta Burke
 announced:   2021-01-09
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24777
 ebol:        no
+clear:       2022-11-23
+reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/2873/
 mirrors:
   - { date: 2021-02-13, region: 2B, name: VCU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24848" }
   - { date: 2021-03-13, region: 8C, name: OSU, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24854" }
