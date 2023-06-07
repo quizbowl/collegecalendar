@@ -104,7 +104,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 6A	2	Seattle	WA	USA	47.655335	-122.303520	UW	Washington	University of Washington
 6A	2	Boise	ID	USA	43.603313	-116.201649		Boise State	Boise State University
 6A	1	Eugene	OR	USA	44.044830	-123.072606		Oregon	University of Oregon
-6A	2	Vancouver	BC	Canada  49.260605 -123.245994	UBC	British Columbia	University of British Columbia
+6A	2 Vancouver BC	Canada  49.260605 -123.245994 UBC British Columbia  University of British Columbia
 6A	1	Edmonton	AB	Canada	53.5232 -113.5263   Alberta University of Alberta
 6B	2	Boulder	CO	USA	40.007581	-105.265942		Colorado	University of Colorado-Boulder
 6B	2	Provo	UT	USA	40.251844	-111.649316	BYU	Brigham Young	Brigham Young University
@@ -165,8 +165,8 @@ CA	2	Kingston	ON	Canada	44.225280	-76.495141		Queen’s	Queen’s University
 CA	2	Ottawa	ON	Canada	45.387581	-75.696020		Carleton University	Carleton University
 CA	2	Ottawa	ON	Canada	45.423106	-75.683133		Ottawa	University of Ottawa
 CA	1	Montreal	QC	Canada	45.504785	-73.577151		McGill	McGill University
-CA	1	London	ON	Canada	43.0096	-81.2737		Western	University of Western Ontario
-CA  1 Niagara-on-the-Lake ON  Canada  43.1522 -79.1652  Niagara Niagara College
+CA	1 London  ON  Canada  43.0096 -81.2737    Western University of Western Ontario
+CA  1 Niagara-on-the-Lake ON  Canada  43.1522 -79.1652    Niagara Niagara College
 UK	2	Cambridge	England	UK	52.204267	0.114908		Cambridge	Cambridge
 UK	2	London	England	UK	51.498800	-0.174877		Imperial College	Imperial College London
 UK	2	Oxford	England	UK	51.754816	-1.254367		Oxford	University of Oxford
