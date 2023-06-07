@@ -105,7 +105,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 6A	2	Boise	ID	USA	43.603313	-116.201649		Boise State	Boise State University
 6A	1	Eugene	OR	USA	44.044830	-123.072606		Oregon	University of Oregon
 6A	2	Vancouver	BC	Canada	49.260605	-123.245994	UBC	British Columbia	University of British Columbia
-6A	1	Edmonton	AB	Canada	53.5232 -113.5263		Alberta	University of Alberta
+6A	1	Edmonton	AB	Canada	53.5232 -113.5263  Alberta	University of Alberta
 6B	2	Boulder	CO	USA	40.007581	-105.265942		Colorado	University of Colorado-Boulder
 6B	2	Provo	UT	USA	40.251844	-111.649316	BYU	Brigham Young	Brigham Young University
 6B	1	Fort Collins	CO	USA	40.570935	-105.086552	CSU	Colorado State	Colorado State University
