@@ -5,7 +5,7 @@ function albersUsaUk() {
 	// var lower48 = d3.geo.albers();
 	// modified parameters to add more space north of US
 	var lower48canada = d3.geo.conicEqualArea()
-			.rotate([94, 0])
+			.rotate([95.2, 0])
 			.center([-.6, 39.7])
 			.parallels([20.5, 45.5])
 			.scale(1070);
@@ -129,7 +129,7 @@ function albersUsaUk() {
 
 		lower48Point = lower48
 				.translate(_)
-				.clipExtent([[x - .455 * k, y - .263 * k], [x + .455 * k, y + .263 * k]])
+				.clipExtent([[x - .4285 * k, y - .263 * k], [x + .4285 * k, y + .263 * k]])
 				.stream(pointStream).point;
 
 /*		alaskaPoint = alaska
@@ -143,8 +143,8 @@ function albersUsaUk() {
 				.stream(pointStream).point;
 */
 		ukPoint = uk
-				.translate([x + .373 * k, y + .153 * k])
-				.clipExtent([[x + .290 * k, y + .070 * k], [x + .455 * k, y + .263 * k]])
+				.translate([x + .350 * k, y + .165 * k])
+				.clipExtent([[x + .270 * k, y + .070 * k], [x + .4285 * k, y + .263 * k]])
 				.stream(pointStream).point;
 
 		return albersUsa;

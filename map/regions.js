@@ -32,7 +32,7 @@ var mapdata = {
 			"name": "New York",
 			"id": "1B",
 			"color": 2,
-			"label": [14, 7],
+			"label": [14, 9],
 			"map": "us",
 			"children": [
 				// NY north
@@ -64,7 +64,7 @@ var mapdata = {
 			"id": "2B",
 			"color": 4,
 			// "label": [27, -7],
-			"label": [137, -7],
+			"label": [134, -7],
 			"map": "us",
 			"children": [
 				// VA east
@@ -98,7 +98,7 @@ var mapdata = {
 			"name": "Deep South",
 			"id": "3B",
 			"color": 6,
-			"label": [30, 20],
+			"label": [27, 20],
 			"map": "us",
 			"children": [
 				// AL, GA, SC
@@ -156,7 +156,7 @@ var mapdata = {
 			"name": "S. California",
 			"id": "5A",
 			"color": 9,
-			"label": [26, 8],
+			"label": [24, 9],
 			"map": "us",
 			"children": [
 				// CA south
@@ -172,7 +172,7 @@ var mapdata = {
 			"name": "N. California",
 			"id": "5B",
 			"color": 10,
-			"label": [8, 42],
+			"label": [10, 42],
 			"map": "us",
 			"children": [
 				// CA north
@@ -196,7 +196,7 @@ var mapdata = {
 			"name": "Rocky Mountains",
 			"id": "6B",
 			"color": 12,
-			"label": [0, 0],
+			"label": [-2, 0],
 			"map": "us",
 			"children": [
 				// UT, CO
@@ -220,7 +220,7 @@ var mapdata = {
 			"name": "Missouri",
 			"id": "7B",
 			"color": 14,
-			"label": [-13, 16],
+			"label": [-10, 16],
 			"map": "us",
 			"children": [
 				// MO
@@ -232,7 +232,7 @@ var mapdata = {
 			"name": "Upper Midwest",
 			"id": "8A",
 			"color": 15,
-			"label": [-16, 66],
+			"label": [-16, 63],
 			"map": "us",
 			"children": [
 				// MN, WI, IA
@@ -265,7 +265,7 @@ var mapdata = {
 			"name": "Eastern",
 			"id": "8C",
 			"color": 17,
-			"label": [11, 35],
+			"label": [9.7, 35],
 			"map": "us",
 			"children": [
 				// MI south
@@ -302,7 +302,7 @@ var mapdata = {
 			"name": "",
 			"id": "UK",
 			"color": 19,
-			"label": [19, 25],
+			"label": [19, 22],
 			"map": "uk",
 			"children": [
 				'ENG', 'SCT', 'WLS', 'NIR',

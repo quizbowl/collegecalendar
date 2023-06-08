@@ -1,4 +1,4 @@
-var width = 1548,
+var width = 1458,
 	height = 900;
 
 var projection = albersUsaUk()
@@ -272,7 +272,7 @@ svg.append("text")
 	var legend = svg.append('g')
 		.attr('class', 'legend')
 		// .attr('transform', d => 'translate(' + projection([-71.7, 35]) +')');
-		.attr('transform', d => 'translate(' + projection([-119, 27]) +')');
+		.attr('transform', d => 'translate(' + projection([-118, 27]) +')');
 	legend.append('text')
 		.attr('class', 'region-label')
 		.text('Region');
