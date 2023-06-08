@@ -2,7 +2,14 @@
 function albersUsaUk() {
 	var ε = 1e-6;
 
-	var lower48 = d3.geo.albers();
+	// var lower48 = d3.geo.albers();
+	// modified parameters to add more space north of US
+	var lower48canada = d3.geo.conicEqualArea()
+			.rotate([94, 0])
+			.center([-.6, 39.7])
+			.parallels([20.5, 45.5])
+			.scale(1070);
+	var lower48 = lower48canada;
 
 	// EPSG:3338
 	var alaska = d3.geo.conicEqualArea()
@@ -122,7 +129,7 @@ function albersUsaUk() {
 
 		lower48Point = lower48
 				.translate(_)
-				.clipExtent([[x - .455 * k, y - .238 * k], [x + .455 * k, y + .238 * k]])
+				.clipExtent([[x - .455 * k, y - .263 * k], [x + .455 * k, y + .263 * k]])
 				.stream(pointStream).point;
 
 /*		alaskaPoint = alaska
@@ -137,7 +144,7 @@ function albersUsaUk() {
 */
 		ukPoint = uk
 				.translate([x + .373 * k, y + .153 * k])
-				.clipExtent([[x + .290 * k, y + .070 * k], [x + .455 * k, y + .238 * k]])
+				.clipExtent([[x + .290 * k, y + .070 * k], [x + .455 * k, y + .263 * k]])
 				.stream(pointStream).point;
 
 		return albersUsa;
