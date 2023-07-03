@@ -3,11 +3,11 @@
   start: 2023-09-02
   weeks: 16
   slots:
-    - easy1
-    - medium3
-    - regionals3
+    - easy2
     - medium1
+    - regionals3
     - medium2
+    - medium3
 
 - name: Spring
   year: 2024

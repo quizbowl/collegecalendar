@@ -1,11 +1,12 @@
-slot:        ACF Winter
-prev:        [past ACF Winters]
+slot:        “Winter Medium 1”
+prev:        [ILLIAC, ACF Winter, EFT]
 diff:        Medium
 diffdots:    ●●
-submission:  Required half-packet if not new team
-eligible:    Closed
-name:        ACF Winter
-firstmirror: 2023-11-11
-announced:   
-announceurl: 
+name:        ILLIAC II
+producedby:  UIUC
+fullname:    Illinois Academic Competition II
+firstmirror: aiming October
+speculative: yes
+announced:   2023-05-09
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=26970
 mirrors:
