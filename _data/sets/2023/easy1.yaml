@@ -1,9 +1,11 @@
-slot:        "Fall Easy 1"
-prev:        [Collegiate Novice, ICCS, VCU Novice, EACNT]
+slot:        “Early Fall Novice”
+prev:        [SUN, Collegiate Novice, ICCS, VCU Novice, EACNT]
 diff:        Easy
 diffdots:    ●
 name:        2023 CREEK+
-firstmirror: aiming for September
+producedby:  Beavercreek HS players and alumni
+eligible:    HS-only mirrors on HS version of set
+firstmirror: aiming September
 speculative: yes
 announced:   2023-04-29
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=26952
