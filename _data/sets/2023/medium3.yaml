@@ -2,8 +2,9 @@ slot:        “Winter Medium 2”
 prev:        [ILLIAC, ACF Winter, EFT]
 diff:        Medium
 diffdots:    ●●
-name:        ILLInois Academic Competition II
+name:        ILLIAC II
 producedby:  UIUC
+fullname:    Illinois Academic Competition II
 firstmirror: aiming October
 speculative: yes
 announced:   2023-05-09
