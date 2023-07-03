@@ -3,6 +3,7 @@
   start: 2023-09-02
   weeks: 16
   slots:
+    - easy1
     - easy2
     - medium1
     - regionals3
