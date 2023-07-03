@@ -4,20 +4,20 @@
   weeks: 16
   slots:
     - easy1
-    - medium1
-    - medium2
     - medium3
     - regionals3
+    - medium1
+    - medium2
 
 - name: Spring
   year: 2024
   start: 2024-01-13
   weeks: 17
   slots:
+    - open1
     - regionals1
     - regionals2
     - medium4
-    - nationals1
-    - nationals2
-    - open1
     - open2
+    - nationals2
+    - nationals1
