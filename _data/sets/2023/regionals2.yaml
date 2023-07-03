@@ -10,3 +10,4 @@ firstmirror:
 speculative: yes
 clear:       never
 packetsurl:  never
+mirrors:
