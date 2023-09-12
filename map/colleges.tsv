@@ -1,4 +1,5 @@
 region	active	city	state	country	lat	long	college_abbr	college	college_long
+1A  1  Boston  MA  USA  42.340063  -71.089857    Northeastern  Northeastern University
 1A	2	Cambridge	MA	USA	42.377003	-71.116660		Harvard	Harvard University
 1A	2	Cambridge	MA	USA	42.360091	-71.094160		MIT	Massachusetts Institute of Technology
 1A	2	Providence	RI	USA	41.826772	-71.402548		Brown	Brown University
@@ -8,18 +9,20 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 1A	1	Hanover	NH	USA	43.704441	-72.288694		Dartmouth	Dartmouth College
 1A	1	Medford	MA	USA	42.407484	-71.119023		Tufts	Tufts University
 1A	1	Waltham	MA	USA	42.364989	-71.258663		Brandeis	Brandeis University
-1A	1	Chestnut Hill	MA	USA	42.335549	-71.168495	BC	Boston College	Boston College
+1A	1	Chestnut Hill	MA	USA	42.335549	-71.168495	BC	Boston College  Boston College
 1A	1	Needham	MA	USA	42.293167	-71.263665		Olin	Olin College
 1A	1	Amherst	MA	USA	42.370910	-72.517003		Amherst	Amherst College
 1A	1	Williamstown	MA	USA	42.713023	-73.203008		Williams	Williams College
 1A	1	Middletown	CT	USA	41.556610	-72.656904		Wesleyan	Wesleyan University
 1B	1	Rochester	NY	USA	43.130553	-77.626003		Rochester	University of Rochester
+1B  1  Syracuse  NY  USA  43.038823  -76.133724  Syracuse  Syracuse University
 1B	1	Hamilton	NY	USA	42.816615	-75.540176		Colgate	Colgate University
 1B	1	Troy	NY	USA	42.730172	-73.678803		RPI	Rensselaer Polytechnic Institute
 1B	1	Ithaca	NY	USA	42.453449	-76.473503		Cornell	Cornell University
-1B	1	Henrietta	NY	USA	43.084412	-77.674949		RIT	Rochester Institute of Technology
+1B	1	Henrietta	NY	USA	43.084412	-77.674949		RIT Rochester Institute of Technology
 1B	1	Albany	NY	USA	42.691741	-73.825661		Albany	University at Albany
-1B	1	Buffalo	NY	USA	42.958236	-78.821006		Buffalo	University at Buffalo
+1B	1	Buffalo	NY	USA	42.958236	-78.821006		Buffalo  University at Buffalo
+1B  1  Binghamton  NY  USA  42.089620  -75.969490    Binghamton  Binghamton University
 2A	2	New York	NY	USA	40.807536	-73.962573		Columbia	Columbia University
 2A	2	New York	NY	USA	40.729513	-73.996461	NYU	New York	New York University
 2A	2	New Brunswick	NJ	USA	40.500819	-74.447399		Rutgers	Rutgers University-New Brunswick
