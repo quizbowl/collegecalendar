@@ -16,9 +16,10 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 1A	1	Middletown	CT	USA	41.556610	-72.656904		Wesleyan	Wesleyan University
 1B	1	Rochester	NY	USA	43.130553	-77.626003		Rochester	University of Rochester
 1B	1	Syracuse	NY	USA	43.038823	-76.133724		Syracuse	Syracuse University
+1B	1	Syracuse	NY	USA	43.034486	-76.136607		ESF	College of Environmental Science and Forestry
 1B	1	Hamilton	NY	USA	42.816615	-75.540176		Colgate	Colgate University
 1B	1	Troy	NY	USA	42.730172	-73.678803		RPI	Rensselaer Polytechnic Institute
-1B	1	Ithaca	NY	USA	42.453449	-76.473503		Cornell	Cornell University
+1B	2	Ithaca	NY	USA	42.453449	-76.473503		Cornell	Cornell University
 1B	1	Henrietta	NY	USA	43.084412	-77.674949		RIT	Rochester Institute of Technology
 1B	1	Albany	NY	USA	42.691741	-73.825661		Albany	University at Albany
 1B	1	Buffalo	NY	USA	42.958236	-78.821006		Buffalo	University at Buffalo
