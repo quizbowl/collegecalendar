@@ -29,6 +29,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 2A	2	Princeton	NJ	USA	40.343989	-74.651448		Princeton	Princeton University
 2A	2	University Park	PA	USA	40.814796	-77.865313	PSU	Penn State	Pennsylvania State University
 2A	2	Philadelphia	PA	USA	39.952219	-75.193214		Penn	University of Pennsylvania
+2A  1 Glassboro  NJ  USA	39.710171 -75.119005		Rowan	Rowan University
 2A	2	Newark	DE	USA	39.677950	-75.750611		Delaware	University of Delaware
 2A	2	Baltimore	MD	USA	39.329901	-76.620518	JHU	Johns Hopkins	Johns Hopkins University
 2A	2	College Park	MD	USA	38.986918	-76.942554	UMD	Maryland	University of Maryland-College Park
