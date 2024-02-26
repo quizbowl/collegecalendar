@@ -1,0 +1,23 @@
+- name: Fall
+  year: 2023
+  start: 2023-09-01
+  weeks: 16
+  slots:
+    - easy1
+    - easy2
+    - medium1
+    - regionals3
+    - medium2
+    - medium3
+
+- name: Spring
+  year: 2024
+  start: 2024-01-12
+  weeks: 17
+  slots:
+    - open1
+    - regionals1
+    - regionals2
+    - medium4
+    - nationals2
+    - nationals1
