@@ -17,6 +17,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 1B	1	Rochester	NY	USA	43.130553	-77.626003		Rochester	University of Rochester
 1B	1	Syracuse	NY	USA	43.038823	-76.133724		Syracuse	Syracuse University
 1B	1	Syracuse	NY	USA	43.034486	-76.136607		ESF	College of Environmental Science and Forestry
+1B	1	Geneva	NY	USA	42.932939	-76.927684		HWS	Hobart and William Smith Colleges
 1B	1	Hamilton	NY	USA	42.816615	-75.540176		Colgate	Colgate University
 1B	1	Troy	NY	USA	42.730172	-73.678803		RPI	Rensselaer Polytechnic Institute
 1B	2	Ithaca	NY	USA	42.453449	-76.473503		Cornell	Cornell University
@@ -35,6 +36,8 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 2A	2	Baltimore	MD	USA	39.329901	-76.620518	JHU	Johns Hopkins	Johns Hopkins University
 2A	2	College Park	MD	USA	38.986918	-76.942554	UMD	Maryland	University of Maryland-College Park
 2A	2	Washington	DC	USA	38.907609	-77.072258		Georgetown	Georgetown University
+2A	1	Washington	DC	USA	38.899778 -77.048487		GW	George Washington	George Washington University
+2A	1	Washington	DC	USA	38.936998, -76.998649		Catholic	Catholic University of America
 2A	1	Poughkeepsie	NY	USA	41.686799	-73.895700		Vassar	Vassar College
 2A	2	Swarthmore	PA	USA	39.906841	-75.355648		Swarthmore	Swarthmore College
 2A	1	Gettysburg	PA	USA	39.834949	-77.232193		Gettysburg	Gettysburg College
@@ -109,6 +112,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 6A	2	Seattle	WA	USA	47.655335	-122.303520	UW	Washington	University of Washington
 6A	2	Boise	ID	USA	43.603313	-116.201649		Boise State	Boise State University
 6A	1	Eugene	OR	USA	44.044830	-123.072606		Oregon	University of Oregon
+6A	1	Portland	OR	USA	45.481243 -122.630884		Reed	Reed College
 6A	1	Vancouver	BC	Canada	49.260605	-123.245994	UBC	British Columbia	University of British Columbia
 6A	1	Edmonton	AB	Canada	53.5232	-113.5263		Alberta	University of Alberta
 6B	2	Boulder	CO	USA	40.007581	-105.265942		Colorado	University of Colorado-Boulder
@@ -136,6 +140,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 8A	1	St. Paul	MN	USA	44.937893	-93.169043		Macalester	Macalester College
 8A	1	Carleton	MN	USA	44.461365	-93.155826		Carleton	Carleton College
 8A	1	Sioux Falls	SD	USA	43.522604	-96.739689		Augustana	Augustana University
+8A	1	Lincoln	NE	USA	40.821528	-96.700390		Nebraska	University of Nebraska-Lincoln
 8A	1	Des Moines	IA	USA	41.602913	-93.655298		Drake	Drake University
 8A	2	Iowa City	IA	USA	41.662696	-91.554900		Iowa	University of Iowa
 8A	1	Grinnell	IA	USA	41.751119	-92.719848		Grinnell	Grinnell College
@@ -146,6 +151,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 8B	2	Evanston	IL	USA	42.056459	-87.675267		Northwestern	Northwestern University
 8B	1	Chicago	IL	USA	41.924020	-87.654726		DePaul	DePaul University
 8B	2	Urbana-Champaign	IL	USA	40.101952	-88.227161	UIUC	Illinois	University of Illinois at Urbana-Champaign
+8B	1	Edwardsville	IL	USA	38.795338 -89.999628	SIUE	Southern Illinois	Southern Illinois University Edwardsville
 8B	1	Bloomington	IL	USA	40.490889	-88.990654		Illinois Wesleyan	Illinois Wesleyan University
 8B	1	Bloomington	IN	USA	39.169100	-86.519789		Indiana	Indiana University
 8B	1	Notre Dame	IN	USA	41.700191	-86.237933		Notre Dame	University of Notre Dame
