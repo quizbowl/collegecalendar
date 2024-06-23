@@ -1,6 +1,6 @@
 - name: Fall
-  year: 2023
-  start: 2023-09-01
+  year: 2024
+  start: 2024-09-01
   weeks: 16
   slots:
     - easy1
@@ -11,8 +11,8 @@
     - medium3
 
 - name: Spring
-  year: 2024
-  start: 2024-01-12
+  year: 2025
+  start: 2025-01-12
   weeks: 17
   slots:
     - open1
