@@ -104,7 +104,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 5B	1	Fresno	CA	USA	36.812445	-119.745781		Fresno State	California State University-Fresno
 5A	2	La Jolla	CA	USA	32.880060	-117.234013	UCSD	UC San Diego	University of California-San Diego
 5A	2	Los Angeles	CA	USA	34.068921	-118.445181		UCLA	University of California-Los Angeles
-5A	1	Los Angeles	CA	USA	34.021883	-118.285867		USC	University of Southern California
+5A	2	Los Angeles	CA	USA	34.021883	-118.285867		USC	University of Southern California
 5A	1	Claremont	CA	USA	34.094399	-117.708296		Claremont Colleges	Claremont Colleges
 5A	1	Irvine	CA	USA	33.640495	-117.844296	UC-Irvine	UC Irvine	University of California-Irvine
 5A	1	Pasadena	CA	USA	34.137658	-118.125269		Caltech	California Institute of Technology
