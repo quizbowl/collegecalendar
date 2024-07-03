@@ -22,43 +22,43 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 1B	1	Troy	NY	USA	42.730172	-73.678803		RPI	Rensselaer Polytechnic Institute
 1B	2	Ithaca	NY	USA	42.453449	-76.473503		Cornell	Cornell University
 1B	1	Henrietta	NY	USA	43.084412	-77.674949		RIT	Rochester Institute of Technology
-1B	1	Albany	NY	USA	42.691741	-73.825661		Albany	University at Albany
-1B	1	Buffalo	NY	USA	42.958236	-78.821006		Buffalo	University at Buffalo
-1B	1	Binghamton	NY	USA	42.089620	-75.969490		Binghamton	Binghamton University
+1B	1	Albany	NY	USA	42.691741	-73.825661		Albany  University at Albany
+1B	1	Buffalo	NY	USA	42.958236	-78.821006	  Buffalo  University at Buffalo
+1B	1	Binghamton	NY	USA	42.089620	-75.969490	  Binghamton	Binghamton University
 2A	2	New York	NY	USA	40.807536	-73.962573		Columbia	Columbia University
-2A	2	New York	NY	USA	40.729513	-73.996461	NYU	New York	New York University
-2A	2	New Brunswick	NJ	USA	40.500819	-74.447399		Rutgers	Rutgers University-New Brunswick
-2A	2	Princeton	NJ	USA	40.343989	-74.651448		Princeton	Princeton University
-2A	2	University Park	PA	USA	40.814796	-77.865313	PSU	Penn State	Pennsylvania State University
-2A	2	Philadelphia	PA	USA	39.952219	-75.193214		Penn	University of Pennsylvania
-2A	1	Glassboro	NJ	USA	39.710171	-75.119005		Rowan	Rowan University
-2A	2	Newark	DE	USA	39.677950	-75.750611		Delaware	University of Delaware
-2A	2	Baltimore	MD	USA	39.329901	-76.620518	JHU	Johns Hopkins	Johns Hopkins University
-2A	2	College Park	MD	USA	38.986918	-76.942554	UMD	Maryland	University of Maryland-College Park
+2A	2	New York	NY	USA	40.729513	-73.996461  NYU  New York  New York University
+2A	2	New Brunswick	NJ	USA	40.500819	-74.447399		Rutgers  Rutgers University-New Brunswick
+2A	2	Princeton	NJ	USA	40.343989	-74.651448		Princeton  Princeton University
+2A	2	University Park	PA	USA	40.814796	-77.865313	PSU  Penn State	Pennsylvania State University
+2A	2	Philadelphia	PA	USA	39.952219	-75.193214		Penn  University of Pennsylvania
+2A	1	Glassboro	NJ	USA	39.710171	-75.119005		Rowan  Rowan University
+2A	2	Newark	DE	USA	39.677950	-75.750611	  Delaware	University of Delaware
+2A	2	Baltimore	MD	USA	39.329901	-76.620518	JHU  Johns Hopkins	Johns Hopkins University
+2A	2	College Park	MD	USA	38.986918	-76.942554	UMD  Maryland	University of Maryland-College Park
 2A	2	Washington	DC	USA	38.907609	-77.072258		Georgetown	Georgetown University
 2A	1	Washington	DC	USA	38.899778	-77.048487		GW	George Washington	George Washington University
 2A	1	Washington	DC	USA	38.936998	-76.998649		Catholic	Catholic University of America
 2A	1	Poughkeepsie	NY	USA	41.686799	-73.895700		Vassar	Vassar College
 2A	2	Swarthmore	PA	USA	39.906841	-75.355648		Swarthmore	Swarthmore College
 2A	1	Gettysburg	PA	USA	39.834949	-77.232193		Gettysburg	Gettysburg College
-2A	1	Villanova	PA	USA	40.037056	-75.343580		Villanova	Villanova University
-2B	2	Richmond	VA	USA	37.549505	-77.450972		VCU	Virginia Commonwealth University
-2B	2	Charlottesville	VA	USA	38.033553	-78.507977	UVA	Virginia	University of Virginia
-2B	2	Blacksburg	VA	USA	37.228384	-80.423417	VT	Virginia Tech	Virginia Polytechnic Institute and State University
-2B	2	Durham	NC	USA	36.001426	-78.938229		Duke	Duke University
-2B	1	Fairfax	VA	USA	38.831488	-77.311944	GMU	George Mason	George Mason University
-2B	1	Lexington	VA	USA	37.790486	-79.444956	W&L	Washington & Lee	Washington & Lee University
-2B	1	Salem	VA	USA	37.294248	-80.054927		Roanoke	Roanoke College
-2B	1	Lynchburg	VA	USA	37.352932	-79.176928		Liberty	Liberty University
-2B	1	Williamsburg	VA	USA	37.271674	-76.713378	W&M	William & Mary	The College of William & Mary
-2B	2	Chapel Hill	NC	USA	35.904912	-79.046913	UNC	North Carolina	The University of North Carolina at Chapel Hill
-2B	1	Raleigh	NC	USA	35.784663	-78.682095		NC State	North Carolina State University
+2A	1	Villanova	PA	USA	40.037056	-75.343580		Villanova  Villanova University
+2B	2	Richmond	VA	USA	37.549505	-77.450972		VCU  Virginia Commonwealth University
+2B	2	Charlottesville	VA	USA	38.033553	-78.507977  UVA  Virginia  University of Virginia
+2B	2	Blacksburg	VA	USA	37.228384	-80.423417	VT  Virginia Tech  Virginia Polytechnic Institute and State University
+2B	2	Durham	NC	USA	36.001426	-78.938229		Duke  Duke University
+2B	1	Fairfax	VA	USA	38.831488	-77.311944	GMU  George Mason	George Mason University
+2B	1	Lexington	VA	USA	37.790486	-79.444956	W&L  Washington & Lee	Washington & Lee University
+2B	1	Salem	VA	USA	37.294248	-80.054927		Roanoke  Roanoke College
+2B	1	Lynchburg	VA	USA	37.352932	-79.176928		Liberty  Liberty University
+2B	1	Williamsburg	VA	USA	37.271674	-76.713378	W&M  William & Mary	The College of William & Mary
+2B	2	Chapel Hill	NC	USA	35.904912	-79.046913	UNC  North Carolina	The University of North Carolina at Chapel Hill
+2B	1	Raleigh	NC	USA	35.784663	-78.682095		NC State  North Carolina State University
 2B	1	Elon	NC	USA	36.106527	-79.502838		Elon	Elon University
 2B	1	Winston-Salem	NC	USA	36.135250	-80.276342		Wake Forest	Wake Forest University
 2B	1	Johnson City	TN	USA	36.302537	-82.370193		ETSU	East Tennessee State University
 2B	1	Greeneville	TN	USA	36.172330	-82.760796		Tusculum	Tusculum University
 3A	2	Lexington	KY	USA	38.030651	-84.503970		Kentucky	University of Kentucky
-3A	1	Bowling Green	KY	USA	36.985354	-86.456138		WKU	Western Kentucky University
+3A	1	Bowling Green	KY	USA	36.985354	-86.456138		WKU  Western Kentucky University
 3A	1	Louisville	KY	USA	38.212276	-85.758502		Louisville	University of Louisville
 3A	1	Louisville	KY	USA	38.246241	-85.752820		JCTC	Jefferson Community & Technical College
 3A	1	Nashville	TN	USA	36.144703	-86.802655		Vanderbilt	Vanderbilt University
@@ -68,32 +68,32 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 3B	2	Athens	GA	USA	33.948005	-83.377322	UGA	Georgia	University of Georgia
 3B	2	Atlanta	GA	USA	33.775618	-84.396285	GT	Georgia Tech	Georgia Institute of Technology
 3B	2	Auburn	AL	USA	32.593357	-85.495166		Auburn	Auburn University
-3B	1	Clemson	SC	USA	34.676094	-82.836415		Clemson	Clemson University
+3B	1	Clemson	SC	USA	34.676094	-82.836415		Clemson  Clemson University
 3B	1	Charleston	SC	USA	32.783612	-79.937176		Charleston	College of Charleston
-3B	1	Spartanburg	SC	USA	34.958066	-81.934490		Wofford	Wofford College
-3B	1	Tuscaloosa	AL	USA	33.214023	-87.539142		Alabama	University of Alabama
-3B	1	Starkville	MI	USA	33.464331	-88.799425		Mississippi State	Mississippi State University
-3C	2	Gainesville	FL	USA	29.643633	-82.354930		Florida	University of Florida
-3C	2	Orlando	FL	USA	28.602427	-81.200060	UCF	Central Florida	University of Central Florida
-3C	2	Sarasota	FL	USA	27.384828	-82.558703	NCF	New College of Florida	New College of Florida
-3C	1	Bradenton	FL	USA	27.437884	-82.589685	SCF	State College of Florida	State College of Florida Manatee-Sarasota
-3C	1	Marianna	FL	USA	30.787403	-85.232581		Chipola	Chipola College
-3C	1	Tallahassee	FL	USA	30.441878	-84.298489		Florida State	Florida State University
+3B	1	Spartanburg	SC	USA	34.958066	-81.934490		Wofford  Wofford College
+3B	1	Tuscaloosa	AL	USA	33.214023	-87.539142		Alabama  University of Alabama
+3B	1	Starkville	MI	USA	33.464331	-88.799425		Mississippi State  Mississippi State University
+3C	2	Gainesville	FL	USA	29.643633	-82.354930		Florida  University of Florida
+3C	2	Orlando	FL	USA	28.602427	-81.200060	UCF  Central Florida  University of Central Florida
+3C	2	Sarasota	FL	USA	27.384828	-82.558703	NCF  New College of Florida  New College of Florida
+3C	1	Bradenton	FL	USA	27.437884	-82.589685	SCF  State College of Florida	State College of Florida Manatee-Sarasota
+3C	1	Marianna	FL	USA	30.787403	-85.232581		Chipola  Chipola College
+3C	1	Tallahassee	FL	USA	30.441878	-84.298489		Florida  State	Florida State University
 3C	1	Orlando	FL	USA	28.521294	-81.465755		Valencia	Valencia College
-3C	1	Fort Lauderdale	FL	USA	26.123275	-80.144797		Broward	Broward College
+3C	1	Fort Lauderdale	FL	USA	26.123275	-80.144797		Broward  Broward College
 3C	1	Gainesville	FL	USA	29.681841	-82.438227		Santa Fe	Santa Fe College
-3C	1	Avon Park	FL	USA	27.569866	-81.512386		South Florida	South Florida State College
-4A	2	Baton Rouge	LA	USA	30.413258	-91.180002	LSU	Louisiana State	Louisiana State University
-4A	2	Richardson	TX	USA	32.985454	-96.754319	UT-Dallas	Texas-Dallas	University of Texas-Dallas
+3C	1	Avon Park	FL	USA	27.569866	-81.512386		South Florida  South Florida State College
+4A	2	Baton Rouge	LA	USA	30.413258	-91.180002	LSU  Louisiana State  Louisiana State University
+4A	2	Richardson	TX	USA	32.985454	-96.754319	UT-Dallas  Texas-Dallas	University of Texas-Dallas
 4A	2	Austin	TX	USA	30.284919	-97.734057	UT	Texas	The University of Texas at Austin
 4A	2	Houston	TX	USA	29.717394	-95.401831		Rice	Rice University
 4A	1	New Orleans	LA	USA	29.940348	-90.120728		Tulane	Tulane University
 4A	1	Lafayette	LA	USA	30.211440	-92.020412	UL-Lafayette	Louisiana-Lafayette	University of Louisiana at Lafayette
 4A	1	Ruston	LA	USA	32.526375	-92.648110	LA Tech	Louisiana Tech	Louisiana Tech University
 4A	1	College Station	TX	USA	30.618531	-96.336499	TAMU	Texas A&M	Texas A&M
-4A	1	Denton	TX	USA	33.207488	-97.152586		North Texas	University of North Texas
-4A	1	Houston	TX	USA	29.720790	-95.344062	UH	Houston	University of Houston
-4B	1	El Paso	TX	USA	31.770854	-106.504622	UTEP	Texas-El Paso	University of Texas at El Paso
+4A	1	Denton	TX	USA	33.207488	-97.152586		North Texas  University of North Texas
+4A	1	Houston	TX	USA	29.720790	-95.344062	UH	Houston  University of Houston
+4B	1	El Paso	TX	USA	31.770854	-106.504622	UTEP	Texas-El Paso  University of Texas at El Paso
 4B	1	Las Cruces	NM	USA	32.276736	-106.747752		NMSU	New Mexico State University
 4B	1	Tuscon	AZ	USA	32.235173	-110.950995		Arizona	University of Arizona
 4B	2	Tempe	AZ	USA	33.421959	-111.938138	ASU	Arizona State	Arizona State University
