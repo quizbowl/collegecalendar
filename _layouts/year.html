@@ -108,6 +108,9 @@ layout: page
 {% assign set = site.data.sets[page.year][slot_id] -%}
 
 {% assign firstmirror = set.firstmirror -%}
+{% if set.speculative -%}
+{% assign firstmirror = nil -%}
+{% endif -%}
 {% if set.mirrors -%}
 {% assign firstmirroractual = set.mirrors | where_exp: "mirror", "mirror.region != '0P'" | where_exp: "mirror", "mirror.date != 'TBD'" | sort: "date" | first -%}
 {% if firstmirror == nil or firstmirror > firstmirroractual.date -%}
