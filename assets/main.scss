@@ -287,3 +287,38 @@ h4 > a[href^="#"] {
     padding: 8px;
 }
 */
+
+details.dropdown {
+	display: inline-block;
+	position: relative;
+}
+details.dropdown > summary {
+	cursor: pointer;
+}
+details.dropdown > summary::marker {
+	font-family: inherit;
+}
+details.dropdown > div {
+	line-height: 2em;
+	background-color: #fdfdfd;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	padding: 0.5em 1em;
+	width: max-content;
+	z-index: 100;
+	position: absolute;
+	top: unset;
+	right: unset;
+}
+@media screen and (min-width: 601px) {
+	details.dropdown .page-link {
+		display: block;
+		margin-right: 0 !important;
+		margin: 0.25em 0;
+	}
+}
+@media screen and (max-width: 600px) {
+	details.dropdown .page-link {
+		margin-left: 0 !important;
+	}
+}
