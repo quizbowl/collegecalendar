@@ -171,31 +171,9 @@ table.season {
         text-decoration: none;
         border-bottom: 1px dotted currentColor;
     }
-    time {
-        font-weight: 500;
-        display: inline-block;
-        width: 3em;
-        color: darken($brand-color, 18%);
-        text-decoration: inherit;
-        text-indent: 0;
-        // font-variant-numeric: tabular-nums;
-        position: relative;
-    }
-    td time.late[data-late]::after,
-    td:hover time.late[data-late]::after {
-        display: block;
-    }
-    time.late[data-late]::after {
-        content: attr(data-late);
-        display: none;
-        position: absolute;
-        top: -0.6em;
-        font-size: 0.6em;
-        color: lighten(#2abf83,6%);
-        width: -moz-max-content;
-        width: max-content;
-        white-space: nowrap;
-    }
+    // td:not(:hover) time.late[data-late]::after {
+    //     display: none;
+    // }
     .globo time {
         width: 4.25em;
     }
@@ -220,6 +198,31 @@ table.season {
             border-bottom-width: 2px;
         }
     }
+}
+time {
+	font-weight: 500;
+	display: inline-block;
+	color: darken($brand-color, 18%);
+	text-decoration: inherit;
+	text-indent: 0;
+	// font-variant-numeric: tabular-nums;
+	position: relative;
+}
+table.season time {
+	width: 3em;
+}
+table.summary time {
+	color: inherit;
+}
+time.late[data-late]::after {
+	content: attr(data-late);
+	display: block;
+	position: absolute;
+	top: -0.6em;
+	font-size: 0.6em;
+	color: lighten(#2abf83,6%);
+	width: max-content;
+	white-space: nowrap;
 }
 
 body:not([data-toggle="toggle"]) .toggle {
