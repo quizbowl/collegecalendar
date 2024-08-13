@@ -10,10 +10,10 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 1A	1	Medford	MA	USA	42.407484	-71.119023		Tufts	Tufts University
 1A	1	Waltham	MA	USA	42.364989	-71.258663		Brandeis	Brandeis University
 1A	1	Chestnut Hill	MA	USA	42.335549	-71.168495	BC	Boston College	Boston College
-1A	1	Needham	MA	USA	42.293167	-71.263665		Olin	Olin College
+1A	0	Needham	MA	USA	42.293167	-71.263665		Olin	Olin College
 1A	1	Amherst	MA	USA	42.370910	-72.517003		Amherst	Amherst College
 1A	1	Williamstown	MA	USA	42.713023	-73.203008		Williams	Williams College
-1A	1	Middletown	CT	USA	41.556610	-72.656904		Wesleyan	Wesleyan University
+1A	0	Middletown	CT	USA	41.556610	-72.656904		Wesleyan	Wesleyan University
 1B	1	Rochester	NY	USA	43.130553	-77.626003		Rochester	University of Rochester
 1B	1	Syracuse	NY	USA	43.038823	-76.133724		Syracuse	Syracuse University
 1B	1	Syracuse	NY	USA	43.034486	-76.136607		ESF	College of Environmental Science and Forestry
@@ -53,7 +53,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 2B	1	Williamsburg	VA	USA	37.271674	-76.713378	W&M	William & Mary	The College of William & Mary
 2B	2	Chapel Hill	NC	USA	35.904912	-79.046913	UNC	North Carolina	The University of North Carolina at Chapel Hill
 2B	1	Raleigh	NC	USA	35.784663	-78.682095		NC State	North Carolina State University
-2B	1	Elon	NC	USA	36.106527	-79.502838		Elon	Elon University
+2B	0	Elon	NC	USA	36.106527	-79.502838		Elon	Elon University
 2B	1	Winston-Salem	NC	USA	36.135250	-80.276342		Wake Forest	Wake Forest University
 2B	1	Johnson City	TN	USA	36.302537	-82.370193		ETSU	East Tennessee State University
 2B	1	Greeneville	TN	USA	36.172330	-82.760796		Tusculum	Tusculum University
@@ -93,7 +93,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 4A	1	College Station	TX	USA	30.618531	-96.336499	TAMU	Texas A&M	Texas A&M
 4A	1	Denton	TX	USA	33.207488	-97.152586		North Texas	University of North Texas
 4A	1	Houston	TX	USA	29.720790	-95.344062	UH	Houston	University of Houston
-4B	1	El Paso	TX	USA	31.770854	-106.504622	UTEP	Texas-El Paso	University of Texas at El Paso
+4B	0	El Paso	TX	USA	31.770854	-106.504622	UTEP	Texas-El Paso	University of Texas at El Paso
 4B	1	Las Cruces	NM	USA	32.276736	-106.747752		NMSU	New Mexico State University
 4B	1	Tuscon	AZ	USA	32.235173	-110.950995		Arizona	University of Arizona
 4B	2	Tempe	AZ	USA	33.421959	-111.938138	ASU	Arizona State	Arizona State University
@@ -101,7 +101,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 5B	2	Stanford	CA	USA	37.427475	-122.169719		Stanford	Stanford University
 5B	1	San Francisco	CA	USA	37.762626	-122.458515	UCSF	UC San Francisco	University of California-San Francisco
 5B	1	Davis	CA	USA	38.538232	-121.761712	UC-Davis	UC Davis	University of California-Davis
-5B	1	Fresno	CA	USA	36.812445	-119.745781		Fresno State	California State University-Fresno
+5B	0	Fresno	CA	USA	36.812445	-119.745781		Fresno State	California State University-Fresno
 5A	2	La Jolla	CA	USA	32.880060	-117.234013	UCSD	UC San Diego	University of California-San Diego
 5A	2	Los Angeles	CA	USA	34.068921	-118.445181		UCLA	University of California-Los Angeles
 5A	2	Los Angeles	CA	USA	34.021883	-118.285867		USC	University of Southern California
@@ -116,15 +116,15 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 6A	1	Vancouver	BC	Canada	49.260605	-123.245994	UBC	British Columbia	University of British Columbia
 6A	1	Edmonton	AB	Canada	53.5232	-113.5263		Alberta	University of Alberta
 6B	2	Boulder	CO	USA	40.007581	-105.265942		Colorado	University of Colorado-Boulder
-6B	2	Provo	UT	USA	40.251844	-111.649316	BYU	Brigham Young	Brigham Young University
-6B	1	Fort Collins	CO	USA	40.570935	-105.086552	CSU	Colorado State	Colorado State University
-6B	1	Colorado Springs	CO	USA	38.892493	-104.799697	UCCS	UC-Colorado Springs	University of Colorado Colorado Springs
+6B	1	Provo	UT	USA	40.251844	-111.649316	BYU	Brigham Young	Brigham Young University
+6B	0	Fort Collins	CO	USA	40.570935	-105.086552	CSU	Colorado State	Colorado State University
+6B	0	Colorado Springs	CO	USA	38.892493	-104.799697	UCCS	UC-Colorado Springs	University of Colorado Colorado Springs
 7A	1	Edmond	OK	USA	35.654866	-97.471463		Central Oklahoma	University of Central Oklahoma
 7A	1	Norman	OK	USA	35.205894	-97.445714		Oklahoma	University of Oklahoma
 7A	2	Manhattan	KS	USA	39.197444	-96.584725		Kansas State	Kansas State University
 7A	1	Pittsburg	KS	USA	37.390286	-94.691571		Pittsburg State	Pittsburg State University
-7A	1	Tulsa	OK	USA	36.151988	-95.946000		Tulsa	University of Tulsa
-7A	1	Shawnee	OK	USA	35.361250	-96.934085		Oklahoma Baptist	Oklahoma Baptist University
+7A	0	Tulsa	OK	USA	36.151988	-95.946000		Tulsa	University of Tulsa
+7A	0	Shawnee	OK	USA	35.361250	-96.934085		Oklahoma Baptist	Oklahoma Baptist University
 7A	1	Stillwater	OK	USA	36.129580	-97.088537		Oklahoma State	Oklahoma State University
 7B	2	Columbia	MO	USA	38.940381	-92.327738	Mizzou	Missouri	University of Missouri-Columbia
 7B	2	Kirksville	MO	USA	40.186563	-92.580864		Truman State	Truman State University
@@ -162,9 +162,9 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 8C	2	Columbus	OH	USA	40.014191	-83.030914	OSU	Ohio State	The Ohio State University
 8C	1	Detroit	MI	USA	42.359369	-83.071606		Wayne State	Wayne State University
 8C	1	Gambier	OH	USA	40.371897	-82.398308		Kenyon	Kenyon College
-8C	1	Youngstown	OH	USA	41.106260	-80.647700	YSU	Youngstown State	Youngstown State University
+8C	0	Youngstown	OH	USA	41.106260	-80.647700	YSU	Youngstown State	Youngstown State University
 8C	1	Oxford	OH	USA	39.510533	-84.730877		Miami	Miami University
-8C	1	Dayton	OH	USA	39.783075	-84.062786		Wright State	Wright State University
+8C	0	Dayton	OH	USA	39.783075	-84.062786		Wright State	Wright State University
 8C	1	Cleveland	OH	USA	41.504341	-81.608384		Case Western	Case Western Reserve University
 8C	2	Pittsburgh	PA	USA	40.442808	-79.943013	CMU	Carnegie Mellon	Carnegie Mellon University
 8C	1	Pittsburgh	PA	USA	40.444353	-79.960835	Pitt	Pittsburgh	Pittsburgh University

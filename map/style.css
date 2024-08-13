@@ -95,8 +95,8 @@
 }
 
 circle.circle-inactive {
-	fill: #888;
-	stroke: #666;
+	fill: #fff5;
+	stroke: #0005;
 	stroke-width: 1px;
 }
 circle.circle-small {
