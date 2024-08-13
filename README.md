@@ -47,7 +47,7 @@ Key | Description | Example
 `ebol`        | Is the set participating in EBOL     | `no`
 `packetsurl`  | URL to packets on archive            | `https://collegiate.quizbowlpackets.com/2048/`
 
-Dates may be `TBD`. If `speculative` is non-empty, the value for `firstmirror` will be interpreted as freeform text instead of a date, allowing for provisional detail when the date is not exactly known (e.g. `"either 2/3 or 2/4"`, `"likely 11/20"`).
+Dates may be `TBD`. If `speculative` is non-empty, the value for `firstmirror` will be interpreted as freeform text instead of a date, allowing for provisional detail when the date is not exactly known (e.g. `"late February"`, `"either 2/3 or 2/4"`, `"likely 11/20"`).
 
 In general, blank values are used when reliable information does not yet exist. The value for `clear` can be a future date if it is strongly assumed, but should later be changed to match the actual date when the set became clear.
 
