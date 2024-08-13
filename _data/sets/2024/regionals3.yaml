@@ -9,3 +9,4 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28106
 firstonline: 
 firstmirror: 2024-10-26
 mirrors:
+  - { date: 2024-11-02, region: 8C, name: Case Western, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28220" }
