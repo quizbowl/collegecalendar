@@ -357,6 +357,9 @@ no
 {% assign firstidealmirrordate = set.firstideal | date: "%s" | plus: 0 -%}
 {% assign lastidealmirrordate = set.lastideal | date: "%s" | plus: 0 -%}
 {% assign firstmirror = set.firstmirror -%}
+{% if set.speculative -%}
+{% assign firstmirror = nil -%}
+{% endif -%}
 {% if firstmirror == nil and set.mirrors -%}
 {% assign firstmirror = set.mirrors | where_exp: "mirror", "mirror.region != '0P'" | where_exp: "mirror", "mirror.date != 'TBD'" | sort: "date" | first -%}
 {% assign firstmirror = firstmirror.date -%}
