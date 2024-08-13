@@ -94,6 +94,11 @@
 	/*font-family: 'BentonSansCond', sans-serif;*/
 }
 
+circle.circle-inactive {
+	fill: #888;
+	stroke: #666;
+	stroke-width: 1px;
+}
 circle.circle-small {
 	/*fill: #3dab89d8;*/
 	fill: white;

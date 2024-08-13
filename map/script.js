@@ -162,13 +162,23 @@ d3.tsv("colleges.tsv", function(error, colleges) {
 			.attr('class', 'region-label region-label-region region-label-id')
 			.text(d => d.id);
 
+	var circleClasses = {
+		2: 'circle-large',
+		1: 'circle-small',
+		0: 'circle-inactive',
+	}
+	var circleRadii = {
+		2: 4,
+		1: 2,
+		0: 2,
+	}
 	main.selectAll('.place')
 		.data(colleges)
 		.enter()
 		.append('circle')
-		.attr('class', d => (d.active > 1) ? 'circle-large' : 'circle-small')
+		.attr('class', d => circleClasses[d.active])
 		.attr('transform', d => 'translate(' + projection(d.coordinates) +')')
-		.attr('r', d => d.active * 2);
+		.attr('r', d => circleRadii[d.active]);
 
 
 const voronoi = d3.geom.voronoi()
@@ -289,6 +299,10 @@ svg.append("text")
 		.attr('class', 'circle-small')
 		.attr('transform', d => 'translate(-16,68)')
 		.attr('r', 2);
+	legend.append('circle')
+		.attr('class', 'circle-inactive')
+		.attr('transform', d => 'translate(-16,92)')
+		.attr('r', 2);
 	legend.append('text')
 		// .attr('class', 'place-label')
 		.attr('class', 'legend-label-medium')
@@ -299,6 +313,11 @@ svg.append("text")
 		// .attr('class', 'place-label')
 		.attr('class', 'legend-label-medium')
 		.text('Attends tournaments');
+	legend.append('text')
+		.attr('transform', d => 'translate(0,96)')
+		// .attr('class', 'place-label')
+		.attr('class', 'legend-label-medium')
+		.text('Inactive');
 
 	legend.append('text')
 		.attr('transform', d => 'translate(32,-40)')
