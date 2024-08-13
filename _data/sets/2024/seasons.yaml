@@ -11,13 +11,14 @@
     - regionals4
     - medium2
     - medium3
+    - open1
 
 - name: Spring
   year: 2025
   start: 2025-01-11
   weeks: 17
   slots:
-    - open1
+    - open2
     - regionals1
     - regionals2
     - medium4

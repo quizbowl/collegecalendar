@@ -1,0 +1,11 @@
+slot:        “Early Fall Novice”
+prev:        [Collegiate Novice, ICCS, VCU Novice, EACNT]
+diff:        Easy
+diffdots:    ●
+eligible:    Closed; scoring limits
+name:        NAQT Collegiate Novice
+firstmirror: 
+clear:       never
+packetsurl:  never
+mirrors:
+  - { date: 2024-09-21, region: 8C, name: CMU, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28199" }
