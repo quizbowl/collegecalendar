@@ -8,7 +8,8 @@ firstmirror:
 clear:       never
 packetsurl:  never
 mirrors:
-  - { date: 2024-09-21, region: CA, name: Toronto, url: "https://www.naqt.com/registration/field.jsp?tournament_id=16252" }
+  - { date: 2024-09-21, region: CA, name: Toronto, url: "https://www.naqt.com/registration/field.jsp?tournament_id=16252" }:
+  - { date: 2024-09-21, region: CA, name: McGill, url: "https://www.naqt.com/registration/field.jsp?tournament_id=16264" }
   - { date: 2024-09-21, region: 8C, name: CMU, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28199" }
   - { date: 2024-09-28, region: 1A, name: Yale, url: "https://www.naqt.com/registration/field.jsp?tournament_id=16217" }
   - { date: 2024-10-12, region: 8B, name: Purdue, url: "https://www.naqt.com/registration/field.jsp?tournament_id=15949" }
