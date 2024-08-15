@@ -1,3 +1,7 @@
+// Get colleges from query string
+var urlParams = new URLSearchParams(window.location.search);
+var collegesHighlight = urlParams.get('show')?.split(',').map(d => d.trim());
+
 var width = 1458,
 	height = 900;
 
@@ -122,6 +126,61 @@ d3.tsv("colleges.tsv", function(error, colleges) {
 			// .attr("fill", color(10));
 
 
+const voronoi = d3.geom.voronoi()
+	.x(d => projection(d.coordinates)[0])
+	.y(d => projection(d.coordinates)[1])
+	// .clipExtent([[0, 0], [width, height]]);
+
+var EARTH_RADIUS = 3959;                         // mean radius in miles
+var radiusMi     = 100;                            // radius to be drawn in miles
+var radiusDeg    = radiusMi / EARTH_RADIUS * 90; // radius in degrees for circle generator
+
+if (collegesHighlight) {
+	var collegesInQuery = colleges.filter(d =>
+		collegesHighlight.some(v => [d.college, d.college_abbr, d.college_long].includes(v)));
+
+	let highlight = main;
+
+	// draw lines from every college to the closest highlighted college
+	let maxDistance = d3.geo.distance([-80, 40], [-82, 44.1]); // 301 miles
+	function getClosestCollege(d) {
+		let minValue, min = -1; index = -1;
+		for (const c of collegesInQuery) {
+			++index;
+			let distance = d3.geo.distance(d.coordinates, c.coordinates);
+			if ((min < 0 || distance < minValue) && distance < maxDistance) {
+				minValue = distance; min = index;
+			}
+		}
+		return collegesInQuery[min];
+	}
+
+	highlight.selectAll('.line')
+		.data(colleges)
+		.enter()
+		.append('line')
+		.attr('class', 'highlight')
+		.attr('stroke', 'black')
+		.each(function(d) {
+			var closest = getClosestCollege(d);
+			if (!closest)
+				return;
+			d3.select(this)
+				.attr('x1', projection(closest.coordinates)[0])
+				.attr('y1', projection(closest.coordinates)[1])
+				.attr('x2', projection(d.coordinates)[0])
+				.attr('y2', projection(d.coordinates)[1]);
+		});
+
+	highlight.selectAll('.circle')
+		.data(collegesInQuery)
+		.enter()
+		.append('circle')
+		.attr('class', 'highlight')
+		.attr('transform', d => 'translate(' + projection(d.coordinates) +')')
+		.attr('r', 8)
+}
+
 	main.selectAll(".stateText")
 		.data(regions)
 		.enter()
@@ -180,15 +239,6 @@ d3.tsv("colleges.tsv", function(error, colleges) {
 		.attr('transform', d => 'translate(' + projection(d.coordinates) +')')
 		.attr('r', d => circleRadii[d.active]);
 
-
-const voronoi = d3.geom.voronoi()
-	.x(d => projection(d.coordinates)[0])
-	.y(d => projection(d.coordinates)[1])
-  // .clipExtent([[0, 0], [width, height]]);
-
-var EARTH_RADIUS = 3959;                         // mean radius in miles
-var radiusMi     = 100;                            // radius to be drawn in miles
-var radiusDeg    = radiusMi / EARTH_RADIUS * 90; // radius in degrees for circle generator
 
 main.selectAll('.voronoi')
   .data(voronoi(colleges))
