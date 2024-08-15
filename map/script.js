@@ -1,6 +1,6 @@
 // Get colleges from query string
-var urlParams = new URLSearchParams(window.location.search);
-var collegesHighlight = urlParams.get('show')?.split(',').map(d => d.trim());
+var show = new URLSearchParams(window.location.search).get('show');
+var collegesHighlight = show ? show.split(',').map(d => d.trim()) : undefined;
 
 var width = 1458,
 	height = 900;
@@ -139,6 +139,14 @@ if (collegesHighlight) {
 	var collegesInQuery = colleges.filter(d =>
 		collegesHighlight.some(v => [d.college, d.college_abbr, d.college_long].includes(v)));
 
+	if (collegesInQuery.length) {
+		main.append('text')
+			.attr('x', 1450)
+			.attr('y', 15)
+			.attr('dy', '.35em')
+			.attr('text-anchor', 'end')
+			.text(`Highlighting ${collegesInQuery.length} site${collegesInQuery.length > 1 ? 's' : ''}, nearest colleges up to 300 miles`)
+	}
 	let highlight = main;
 
 	// draw lines from every college to the closest highlighted college
