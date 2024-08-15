@@ -17,7 +17,7 @@ Minor updates are easy: find the relevant YAML file inside this GitHub repositor
 
 For major updates, it is encouraged to set up a development environment so that you can test changes locally on your computer. There is a one-time overhead of setting up Jekyll (the static site generator), Git (version control system), and GitHub (to communicate changes with the community via pull requests) if you haven’t done so, in addition to a learning curve for each tool. Reach out for help getting started.
 
-# But I’m afraid of breaking something
+## But I’m afraid of breaking something
 
 There’s nothing to be afraid of. “Editing” on GitHub creates a pull request, after which there’s a review step – thus, the “request” part of “pull request.”
 
