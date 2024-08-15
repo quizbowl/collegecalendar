@@ -13,11 +13,12 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 1A	0	Needham	MA	USA	42.293167	-71.263665		Olin	Olin College
 1A	1	Amherst	MA	USA	42.370910	-72.517003		Amherst	Amherst College
 1A	1	Williamstown	MA	USA	42.713023	-73.203008		Williams	Williams College
+1A	1	Worcester	MA	USA	42.252233	-71.824484		Clark	Clark University
 1A	0	Middletown	CT	USA	41.556610	-72.656904		Wesleyan	Wesleyan University
 1B	1	Rochester	NY	USA	43.130553	-77.626003		Rochester	University of Rochester
 1B	1	Syracuse	NY	USA	43.038823	-76.133724		Syracuse	Syracuse University
 1B	1	Syracuse	NY	USA	43.034486	-76.136607		ESF	College of Environmental Science and Forestry
-1B	1	Geneva	NY	USA	42.932939	-76.927684		HWS	Hobart and William Smith Colleges
+1B	1	Geneva	NY	USA	42.932939	-76.927684		HWS	Hobart and William Smith	Hobart and William Smith Colleges
 1B	1	Hamilton	NY	USA	42.816615	-75.540176		Colgate	Colgate University
 1B	1	Troy	NY	USA	42.730172	-73.678803		RPI	Rensselaer Polytechnic Institute
 1B	2	Ithaca	NY	USA	42.453449	-76.473503		Cornell	Cornell University
@@ -26,7 +27,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 1B	1	Buffalo	NY	USA	42.958236	-78.821006		Buffalo	University at Buffalo
 1B	2	Binghamton	NY	USA	42.089620	-75.969490		Binghamton	Binghamton University
 2A	2	New York	NY	USA	40.807536	-73.962573		Columbia	Columbia University
-2A	2	New York	NY	USA	40.729513	-73.996461	NYU	New York	New York University
+2A	2	New York	NY	USA	40.729513	-73.996461		NYU	New York University
 2A	2	New Brunswick	NJ	USA	40.500819	-74.447399		Rutgers	Rutgers University-New Brunswick
 2A	2	Princeton	NJ	USA	40.343989	-74.651448		Princeton	Princeton University
 2A	2	University Park	PA	USA	40.814796	-77.865313	PSU	Penn State	Pennsylvania State University
@@ -37,7 +38,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 2A	2	Baltimore	MD	USA	39.329901	-76.620518	JHU	Johns Hopkins	Johns Hopkins University
 2A	2	College Park	MD	USA	38.986918	-76.942554	UMD	Maryland	University of Maryland-College Park
 2A	2	Washington	DC	USA	38.907609	-77.072258		Georgetown	Georgetown University
-2A	1	Washington	DC	USA	38.899778	-77.048487		GW	George Washington	George Washington University
+2A	1	Washington	DC	USA	38.899778	-77.048487	GW	George Washington	George Washington University
 2A	1	Washington	DC	USA	38.936998	-76.998649		Catholic	Catholic University of America
 2A	1	Poughkeepsie	NY	USA	41.686799	-73.895700		Vassar	Vassar College
 2A	2	Swarthmore	PA	USA	39.906841	-75.355648		Swarthmore	Swarthmore College
@@ -46,6 +47,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 2B	2	Richmond	VA	USA	37.549505	-77.450972		VCU	Virginia Commonwealth University
 2B	2	Charlottesville	VA	USA	38.033553	-78.507977	UVA	Virginia	University of Virginia
 2B	2	Blacksburg	VA	USA	37.228384	-80.423417	VT	Virginia Tech	Virginia Polytechnic Institute and State University
+2B	1	Harrisonburg	VA	USA	38.435390	-78.869642	JMU	James Madison	James Madison University
 2B	2	Durham	NC	USA	36.001426	-78.938229		Duke	Duke University
 2B	1	Fairfax	VA	USA	38.831488	-77.311944	GMU	George Mason	George Mason University
 2B	1	Lexington	VA	USA	37.790486	-79.444956	W&L	Washington & Lee	Washington & Lee University
@@ -63,6 +65,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 3A	1	Louisville	KY	USA	38.212276	-85.758502		Louisville	University of Louisville
 3A	1	Louisville	KY	USA	38.246241	-85.752820		JCTC	Jefferson Community & Technical College
 3A	1	Nashville	TN	USA	36.144703	-86.802655		Vanderbilt	Vanderbilt University
+3A	1	Nashville	TN	USA	36.133163	-86.794293		Belmont	Belmont University
 3A	1	Lexington	KY	USA	38.053147	-84.493651		Transylvania	Transylvania University
 3A	1	Knoxville	TN	USA	35.954401	-83.929456		Tennessee	University of Tennessee-Knoxville
 3B	2	Columbia	SC	USA	33.996112	-81.027428		South Carolina	University of South Carolina
@@ -70,6 +73,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 3B	2	Atlanta	GA	USA	33.775618	-84.396285	GT	Georgia Tech	Georgia Institute of Technology
 3B	2	Auburn	AL	USA	32.593357	-85.495166		Auburn	Auburn University
 3B	1	Clemson	SC	USA	34.676094	-82.836415		Clemson	Clemson University
+3B	1	Due West	SC	USA	34.330607	-82.390520		Erskine	Erskine College
 3B	1	Charleston	SC	USA	32.783612	-79.937176		Charleston	College of Charleston
 3B	1	Spartanburg	SC	USA	34.958066	-81.934490		Wofford	Wofford College
 3B	1	Tuscaloosa	AL	USA	33.214023	-87.539142		Alabama	University of Alabama
@@ -157,7 +161,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 8B	1	Bloomington	IN	USA	39.169100	-86.519789		Indiana	Indiana University
 8B	1	Notre Dame	IN	USA	41.700191	-86.237933		Notre Dame	University of Notre Dame
 8B	1	Valparaiso	IN	USA	41.463273	-87.042381		Valparaiso	Valparaiso University
-8B	1	West Lafayette	IN	USA	40.423705	-86.921195		Purdue	Purdue University
+8B	2	West Lafayette	IN	USA	40.423705	-86.921195		Purdue	Purdue University
 8C	2	Ann Arbor	MI	USA	42.278044	-83.738224		Michigan	University of Michigan-Ann Arbor
 8C	2	East Lansing	MI	USA	42.701848	-84.482172	MSU	Michigan State	Michigan State University
 8C	2	Columbus	OH	USA	40.014191	-83.030914	OSU	Ohio State	The Ohio State University
