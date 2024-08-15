@@ -162,6 +162,10 @@ layout: page
 <td>
 {%- if set -%}
 <strong>{{ mirrors | size }}</strong>
+{% assign mappable = mirrors | where_exp: "mirror", "mirror.region != '0P'" %}
+{% if mappable.size > 0 -%}
+<a class="map" href="/map/?show={{ mappable | map: 'name' | join: ',' | escape}}">(see {% if mappable.size < mirrors.size %}{{ mappable | size }} {% endif %}on map)</a>
+{% endif -%}
 {%- endif -%}
 </td>
 {% endfor -%}
