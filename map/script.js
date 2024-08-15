@@ -1,6 +1,6 @@
 // Get colleges from query string
 var show = new URLSearchParams(window.location.search).get('show');
-var collegesHighlight = show ? show.split(',').map(d => d.trim()) : undefined;
+var collegesHighlight = show ? show.split(',').map(d => d.trim().split('@')) : undefined;
 
 var width = 1458,
 	height = 900;
@@ -136,8 +136,14 @@ var radiusMi     = 100;                            // radius to be drawn in mile
 var radiusDeg    = radiusMi / EARTH_RADIUS * 90; // radius in degrees for circle generator
 
 if (collegesHighlight) {
-	var collegesInQuery = colleges.filter(d =>
-		collegesHighlight.some(v => [d.college, d.college_abbr, d.college_long].includes(v)));
+	var collegesInQuery = colleges.filter(d => 
+		collegesHighlight.some(v => {
+			return (
+				[d.college, d.college_abbr, d.college_long].includes(v[0]) &&
+				(v[1] === undefined || d.region === v[1])
+			);
+		})
+	);
 
 	if (collegesInQuery.length) {
 		main.append('text')
