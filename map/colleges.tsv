@@ -21,10 +21,10 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 1B	1	Hamilton	NY	USA	42.816615	-75.540176		Colgate	Colgate University
 1B	1	Troy	NY	USA	42.730172	-73.678803		RPI	Rensselaer Polytechnic Institute
 1B	2	Ithaca	NY	USA	42.453449	-76.473503		Cornell	Cornell University
-1B	1	Henrietta	NY	USA	43.084412	-77.674949		RIT	Rochester Institute of Technology
+1B	2	Henrietta	NY	USA	43.084412	-77.674949		RIT	Rochester Institute of Technology
 1B	1	Albany	NY	USA	42.691741	-73.825661		Albany	University at Albany
 1B	1	Buffalo	NY	USA	42.958236	-78.821006		Buffalo	University at Buffalo
-1B	1	Binghamton	NY	USA	42.089620	-75.969490		Binghamton	Binghamton University
+1B	2	Binghamton	NY	USA	42.089620	-75.969490		Binghamton	Binghamton University
 2A	2	New York	NY	USA	40.807536	-73.962573		Columbia	Columbia University
 2A	2	New York	NY	USA	40.729513	-73.996461	NYU	New York	New York University
 2A	2	New Brunswick	NJ	USA	40.500819	-74.447399		Rutgers	Rutgers University-New Brunswick
