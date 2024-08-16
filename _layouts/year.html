@@ -164,7 +164,7 @@ layout: page
 <strong>{{ mirrors | size }}</strong>
 {% assign mappable = mirrors | where_exp: "mirror", "mirror.region != '0P'" %}
 {% if mappable.size > 0 -%}
-<a class="map" href="/map/?show={% for mirror in mappable %}{{ mirror.name | url_encode }}@{{ mirror.region | url_encode }}{% unless forloop.last %},{% endunless %}{% endfor %}">(see {% if mappable.size < mirrors.size %}{{ mappable | size }} {% endif %}on map)</a>
+<a class="map" href="/map/?site={{ set.name | url_encode }}&show={% for mirror in mappable %}{{ mirror.name | url_encode }}@{{ mirror.region | url_encode }}{% unless forloop.last %},{% endunless %}{% endfor %}">(see {% if mappable.size < mirrors.size %}{{ mappable | size }} {% endif %}on map)</a>
 {% endif -%}
 {%- endif -%}
 </td>

@@ -1,4 +1,5 @@
 // Get colleges from query string
+var site = new URLSearchParams(window.location.search).get('site');
 var show = new URLSearchParams(window.location.search).get('show');
 var collegesHighlight = show ? show.split(',').map(d => d.trim().split('@')) : undefined;
 
@@ -146,12 +147,35 @@ if (collegesHighlight) {
 	);
 
 	if (collegesInQuery.length) {
-		main.append('text')
-			.attr('x', 1450)
-			.attr('y', 15)
+		let highlightLegend = main.append('g')
+			.attr('class', 'legend legend-label-medium')
+		highlightLegend.append('text')
+			.attr('x', 1042)
+			.attr('y', 20)
 			.attr('dy', '.35em')
-			.attr('text-anchor', 'end')
-			.text(`Highlighting ${collegesInQuery.length} site${collegesInQuery.length > 1 ? 's' : ''}, nearest colleges up to 300 miles`)
+			.text(`Highlighting ${collegesInQuery.length} site${collegesInQuery.length > 1 ? 's' : ''} of ${site}`)
+		highlightLegend.append('text')
+			.attr('x', 1042)
+			.attr('y', 42)
+			.attr('dy', '.35em')
+			.text(`Nearest colleges up to 300 miles`)
+		highlightLegend.append('circle')
+			.attr('cx', 1020)
+			.attr('cy', 20)
+			.attr('class', 'highlight')
+			.attr('r', 8)
+		highlightLegend.append('circle')
+			.attr('cx', 1020)
+			.attr('cy', 20)
+			.attr('class', 'circle-large')
+			.attr('r', 4)
+		highlightLegend.append('line')
+			.attr('x1', 1000)
+			.attr('y1', 43)
+			.attr('x2', 1036)
+			.attr('y2', 43)
+			.attr('class', 'highlight')
+			.attr('stroke-dasharray', '5,5')
 	}
 	let highlight = main;
 
