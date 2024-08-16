@@ -154,12 +154,12 @@ if (collegesHighlight) {
 			.attr('x', 1042)
 			.attr('y', 44)
 			.attr('dy', '.35em')
-			.text(`Nearest colleges up to 300 miles (as crow flies)`)
+			.text(`Nearest colleges up to 300 miles (as the crow flies)`)
 		highlightLegend.append('circle')
 			.attr('cx', 1020)
 			.attr('cy', 20)
 			.attr('class', 'highlight')
-			.attr('r', 8)
+			.attr('r', 9)
 		highlightLegend.append('circle')
 			.attr('cx', 1020)
 			.attr('cy', 20)
@@ -212,7 +212,7 @@ if (collegesHighlight) {
 		.append('circle')
 		.attr('class', 'highlight')
 		.attr('transform', d => 'translate(' + projection(d.coordinates) +')')
-		.attr('r', 8)
+		.attr('r', 9)
 }
 
 	main.selectAll(".stateText")
