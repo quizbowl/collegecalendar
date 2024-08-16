@@ -28,6 +28,7 @@ permalink: pretty
 theme: minima
 plugins:
   - jekyll-timeago
+  - jekyll-redirect-from
 # - jekyll-feed
 kramdown:
   footnote_backlink: "&#x2934;"
