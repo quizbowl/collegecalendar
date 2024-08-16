@@ -94,3 +94,5 @@ Key | Description | Example
 `college_long`         | Full name   | `University of Connecticut`
 
 The region geometries defined in `map/regions.js` refer to TopoJSON polygons (by FIPS codes, CDUIDs, etc.) from `map/us.json`, `map/canada.json`, and `map/uk.json`.
+
+For `active`, mark the expected status over 5 years (i.e. 1 tournament in 5 years does not qualify as an active host). High schools are not mapped as they are not part of a college circuit. Create an issue if interested in setting/leading mapping guidance. Sort nearby colleges by `active` in descending order.
