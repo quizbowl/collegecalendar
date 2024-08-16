@@ -63,11 +63,11 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 3A	2	Lexington	KY	USA	38.030651	-84.503970		Kentucky	University of Kentucky
 3A	1	Bowling Green	KY	USA	36.985354	-86.456138		WKU	Western Kentucky University
 3A	1	Louisville	KY	USA	38.212276	-85.758502		Louisville	University of Louisville
-3A	1	Louisville	KY	USA	38.246241	-85.752820		JCTC	Jefferson Community & Technical College
+3A	2	Louisville	KY	USA	38.246241	-85.752820	JCTC	Jefferson	Jefferson Community & Technical College
 3A	1	Nashville	TN	USA	36.144703	-86.802655		Vanderbilt	Vanderbilt University
 3A	1	Nashville	TN	USA	36.133163	-86.794293		Belmont	Belmont University
 3A	1	Lexington	KY	USA	38.053147	-84.493651		Transylvania	Transylvania University
-3A	1	Knoxville	TN	USA	35.954401	-83.929456		Tennessee	University of Tennessee-Knoxville
+3A	2	Knoxville	TN	USA	35.954401	-83.929456		Tennessee	University of Tennessee-Knoxville
 3B	2	Columbia	SC	USA	33.996112	-81.027428		South Carolina	University of South Carolina
 3B	2	Athens	GA	USA	33.948005	-83.377322	UGA	Georgia	University of Georgia
 3B	2	Atlanta	GA	USA	33.775618	-84.396285	GT	Georgia Tech	Georgia Institute of Technology
@@ -77,13 +77,24 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 3B	1	Charleston	SC	USA	32.783612	-79.937176		Charleston	College of Charleston
 3B	1	Spartanburg	SC	USA	34.958066	-81.934490		Wofford	Wofford College
 3B	1	Tuscaloosa	AL	USA	33.214023	-87.539142		Alabama	University of Alabama
-3B	1	Starkville	MI	USA	33.464331	-88.799425		Mississippi State	Mississippi State University
-3C	2	Gainesville	FL	USA	29.643633	-82.354930		Florida	University of Florida
-3C	2	Orlando	FL	USA	28.602427	-81.200060	UCF	Central Florida	University of Central Florida
+3B	1	Birmingham	AL	USA	33.652885	-86.707288		Jefferson State	Jefferson State Community College
+3B	1	Phil Campbell	AL	USA	34.344268	-87.730681	NWSCC	Northwest-Shoals	Northwest-Shoals Community College
+3B	1	Enterprise	AL	USA	31.300256	-85.836203	ESCC	Enterprise State	Enterprise State Community College
+3B	1	Wadley	AL	USA	33.129517	-85.573249		Southern Union	Southern Union Community College
+3B	1	Starkville	MS	USA	33.464331	-88.799425		Mississippi State	Mississippi State University
+3B	1	Booneville	MS	USA	34.667131	-88.564253	NEMCC	Northeast Mississippi	Northeast Mississippi Community College
+3C	2	Gainesville	FL	USA	29.643633	-82.354930	UF	Florida	University of Florida
+3C	2	Orlando	FL	USA	28.602427	-81.200060		UCF	University of Central Florida
+3C	1	Ocala	FL	USA	29.165736	-82.173706		College of Central Florida	College of Central Florida
 3C	2	Sarasota	FL	USA	27.384828	-82.558703	NCF	New College	New College of Florida
-3C	1	Bradenton	FL	USA	27.437884	-82.589685	SCF	State College of Florida	State College of Florida Manatee-Sarasota
+3C	1	Bradenton	FL	USA	27.437884	-82.589685	SCF	State College-Manatee	State College of Florida Manatee-Sarasota
+3C	1	Lake City	FL	USA	30.174209	-82.569137	FGC	Florida Gateway	Florida Gateway College
 3C	1	Marianna	FL	USA	30.787403	-85.232581		Chipola	Chipola College
+3C	1	Pensacola	FL	USA	30.480563	-87.202127		Pensacola State	Pensacola State College
+3C	1	Niceville	FL	USA	30.535070	-86.474451		Northwest Florida	Northwest Florida State College
+3C	1	Panama City	FL	USA	30.185815	-85.727970		Gulf Coast	Gulf Coast State College
 3C	1	Tallahassee	FL	USA	30.441878	-84.298489		Florida State	Florida State University
+3C	1	Tallahassee	FL	USA	30.443585	-84.341060		Tallahassee	Tallahassee Community College
 3C	1	Orlando	FL	USA	28.521294	-81.465755		Valencia	Valencia College
 3C	1	Fort Lauderdale	FL	USA	26.123275	-80.144797		Broward	Broward College
 3C	1	Gainesville	FL	USA	29.681841	-82.438227		Santa Fe	Santa Fe College
@@ -98,6 +109,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 4A	1	College Station	TX	USA	30.618531	-96.336499	TAMU	Texas A&M	Texas A&M
 4A	1	Denton	TX	USA	33.207488	-97.152586		North Texas	University of North Texas
 4A	1	Houston	TX	USA	29.720790	-95.344062	UH	Houston	University of Houston
+4A	1	Orange	TX	USA	30.091430	-93.731561	LSC-O	Lamar-Orange	Lamar State College-Orange
 4B	0	El Paso	TX	USA	31.770854	-106.504622	UTEP	Texas-El Paso	University of Texas at El Paso
 4B	1	Las Cruces	NM	USA	32.276736	-106.747752		NMSU	New Mexico State University
 4B	1	Tuscon	AZ	USA	32.235173	-110.950995		Arizona	University of Arizona
@@ -128,10 +140,17 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 7A	1	Norman	OK	USA	35.205894	-97.445714		Oklahoma	University of Oklahoma
 7A	2	Manhattan	KS	USA	39.197444	-96.584725		Kansas State	Kansas State University
 7A	1	Pittsburg	KS	USA	37.390286	-94.691571		Pittsburg State	Pittsburg State University
+7A	1	Arkansas City	KS	USA	37.061355	-97.041912		Cowley	Cowley College
+7A	1	Garden City	KS	USA	37.970819	-100.849506	GCCC	Garden City	Garden City Community College
+7A	1	Iola	KS	USA	37.939440	-95.395470		Allen	Allen Community College
+7A	1	Liberal	KS	USA	37.058672	-100.916229	SCCC	Seward County	Seward County Community College
+7A	1	Chanute	KS	USA	37.670786	-95.464982	NCCC	Neosho County	Neosho County Community College
+7A	1	Coffeyville	KS	USA	37.033913	-95.622790		Coffeyville	Coffeyville Community College
 7A	0	Tulsa	OK	USA	36.151988	-95.946000		Tulsa	University of Tulsa
 7A	0	Shawnee	OK	USA	35.361250	-96.934085		Oklahoma Baptist	Oklahoma Baptist University
 7A	1	Stillwater	OK	USA	36.129580	-97.088537		Oklahoma State	Oklahoma State University
-7A	1	Tishomingo	OK	USA	34.222380	-96.677874		Murray State	Murray State College
+7A	2	Tishomingo	OK	USA	34.222380	-96.677874		Murray State	Murray State College
+7A	1	El Reno	OK	USA	35.519993	-97.974400		Redlands	Redlands Community College
 7B	2	Columbia	MO	USA	38.940381	-92.327738	Mizzou	Missouri	University of Missouri-Columbia
 7B	2	Kirksville	MO	USA	40.186563	-92.580864		Truman State	Truman State University
 7B	2	St. Louis	MO	USA	38.648790	-90.310796		WUSTL	Washington University in St. Louis
