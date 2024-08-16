@@ -131,6 +131,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 7A	0	Tulsa	OK	USA	36.151988	-95.946000		Tulsa	University of Tulsa
 7A	0	Shawnee	OK	USA	35.361250	-96.934085		Oklahoma Baptist	Oklahoma Baptist University
 7A	1	Stillwater	OK	USA	36.129580	-97.088537		Oklahoma State	Oklahoma State University
+7A	1	Tishomingo	OK	USA	34.222380	-96.677874		Murray State	Murray State College
 7B	2	Columbia	MO	USA	38.940381	-92.327738	Mizzou	Missouri	University of Missouri-Columbia
 7B	2	Kirksville	MO	USA	40.186563	-92.580864		Truman State	Truman State University
 7B	2	St. Louis	MO	USA	38.648790	-90.310796		WUSTL	Washington University in St. Louis

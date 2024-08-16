@@ -158,7 +158,7 @@ if (collegesHighlight) {
 			.attr('x', 1042)
 			.attr('y', 42)
 			.attr('dy', '.35em')
-			.text(`Nearest colleges up to 300 miles`)
+			.text(`Nearest colleges up to 300 miles (as crow flies)`)
 		highlightLegend.append('circle')
 			.attr('cx', 1020)
 			.attr('cy', 20)
