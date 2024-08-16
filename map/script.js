@@ -153,7 +153,7 @@ if (collegesHighlight) {
 			.attr('x', 1042)
 			.attr('y', 20)
 			.attr('dy', '.35em')
-			.text(`Highlighting ${collegesInQuery.length} site${collegesInQuery.length > 1 ? 's' : ''} of ${site}`)
+			.text(`Highlighting ${collegesInQuery.length} site${collegesInQuery.length > 1 ? 's' : ''}${site ? ' of ' + site : ''}`)
 		highlightLegend.append('text')
 			.attr('x', 1042)
 			.attr('y', 42)
