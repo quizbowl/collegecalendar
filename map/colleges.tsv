@@ -90,7 +90,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 3C	1	Avon Park	FL	USA	27.569866	-81.512386		South Florida	South Florida State College
 4A	2	Baton Rouge	LA	USA	30.413258	-91.180002	LSU	Louisiana State	Louisiana State University
 4A	2	Richardson	TX	USA	32.985454	-96.754319	UT-Dallas	Texas-Dallas	University of Texas-Dallas
-4A	2	Austin	TX	USA	30.284919	-97.734057	UT	Texas	The University of Texas at Austin
+4A	2	Austin	TX	USA	30.284919	-97.734057	UT-Austin	Texas	The University of Texas at Austin
 4A	2	Houston	TX	USA	29.717394	-95.401831		Rice	Rice University
 4A	1	New Orleans	LA	USA	29.940348	-90.120728		Tulane	Tulane University
 4A	1	Lafayette	LA	USA	30.211440	-92.020412	UL-Lafayette	Louisiana-Lafayette	University of Louisiana at Lafayette
@@ -178,7 +178,7 @@ CA	2	Waterloo	ON	Canada	43.472285	-80.544858		Waterloo	University of Waterloo
 CA	2	Hamilton	ON	Canada	43.260879	-79.919225		McMaster	McMaster University
 CA	2	Toronto	ON	Canada	43.662892	-79.395656		Toronto	University of Toronto
 CA	2	Kingston	ON	Canada	44.225280	-76.495141		Queen’s	Queen’s University
-CA	2	Ottawa	ON	Canada	45.387581	-75.696020		Carleton University	Carleton University
+CA	2	Ottawa	ON	Canada	45.387581	-75.696020	Carleton	Carleton University	Carleton University
 CA	2	Ottawa	ON	Canada	45.423106	-75.683133		Ottawa	University of Ottawa
 CA	1	Montreal	QC	Canada	45.504785	-73.577151		McGill	McGill University
 CA	1	London	ON	Canada	43.0096	-81.2737		Western	University of Western Ontario
