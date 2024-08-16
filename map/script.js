@@ -132,10 +132,6 @@ const voronoi = d3.geom.voronoi()
 	.y(d => projection(d.coordinates)[1])
 	// .clipExtent([[0, 0], [width, height]]);
 
-var EARTH_RADIUS = 3959;                         // mean radius in miles
-var radiusMi     = 100;                            // radius to be drawn in miles
-var radiusDeg    = radiusMi / EARTH_RADIUS * 90; // radius in degrees for circle generator
-
 if (collegesHighlight) {
 	var collegesInQuery = colleges.filter(d => 
 		collegesHighlight.some(v => {
@@ -156,7 +152,7 @@ if (collegesHighlight) {
 			.text(`Highlighting ${collegesInQuery.length} site${collegesInQuery.length > 1 ? 's' : ''}${site ? ' of ' + site : ''}`)
 		highlightLegend.append('text')
 			.attr('x', 1042)
-			.attr('y', 42)
+			.attr('y', 44)
 			.attr('dy', '.35em')
 			.text(`Nearest colleges up to 300 miles (as crow flies)`)
 		highlightLegend.append('circle')
@@ -171,9 +167,9 @@ if (collegesHighlight) {
 			.attr('r', 4)
 		highlightLegend.append('line')
 			.attr('x1', 1000)
-			.attr('y1', 43)
+			.attr('y1', 45)
 			.attr('x2', 1036)
-			.attr('y2', 43)
+			.attr('y2', 45)
 			.attr('class', 'highlight')
 			.attr('stroke-dasharray', '5,5')
 	}
@@ -277,6 +273,11 @@ if (collegesHighlight) {
 		.attr('transform', d => 'translate(' + projection(d.coordinates) +')')
 		.attr('r', d => circleRadii[d.active]);
 
+/* subtended = radius * angle (s = rθ) */
+var EARTH_RADIUS = 3959;                         // miles
+var radiusMiles  = 100;                          // miles (radius of circle to draw)
+var angleRadians = radiusMiles / EARTH_RADIUS;   // angle subtended in radians
+var angleDegrees = angleRadians * 180 / Math.PI; // angle subtended in degrees
 
 main.selectAll('.voronoi')
   .data(voronoi(colleges))
@@ -328,8 +329,8 @@ main.selectAll('.voronoi')
 /*	.on('mouseover', (d) => {
 		// distanceLimitedVoronoi
 
-var circle = d3.geo.circle().angle(radiusDeg).origin(d.point.coordinates);
-var circle2 = d3.geo.circle().angle(2*radiusDeg).origin(d.point.coordinates);
+var circle  = d3.geo.circle().angle  (angleDegrees).origin(d.point.coordinates);
+var circle2 = d3.geo.circle().angle(2*angleDegrees).origin(d.point.coordinates);
 svg.append("path")
   .datum(circle)
 	.attr("d", path)
