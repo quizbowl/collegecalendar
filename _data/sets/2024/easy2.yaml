@@ -9,3 +9,18 @@ firstmirror: 2024-10-19
 announced:   2024-06-07
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28046
 mirrors:
+  - { date: 2024-10-19, region: 1A, name: MIT }
+  - { date: 2024-10-19, region: 2A, name: Rutgers }
+  - { date: 2024-10-19, region: 2B, name: North Carolina }
+  - { date: 2024-10-19, region: 3B, name: Georgia }
+  - { date: 2024-10-19, region: 3C, name: Florida }
+  - { date: 2024-10-19, region: 5A, name: Claremont Colleges }
+  - { date: 2024-10-19, region: 5B, name: Berkeley }
+  - { date: 2024-10-19, region: 6A, name: Washington (Online) }
+  - { date: 2024-10-19, region: 7A, name: Murray State }
+  - { date: 2024-10-19, region: 8A, name: Minnesota }
+  - { date: 2024-10-19, region: 8B, name: Illinois }
+  - { date: 2024-10-19, region: 8C, name: Ohio State }
+  - { date: 2024-10-19, region: CA, name: Ottawa }
+  - { date: 2024-10-19, region: UK, name: Durham }
+  - { date: 2024-10-19, region: UK, name: Southampton }
