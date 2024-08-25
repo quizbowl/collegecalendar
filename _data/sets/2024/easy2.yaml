@@ -17,11 +17,11 @@ mirrors:
   - { date: 2024-10-19, region: 3C, name: Florida }
   - { date: 2024-10-19, region: 5A, name: Claremont Colleges }
   - { date: 2024-10-19, region: 5B, name: Berkeley }
-  - { date: 2024-10-19, region: 6A, name: Washington (Online) }
-  - { date: 2024-10-19, region: 7A, name: Murray State }
+  - { date: 2024-10-19, region: 6A, name: Washington, eligible: Online }
+  - { date: 2024-10-19, region: 7A, name: Murray State, url: https://hsquizbowl.org/forums/viewtopic.php?t=28257 }
   - { date: 2024-10-19, region: 8A, name: Minnesota }
   - { date: 2024-10-19, region: 8B, name: Illinois }
-  - { date: 2024-10-19, region: 8C, name: Ohio State }
+  - { date: 2024-10-19, region: 8C, name: Ohio State, url: https://hsquizbowl.org/forums/viewtopic.php?t=28252 }
   - { date: 2024-10-19, region: CA, name: Ottawa }
   - { date: 2024-10-19, region: UK, name: Durham }
   - { date: 2024-10-19, region: UK, name: Southampton }
