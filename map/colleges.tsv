@@ -64,7 +64,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 3A	1	Bowling Green	KY	USA	36.985354	-86.456138		WKU	Western Kentucky University
 3A	1	Louisville	KY	USA	38.212276	-85.758502		Louisville	University of Louisville
 3A	2	Louisville	KY	USA	38.246241	-85.752820	JCTC	Jefferson	Jefferson Community & Technical College
-3A	1	Nashville	TN	USA	36.144703	-86.802655		Vanderbilt	Vanderbilt University
+3A	2	Nashville	TN	USA	36.144703	-86.802655		Vanderbilt	Vanderbilt University
 3A	1	Nashville	TN	USA	36.133163	-86.794293		Belmont	Belmont University
 3A	1	Lexington	KY	USA	38.053147	-84.493651		Transylvania	Transylvania University
 3A	2	Knoxville	TN	USA	35.954401	-83.929456		Tennessee	University of Tennessee-Knoxville
@@ -122,7 +122,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 5A	2	La Jolla	CA	USA	32.880060	-117.234013	UCSD	UC San Diego	University of California-San Diego
 5A	2	Los Angeles	CA	USA	34.068921	-118.445181		UCLA	University of California-Los Angeles
 5A	2	Los Angeles	CA	USA	34.021883	-118.285867		USC	University of Southern California
-5A	1	Claremont	CA	USA	34.094399	-117.708296		Claremont Colleges	Claremont Colleges
+5A	2	Claremont	CA	USA	34.094399	-117.708296		Claremont Colleges	Claremont Colleges
 5A	1	Irvine	CA	USA	33.640495	-117.844296	UC-Irvine	UC Irvine	University of California-Irvine
 5A	1	Pasadena	CA	USA	34.137658	-118.125269		Caltech	California Institute of Technology
 5A	1	Santa Barbara	CA	USA	34.413963	-119.848947	UCSB	UC Santa Barbara	University of California-Santa Barbara
@@ -137,7 +137,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 6B	0	Fort Collins	CO	USA	40.570935	-105.086552	CSU	Colorado State	Colorado State University
 6B	0	Colorado Springs	CO	USA	38.892493	-104.799697	UCCS	UC-Colorado Springs	University of Colorado Colorado Springs
 7A	1	Edmond	OK	USA	35.654866	-97.471463		Central Oklahoma	University of Central Oklahoma
-7A	1	Norman	OK	USA	35.205894	-97.445714		Oklahoma	University of Oklahoma
+7A	2	Norman	OK	USA	35.205894	-97.445714		Oklahoma	University of Oklahoma
 7A	2	Manhattan	KS	USA	39.197444	-96.584725		Kansas State	Kansas State University
 7A	1	Pittsburg	KS	USA	37.390286	-94.691571		Pittsburg State	Pittsburg State University
 7A	1	Arkansas City	KS	USA	37.061355	-97.041912		Cowley	Cowley College
@@ -200,7 +200,7 @@ CA	2	Toronto	ON	Canada	43.662892	-79.395656		Toronto	University of Toronto
 CA	2	Kingston	ON	Canada	44.225280	-76.495141		Queen’s	Queen’s University
 CA	2	Ottawa	ON	Canada	45.387581	-75.696020	Carleton	Carleton University	Carleton University
 CA	2	Ottawa	ON	Canada	45.423106	-75.683133		Ottawa	University of Ottawa
-CA	1	Montreal	QC	Canada	45.504785	-73.577151		McGill	McGill University
+CA	2	Montreal	QC	Canada	45.504785	-73.577151		McGill	McGill University
 CA	1	London	ON	Canada	43.0096	-81.2737		Western	University of Western Ontario
 CA	1	Niagara-on-the-Lake	ON	Canada	43.1522	-79.1652		Niagara	Niagara College
 UK	2	Cambridge	England	UK	52.204267	0.114908		Cambridge	Cambridge
@@ -213,6 +213,9 @@ UK	1	London	England	UK	51.469844	-0.089278	KCL	King’s	King’s College London
 UK	1	Durham	England	UK	54.768633	-1.572089		Durham	Durham University
 UK	1	Manchester	England	UK	53.466004	-2.233008		Manchester	The University of Manchester
 UK	1	Bristol	England	UK	51.457612	-2.601620		Bristol	University of Bristol
+UK	1	Sheffield	England	UK	53.381529	-1.488530		Sheffield	University of Sheffield
+UK	1	Birmingham	England	UK	52.450914	-1.930513		Birmingham	University of Birmingham
+UK	1	York	England	UK	53.946247	-1.051803		York	University of York
 UK	1	Cardiff	Wales	UK	51.487996	-3.179697		Cardiff	Cardiff University
 UK	2	Glasgow	Scotland	UK	55.872315	-4.289219		Glasgow	University of Glasgow
 UK	1	Edinburgh	Scotland	UK	55.944516	-3.189241		Edinburgh	University of Edinburgh
