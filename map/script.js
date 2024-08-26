@@ -206,6 +206,8 @@ if (collegesHighlight) {
 				.attr('y2', projection(d.coordinates)[1]);
 		});
 
+	var labelG = svg.append('g');
+
 	highlight.selectAll('.circle')
 		.data(collegesInQuery)
 		.enter()
@@ -213,6 +215,7 @@ if (collegesHighlight) {
 		.attr('class', 'highlight')
 		.attr('transform', d => 'translate(' + projection(d.coordinates) +')')
 		.attr('r', 9)
+		.call(makePlaceLabel, labelG, false)
 }
 
 	main.selectAll(".stateText")
@@ -279,6 +282,44 @@ var radiusMiles  = 100;                          // miles (radius of circle to d
 var angleRadians = radiusMiles / EARTH_RADIUS;   // angle subtended in radians
 var angleDegrees = angleRadians * 180 / Math.PI; // angle subtended in degrees
 
+// TODO defining paddingTopBottom here outside the function for some reason is what makes the
+// label-arrow not be drawn (due to NaN in path) during the highlight-labeling pass
+// very janky/half unintentional feature in case that's what you want to do
+function makePlaceLabel(selection, element, hover) {
+	var marginLeftRight = 8; // adjust the padding values depending on font and font size
+	var paddingLeftRight = 6; // adjust the padding values depending on font and font size
+	var paddingTopBottom = 4;
+	selection.each((d) => {
+		var pcoords = projection(d.coordinates);
+		var g = element.append('g')
+		var text = g.append('text')
+			.datum(d.point)
+			.attr('class', 'place-label ' + (hover ? 'place-label-1' : ' highlight'))
+			.attr('transform', 'translate(' + pcoords + ')')
+			.attr("x", - marginLeftRight - 3 * paddingLeftRight / 2)
+			// .attr("x", function(d) { return d.coordinates[0] > -88 ? 6 : -6; })
+			.attr("dy", ".35em")
+			.style("text-anchor", 'end')
+			// .style("text-anchor", function(d) { return d.coordinates[0] > -88 ? "start" : "end"; })
+			.text(d.college);
+
+		var bb = text[0][0].getBBox();
+
+		pcoords[0] = Math.round(pcoords[0]) + .5; pcoords[1] = Math.round(pcoords[1]);
+		g.insert("path", 'text')
+			.datum(d.point)
+			.attr('class', 'place-label-rect ' + (hover ? 'place-label-1' : 'highlight'))
+			.attr('fill', 'blue')
+			.attr('transform', 'translate(' + pcoords + ')')
+			.attr('d', 'M ' + (- marginLeftRight) + ' 0 ' +
+					   'l ' + (- paddingLeftRight) + ' ' + (- bb.height / 2 - paddingTopBottom / 2) +
+					   'l ' + (- Math.round(bb.width) - 3 * paddingLeftRight / 2) + ' 0 ' +
+					   'l 0 ' + (bb.height + paddingTopBottom) + ' ' +
+					   'l ' + (+ Math.round(bb.width) + 3 * paddingLeftRight / 2) + ' 0 ' +
+					   'Z')
+	});
+}
+
 main.selectAll('.voronoi')
   .data(voronoi(colleges))
   .enter().append('g')
@@ -288,39 +329,10 @@ main.selectAll('.voronoi')
   .append('path')
 	.attr('d', d => d ? 'M' + d.join('L') + 'Z' : null)
 	.on('mouseover', (d) => {
-		
-		var marginLeftRight = 8; // adjust the padding values depending on font and font size
-		var paddingLeftRight = 6; // adjust the padding values depending on font and font size
-		var paddingTopBottom = 4;
-
-		var text = main.append('text')
-			.datum(d.point)
-			.attr('class', 'place-label place-label-1')
-			.attr('transform', d => 'translate(' + projection(d.coordinates) + ')')
-			.attr("x", function (d) { return - marginLeftRight - 3 * paddingLeftRight / 2; })
-			// .attr("x", function(d) { return d.coordinates[0] > -88 ? 6 : -6; })
-			.attr("dy", ".35em")
-			.style("text-anchor", 'end')
-			// .style("text-anchor", function(d) { return d.coordinates[0] > -88 ? "start" : "end"; })
-			.text(d => d.college);
-			
-			var bb = text[0][0].getBBox();
-
-			main.insert("path", '.place-label-1')
-			.datum(d.point)
-			.attr('class', 'place-label-rect place-label-1')
-			.attr('fill', 'blue')
-			.attr('transform', function (d) {
-				var p = projection(d.coordinates);
-				p[0] = Math.round(p[0]) + .5; p[1] = Math.round(p[1]);
-				return 'translate(' + p + ')';
-			})
-			.attr('d', 'M ' + (- marginLeftRight) + ' 0 ' +
-					   'l ' + (- paddingLeftRight) + ' ' + (- bb.height / 2 - paddingTopBottom / 2) +
-					   'l ' + (- Math.round(bb.width) - 3 * paddingLeftRight / 2) + ' 0 ' +
-					   'l 0 ' + (bb.height + paddingTopBottom) + ' ' +
-					   'l ' + (+ Math.round(bb.width) + 3 * paddingLeftRight / 2) + ' 0 ' +
-					   'Z')
+		// make a selection of one element with d.point as its data
+		var selection = d3.select(this);
+		selection.datum(d.point);
+		makePlaceLabel(selection, svg, true);
 	})
 	.on('mouseout', (d) => {
 	  svg.selectAll(".place-label-1").remove();

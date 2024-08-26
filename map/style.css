@@ -69,10 +69,10 @@
 	stroke-width: 1px;
 	pointer-events: none;
 }
-.main .place-label {
+.main .place-label-1 {
 	display: none;
 }
-.main:hover .place-label {
+.main:hover .place-label-1 {
 	display: block;
 }
 
@@ -153,6 +153,9 @@ rect {
 circle.highlight {
 	/* glowing yellow */
 	fill: #ff07;
+}
+.place-label-rect.highlight {
+	fill: #ffbe;
 }
 line.highlight {
 	stroke: #844;
