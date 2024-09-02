@@ -9,9 +9,10 @@ clear:       never
 packetsurl:  never
 mirrors:
   - { date: 2024-09-14, region: 3A, name: Tusculum, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28246" }
+  - { date: 2024-09-14, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28289 }
   - { date: 2024-09-21, region: 1B, name: RIT, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28253" }
   - { date: 2024-09-21, region: CA, name: Toronto, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28283" }
-  - { date: 2024-09-21, region: CA, name: McGill, url: "https://www.naqt.com/registration/field.jsp?tournament_id=16264" }
+  - { date: 2024-09-21, region: CA, name: McGill, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28291" }
   - { date: 2024-09-21, region: 8C, name: CMU, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28199" }
   - { date: 2024-09-28, region: 1A, name: Yale, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28230" }
   - { date: 2024-10-12, region: 8B, name: Purdue, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28223" }
