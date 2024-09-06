@@ -9,7 +9,7 @@ firstmirror: 2024-10-19
 announced:   2024-06-07
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28046
 mirrors:
-  - { date: 2024-10-19, region: 1A, name: MIT }
+  - { date: 2024-10-19, region: 1A, name: MIT, url: https://hsquizbowl.org/forums/viewtopic.php?t=28304 }
   - { date: 2024-10-19, region: 1B, name: Cornell, url: https://hsquizbowl.org/forums/viewtopic.php?t=28286 }
   - { date: 2024-10-19, region: 2A, name: Rutgers, url: https://hsquizbowl.org/forums/viewtopic.php?t=28271 }
   - { date: 2024-10-19, region: 2B, name: North Carolina, url: https://hsquizbowl.org/forums/viewtopic.php?t=28279 }
@@ -19,11 +19,11 @@ mirrors:
   - { date: 2024-10-19, region: 5B, name: Berkeley, url: https://hsquizbowl.org/forums/viewtopic.php?t=28295 }
   - { date: 2024-10-19, region: 6A, name: Washington, eligible: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=28256 }
   - { date: 2024-10-19, region: 7A, name: Murray State, url: https://hsquizbowl.org/forums/viewtopic.php?t=28257 }
-  - { date: 2024-10-19, region: 8A, name: Minnesota }
+  - { date: 2024-10-19, region: 8A, name: Minnesota, url: https://hsquizbowl.org/forums/viewtopic.php?t=28309 }
   - { date: 2024-10-19, region: 8B, name: Illinois }
   - { date: 2024-10-19, region: 8C, name: Ohio State, url: https://hsquizbowl.org/forums/viewtopic.php?t=28252 }
   - { date: 2024-10-19, region: CA, name: Ottawa, url: https://hsquizbowl.org/forums/viewtopic.php?t=28282 }
-  - { date: 2024-10-19, region: UK, name: Durham }
-  - { date: 2024-10-19, region: UK, name: Southampton }
+  - { date: 2024-10-19, region: UK, name: Durham, url: https://hsquizbowl.org/forums/viewtopic.php?t=28308 }
+  - { date: 2024-10-19, region: UK, name: Southampton, url: https://hsquizbowl.org/forums/viewtopic.php?t=28307 }
   - { date: 2024-10-19, region: 8B, name: Auburn HS, eligible: HS only, url: https://hsquizbowl.org/forums/viewtopic.php?t=28274 }
   - { date: 2024-10-19, region: 0L, name: National, eligible: HS only, url: https://hsquizbowl.org/forums/viewtopic.php?t=28272 }
