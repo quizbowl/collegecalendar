@@ -11,5 +11,10 @@ firstmirror: 2024-10-26
 firstideal:  2024-10-26
 lastideal:   2024-11-02
 mirrors:
-  - { date: 2024-10-12, region: 0P, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=28280 }
+  - { date: 2024-10-12, region: 0P, name: Online, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28280" }
+  - { date: 2024-10-26, region: 1A, name: Harvard }
+  - { date: 2024-10-26, region: 2B, name: North Carolina }
+  - { date: 2024-11-02, region: 8B, name: Chicago, url: "https://hsquizbowl.org/forums/viewtopic.php?p=402121" }
   - { date: 2024-11-02, region: 8C, name: Case Western, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28220" }
+  - { region: 3C, name: Florida }
+  - { region: UK, name: Warwick }
