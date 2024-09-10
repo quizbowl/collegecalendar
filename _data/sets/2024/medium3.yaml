@@ -9,6 +9,8 @@ firstmirror: late November
 speculative: yes
 announced:   2024-03-05
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=27840
-firstideal:  2024-11-16
-lastideal:   2025-01-25
+firstideal:  2024-11-02
+lastideal:   2025-03-01
 mirrors:
+  - { date: 2024-10-27, region: 0P, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=28332 }
+  - { date: 2024-11-02, region: 5A, name: Claremont Colleges, url: https://hsquizbowl.org/forums/viewtopic.php?t=28331 }

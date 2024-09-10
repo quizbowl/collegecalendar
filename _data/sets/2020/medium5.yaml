@@ -15,7 +15,7 @@ mirrors:
   - { date: 2021-02-13, region: 1A, name: Harvard, eligible: Northeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24805"}
   - { date: 2021-02-20, region: 2B, name: UNC/Duke, eligible: Mid-Atlantic, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24793" }
   - { date: 2021-03-06, region: 3C, name: Florida, eligible: Southeast }
-  - { date: 2021-03-06, region: 5A, name: Claremont, eligible: West, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24859" }
+  - { date: 2021-03-06, region: 5A, name: Claremont Colleges, eligible: West, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24859" }
   - { date: 2021-03-06, region: CA, name: McMaster, eligible: Canada, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24857" }
   - { date: 2021-03-27, region: 7B, name: WUSTL, eligible: Lower Midwest, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24858", cancelled: yes }
   - { date: 2021-03-27, region: 8A, name: Minnesota, eligible: Midwest, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24814" }
