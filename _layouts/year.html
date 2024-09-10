@@ -199,7 +199,7 @@ Midwest,8B|Central Midwest,8C|Eastern Midwest,CA|Canada,UK|UK,AS|Asia" | replace
 {% assign mirrors = set.mirrors -%}
 {% assign mirrors_region = mirrors | where_exp: "mirror", "mirror.region == region" -%}
 {% if mirrors -%}
-{% assign firstmirror = mirrors | where_exp: "mirror", "mirror.region != '0P'" | where_exp: "mirror", "mirror.date != 'TBD'" | sort: "date" | first -%}
+{% assign firstmirror = mirrors | where_exp: "mirror", "mirror.region != '0P'" | where_exp: "mirror", "mirror.date != 'TBD'" | where_exp: "mirror", "mirror.date != nil" | sort: "date" | first -%}
 {% if firstmirror %}{% else -%}
 {% assign firstmirror = mirrors[0] -%}
 {% endif -%}
