@@ -16,6 +16,6 @@ mirrors:
   - { date: 2024-10-26, region: 2B, name: North Carolina, url: https://hsquizbowl.org/forums/viewtopic.php?t=28333 }
   - { date: 2024-11-02, region: 8B, name: Chicago, url: https://hsquizbowl.org/forums/viewtopic.php?t=28320 }
   - { date: 2024-11-02, region: 8C, name: Case Western, url: https://hsquizbowl.org/forums/viewtopic.php?t=28220 }
-  - { date: TBD, region: 2A, name: Penn }
-  - { date: TBD, region: 3C, name: Florida }
+  - { date: 2024-11-02, region: 2A, name: Penn }
+  - { date: 2024-10-26, region: 3C, name: Florida }
   - { date: TBD, region: UK, name: Warwick }
