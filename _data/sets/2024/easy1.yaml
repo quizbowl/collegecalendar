@@ -17,6 +17,6 @@ mirrors:
   - { date: 2024-09-28, region: 1A, name: Yale, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28230" }  
   - { date: 2024-09-28, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28345" }
   - { date: 2024-09-28, region: 8B, name: Southern Illinois, url: "https://www.naqt.com/registration/field.jsp?tournament_id=16387" }
-  - { date: 2024-10-12, region: 6A, name: Boise State, eligible: Online, url: "https://www.naqt.com/registration/field.jsp?tournament_id=16321" }
+  - { date: 2024-10-12, region: 6A, name: IQAT, eligible: Online, url: "https://www.naqt.com/registration/field.jsp?tournament_id=16321" }
   - { date: 2024-10-12, region: 8B, name: Purdue, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28223" }
   - { date: 2024-11-02, region: 7A, name: Murray State, url: "https://www.naqt.com/registration/field.jsp?tournament_id=16033" }
