@@ -13,4 +13,4 @@ mirrors:
   - { date: 2024-10-26, region: 2A, name: Johns Hopkins, url: https://hsquizbowl.org/forums/viewtopic.php?t=28261 }
   - { date: TBD, region: 4A, name: Texas A&M }
   - { date: TBD, region: 5A, name: Claremont Colleges }
-  - { date: 2024-12-14, region: 8B, name: Barrington HS, eligible: HS only, url: https://hsquizbowl.org/forums/viewtopic.php?t=282274 }
+  - { date: 2024-12-14, region: 8B, name: Barrington HS, eligible: HS only, url: https://hsquizbowl.org/forums/viewtopic.php?t=28227 }
