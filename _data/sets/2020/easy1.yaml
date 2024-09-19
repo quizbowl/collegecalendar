@@ -16,7 +16,7 @@ mirrors:
   - { date: 2020-10-10, region: 2B, name: VCU, eligible: S. Mid-Atlantic, url: 
   "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24459" }
   - { date: 2020-11-21, region: 3B, name: Georgia Tech, eligible: Southeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24565" }
-  - { date: 2021-01-10, region: 6A, name: UBC, eligible: Western, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24694" }
+  - { date: 2021-01-10, region: 6A, name: British Columbia, eligible: Western, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24694" }
   - { date: 2021-02-06, region: 8B, name: UIUC, eligible: Illinois HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24766" }
   - { date: 2021-02-27, region: 2B, name: UVA, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24795" }
   - { date: 2020-10-10, region: 8A, name: Mounds View, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24482" }
