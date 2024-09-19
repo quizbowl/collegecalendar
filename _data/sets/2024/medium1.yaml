@@ -8,5 +8,9 @@ announced:   2024-04-25
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=27958
 mirrors:
   - { date: 2024-09-28, region: 0P, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=28263 }
-  - { date: 2024-10-12, region: 7B, name: WUSTL }
+  - { date: 2024-10-05, region: CA, name: British Columbia, eligible: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=28367 }
+  - { date: 2024-10-12, region: 7B, name: WUSTL, url: https://hsquizbowl.org/forums/viewtopic.php?t=28346 }
   - { date: 2024-10-26, region: 2A, name: Johns Hopkins, url: https://hsquizbowl.org/forums/viewtopic.php?t=28261 }
+  - { date: TBD, region: 4A, name: Texas A&M }
+  - { date: TBD, region: 5A, name: Claremont Colleges }
+  - { date: 2024-12-14, region: 8B, name: Barrington HS, eligible: HS only, url: https://hsquizbowl.org/forums/viewtopic.php?t=282274 }
