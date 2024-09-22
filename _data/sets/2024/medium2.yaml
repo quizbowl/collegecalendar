@@ -9,3 +9,17 @@ firstmirror: 2024-11-16
 announced:   2024-07-18
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28150
 mirrors:
+- { date: 2024-11-16, region: 1A, name: Brandeis }
+- { date: 2024-11-16, region: 1B, name: Rochester }
+- { date: 2024-11-16, region: 2A, name: Lehigh }
+- { date: 2024-11-16, region: 2B, name: Virginia }
+- { date: 2024-11-16, region: 3B, name: Clemson }
+- { date: 2024-11-16, region: 3C, name: UCF }
+- { date: 2024-11-16, region: 4A, name: Texas }
+- { date: 2024-11-16, region: 5B, name: Berkeley }
+- { date: 2024-11-16, region: 6A, name: British Columbia }
+- { date: 2024-11-16, region: 8A, name: Minnesota }
+- { date: 2024-11-16, region: 8B, name: Northwestern }
+- { date: 2024-11-16, region: 8C, name: OSU }
+- { date: 2024-11-16, region: CA, name: Toronto }
+- { date: 2024-11-16, region: UK, name: Oxford }

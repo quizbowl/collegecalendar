@@ -21,7 +21,7 @@ mirrors:
   - { date: 2024-10-19, region: 7A, name: Murray State, url: https://hsquizbowl.org/forums/viewtopic.php?t=28257 }
   - { date: 2024-10-19, region: 8A, name: Minnesota, url: https://hsquizbowl.org/forums/viewtopic.php?t=28309 }
   - { date: 2024-10-19, region: 8B, name: Illinois, url: https://hsquizbowl.org/forums/viewtopic.php?t=28329 }
-  - { date: 2024-10-19, region: 8C, name: Ohio State, url: https://hsquizbowl.org/forums/viewtopic.php?t=28252 }
+  - { date: 2024-10-19, region: 8C, name: OSU, url: https://hsquizbowl.org/forums/viewtopic.php?t=28252 }
   - { date: 2024-10-19, region: CA, name: Ottawa, url: https://hsquizbowl.org/forums/viewtopic.php?t=28282 }
   - { date: 2024-10-19, region: UK, name: Durham, url: https://hsquizbowl.org/forums/viewtopic.php?t=28308 }
   - { date: 2024-10-19, region: UK, name: Southampton, url: https://hsquizbowl.org/forums/viewtopic.php?t=28307 }
