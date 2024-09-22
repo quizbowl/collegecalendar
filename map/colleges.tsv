@@ -44,6 +44,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 2A	2	Swarthmore	PA	USA	39.906841	-75.355648		Swarthmore	Swarthmore College
 2A	1	Gettysburg	PA	USA	39.834949	-77.232193		Gettysburg	Gettysburg College
 2A	1	Villanova	PA	USA	40.037056	-75.343580		Villanova	Villanova University
+2A	1	Bethlehem	PA	USA	40.605591  -75.377297		Lehigh	Lehigh University
 2B	2	Richmond	VA	USA	37.549505	-77.450972		VCU	Virginia Commonwealth University
 2B	2	Charlottesville	VA	USA	38.033553	-78.507977	UVA	Virginia	University of Virginia
 2B	2	Blacksburg	VA	USA	37.228384	-80.423417	VT	Virginia Tech	Virginia Polytechnic Institute and State University
