@@ -1,7 +1,7 @@
-slot:        “Fall Medium 2”
+slot:        “Fall Easy 1”
 prev:        [above HSNCT?]
-diff:        Medium
-diffdots:    ●●
+diff:        Easy
+diffdots:    ●◖
 name:        DART IV
 firstmirror: 2024-10-12
 announced:   2024-06-19
