@@ -41,6 +41,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 2A	1	Washington	DC	USA	38.899778	-77.048487	GW	George Washington	George Washington University
 2A	1	Washington	DC	USA	38.936998	-76.998649		Catholic	Catholic University of America
 2A	1	Poughkeepsie	NY	USA	41.686799	-73.895700		Vassar	Vassar College
+2A	1	Annandale-On-Hudson	NY	USA	42.023287	-73.909319		Bard	Bard College
 2A	2	Swarthmore	PA	USA	39.906841	-75.355648		Swarthmore	Swarthmore College
 2A	1	Gettysburg	PA	USA	39.834949	-77.232193		Gettysburg	Gettysburg College
 2A	1	Villanova	PA	USA	40.037056	-75.343580		Villanova	Villanova University
@@ -59,6 +60,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 2B	1	Raleigh	NC	USA	35.784663	-78.682095		NC State	North Carolina State University
 2B	0	Elon	NC	USA	36.106527	-79.502838		Elon	Elon University
 2B	1	Winston-Salem	NC	USA	36.135250	-80.276342		Wake Forest	Wake Forest University
+2B	1	Boone	NC	USA	36.637570	-81.309815		Appalachian State	Appalachian State University
 3A	1	Johnson City	TN	USA	36.302537	-82.370193		ETSU	East Tennessee State University
 3A	1	Greeneville	TN	USA	36.172330	-82.760796		Tusculum	Tusculum University
 3A	2	Lexington	KY	USA	38.030651	-84.503970		Kentucky	University of Kentucky
@@ -100,6 +102,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 3C	1	Fort Lauderdale	FL	USA	26.123275	-80.144797		Broward	Broward College
 3C	1	Gainesville	FL	USA	29.681841	-82.438227		Santa Fe	Santa Fe College
 3C	1	Avon Park	FL	USA	27.569866	-81.512386		South Florida	South Florida State College
+3C	1	Melbourne	FL	USA	28.064105	-80.621310	Florida Tech	Florida Institute of Technology
 4A	2	Baton Rouge	LA	USA	30.413258	-91.180002	LSU	Louisiana State	Louisiana State University
 4A	2	Richardson	TX	USA	32.985454	-96.754319	UT-Dallas	Texas-Dallas	University of Texas-Dallas
 4A	2	Austin	TX	USA	30.284919	-97.734057	UT-Austin	Texas	The University of Texas at Austin
@@ -131,7 +134,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 6A	2	Boise	ID	USA	43.603313	-116.201649		Boise State	Boise State University
 6A	1	Eugene	OR	USA	44.044830	-123.072606		Oregon	University of Oregon
 6A	1	Portland	OR	USA	45.481243	-122.630884		Reed	Reed College
-6A	1	Vancouver	BC	Canada	49.260605	-123.245994	UBC	British Columbia	University of British Columbia
+6A	2	Vancouver	BC	Canada	49.260605	-123.245994	UBC	British Columbia	University of British Columbia
 6A	1	Edmonton	AB	Canada	53.5232	-113.5263		Alberta	University of Alberta
 6B	2	Boulder	CO	USA	40.007581	-105.265942		Colorado	University of Colorado-Boulder
 6B	1	Provo	UT	USA	40.251844	-111.649316	BYU	Brigham Young	Brigham Young University
@@ -152,6 +155,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 7A	1	Stillwater	OK	USA	36.129580	-97.088537		Oklahoma State	Oklahoma State University
 7A	2	Tishomingo	OK	USA	34.222380	-96.677874		Murray State	Murray State College
 7A	1	El Reno	OK	USA	35.519993	-97.974400		Redlands	Redlands Community College
+7A	1	Fayetteville	AR	USA	36.068836	-94.174927		Arkansas	University of Arkansas
 7B	2	Columbia	MO	USA	38.940381	-92.327738	Mizzou	Missouri	University of Missouri-Columbia
 7B	2	Kirksville	MO	USA	40.186563	-92.580864		Truman State	Truman State University
 7B	2	St. Louis	MO	USA	38.648790	-90.310796		WUSTL	Washington University in St. Louis
@@ -191,7 +195,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 8C	0	Youngstown	OH	USA	41.106260	-80.647700	YSU	Youngstown State	Youngstown State University
 8C	1	Oxford	OH	USA	39.510533	-84.730877		Miami	Miami University
 8C	0	Dayton	OH	USA	39.783075	-84.062786		Wright State	Wright State University
-8C	1	Cleveland	OH	USA	41.504341	-81.608384		Case Western	Case Western Reserve University
+8C	2	Cleveland	OH	USA	41.504341	-81.608384		Case Western	Case Western Reserve University
 8C	2	Pittsburgh	PA	USA	40.442808	-79.943013	CMU	Carnegie Mellon	Carnegie Mellon University
 8C	1	Pittsburgh	PA	USA	40.444353	-79.960835	Pitt	Pittsburgh	Pittsburgh University
 8C	1	Morgantown	WV	USA	39.641788	-79.951903	WVU	West Virginia	West Virginia University
