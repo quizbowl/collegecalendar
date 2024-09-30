@@ -14,8 +14,10 @@ mirrors:
   - { date: 2024-10-12, region: 0P, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=28280 }
   - { date: 2024-10-26, region: 1A, name: Harvard }
   - { date: 2024-10-26, region: 2B, name: North Carolina, url: https://hsquizbowl.org/forums/viewtopic.php?t=28333 }
+  - { date: 2024-10-26, region: 3C, name: Florida, url: https://hsquizbowl.org/forums/viewtopic.php?t=28377 }
+  - { date: 2024-11-02, region: 2A, name: Penn, url: https://hsquizbowl.org/forums/viewtopic.php?t=28383 }
+  - { date: 2024-11-02, region: 4A, name: UT-Austin }
   - { date: 2024-11-02, region: 8B, name: Chicago, url: https://hsquizbowl.org/forums/viewtopic.php?t=28320 }
   - { date: 2024-11-02, region: 8C, name: Case Western, url: https://hsquizbowl.org/forums/viewtopic.php?t=28220 }
-  - { date: 2024-11-02, region: 2A, name: Penn }
-  - { date: 2024-10-26, region: 3C, name: Florida }
+  - { date: 2024-11-02, region: CA, name: Ottawa }
   - { date: TBD, region: UK, name: Warwick }
