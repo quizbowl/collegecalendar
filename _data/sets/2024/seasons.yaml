@@ -4,14 +4,14 @@
   weeks: 16
   slots:
     - easy1
-    - easy2
-    - easy3
     - medium1
+    - easy2
     - regionals3
-    - regionals4
-    - medium2
     - medium3
+    - easy3
+    - medium2
     - open1
+    - regionals4
 
 - name: Spring
   year: 2025
