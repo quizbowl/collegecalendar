@@ -3,10 +3,12 @@ prev:        [above HSNCT?]
 diff:        Easy
 diffdots:    ●◖
 name:        DART IV
-firstmirror: 2024-10-12
 announced:   2024-06-19
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28079
 mirrors:
   - { date: TBD, region: 7A, name: Murray State }
   - { date: 2024-11-09, region: 1A, name: Brown, url: https://hsquizbowl.org/forums/viewtopic.php?t=28368 }
   - { date: 2024-11-09, region: 1B, name: Binghamton, url: https://hsquizbowl.org/forums/viewtopic.php?t=28395 }
+  - { date: 2025-03-01, region: 8B, name: UIUC }
+  - { date: 2025-02-15, region: 7B, name: Murray State }
+  - { date: 2025-02-01, region: 8B, name: Fremd, eligible: HS }
