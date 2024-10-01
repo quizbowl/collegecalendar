@@ -17,7 +17,7 @@ mirrors:
   - { date: 2020-11-07, region: 2A, name: Rutgers, eligible: N. Mid-Atlantic, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24556" }
   - { date: 2020-11-07, region: 2B, name: Maryland, eligible: S. Mid-Atlantic, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24570" }
   - { date: 2020-11-07, region: 3A, name: Vanderbilt, eligible: Southeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24544" }
-  - { date: 2020-11-07, region: 4A, name: Texas, eligible: South, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24546" }
+  - { date: 2020-11-07, region: 4A, name: UT-Austin, eligible: South, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24546" }
   - { date: 2020-11-07, region: 5A, name: USC, eligible: California, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24568" }
   - { date: 2020-11-07, region: 6A, name: Washington, eligible: Northwest, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24562" }
   - { date: 2020-11-07, region: 8A, name: Iowa, eligible: North, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24542" }

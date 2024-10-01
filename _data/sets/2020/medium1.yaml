@@ -18,6 +18,6 @@ mirrors:
   - { date: 2020-10-03, region: 3C, name: Florida, eligible: Southeast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24348" }
   - { date: 2020-11-14, region: 8B, name: Illinois, eligible: Upper Midwest, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24483" }
   - { date: 2020-10-24, region: 5B, name: Stanford, eligible: West Coast, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24497" }
-  - { date: 2020-09-26, region: 4A, name: Texas, eligible: Great Plains, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24357" }
+  - { date: 2020-09-26, region: 4A, name: UT-Austin, eligible: Great Plains, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24357" }
   - { date: 2020-09-19, region: CA, name: Canada, url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=24400" }
   - { date: 2020-10-24, region: 0L, name: Illinois, eligible: HS only, url: "https://hsquizbowl.org/forums/viewtopic.php?f=1&t=24484" }
