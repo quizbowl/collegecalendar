@@ -18,7 +18,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 1B	1	Rochester	NY	USA	43.130553	-77.626003		Rochester	University of Rochester
 1B	1	Syracuse	NY	USA	43.038823	-76.133724		Syracuse	Syracuse University
 1B	1	Syracuse	NY	USA	43.034486	-76.136607		ESF	College of Environmental Science and Forestry
-1B	1	Geneva	NY	USA	42.932939	-76.927684		HWS	Hobart and William Smith	Hobart and William Smith Colleges
+1B	1	Geneva	NY	USA	42.932939	-76.927684	HWS	Hobart and William Smith	Hobart and William Smith Colleges
 1B	1	Hamilton	NY	USA	42.816615	-75.540176		Colgate	Colgate University
 1B	1	Troy	NY	USA	42.730172	-73.678803		RPI	Rensselaer Polytechnic Institute
 1B	2	Ithaca	NY	USA	42.453449	-76.473503		Cornell	Cornell University
