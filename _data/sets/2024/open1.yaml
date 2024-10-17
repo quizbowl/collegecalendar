@@ -9,4 +9,10 @@ firstmirror: 2024-11-16
 speculative: yes
 announced:   2023-12-04
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=27577
-mirrors:
+mirrors: 
+    - { date: 2024-11-17, region: CA, name: McMaster, url: https://hsquizbowl.org/forums/viewtopic.php?t=28425 }
+    - { date: 2024-11-23, region: 2A, name: Columbia, url: https://hsquizbowl.org/forums/viewtopic.php?t=28397 }
+    - { date: 2024-11-23, region: 8B, name: Chicago, url: https://hsquizbowl.org/forums/viewtopic.php?t=28436 }
+    - { date: TBD, region: 8B, name: Brandeis }
+    - { date: TBD, region: 0P, name: Online }
+
