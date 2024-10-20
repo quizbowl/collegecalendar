@@ -7,9 +7,11 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 1A	2	New Haven	CT	USA	41.316324	-72.922343		Yale	Yale University
 1A	1	Brunswick	ME	USA	43.907503	-69.961774		Bowdoin	Bowdoin College
 1A	1	Hanover	NH	USA	43.704441	-72.288694		Dartmouth	Dartmouth College
+1A	1	Burlington	VT	USA	44.478342	-73.196377	UVM	Vermont	University of Vermont
 1A	1	Medford	MA	USA	42.407484	-71.119023		Tufts	Tufts University
 1A	1	Waltham	MA	USA	42.364989	-71.258663		Brandeis	Brandeis University
 1A	1	Chestnut Hill	MA	USA	42.335549	-71.168495	BC	Boston College	Boston College
+1A	1	Boston	MA	USA	42.351245	-71.105313	BU	Boston University	Boston University
 1A	0	Needham	MA	USA	42.293167	-71.263665		Olin	Frankin W. Olin College of Engineering
 1A	1	Amherst	MA	USA	42.370910	-72.517003		Amherst	Amherst College
 1A	1	Williamstown	MA	USA	42.713023	-73.203008		Williams	Williams College
@@ -26,6 +28,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 1B	0	Albany	NY	USA	42.691741	-73.825661		Albany	University at Albany
 1B	1	Buffalo	NY	USA	42.958236	-78.821006		Buffalo	University at Buffalo
 1B	2	Binghamton	NY	USA	42.089620	-75.969490		Binghamton	Binghamton University
+2A	1	New York	NY	USA	40.861708	-73.885083		Fordham	Fordham University
 2A	2	New York	NY	USA	40.807536	-73.962573		Columbia	Columbia University
 2A	2	New York	NY	USA	40.729513	-73.996461		NYU	New York University
 2A	2	New Brunswick	NJ	USA	40.500819	-74.447399		Rutgers	Rutgers University-New Brunswick
@@ -72,8 +75,10 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 3A	0	Lexington	KY	USA	38.053147	-84.493651		Transylvania	Transylvania University
 3A	2	Knoxville	TN	USA	35.954401	-83.929456		Tennessee	University of Tennessee-Knoxville
 3B	2	Columbia	SC	USA	33.996112	-81.027428		South Carolina	University of South Carolina
+3B	1	Greenville	SC	USA	34.927790	-82.440067		Furman	Furman University
 3B	2	Athens	GA	USA	33.948005	-83.377322	UGA	Georgia	University of Georgia
 3B	2	Atlanta	GA	USA	33.775618	-84.396285	GT	Georgia Tech	Georgia Institute of Technology
+3B	1	Atlanta	GA	USA	33.797640	-84.322272		Emory	Emory University
 3B	2	Auburn	AL	USA	32.593357	-85.495166		Auburn	Auburn University
 3B	1	Clemson	SC	USA	34.676094	-82.836415		Clemson	Clemson University
 3B	1	Due West	SC	USA	34.330607	-82.390520		Erskine	Erskine College
@@ -169,8 +174,10 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 8A	1	Northfield	MN	USA	44.461768	-93.182817		St. Olaf	St. Olaf College
 8A	0	St. Peter	MN	USA	44.322162	-93.968777		Gustavus Adolphus	Gustavus Adolphus College
 8A	1	St. Paul	MN	USA	44.937893	-93.169043		Macalester	Macalester College
+8A	1	St. Paul	MN	USA	44.643221	-93.189826		St. Thomas	University of St. Thomas
 8A	1	Carleton	MN	USA	44.461365	-93.155826		Carleton	Carleton College
 8A	0	Sioux Falls	SD	USA	43.522604	-96.739689		Augustana	Augustana University
+8A	0	Rapid City	SD	USA	44.073167	-103.205164		South Dakota Mines	South Dakota School of Mines and Technology
 8A	1	Lincoln	NE	USA	40.821528	-96.700390		Nebraska	University of Nebraska-Lincoln
 8A	1	Des Moines	IA	USA	41.602913	-93.655298		Drake	Drake University
 8A	2	Iowa City	IA	USA	41.662696	-91.554900		Iowa	University of Iowa
