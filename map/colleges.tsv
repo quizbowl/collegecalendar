@@ -10,7 +10,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 1A	1	Medford	MA	USA	42.407484	-71.119023		Tufts	Tufts University
 1A	1	Waltham	MA	USA	42.364989	-71.258663		Brandeis	Brandeis University
 1A	1	Chestnut Hill	MA	USA	42.335549	-71.168495	BC	Boston College	Boston College
-1A	0	Needham	MA	USA	42.293167	-71.263665		Olin	Olin College
+1A	0	Needham	MA	USA	42.293167	-71.263665	Olin	Olin College	Frankin W. Olin College of Engineering
 1A	1	Amherst	MA	USA	42.370910	-72.517003		Amherst	Amherst College
 1A	1	Williamstown	MA	USA	42.713023	-73.203008		Williams	Williams College
 1A	1	Worcester	MA	USA	42.252233	-71.824484		Clark	Clark University
@@ -61,10 +61,10 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 2B	0	Elon	NC	USA	36.106527	-79.502838		Elon	Elon University
 2B	1	Winston-Salem	NC	USA	36.135250	-80.276342		Wake Forest	Wake Forest University
 2B	1	Boone	NC	USA	36.213783	-81.684316		App State	Appalachian State University
-3A	1	Johnson City	TN	USA	36.302537	-82.370193		ETSU	East Tennessee State University
+3A	1	Johnson City	TN	USA	36.302537	-82.370193	ETSU	East Tennessee	East Tennessee State University
 3A	1	Greeneville	TN	USA	36.172330	-82.760796		Tusculum	Tusculum University
 3A	2	Lexington	KY	USA	38.030651	-84.503970		Kentucky	University of Kentucky
-3A	0	Bowling Green	KY	USA	36.985354	-86.456138		WKU	Western Kentucky University
+3A	0	Bowling Green	KY	USA	36.985354	-86.456138	WKU	Western Kentucky	Western Kentucky University
 3A	1	Louisville	KY	USA	38.212276	-85.758502		Louisville	University of Louisville
 3A	2	Louisville	KY	USA	38.246241	-85.752820	JCTC	Jefferson	Jefferson Community & Technical College
 3A	2	Nashville	TN	USA	36.144703	-86.802655		Vanderbilt	Vanderbilt University
