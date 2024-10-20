@@ -177,7 +177,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 8A	1	St. Paul	MN	USA	44.643221	-93.189826		St. Thomas	University of St. Thomas
 8A	1	Carleton	MN	USA	44.461365	-93.155826		Carleton	Carleton College
 8A	0	Sioux Falls	SD	USA	43.522604	-96.739689		Augustana	Augustana University
-8A	0	Rapid City	SD	USA	44.073167	-103.205164		South Dakota Mines	South Dakota School of Mines and Technology
+8A	1	Rapid City	SD	USA	44.073167	-103.205164		South Dakota Mines	South Dakota School of Mines and Technology
 8A	1	Lincoln	NE	USA	40.821528	-96.700390		Nebraska	University of Nebraska-Lincoln
 8A	1	Des Moines	IA	USA	41.602913	-93.655298		Drake	Drake University
 8A	2	Iowa City	IA	USA	41.662696	-91.554900		Iowa	University of Iowa
