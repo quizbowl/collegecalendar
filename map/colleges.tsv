@@ -12,7 +12,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 1A	1	Waltham	MA	USA	42.364989	-71.258663		Brandeis	Brandeis University
 1A	1	Chestnut Hill	MA	USA	42.335549	-71.168495	BC	Boston College	Boston College
 1A	1	Boston	MA	USA	42.351245	-71.105313	BU	Boston University	Boston University
-1A	0	Needham	MA	USA	42.293167	-71.263665	Olin	Olin College	Frankin W. Olin College of Engineering
+1A	0	Needham	MA	USA	42.293167	-71.263665		Olin	Olin College
 1A	1	Amherst	MA	USA	42.370910	-72.517003		Amherst	Amherst College
 1A	1	Williamstown	MA	USA	42.713023	-73.203008		Williams	Williams College
 1A	1	Worcester	MA	USA	42.252233	-71.824484		Clark	Clark University
