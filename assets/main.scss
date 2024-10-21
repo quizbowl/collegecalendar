@@ -213,6 +213,7 @@ table.season time {
 }
 table.summary time {
 	color: inherit;
+	width: 2.4375em; /* Short enough so "Feb 1" breaks on two lines */
 }
 time.late[data-late]::after {
 	content: attr(data-late);
