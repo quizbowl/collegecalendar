@@ -8,6 +8,9 @@ name:        ACF Fall
 firstmirror: 2024-10-19
 announced:   2024-06-07
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28046
+clear:       2024-10-20
+reallyclear: yes
+packetsurl:  https://collegiate.quizbowlpackets.com/3209/
 mirrors:
   - { date: 2024-10-19, region: 1A, name: MIT, url: https://hsquizbowl.org/forums/viewtopic.php?t=28304 }
   - { date: 2024-10-19, region: 1B, name: Cornell, url: https://hsquizbowl.org/forums/viewtopic.php?t=28286 }
