@@ -449,7 +449,8 @@ no
 {%- comment %}add symbols after mirror name{% endcomment %}
 {%- if mirrorsthisweek.size > 0 -%}
 {% if mirrorsthisweek.size > 4 %}<b>{% endif -%}
-{{- mirrorsthisweek | size }} {% comment %}{% endcomment %}
+{% if mirrorsthisweek.size == 1 and mirrorsthisweek[0].region == "0P" %}PT{%- else -%}
+{{- mirrorsthisweek | size }}{% endif %} {% comment %}{% endcomment %}
 {%- if mirrorsthisweek.size > 4 %}</b>{% endif -%}
 {% elsif class and current == firstmirrordate -%}
 0 {% comment %}{% endcomment %}
