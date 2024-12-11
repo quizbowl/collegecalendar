@@ -9,3 +9,17 @@ firstmirror: 2025-02-01
 announced:   2024-08-24
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28258
 mirrors:
+  - { date: 2025-02-01, region: 1A, name: Tufts,      url: https://hsquizbowl.org/forums/viewtopic.php?t=28584 } 
+  - { date: 2025-02-01, region: 1B, name: Cornell,    url: https://hsquizbowl.org/forums/viewtopic.php?t=28604 } 
+  - { date: 2025-02-01, region: 2A, name: Columbia,   url: https://hsquizbowl.org/forums/viewtopic.php?t=28587 }  
+  - { date: 2025-02-01, region: 2B, name: UNC,        url: https://hsquizbowl.org/forums/viewtopic.php?t=28607 }  
+  - { date: 2025-02-01, region: 3A, name: Vanderbilt, url: https://hsquizbowl.org/forums/viewtopic.php?t=28595 } 
+  - { date: 2025-02-01, region: 3C, name: UCF,        url: https://hsquizbowl.org/forums/viewtopic.php?t=28597 } 
+  - { date: 2025-02-01, region: 4A, name: Texas } 
+  - { date: 2025-02-01, region: 5A, name: Claremont Colleges, url: https://hsquizbowl.org/forums/viewtopic.php?t=28601 }
+  - { date: 2025-02-01, region: 8A, name: Minnesota,  url: https://hsquizbowl.org/forums/viewtopic.php?t=28660 }
+  - { date: 2025-02-01, region: 8B, name: SIUE,       url: https://hsquizbowl.org/forums/viewtopic.php?t=28577 }
+  - { date: 2025-02-01, region: 8C, name: Kenyon,     url: https://hsquizbowl.org/forums/viewtopic.php?t=28582 }
+  - { date: 2025-02-01, region: UK, name: Imperial College, url: https://hsquizbowl.org/forums/viewtopic.php?t=28591 }
+  - { date: 2025-02-01, region: CA, name: Ottawa,     url: https://hsquizbowl.org/forums/viewtopic.php?t=28583 } 
+  - { date: 2025-02-01, region: OL, name: Penn State, url: https://hsquizbowl.org/forums/viewtopic.php?t=28596 } 
