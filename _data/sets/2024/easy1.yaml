@@ -4,7 +4,7 @@ diff:        Easy
 diffdots:    ●
 eligible:    Closed; scoring limits
 name:        NAQT Collegiate Novice
-firstmirror: 
+firstmirror: 2024-09-14
 clear:       never
 packetsurl:  never
 mirrors:
@@ -20,3 +20,4 @@ mirrors:
   - { date: 2024-10-12, region: 6A, name: IQAT, eligible: Online, url: "https://www.naqt.com/registration/field.jsp?tournament_id=16321" }
   - { date: 2024-10-12, region: 8B, name: Purdue, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28223" }
   - { date: 2024-11-02, region: 7A, name: Murray State, url: "https://www.naqt.com/registration/field.jsp?tournament_id=16033" }
+  - { date: 2025-01-25, region: 5B, name: Stanford, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28554" }
