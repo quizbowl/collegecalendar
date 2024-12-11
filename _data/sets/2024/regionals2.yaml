@@ -10,3 +10,18 @@ firstmirror: 2025-02-08
 clear:       never
 packetsurl:  never
 mirrors:
+  - { date: 2025-02-08, region: 1A, name: Yale,          url: https://hsquizbowl.org/forums/viewtopic.php?t=28521 }
+  - { date: 2025-02-08, region: 1B, name: Binghamton,    url: https://hsquizbowl.org/forums/viewtopic.php?t=28525 }
+  - { date: 2025-02-08, region: 2A, name: Rutgers }
+  - { date: 2025-02-08, region: 2B, name: Virginia Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=28533 }
+  - { date: 2025-02-08, region: 3A, name: Vanderbilt,    url: https://hsquizbowl.org/forums/viewtopic.php?t=28542 }
+  - { date: 2025-02-08, region: 3C, name: Florida,       url: https://hsquizbowl.org/forums/viewtopic.php?t=28516 }
+  - { date: 2025-02-08, region: 5B, name: Berkeley,      url: https://hsquizbowl.org/forums/viewtopic.php?t=28566 }
+  - { date: 2025-02-08, region: 6A, name: Washington,    url: https://hsquizbowl.org/forums/viewtopic.php?t=28570 }
+  - { date: 2025-02-08, region: 7B, name: Missouri,      url: https://hsquizbowl.org/forums/viewtopic.php?t=28580 }
+  - { date: 2025-02-08, region: 8A, name: Minnesota }
+  - { date: 2025-02-08, region: 8B, name: Purdue,        url: https://hsquizbowl.org/forums/viewtopic.php?t=28505 }
+  - { date: 2025-02-08, region: 8C, name: Ohio State,    url: https://hsquizbowl.org/forums/viewtopic.php?t=28511 }
+  - { date: 2025-02-08, region: CA, name: Toronto,       url: https://hsquizbowl.org/forums/viewtopic.php?t=28656 }
+  - { date: 2025-02-08, region: OL, name: Arizona State,  url: https://hsquizbowl.org/forums/viewtopic.php?t=28544 }
+
