@@ -1,4 +1,4 @@
-slot:        ACF Nationals
+:slot:        ACF Nationals
 prev:        [past ACF Nationals]
 diff:        Nationals
 diffdots:    ●●●●
@@ -9,4 +9,4 @@ firstmirror: 2025-04-19
 announced:   2024-09-05
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28313
 mirrors:
-  - { date: 2025-04-19, url: https://hsquizbowl.org/forums/viewtopic.php?t=28313 }
+  - { date: 2025-04-19, name: Maryland, url: https://hsquizbowl.org/forums/viewtopic.php?t=28313 }
