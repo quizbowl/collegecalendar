@@ -12,6 +12,7 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=27577
 mirrors: 
   - { date: 2024-11-17, region: CA, name: McMaster, url: https://hsquizbowl.org/forums/viewtopic.php?t=28425 }
   - { date: 2024-11-23, region: 2A, name: Columbia, url: https://hsquizbowl.org/forums/viewtopic.php?t=28397 }
-  - { date: 2024-11-23, region: 8B, name: Chicago, url: https://hsquizbowl.org/forums/viewtopic.php?t=28436 }
-  - { date: TBD, region: 8B, name: Brandeis }
+  - { date: 2024-11-23, region: 8B, name: Chicago,  url: https://hsquizbowl.org/forums/viewtopic.php?t=28436 }
+  - { date: 2024-12-21, region: 2B, name: VCU }
+  - { date: 2025-02-22, region: 5B, name: Stanford, url: https://hsquizbowl.org/forums/viewtopic.php?t=28555 }
   - { date: TBD, region: 0P, name: Online }
