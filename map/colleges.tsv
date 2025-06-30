@@ -171,6 +171,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 8A	1	Houghton	MI	USA	47.116775	-88.546022		Michigan Tech	Michigan Technological University
 8A	1	Marquette	MI	USA	46.559603	-87.404487		Northern Michigan	Northern Michigan University
 8A	1	Madison	WI	USA	43.076592	-89.412487		Wisconsin	University of Wisconsin-Madison
+8A	1	Winona	MN	USA	44.04666, -91.64445		Winona State	Winona State University
 8A	1	Northfield	MN	USA	44.461768	-93.182817		St. Olaf	St. Olaf College
 8A	0	St. Peter	MN	USA	44.322162	-93.968777		Gustavus Adolphus	Gustavus Adolphus College
 8A	1	St. Paul	MN	USA	44.937893	-93.169043		Macalester	Macalester College
