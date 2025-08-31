@@ -302,7 +302,10 @@ function makePlaceLabel(selection, element, hover) {
 	var paddingTopBottom = 4;
 	selection.each((d) => {
 		var pcoords = projection(d.coordinates);
-		var g = element.append('g')
+		var g = element.select('g.place-label-group');
+		if (g.empty()) {
+			g = element.append('g').attr('class', 'place-label-group');
+		}
 		var text = g.append('text')
 			.datum(d.point)
 			.attr('class', 'place-label ' + (hover ? 'place-label-1' : ' highlight'))
