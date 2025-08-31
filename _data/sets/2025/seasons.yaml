@@ -1,20 +1,20 @@
 - name: Fall
   year: 2025
-  start: 2025-08-31
+  start: 2025-08-30
   weeks: 16
   slots:
     - easy1
-    - medium2
+    - easy3
+    - easy4
+    - open1
     - easy2
     - regionals3
-    - easy3
-    - open1
+    - medium2
     - medium5
-    - easy4
 
 - name: Spring
   year: 2026
-  start: 2026-01-11
+  start: 2026-01-10
   weeks: 17
   slots:
     - medium3

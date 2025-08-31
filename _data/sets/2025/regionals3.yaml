@@ -1,14 +1,11 @@
-slot: “Fall Regionals 1”
-prev: [past Penn Bowls]
-diff: Regionals
-diffdots: ●●●
-eligible: Closed
-name: Penn Bowl
-announced: 2025-05-15
+slot:        “Fall Regionals 1”
+prev:        [past Penn Bowls]
+diff:        Regionals
+diffdots:    ●●●
+eligible:    Closed
+name:        Penn Bowl
+announced:   2025-05-15
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29045
-firstonline:
-firstmirror:
-firstideal:
-lastideal:
 mirrors:
-  - { date: TBD, region: 2A, name: Penn, url }
+  - { date: 2025-10-04, region: 0P, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=29258 }
+  - { date: TBD, region: 2A, name: Penn }

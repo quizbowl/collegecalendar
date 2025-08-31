@@ -5,22 +5,7 @@ diffdots:    ●●
 submission:  Required half-packet if not new team; opt-out fee
 eligible:    Closed
 name:        ACF Winter
-firstmirror: 2024-11-16
-announced:   2024-07-18
-announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28150
+firstmirror: 2025-11-15
+announced:   2025-07-15
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29178
 mirrors:
-- { date: 2024-11-16, region: 1A, name: Brandeis, url: https://hsquizbowl.org/forums/viewtopic.php?t=28409 }
-- { date: 2024-11-16, region: 1B, name: Rochester, url: https://hsquizbowl.org/forums/viewtopic.php?t=28393 }
-- { date: 2024-11-16, region: 2A, name: Lehigh, url: https://hsquizbowl.org/forums/viewtopic.php?t=28375 }
-- { date: 2024-11-16, region: 2B, name: Virginia, url: https://hsquizbowl.org/forums/viewtopic.php?t=28418 }
-- { date: 2024-11-16, region: 3B, name: Clemson, url: https://hsquizbowl.org/forums/viewtopic.php?t=28378 }
-- { date: 2024-11-16, region: 3C, name: UCF, url: https://hsquizbowl.org/forums/viewtopic.php?t=28385 }
-- { date: 2024-11-16, region: 4A, name: UT-Austin, url: https://hsquizbowl.org/forums/viewtopic.php?t=28388 }
-- { date: 2024-11-16, region: 5B, name: Berkeley }
-- { date: 2024-11-16, region: 6A, name: British Columbia, url: https://hsquizbowl.org/forums/viewtopic.php?t=28431 }
-- { date: 2024-11-16, region: 8A, name: Minnesota }
-- { date: 2024-11-16, region: 8B, name: Northwestern, url: https://hsquizbowl.org/forums/viewtopic.php?t=28389 }
-- { date: 2024-11-16, region: 8C, name: OSU, url: https://hsquizbowl.org/forums/viewtopic.php?t=28422 }
-- { date: 2024-11-16, region: CA, name: Toronto, url: https://hsquizbowl.org/forums/viewtopic.php?p=402393 }
-- { date: 2024-11-16, region: UK, name: Oxford, url: https://hsquizbowl.org/forums/viewtopic.php?t=28428 }
-- { date: 2024-11-16, region: 0L, name: Overflow }
