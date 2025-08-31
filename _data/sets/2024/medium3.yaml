@@ -11,9 +11,15 @@ firstideal:  2024-11-02
 lastideal:   2025-03-01
 mirrors:
   - { date: 2024-10-27, region: 0P, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=28332 }
+  - { date: 2025-02-22, region: 1A, name: Boston University, url: https://hsquizbowl.org/forums/viewtopic.php?t=28704 }
+  - { date: 2025-02-15, region: 2A, name: Columbia, cancelled: yes, url: https://hsquizbowl.org/forums/viewtopic.php?t=28495 }
+  - { date: 2025-01-25, region: 2A, name: Penn State, url: https://hsquizbowl.org/forums/viewtopic.php?t=28543 }
+  - { date: 2025-03-01, region: 2B, name: Duke, url: https://hsquizbowl.org/forums/viewtopic.php?t=28752 }
+  - { date: 2025-03-08, region: 3B, name: Georgia Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=28750 }
+  - { date: 2025-01-18, region: 3C, name: Florida Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=28496 }
   - { date: 2024-11-02, region: 5A, name: Claremont Colleges, url: https://hsquizbowl.org/forums/viewtopic.php?t=28331 }
+  - { date: 2024-12-14, region: 5B, name: Berkeley, url: https://hsquizbowl.org/forums/viewtopic.php?t=28603 }
+  - { date: 2025-02-15, region: 7B, name: Missouri S&T, url: https://hsquizbowl.org/forums/viewtopic.php?t=28491 }
   - { date: 2024-11-09, region: 8B, name: UIUC, url: https://hsquizbowl.org/forums/viewtopic.php?t=28331 }
   - { date: 2024-11-30, region: CA, name: Waterloo, url: https://hsquizbowl.org/forums/viewtopic.php?t=28429 }
-  - { date: 2024-12-14, region: 5B, name: Berkeley, url: https://hsquizbowl.org/forums/viewtopic.php?t=28603 }
-  - { date: TBD, region: 2A, name: Penn State }
-  - { date: TBD, region: 3C, name: Florida Tech }
+  - { date: 2025-05-17, region: 0L, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=28856 }
