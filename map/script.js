@@ -133,23 +133,34 @@ const voronoi = d3.geom.voronoi()
 	// .clipExtent([[0, 0], [width, height]]);
 
 if (collegesHighlight) {
-	var collegesInQuery = colleges.filter(d => 
-		collegesHighlight.some(v => {
-			return (
-				[d.college, d.college_abbr, d.college_long].includes(v[0]) &&
-				(v[1] === undefined || d.region === v[1])
-			);
-		})
-	);
+	var collegesInQuery = [];
+	var collegesNotMatched = [];
+
+	collegesHighlight.forEach(collegeHighlight => {
+		let matched = colleges.find(college => 
+			[college.college, college.college_abbr, college.college_long].includes(collegeHighlight[0]) &&
+			(collegeHighlight[1] === undefined || college.region === collegeHighlight[1])
+		);
+		if (matched)
+			collegesInQuery.push(matched);
+		else
+			collegesNotMatched.push(collegeHighlight);
+	});
+	console.log(collegesHighlight, collegesInQuery, collegesNotMatched);
 
 	if (collegesInQuery.length) {
 		let highlightLegend = main.append('g')
 			.attr('class', 'legend legend-label-medium')
-		highlightLegend.append('text')
+		let highlightText = highlightLegend.append('text')
 			.attr('x', 1042)
 			.attr('y', 20)
 			.attr('dy', '.35em')
 			.text(`Highlighting ${collegesInQuery.length} site${collegesInQuery.length > 1 ? 's' : ''}${site ? ' of ' + site : ''}`)
+		if (collegesNotMatched && collegesNotMatched.length > 0) {
+			var tooltipText = 'Failed to match:\n' + collegesNotMatched.map(d => `${d[0]}@${d[1]}`).join('\n');
+			console.log(tooltipText);
+			highlightText.append('title').text(tooltipText);
+		}
 		highlightLegend.append('text')
 			.attr('x', 1042)
 			.attr('y', 44)
