@@ -8,7 +8,11 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28079
 mirrors:
   - { date: 2024-11-09, region: 1A, name: Brown, url: https://hsquizbowl.org/forums/viewtopic.php?t=28368 }
   - { date: 2024-11-09, region: 1B, name: Binghamton, url: https://hsquizbowl.org/forums/viewtopic.php?t=28395 }
+  - { date: 2025-03-08, region: 2A, name: Rutgers, url: https://hsquizbowl.org/forums/viewtopic.php?t=28636 }
+  - { date: 2025-04-26, region: 2A, name: Johns Hopkins, url: https://hsquizbowl.org/forums/viewtopic.php?t=28712 }
+  - { date: 2025-03-22, region: 2B, name: UNC, url: https://hsquizbowl.org/forums/viewtopic.php?t=28762 }
+  - { date: 2024-11-23, region: 3B, name: Georgia Tech, eligible: HS allowed, url: https://hsquizbowl.org/forums/viewtopic.php?t=28435 }
   - { date: 2025-01-18, region: CA, name: Alberta, url: https://hsquizbowl.org/forums/viewtopic.php?t=28599 }
-  - { date: 2025-02-01, region: 8B, name: Fremd, eligible: HS } 
-  - { date: 2025-02-15, region: 7A, name: Murray State }
-  - { date: 2025-03-01, region: 8B, name: UIUC }
+  - { date: 2025-02-01, region: 8B, name: Fremd, eligible: HS, url: https://hsquizbowl.org/forums/viewtopic.php?t=28592 }
+  - { date: 2025-03-29, region: 7A, name: Murray State, url: https://hsquizbowl.org/forums/viewtopic.php?t=28520 }
+  - { date: 2025-03-08, region: 8B, name: UIUC, url: https://hsquizbowl.org/forums/viewtopic.php?t=28778 }
