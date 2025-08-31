@@ -9,6 +9,7 @@ firstmirror: 2024-11-16
 speculative: yes
 announced:   2023-12-04
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=27577
+packetsurl:  https://collegiate.quizbowlpackets.com/3318/
 mirrors: 
   - { date: 2024-11-17, region: CA, name: McMaster, url: https://hsquizbowl.org/forums/viewtopic.php?t=28425 }
   - { date: 2024-11-23, region: 2A, name: Columbia, url: https://hsquizbowl.org/forums/viewtopic.php?t=28397 }

@@ -8,5 +8,6 @@ name:        ACF Nationals
 firstmirror: 2025-04-19
 announced:   2024-09-05
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28313
+packetsurl:  https://collegiate.quizbowlpackets.com/3332/
 mirrors:
   - { date: 2025-04-19, name: Maryland, url: https://hsquizbowl.org/forums/viewtopic.php?t=28313 }

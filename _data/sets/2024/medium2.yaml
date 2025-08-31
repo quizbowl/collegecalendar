@@ -9,6 +9,7 @@ firstmirror: 2024-11-16
 announced:   2024-07-18
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28150
 clear:       2024-11-20
+packetsurl:  https://collegiate.quizbowlpackets.com/3260/
 mirrors:
 - { date: 2024-11-16, region: 1A, name: Brandeis, url: https://hsquizbowl.org/forums/viewtopic.php?t=28409 }
 - { date: 2024-11-16, region: 1B, name: Rochester, url: https://hsquizbowl.org/forums/viewtopic.php?t=28393 }

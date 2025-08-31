@@ -9,6 +9,7 @@ announced:   2024-03-05
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=27840
 firstideal:  2024-11-02
 lastideal:   2025-03-01
+packetsurl:  https://collegiate.quizbowlpackets.com/3203/
 mirrors:
   - { date: 2024-10-27, region: 0P, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=28332 }
   - { date: 2025-02-22, region: 1A, name: Boston University, url: https://hsquizbowl.org/forums/viewtopic.php?t=28704 }

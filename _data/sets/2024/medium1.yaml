@@ -6,6 +6,7 @@ name:        PLAYTIME!
 fullname:    Production Licensed for the Academic Year Tendered In a Mental Endeavor!
 announced:   2024-04-25
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=27958
+packetsurl:  https://collegiate.quizbowlpackets.com/3214/
 mirrors:
   - { date: 2024-09-28, region: 0P, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=28263 }
   - { date: 2024-10-05, region: CA, name: British Columbia, eligible: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=28367 }

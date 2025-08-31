@@ -10,6 +10,7 @@ firstonline:
 firstmirror: 2024-10-26
 firstideal:  2024-10-26
 lastideal:   2024-11-02
+packetsurl:  https://collegiate.quizbowlpackets.com/3305/
 mirrors:
   - { date: 2024-10-12, region: 0P, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=28280 }
   - { date: 2024-10-26, region: 1A, name: Harvard, url: https://hsquizbowl.org/forums/viewtopic.php?t=28415}

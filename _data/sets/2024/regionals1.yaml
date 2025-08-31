@@ -8,6 +8,7 @@ name:        ACF Regionals
 firstmirror: 2025-02-01
 announced:   2024-08-24
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28258
+packetsurl:  https://collegiate.quizbowlpackets.com/3210/
 mirrors:
   - { date: 2025-02-01, region: 1A, name: Tufts,      url: https://hsquizbowl.org/forums/viewtopic.php?t=28584 } 
   - { date: 2025-02-01, region: 1B, name: Cornell,    url: https://hsquizbowl.org/forums/viewtopic.php?t=28604 } 
