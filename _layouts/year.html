@@ -18,7 +18,8 @@ layout: page
 <th>Tournament name</th>
 {% for slot_id in season.slots -%}
 {% assign set = site.data.sets[page.year][slot_id] -%}
-<th class="strong">
+{% assign set_class = set.name | split: ' ' | first %}
+<th class="strong{% if set_class == 'ACF' or set_class == 'NAQT' or set_class == 'IQBT' %} {{ set_class }}{% endif %}">
 {%- if set.announceurl -%}<a href="{{ set.announceurl }}">{%- endif -%}
 {{- set.name -}}
 {%- if set.announceurl -%}</a>{%- endif -%}
@@ -347,7 +348,8 @@ no
 {% continue -%}
 {% endunless -%}
 <tr>
-<th class="strong">
+{% assign set_class = set.name | split: ' ' | first %}
+<th class="strong{% if set_class == 'ACF' or set_class == 'NAQT' or set_class == 'IQBT' %} {{ set_class }}{% endif %}">
 {%- if set.announceurl -%}<a href="{{ set.announceurl }}">{%- endif -%}
 {{- set.name -}}
 {%- if set.announceurl -%}</a>{%- endif -%}

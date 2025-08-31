@@ -273,6 +273,20 @@ h4 > a[href^="#"] {
 .●●● { color: #812; }
 .●●●◖, .●●●●, .●●●●◖, .●●●●● { color: #fa0; }
 
+$orgs: (
+	NAQT: #fff5d9,
+	ACF:  #d9f0ff,
+	IQBT: #ffe5d9
+);
+@each $org, $color in $orgs {
+	.#{$org} {
+		background: linear-gradient(to top,  lighten($grey-color-light, 3%), 63%, $color);
+	}
+	.summary .#{$org} {
+		background: linear-gradient(to left, lighten($grey-color-light, 3%), 63%, $color);
+	}
+}
+
 /*
 .region {
     position: relative;
