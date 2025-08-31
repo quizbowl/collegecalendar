@@ -129,7 +129,7 @@ layout: page
 <td>
 {% comment %} TODO: speculative and firstonline should be mutually exclusive {% endcomment -%}
 {%- if set.speculative -%}
-<p><span class="speculative">{{ set.firstmirror }}</span></p>
+<p style="margin-bottom: 0;"><span class="speculative">{{ set.firstmirror }}</span></p>
 {%- endif -%}
 {%- if firstmirror -%}
 {% unless set.speculative -%}
