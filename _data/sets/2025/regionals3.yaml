@@ -8,4 +8,9 @@ announced:   2025-05-15
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29045
 mirrors:
   - { date: 2025-10-04, region: 0P, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=29258 }
+  - { date: TBD, region: 1A, name: Boston University }
   - { date: TBD, region: 2A, name: Penn }
+  - { date: TBD, region: 2B, name: UNC }
+  - { date: TBD, region: 5A, name: Stanford }
+  - { date: TBD, region: 8B, name: Northwestern }
+  - { date: TBD, region: CA, name: Ottawa }
