@@ -11,6 +11,6 @@ mirrors:
   - { date: TBD, region: 1A, name: Boston University }
   - { date: TBD, region: 2A, name: Penn }
   - { date: TBD, region: 2B, name: UNC }
-  - { date: TBD, region: 5A, name: Stanford }
+  - { date: TBD, region: 5B, name: Stanford }
   - { date: TBD, region: 8B, name: Northwestern }
   - { date: TBD, region: CA, name: Ottawa }
