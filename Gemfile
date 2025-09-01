@@ -32,3 +32,9 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem "jekyll-redirect-from"
 
 gem "webrick", "~> 1.7"
+
+gem "csv", "~> 3.3"
+
+gem "base64", "~> 0.3.0"
+
+gem "logger", "~> 1.7"
