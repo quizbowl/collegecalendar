@@ -9,3 +9,19 @@ firstmirror: 2025-10-18
 announced:   2025-06-28
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29146
 mirrors:
+  - { date: 2025-10-18, region: 1A, name: MIT }
+  - { date: 2025-10-18, region: 1B, name: Cornell }
+  - { date: 2025-10-18, region: 2A, name: Rutgers }
+  - { date: 2025-10-18, region: 2B, name: UNC }
+  - { date: 2025-10-18, region: 3B, name: Georgia Tech }
+  - { date: 2025-10-18, region: 3C, name: Florida Tech }
+  - { date: 2025-10-18, region: 5A, name: Claremont }
+  - { date: 2025-10-18, region: 6A, name: Washington (Online) }
+  - { date: 2025-10-18, region: 7A, name: Oklahoma }
+  - { date: 2025-10-18, region: 8A, name: Minnesota }
+  - { date: 2025-10-18, region: 8C, name: Illinois }
+  - { date: 2025-10-18, region: 8C, name: Ohio State }
+  - { date: 2025-10-18, region: CA, name: McGill }
+  - { date: 2025-10-18, region: CA, name: Toronto }
+  - { date: 2025-10-18, region: UK, name: Durham }
+  - { date: 2025-10-18, region: UK, name: Cambridge }
