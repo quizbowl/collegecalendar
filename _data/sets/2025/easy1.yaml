@@ -11,6 +11,6 @@ mirrors:
   - { date: 2025-09-20, region: 8C, name: CMU, url: https://hsquizbowl.org/forums/viewtopic.php?t=29287 }
   - { date: 2025-09-27, region: 8B, name: Purdue, url: https://hsquizbowl.org/forums/viewtopic.php?t=29253 }
   - { date: 2025-09-27, region: 1B, name: RIT, url: https://hsquizbowl.org/forums/viewtopic.php?t=29316 }
-  - { date: 2025-10-01, region: 8A, name: Minnesota }
-  - { date: 2025-10-01, region: 7A, name: Murray State, url: https://hsquizbowl.org/forums/viewtopic.php?t=29265 }
-  - { date: 2025-10-01, region: 4B, name: Arizona State }
+  - { date: 2025-10-04, region: 8A, name: Minnesota }
+  - { date: 2025-10-04, region: 7A, name: Murray State, url: https://hsquizbowl.org/forums/viewtopic.php?t=29265 }
+  - { date: 2025-10-25, region: 4B, name: Arizona State }
