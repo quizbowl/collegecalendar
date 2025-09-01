@@ -1,0 +1,9 @@
+slot: “Fall Easy 2”
+prev: [PACE NSC, ILLIAC, SMH]
+diff: Easy
+diffdots: ●◖
+name: HISTONE
+announced: 2025-07-28
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29217
+mirrors:
+  - { date: 2025-10-25, region: 1A, name: Yale }
