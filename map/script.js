@@ -132,115 +132,6 @@ const voronoi = d3.geom.voronoi()
 	.y(d => projection(d.coordinates)[1])
 	// .clipExtent([[0, 0], [width, height]]);
 
-if (collegesHighlight) {
-	var collegesInQuery = [];
-	var collegesNotMatched = [];
-
-	collegesHighlight.forEach(collegeHighlight => {
-		let matched = colleges.find(college =>
-			[college.college, college.college_abbr, college.college_long].includes(collegeHighlight[0]) &&
-			(collegeHighlight[1] === undefined || college.region === collegeHighlight[1])
-		);
-		if (matched) {
-			matched.mirrorDate = collegeHighlight[2];
-			collegesInQuery.push(matched);
-		}
-		else
-			collegesNotMatched.push(collegeHighlight);
-	});
-	console.log(collegesHighlight, collegesInQuery, collegesNotMatched);
-
-	if (collegesInQuery.length) {
-		let highlightLegend = svg.append('g')
-			.attr('class', 'legend legend-label-medium')
-		let highlightText = highlightLegend.append('text')
-			.attr('x', 1042)
-			.attr('y', 20)
-			.attr('dy', '.35em')
-			.text(`Highlighting ${collegesInQuery.length} site${collegesInQuery.length > 1 ? 's' : ''}${site ? ' of ' + site : ''}`)
-		if (collegesNotMatched && collegesNotMatched.length > 0) {
-			var tooltipText = 'Failed to match:\n' + collegesNotMatched.map(d => `${d[0]}@${d[1]}`).join('\n');
-			console.log(tooltipText);
-			highlightText.append('title').text(tooltipText);
-		}
-		highlightLegend.append('text')
-			.attr('x', 1042)
-			.attr('y', 44)
-			.attr('dy', '.35em')
-			.text(`Nearest colleges up to 300 miles (as the crow flies)`)
-		highlightLegend.append('circle')
-			.attr('cx', 1020)
-			.attr('cy', 20)
-			.attr('class', 'highlight')
-			.attr('r', 9)
-		highlightLegend.append('circle')
-			.attr('cx', 1020)
-			.attr('cy', 20)
-			.attr('class', 'circle-large')
-			.attr('r', 4)
-		highlightLegend.append('line')
-			.attr('x1', 1000)
-			.attr('y1', 45)
-			.attr('x2', 1036)
-			.attr('y2', 45)
-			.attr('class', 'highlight')
-			.attr('stroke-dasharray', '5,5')
-
-		highlightLegend.append("foreignObject")
-			.attr("width", 30)
-			.attr("height", 30)
-			.attr("x", 980)
-			.attr("y", 33)
-		.append("xhtml:input")
-			.attr("xmlns", "http://www.w3.org/1999/xhtml")
-			.attr("type", "checkbox")
-			.attr("checked", true)
-	}
-	let highlight = main;
-
-	// draw lines from every college to the closest highlighted college
-	let maxDistance = d3.geo.distance([-80, 40], [-82, 44.1]); // 301 miles
-	function getClosestCollege(d) {
-		let minValue, min = -1; index = -1;
-		for (const c of collegesInQuery) {
-			++index;
-			let distance = d3.geo.distance(d.coordinates, c.coordinates);
-			if ((min < 0 || distance < minValue) && distance < maxDistance) {
-				minValue = distance; min = index;
-			}
-		}
-		return collegesInQuery[min];
-	}
-
-	highlight.selectAll('.line')
-		.data(colleges)
-		.enter()
-		.append('line')
-		.attr('class', 'highlight')
-		.attr('stroke', 'black')
-		.each(function(d) {
-			var closest = getClosestCollege(d);
-			if (!closest)
-				return;
-			d3.select(this)
-				.attr('x1', projection(closest.coordinates)[0])
-				.attr('y1', projection(closest.coordinates)[1])
-				.attr('x2', projection(d.coordinates)[0])
-				.attr('y2', projection(d.coordinates)[1]);
-		});
-
-	var labelG = svg.append('g');
-
-	highlight.selectAll('.circle')
-		.data(collegesInQuery)
-		.enter()
-		.append('circle')
-		.attr('class', 'highlight')
-		.attr('transform', d => 'translate(' + projection(d.coordinates) +')')
-		.attr('r', 9)
-		.call(makePlaceLabel, labelG, false)
-}
-
 	main.selectAll(".stateText")
 		.data(regions)
 		.enter()
@@ -418,6 +309,115 @@ svg.append("text")
 		.attr("dy", ".35em")
 		.style("text-anchor", function(d) { return d.coordinates[0] > -88 ? "start" : "end"; })
 		.text(d => d.college);*/
+
+if (collegesHighlight) {
+	var collegesInQuery = [];
+	var collegesNotMatched = [];
+
+	collegesHighlight.forEach(collegeHighlight => {
+		let matched = colleges.find(college =>
+			[college.college, college.college_abbr, college.college_long].includes(collegeHighlight[0]) &&
+			(collegeHighlight[1] === undefined || college.region === collegeHighlight[1])
+		);
+		if (matched) {
+			matched.mirrorDate = collegeHighlight[2];
+			collegesInQuery.push(matched);
+		}
+		else
+			collegesNotMatched.push(collegeHighlight);
+	});
+	console.log(collegesHighlight, collegesInQuery, collegesNotMatched);
+
+	if (collegesInQuery.length) {
+		let highlightLegend = svg.append('g')
+			.attr('class', 'legend legend-label-medium')
+		let highlightText = highlightLegend.append('text')
+			.attr('x', 1042)
+			.attr('y', 20)
+			.attr('dy', '.35em')
+			.text(`Highlighting ${collegesInQuery.length} site${collegesInQuery.length > 1 ? 's' : ''}${site ? ' of ' + site : ''}`)
+		if (collegesNotMatched && collegesNotMatched.length > 0) {
+			var tooltipText = 'Failed to match:\n' + collegesNotMatched.map(d => `${d[0]}@${d[1]}`).join('\n');
+			console.log(tooltipText);
+			highlightText.append('title').text(tooltipText);
+		}
+		highlightLegend.append('text')
+			.attr('x', 1042)
+			.attr('y', 44)
+			.attr('dy', '.35em')
+			.text(`Nearest colleges up to 300 miles (as the crow flies)`)
+		highlightLegend.append('circle')
+			.attr('cx', 1020)
+			.attr('cy', 20)
+			.attr('class', 'highlight')
+			.attr('r', 9)
+		highlightLegend.append('circle')
+			.attr('cx', 1020)
+			.attr('cy', 20)
+			.attr('class', 'circle-large')
+			.attr('r', 4)
+		highlightLegend.append('line')
+			.attr('x1', 1000)
+			.attr('y1', 45)
+			.attr('x2', 1036)
+			.attr('y2', 45)
+			.attr('class', 'highlight')
+			.attr('stroke-dasharray', '5,5')
+
+		highlightLegend.append("foreignObject")
+			.attr("width", 30)
+			.attr("height", 30)
+			.attr("x", 980)
+			.attr("y", 33)
+		.append("xhtml:input")
+			.attr("xmlns", "http://www.w3.org/1999/xhtml")
+			.attr("type", "checkbox")
+			.attr("checked", true)
+	}
+	let highlight = main;
+
+	// draw lines from every college to the closest highlighted college
+	let maxDistance = d3.geo.distance([-80, 40], [-82, 44.1]); // 301 miles
+	function getClosestCollege(d) {
+		let minValue, min = -1; index = -1;
+		for (const c of collegesInQuery) {
+			++index;
+			let distance = d3.geo.distance(d.coordinates, c.coordinates);
+			if ((min < 0 || distance < minValue) && distance < maxDistance) {
+				minValue = distance; min = index;
+			}
+		}
+		return collegesInQuery[min];
+	}
+
+	highlight.selectAll('.line')
+		.data(colleges)
+		.enter()
+		.append('line')
+		.attr('class', 'highlight')
+		.attr('stroke', 'black')
+		.each(function(d) {
+			var closest = getClosestCollege(d);
+			if (!closest)
+				return;
+			d3.select(this)
+				.attr('x1', projection(closest.coordinates)[0])
+				.attr('y1', projection(closest.coordinates)[1])
+				.attr('x2', projection(d.coordinates)[0])
+				.attr('y2', projection(d.coordinates)[1]);
+		});
+
+	var labelG = svg.append('g');
+
+	highlight.selectAll('.circle')
+		.data(collegesInQuery)
+		.enter()
+		.append('circle')
+		.attr('class', 'highlight')
+		.attr('transform', d => 'translate(' + projection(d.coordinates) +')')
+		.attr('r', 9)
+		.call(makePlaceLabel, labelG, false)
+}
 
 	var legend = svg.append('g')
 		.attr('class', 'legend')
