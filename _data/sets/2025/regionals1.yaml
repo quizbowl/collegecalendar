@@ -1,11 +1,11 @@
-slot:        ACF Regionals
-prev:        [past ACF Regionals]
-diff:        Regionals
-diffdots:    ●●●
-submission:  Required half-packet if not new team; opt-out fee
-eligible:    Closed
-name:        ACF Regionals
+slot: ACF Regionals
+prev: [past ACF Regionals]
+diff: Regionals
+diffdots: ●●●
+submission: Required half-packet if not new team; opt-out fee
+eligible: Closed
+name: ACF Regionals
 firstmirror: 2026-01-31
-announced:   2025-08-28
+announced: 2025-08-28
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29321
 mirrors:

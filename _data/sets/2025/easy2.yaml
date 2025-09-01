@@ -8,6 +8,9 @@ name: ACF Fall
 firstmirror: 2025-10-18
 announced: 2025-06-28
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29146
+clear: 2025-10-19
+reallyclear: no
+packetsurl:
 mirrors:
   - { date: 2025-10-18, region: 1A, name: MIT }
   - { date: 2025-10-18, region: 1B, name: Cornell }

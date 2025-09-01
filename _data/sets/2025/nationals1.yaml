@@ -1,12 +1,15 @@
-slot:        ACF Nationals
-prev:        [past ACF Nationals]
-diff:        Nationals
-diffdots:    ●●●●
-submission:  Optional
-eligible:    Qualify at ACF Regionals
-name:        ACF Nationals
+slot: ACF Nationals
+prev: [past ACF Nationals]
+diff: Nationals
+diffdots: ●●●●
+submission: Optional
+eligible: Qualify at ACF Regionals
+name: ACF Nationals
 firstmirror: 2026-04-18
-announced:   2025-08-17
+announced: 2025-08-17
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29282
 mirrors:
-  - { date: 2026-04-18, url: https://hsquizbowl.org/forums/viewtopic.php?t=29282 }
+  - {
+      date: 2026-04-18,
+      url: https://hsquizbowl.org/forums/viewtopic.php?t=29282,
+    }

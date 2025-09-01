@@ -1,12 +1,12 @@
-slot:        NAQT SCT
-prev:        [past NAQT SCTs]
-diff:        Regionals
-diffd2:      Easy
-diffdots:    ●●●
-diffdotsd2:  ●
-name:        NAQT SCT
-fullname:    NAQT Sectional Championship Tournament
+slot: NAQT SCT
+prev: [past NAQT SCTs]
+diff: Regionals
+diffd2: Easy
+diffdots: ●●●
+diffdotsd2: ●
+name: NAQT SCT
+fullname: NAQT Sectional Championship Tournament
 firstmirror: 2026-02-07
-clear:       never
-packetsurl:  never
+clear: never
+packetsurl: never
 mirrors:
