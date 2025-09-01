@@ -137,12 +137,14 @@ if (collegesHighlight) {
 	var collegesNotMatched = [];
 
 	collegesHighlight.forEach(collegeHighlight => {
-		let matched = colleges.find(college => 
+		let matched = colleges.find(college =>
 			[college.college, college.college_abbr, college.college_long].includes(collegeHighlight[0]) &&
 			(collegeHighlight[1] === undefined || college.region === collegeHighlight[1])
 		);
-		if (matched)
+		if (matched) {
+			matched.mirrorDate = collegeHighlight[2];
 			collegesInQuery.push(matched);
+		}
 		else
 			collegesNotMatched.push(collegeHighlight);
 	});
@@ -331,6 +333,17 @@ function makePlaceLabel(selection, element, hover) {
 					   'l 0 ' + (bb.height + paddingTopBottom) + ' ' +
 					   'l ' + (+ Math.round(bb.width) + 3 * paddingLeftRight / 2) + ' 0 ' +
 					   'Z')
+
+		if (d.mirrorDate) {
+			g.append('text')
+				.datum(d.point)
+				.attr('class', 'place-label place-label-date')
+				.attr('transform', 'translate(' + pcoords + ')')
+				.attr("x", - marginLeftRight - bb.width - 3 * paddingLeftRight /2)
+				.attr("dy", "1.85em")
+				.style("text-anchor", 'start')
+				.text(d.mirrorDate);
+		}
 	});
 }
 
