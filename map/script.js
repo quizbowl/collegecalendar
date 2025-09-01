@@ -308,8 +308,10 @@ function makePlaceLabel(selection, element, hover) {
 		if (g.empty()) {
 			g = element.append('g').attr('class', 'place-label-group');
 		}
+		var id = d.college
 		var text = g.append('text')
 			.datum(d.point)
+			.attr('data-college', id)
 			.attr('class', 'place-label ' + (hover ? 'place-label-1' : ' highlight'))
 			.attr('transform', 'translate(' + pcoords + ')')
 			.attr("x", - marginLeftRight - 3 * paddingLeftRight / 2)
@@ -322,7 +324,7 @@ function makePlaceLabel(selection, element, hover) {
 		var bb = text[0][0].getBBox();
 
 		pcoords[0] = Math.round(pcoords[0]) + .5; pcoords[1] = Math.round(pcoords[1]);
-		g.insert("path", 'text')
+		g.insert("path", `text[data-college=${CSS.escape(id)}]`)
 			.datum(d.point)
 			.attr('class', 'place-label-rect ' + (hover ? 'place-label-1' : 'highlight'))
 			.attr('fill', 'blue')
