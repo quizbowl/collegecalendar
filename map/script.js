@@ -151,7 +151,7 @@ if (collegesHighlight) {
 	console.log(collegesHighlight, collegesInQuery, collegesNotMatched);
 
 	if (collegesInQuery.length) {
-		let highlightLegend = main.append('g')
+		let highlightLegend = svg.append('g')
 			.attr('class', 'legend legend-label-medium')
 		let highlightText = highlightLegend.append('text')
 			.attr('x', 1042)
@@ -185,6 +185,16 @@ if (collegesHighlight) {
 			.attr('y2', 45)
 			.attr('class', 'highlight')
 			.attr('stroke-dasharray', '5,5')
+
+		highlightLegend.append("foreignObject")
+			.attr("width", 30)
+			.attr("height", 30)
+			.attr("x", 980)
+			.attr("y", 33)
+		.append("xhtml:input")
+			.attr("xmlns", "http://www.w3.org/1999/xhtml")
+			.attr("type", "checkbox")
+			.attr("checked", true)
 	}
 	let highlight = main;
 

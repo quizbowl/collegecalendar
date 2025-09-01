@@ -167,3 +167,6 @@ line.highlight {
 	stroke-width: 0.85px;
 	stroke-dasharray: 0px 3px 17px 0px;
 }
+svg:has(input:not(:checked)) line.highlight {
+	display: none;
+}
