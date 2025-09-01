@@ -1,0 +1,9 @@
+slot: “Fall Easy 4”
+prev: [PACE NSC, ILLIAC, SMH]
+diff: Easy
+diffdots: ●
+name: British Novice
+announced: 2025-03-12
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=405131
+mirrors:
+  - { date: 2025-09-29, region: 2B, name: Virginia Tech }
