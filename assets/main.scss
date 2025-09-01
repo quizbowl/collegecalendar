@@ -1,5 +1,6 @@
 ---
 ---
+@use "sass:color";
 
 $content-width: 100%;
 $on-palm : 600px !default;
@@ -202,7 +203,7 @@ table.season {
 time {
 	font-weight: 500;
 	display: inline-block;
-	color: darken($brand-color, 18%);
+	color: color.adjust($brand-color, $lightness: -18%);
 	text-decoration: inherit;
 	text-indent: 0;
 	// font-variant-numeric: tabular-nums;
@@ -221,7 +222,7 @@ time.late[data-late]::after {
 	position: absolute;
 	top: -0.6em;
 	font-size: 0.6em;
-	color: lighten(#2abf83,6%);
+	color: color.adjust(#2abf83,$lightness: 6%);
 	width: max-content;
 	white-space: nowrap;
 }
@@ -280,10 +281,10 @@ $orgs: (
 );
 @each $org, $color in $orgs {
 	.#{$org} {
-		background: linear-gradient(to top,  lighten($grey-color-light, 3%), 63%, $color);
+		background: linear-gradient(to top,  color.adjust($grey-color-light, $lightness: 3%), 63%, $color);
 	}
 	.summary .#{$org} {
-		background: linear-gradient(to left, lighten($grey-color-light, 3%), 63%, $color);
+		background: linear-gradient(to left, color.adjust($grey-color-light, $lightness: 3%), 63%, $color);
 	}
 }
 
