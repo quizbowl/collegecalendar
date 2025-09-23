@@ -26,11 +26,47 @@ mirrors:
       name: RIT,
       url: https://hsquizbowl.org/forums/viewtopic.php?t=29316,
     }
-  - { date: 2025-10-04, region: 8A, name: Minnesota }
+  - {
+      date: 2025-09-27,
+      region: CA,
+      name: Queen's,
+      url: https://hsquizbowl.org/forums/viewtopic.php?t=29374,
+    }
+  - {
+      date: 2025-09-27,
+      region: CA,
+      name: McMaster,
+      url: https://hsquizbowl.org/forums/viewtopic.php?t=29375,
+    }
+  - {
+      date: 2025-09-27,
+      region: 8B,
+      name: SIUE,
+      url: https://hsquizbowl.org/forums/viewtopic.php?t=29409,
+    }
+  - {
+      date: 2025-10-04,
+      region: 8A,
+      name: Minnesota,
+      url: https://hsquizbowl.org/forums/viewtopic.php?t=29395,
+    }
+  - {
+      date: 2025-10-04,
+      region: 2B,
+      name: Tusculum,
+      url: https://hsquizbowl.org/forums/viewtopic.php?t=29395,
+    }
   - {
       date: 2025-10-04,
       region: 7A,
       name: Murray State,
       url: https://hsquizbowl.org/forums/viewtopic.php?t=29265,
     }
-  - { date: 2025-10-25, region: 4B, name: Arizona State }
+  - {
+      date: 2025-10-11,
+      region: 3C,
+      name: Florida,
+      url: https://hsquizbowl.org/forums/viewtopic.php?t=29436,
+    }
+  - { date: 2025-10-11, region: 6A, name: Boise State (Online) }
+  - { date: 2025-10-25, region: 4B, name: Arizona State (Online) }
