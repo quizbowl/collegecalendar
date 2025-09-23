@@ -23,6 +23,6 @@ mirrors:
 - { date: 2024-11-16, region: 8A, name: Minnesota }
 - { date: 2024-11-16, region: 8B, name: Northwestern, url: https://hsquizbowl.org/forums/viewtopic.php?t=28389 }
 - { date: 2024-11-16, region: 8C, name: OSU, url: https://hsquizbowl.org/forums/viewtopic.php?t=28422 }
-- { date: 2024-11-16, region: CA, name: Toronto, url: https://hsquizbowl.org/forums/viewtopic.php?p=402393 }
+- { date: 2024-11-16, region: CA, name: Toronto, url: https://hsquizbowl.org/forums/viewtopic.php?t=28398 }
 - { date: 2024-11-16, region: UK, name: Oxford, url: https://hsquizbowl.org/forums/viewtopic.php?t=28428 }
 - { date: 2024-11-16, region: 0L, name: Overflow }
