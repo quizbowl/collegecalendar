@@ -6,7 +6,7 @@ name: Planetfall III
 announced: 2025-02-16
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28808
 mirrors:
-  - { date: 2025-09-20, region: 3C, name: Florida Tech }
+  - { date: 2025-09-20, region: 3C, name: Florida Tech, url: https://hsquizbowl.org/forums/viewtopic.php?p=408153 }
   - {
       date: 2025-09-27,
       region: 3A,
@@ -25,4 +25,5 @@ mirrors:
       name: OSU,
       url: https://hsquizbowl.org/forums/viewtopic.php?t=29272,
     }
-  - { date: TBD, region: 7A, name: Murray State, eligible: HS allowed }
+  - { date: 2025-10-11, region: 7A, name: Murray State, eligible: HS allowed, url: https://hsquizbowl.org/forums/viewtopic.php?p=407702 }
+  
