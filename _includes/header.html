@@ -24,7 +24,7 @@
           <details class="dropdown page-link">
             <summary>Past seasons</summary>
             <div class="site-nav">
-            {%- for year in past_years -%}
+            {%- for year in past_years reversed -%}
               <a class="page-link" href="{{ year.url | relative_url }}">{{ year.title | escape }}</a>
             {%- endfor -%}
             </div>

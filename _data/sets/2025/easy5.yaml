@@ -1,9 +1,11 @@
-slot: “Fall Easy 3”
-prev: [PACE NSC, ILLIAC, SMH]
-diff: Easy
-diffdots: ●◖
-name: HISTONE
-announced: 2025-07-28
+slot:        “Fall Easy 3”
+prev:        [PACE NSC, ILLIAC, SMH]
+diff:        Easy
+diffdots:    ●◖
+name:        HISTONE
+fullname:    Houston’s Interdisciplinary Set made To Output Nats Energy
+firstideal:  2025-10-04
+announced:   2025-07-28
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29217
 mirrors:
   - { date: 2025-10-25, region: 1A, name: Yale }

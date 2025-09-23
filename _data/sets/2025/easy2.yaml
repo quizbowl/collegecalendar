@@ -18,23 +18,14 @@ mirrors:
   - { date: 2025-10-18, region: 2B, name: UNC }
   - { date: 2025-10-18, region: 3B, name: Georgia Tech }
   - { date: 2025-10-18, region: 3C, name: Florida Tech }
-  - {
-      date: 2025-10-18,
-      region: 5A,
-      name: Claremont,
-      url: https://hsquizbowl.org/forums/viewtopic.php?t=29334,
-    }
-  - { date: 2025-10-18, region: 6A, name: Washington (Online) }
+  - { date: 2025-10-18, region: 5A, name: Claremont Colleges, url: https://hsquizbowl.org/forums/viewtopic.php?t=29334 }
+  - { date: 2025-10-18, region: 0L, name: Washington }
   - { date: 2025-10-18, region: 7A, name: Oklahoma }
   - { date: 2025-10-18, region: 8A, name: Minnesota }
-  - { date: 2025-10-18, region: 8C, name: Illinois }
-  - { date: 2025-10-18, region: 8C, name: Ohio State }
-  - {
-      date: 2025-10-18,
-      region: CA,
-      name: McGill,
-      url: https://hsquizbowl.org/forums/viewtopic.php?t=29336,
-    }
+  - { date: 2025-10-18, region: 8B, name: Illinois }
+  - { date: 2025-10-18, region: 8C, name: OSU, url: https://hsquizbowl.org/forums/viewtopic.php?t=29337 }
+  - { date: 2025-10-18, region: CA, name: McGill, url: https://hsquizbowl.org/forums/viewtopic.php?t=29336 }
   - { date: 2025-10-18, region: CA, name: Toronto }
   - { date: 2025-10-18, region: UK, name: Durham }
   - { date: 2025-10-18, region: UK, name: Cambridge }
+  - { date: 2025-10-18, region: 8B, name: Auburn HS, eligible: HS, url: https://hsquizbowl.org/forums/viewtopic.php?t=29330 }

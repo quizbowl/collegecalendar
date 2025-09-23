@@ -21,7 +21,7 @@ mirrors:
   - { date: 2025-02-08, region: 7B, name: Missouri,      url: https://hsquizbowl.org/forums/viewtopic.php?t=28580 }
   - { date: 2025-02-08, region: 8A, name: Minnesota }
   - { date: 2025-02-08, region: 8B, name: Purdue,        url: https://hsquizbowl.org/forums/viewtopic.php?t=28505 }
-  - { date: 2025-02-08, region: 8C, name: Ohio State,    url: https://hsquizbowl.org/forums/viewtopic.php?t=28511 }
+  - { date: 2025-02-08, region: 8C, name: OSU,           url: https://hsquizbowl.org/forums/viewtopic.php?t=28511 }
   - { date: 2025-02-08, region: CA, name: Toronto,       url: https://hsquizbowl.org/forums/viewtopic.php?t=28656 }
   - { date: 2025-02-08, region: OL, name: Arizona State,  url: https://hsquizbowl.org/forums/viewtopic.php?t=28544 }
 
