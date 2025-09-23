@@ -50,4 +50,4 @@ mirrors:
       name: UBC,
       url: https://hsquizbowl.org/forums/viewtopic.php?t=29323,
     }
-  - { date: TBD, region: 1A, name: Harvard }
+  - { date: 2025-10-04, region: 1A, name: Harvard, url: https://hsquizbowl.org/forums/viewtopic.php?t=29402}
