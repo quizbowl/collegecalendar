@@ -8,7 +8,7 @@ firstmirror: 2024-09-14
 clear:       never
 packetsurl:  never
 mirrors:
-  - { date: 2024-09-14, region: 3A, name: Tusculum, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28246" }
+  - { date: 2024-09-14, region: 2B, name: Tusculum, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28246" }
   - { date: 2024-09-21, region: 1B, name: RIT, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28253" }
   - { date: 2024-09-21, region: 3C, name: Florida, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28289" }
   - { date: 2024-09-21, region: CA, name: Toronto, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28283" }
@@ -16,7 +16,7 @@ mirrors:
   - { date: 2024-09-21, region: 8C, name: CMU, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28199" }
   - { date: 2024-09-28, region: 1A, name: Yale, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28230" }  
   - { date: 2024-09-28, region: 8A, name: Minnesota, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28345" }
-  - { date: 2024-09-28, region: 8B, name: Southern Illinois, url: "https://www.naqt.com/registration/field.jsp?tournament_id=16387" }
+  - { date: 2024-09-28, region: 8B, name: SIUE, url: "https://www.naqt.com/registration/field.jsp?tournament_id=16387" }
   - { date: 2024-10-12, region: 6A, name: IQAT, eligible: Online, url: "https://www.naqt.com/registration/field.jsp?tournament_id=16321" }
   - { date: 2024-10-12, region: 8B, name: Purdue, url: "https://hsquizbowl.org/forums/viewtopic.php?t=28223" }
   - { date: 2024-11-02, region: 7A, name: Murray State, url: "https://www.naqt.com/registration/field.jsp?tournament_id=16033" }

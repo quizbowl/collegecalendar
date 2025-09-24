@@ -64,8 +64,8 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 2B	0	Elon	NC	USA	36.106527	-79.502838		Elon	Elon University
 2B	1	Winston-Salem	NC	USA	36.135250	-80.276342		Wake Forest	Wake Forest University
 2B	1	Boone	NC	USA	36.213783	-81.684316		App State	Appalachian State University
-3A	1	Johnson City	TN	USA	36.302537	-82.370193	ETSU	East Tennessee	East Tennessee State University
-3A	1	Greeneville	TN	USA	36.172330	-82.760796		Tusculum	Tusculum University
+2B	1	Johnson City	TN	USA	36.302537	-82.370193	ETSU	East Tennessee	East Tennessee State University
+2B	1	Greeneville	TN	USA	36.172330	-82.760796		Tusculum	Tusculum University
 3A	2	Lexington	KY	USA	38.030651	-84.503970		Kentucky	University of Kentucky
 3A	0	Bowling Green	KY	USA	36.985354	-86.456138	WKU	Western Kentucky	Western Kentucky University
 3A	1	Louisville	KY	USA	38.212276	-85.758502		Louisville	University of Louisville

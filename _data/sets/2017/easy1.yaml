@@ -21,6 +21,6 @@ mirrors:
   - { date: 2017-10-07, region: 5B, name: Berkeley         , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20413" }
   - { date: 2017-10-14, region: 4A, name: Louisiana Tech   , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20396" }
   - { date: 2017-10-21, region: 1A, name: Olin College     , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20357" }
-  - { date: 2017-10-28, region: 3A, name: Tusculum         , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20362" }
+  - { date: 2017-10-28, region: 2B, name: Tusculum         , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20362" }
   - { date: 2017-11-18, region: 5A, name: UC Irvine        , url: "https://hsquizbowl.org/forums/viewtopic.php?f=8&t=20595" }
   - { date: 2017-12-02, region: 8A, name: Northern Michigan }
