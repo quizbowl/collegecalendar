@@ -30,4 +30,29 @@ This page tallies the number of quizbowl sets for each difficulty level by year.
         </tr>
     {% endfor %}
   </tbody>
+  <tfoot>
+    <tr>
+      <th>Total</th>
+      {% for year_hash in site.data.sets %}
+        {% assign year = year_hash[0] %}
+        <th>{{ site.data.sets[year].size }}</th>
+      {% endfor %}
+    </tr>
+    <tr>
+      <th>&le; <span class="●●◖">●●◖</span></th>
+      {% for year_hash in site.data.sets %}
+        {% assign year = year_hash[0] %}
+        {% assign low_sets = site.data.sets[year] | where_exp: 'set', 'set.diffdots == "●" or set.diffdots == "●◖" or set.diffdots == "●●" or set.diffdots == "●●◖"' %}
+        <td>{{ low_sets.size }}</td>
+      {% endfor %}
+    </tr>
+    <tr>
+      <th>&ge; <span class="●●●">●●●</span></th>
+      {% for year_hash in site.data.sets %}
+        {% assign year = year_hash[0] %}
+        {% assign high_sets = site.data.sets[year] | where_exp: 'set', 'set.diffdots contains "●●●"' %}
+        <td>{{ high_sets.size }}</td>
+      {% endfor %}
+    </tr>
+  </tfoot>
 </table>
