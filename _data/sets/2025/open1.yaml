@@ -13,5 +13,5 @@ mirrors:
   - { date: 2025-10-11, region: UK, name: Oxford }
   - { date: 2025-11-08, region: 8B, name: Chicago, url: https://hsquizbowl.org/forums/viewtopic.php?t=29317 }
   - { date: 2025-11-08, region: 2A, name: Columbia, url: https://hsquizbowl.org/forums/viewtopic.php?t=29280 }
-  - { date: 2026-01-27, region: 6A, name: UBC, url: https://hsquizbowl.org/forums/viewtopic.php?t=29323 }
+  - { date: 2026-01-27, region: 6A, name: British Columbia, url: https://hsquizbowl.org/forums/viewtopic.php?t=29323 }
   - { date: 2025-10-04, region: 1A, name: Harvard, url: https://hsquizbowl.org/forums/viewtopic.php?t=29402 }
