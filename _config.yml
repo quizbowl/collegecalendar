@@ -63,6 +63,3 @@ jekyll_timeago:
   week: 'week'
   days: 'days'
   day: 'day'
-
-sass:
-  quiet_deps: true
