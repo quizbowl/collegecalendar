@@ -273,6 +273,13 @@ h4 > a[href^="#"] {
 .●●● { color: #812; }
 .●●●◖, .●●●●, .●●●●◖, .●●●●● { color: #fa0; }
 
+svg {
+	.◖, .●, .●◖ { fill: #059; }
+	.●●, .●●◖ { fill: #892; }
+	.●●● { fill: #812; }
+	.●●●◖, .●●●●, .●●●●◖, .●●●●● { fill: #fa0; }
+}
+
 $orgs: (
 	NAQT: #fff5d9,
 	ACF:  #d9f0ff,
@@ -339,4 +346,10 @@ details.dropdown > div {
 	details.dropdown .page-link {
 		margin-left: 0 !important;
 	}
+}
+
+th.sparkline, td.sparkline {
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height: 0;
 }
