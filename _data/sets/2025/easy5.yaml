@@ -8,5 +8,6 @@ firstideal:  2025-10-04
 announced:   2025-07-28
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29217
 mirrors:
-  - { date: 2025-10-25, region: 1A, name: Yale }
-  - { date: 2025-11-01, region: 3C, name: Florida }
+  - { date: 2025-10-25, region: 1A, name: Yale, url: https://hsquizbowl.org/forums/viewtopic.php?t=29391 }
+  - { date: 2025-11-09, region: 3C, name: Florida, url: https://hsquizbowl.org/forums/viewtopic.php?p=408839 }
+  - { date: 2025-11-01, region: 3B, eligible: HS allowed, name: Georgia Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=29486 }
