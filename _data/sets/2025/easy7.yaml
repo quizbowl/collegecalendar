@@ -8,4 +8,6 @@ eligible:    HS-only mirrors on HS version of set
 firstmirror: 2025-12-06
 announced:   2025-04-29
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29012
-mirrors:
+mirrors:  
+  - { date: 2025-11-16, region: 0P, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=29548 }
+
