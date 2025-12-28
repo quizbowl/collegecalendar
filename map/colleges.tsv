@@ -31,6 +31,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 2A	1	New York	NY	USA	40.861708	-73.885083		Fordham	Fordham University
 2A	1	New York	NY	USA	40.904276   -73.123772		Stony Brook	State University of New York at Stony Brook
 2A	2	New York	NY	USA	40.807536	-73.962573		Columbia	Columbia University
+2A	1	New York	NY	USA	40.771095   -73.989267		John Jay	John Jay College of Criminal Justice
 2A	2	New York	NY	USA	40.729513	-73.996461		NYU	New York University
 2A	2	New Brunswick	NJ	USA	40.500819	-74.447399		Rutgers	Rutgers University-New Brunswick
 2A	2	Princeton	NJ	USA	40.343989	-74.651448		Princeton	Princeton University
