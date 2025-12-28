@@ -121,7 +121,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 4A	1	Orange	TX	USA	30.091430	-93.731561	LSC-O	Lamar-Orange	Lamar State College-Orange
 4B	0	El Paso	TX	USA	31.770854	-106.504622	UTEP	Texas-El Paso	University of Texas at El Paso
 4B	1	Las Cruces	NM	USA	32.276736	-106.747752		NMSU	New Mexico State University
-4B	1	Tuscon	AZ	USA	32.235173	-110.950995		Arizona	University of Arizona
+4B	1	Tucson	AZ	USA	32.235173	-110.950995		Arizona	University of Arizona
 4B	2	Tempe	AZ	USA	33.421959	-111.938138	ASU	Arizona State	Arizona State University
 5B	2	Berkeley	CA	USA	37.871899	-122.258540		Berkeley	University of California-Berkeley
 5B	2	Stanford	CA	USA	37.427475	-122.169719		Stanford	Stanford University
