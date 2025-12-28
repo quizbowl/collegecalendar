@@ -159,6 +159,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 7A	1	Chanute	KS	USA	37.670786	-95.464982	NCCC	Neosho County	Neosho County Community College
 7A	1	Coffeyville	KS	USA	37.033913	-95.622790		Coffeyville	Coffeyville Community College
 7A	1	Tulsa	OK	USA	36.151988	-95.946000		Tulsa	University of Tulsa
+7A	1	Langston	OK	USA	36.069455   -97.350203		Langston	Langston University
 7A	0	Shawnee	OK	USA	35.361250	-96.934085		Oklahoma Baptist	Oklahoma Baptist University
 7A	1	Stillwater	OK	USA	36.129580	-97.088537		Oklahoma State	Oklahoma State University
 7A	2	Tishomingo	OK	USA	34.222380	-96.677874		Murray State	Murray State College
