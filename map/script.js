@@ -424,45 +424,49 @@ if (collegesHighlight) {
 		// .attr('transform', d => 'translate(' + projection([-71.7, 35]) +')');
 		.attr('transform', d => 'translate(' + projection([-118, 27]) +')');
 	legend.append('text')
+		.attr('transform', d => 'translate(-80,0)')
 		.attr('class', 'region-label')
 		.text('Region');
 	legend.append('text')
-		.attr('transform', d => 'translate(0,24)')
+		.attr('transform', d => 'translate(-80,24)')
 		.attr('class', 'region-label region-label-region')
 		.text('Circuit');
+	legend.append('text')
+		.attr('transform', d => 'translate(-80,48)')
+		.attr('class', 'region-label region-label-region region-label-id')
+		.text('Circuit ID');
 
 	legend.append('circle')
 		.attr('class', 'circle-large')
-		.attr('transform', d => 'translate(-16,44)')
+		.attr('transform', d => 'translate(16,-4)')
 		.attr('r', 4);
 	legend.append('circle')
 		.attr('class', 'circle-small')
-		.attr('transform', d => 'translate(-16,68)')
+		.attr('transform', d => 'translate(16,20)')
 		.attr('r', 2);
 	legend.append('circle')
 		.attr('class', 'circle-inactive')
-		.attr('transform', d => 'translate(-16,92)')
+		.attr('transform', d => 'translate(16,68)')
 		.attr('r', 2);
 	legend.append('text')
 		// .attr('class', 'place-label')
 		.attr('class', 'legend-label-medium')
-		.attr('transform', d => 'translate(0,48)')
+		.attr('transform', d => 'translate(32,0)')
 		.text('Hosts tournaments (Core/Active)');
 	legend.append('text')
-		.attr('transform', d => 'translate(0,72)')
+		.attr('transform', d => 'translate(32,24)')
 		// .attr('class', 'place-label')
 		.attr('class', 'legend-label-medium')
 		.text('Attends tournaments');
 	legend.append('text')
-		.attr('transform', d => 'translate(0,96)')
+		.attr('transform', d => 'translate(32,48)')
 		// .attr('class', 'place-label')
 		.attr('class', 'legend-label-medium')
 		.text('Inactive');
 
 	legend.append('text')
-		.attr('transform', d => 'translate(32,-40)')
+		.attr('transform', d => 'translate(-80,-40)')
 		.attr('class', 'legend-label')
-		.attr("text-anchor", "middle")
 		.text('College quizbowl circuit map');
 
 });

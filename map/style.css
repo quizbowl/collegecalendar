@@ -40,6 +40,7 @@
 .region-label-id {
 	font-size: 11px;
 	font-weight: 400;
+	font-variant: small-caps;
 }
 .region-label {
 	/*display: none;*/
