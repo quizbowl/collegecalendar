@@ -46,7 +46,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 2A	1	Washington	DC	USA	38.936998	-76.998649		Catholic	Catholic University of America
 2A	1	Poughkeepsie	NY	USA	41.686799	-73.895700		Vassar	Vassar College
 2A	1	Annandale-On-Hudson	NY	USA	42.023287	-73.909319		Bard	Bard College
-2A	2	Swarthmore	PA	USA	39.906841	-75.355648		Swarthmore	Swarthmore College
+2A	1	Swarthmore	PA	USA	39.906841	-75.355648		Swarthmore	Swarthmore College
 2A	1	Gettysburg	PA	USA	39.834949	-77.232193		Gettysburg	Gettysburg College
 2A	0	Villanova	PA	USA	40.037056	-75.343580		Villanova	Villanova University
 2A	1	Bethlehem	PA	USA	40.605591	-75.377297		Lehigh	Lehigh University
@@ -75,7 +75,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 3A	1	Nashville	TN	USA	36.133163	-86.794293		Belmont	Belmont University
 3A	0	Lexington	KY	USA	38.053147	-84.493651		Transylvania	Transylvania University
 3A	2	Knoxville	TN	USA	35.954401	-83.929456		Tennessee	University of Tennessee-Knoxville
-3B	2	Columbia	SC	USA	33.996112	-81.027428		South Carolina	University of South Carolina
+3B	1	Columbia	SC	USA	33.996112	-81.027428		South Carolina	University of South Carolina
 3B	1	Greenville	SC	USA	34.927790	-82.440067		Furman	Furman University
 3B	2	Athens	GA	USA	33.948005	-83.377322	UGA	Georgia	University of Georgia
 3B	2	Atlanta	GA	USA	33.775618	-84.396285	GT	Georgia Tech	Georgia Institute of Technology
@@ -109,7 +109,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 3C	1	Gainesville	FL	USA	29.681841	-82.438227		Santa Fe	Santa Fe College
 3C	1	Avon Park	FL	USA	27.569866	-81.512386		South Florida	South Florida State College
 3C	1	Melbourne	FL	USA	28.064105	-80.621310		Florida Tech	Florida Institute of Technology
-4A	1	Baton Rouge	LA	USA	30.413258	-91.180002	LSU	Louisiana State	Louisiana State University
+4A	0	Baton Rouge	LA	USA	30.413258	-91.180002	LSU	Louisiana State	Louisiana State University
 4A	1	Richardson	TX	USA	32.985454	-96.754319	UT-Dallas	Texas-Dallas	University of Texas-Dallas
 4A	2	Austin	TX	USA	30.284919	-97.734057	UT-Austin	Texas	The University of Texas at Austin
 4A	2	Houston	TX	USA	29.717394	-95.401831		Rice	Rice University
@@ -122,7 +122,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 4A	1	Orange	TX	USA	30.091430	-93.731561	LSC-O	Lamar-Orange	Lamar State College-Orange
 4B	0	El Paso	TX	USA	31.770854	-106.504622	UTEP	Texas-El Paso	University of Texas at El Paso
 4B	1	Las Cruces	NM	USA	32.276736	-106.747752		NMSU	New Mexico State University
-4B	1	Tuscon	AZ	USA	32.235173	-110.950995		Arizona	University of Arizona
+4B	0	Tuscon	AZ	USA	32.235173	-110.950995		Arizona	University of Arizona
 4B	2	Tempe	AZ	USA	33.421959	-111.938138	ASU	Arizona State	Arizona State University
 5B	2	Berkeley	CA	USA	37.871899	-122.258540		Berkeley	University of California-Berkeley
 5B	2	Stanford	CA	USA	37.427475	-122.169719		Stanford	Stanford University
@@ -133,18 +133,18 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 5A	2	Los Angeles	CA	USA	34.068921	-118.445181		UCLA	University of California-Los Angeles
 5A	2	Los Angeles	CA	USA	34.021883	-118.285867		USC	University of Southern California
 5A	2	Claremont	CA	USA	34.094399	-117.708296	Claremont	Claremont Colleges	Claremont Colleges
-5A	0	Irvine	CA	USA	33.640495	-117.844296	UC-Irvine	UC Irvine	University of California-Irvine
+5A	1	Irvine	CA	USA	33.640495	-117.844296	UC-Irvine	UC Irvine	University of California-Irvine
 5A	1	Pasadena	CA	USA	34.137658	-118.125269		Caltech	California Institute of Technology
-5A	0	Santa Barbara	CA	USA	34.413963	-119.848947	UCSB	UC Santa Barbara	University of California-Santa Barbara
+5A	1	Santa Barbara	CA	USA	34.413963	-119.848947	UCSB	UC Santa Barbara	University of California-Santa Barbara
 6A	2	Seattle	WA	USA	47.655335	-122.303520	UW	Washington	University of Washington
 6A	2	Boise	ID	USA	43.603313	-116.201649		Boise State	Boise State University
 6A	0	Eugene	OR	USA	44.044830	-123.072606		Oregon	University of Oregon
 6A	1	Portland	OR	USA	45.481243	-122.630884		Reed	Reed College
 6A	2	Vancouver	BC	Canada	49.260605	-123.245994	UBC	British Columbia	University of British Columbia
 6A	1	Edmonton	AB	Canada	53.5232	-113.5263		Alberta	University of Alberta
-6B	1	Boulder	CO	USA	40.007581	-105.265942		Colorado	University of Colorado-Boulder
+6B	0	Boulder	CO	USA	40.007581	-105.265942		Colorado	University of Colorado-Boulder
 6B	1	Colorado Springs	CO	USA	38.849337	-104.825382		Colorado College	Colorado College
-6B	1	Provo	UT	USA	40.251844	-111.649316	BYU	Brigham Young	Brigham Young University
+6B	0	Provo	UT	USA	40.251844	-111.649316	BYU	Brigham Young	Brigham Young University
 6B	0	Fort Collins	CO	USA	40.570935	-105.086552	CSU	Colorado State	Colorado State University
 6B	0	Colorado Springs	CO	USA	38.892493	-104.799697	UCCS	UC-Colorado Springs	University of Colorado Colorado Springs
 7A	1	Edmond	OK	USA	35.654866	-97.471463		Central Oklahoma	University of Central Oklahoma
@@ -157,14 +157,15 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 7A	1	Liberal	KS	USA	37.058672	-100.916229	SCCC	Seward County	Seward County Community College
 7A	1	Chanute	KS	USA	37.670786	-95.464982	NCCC	Neosho County	Neosho County Community College
 7A	1	Coffeyville	KS	USA	37.033913	-95.622790		Coffeyville	Coffeyville Community College
-7A	0	Tulsa	OK	USA	36.151988	-95.946000		Tulsa	University of Tulsa
+7A	1	Tulsa	OK	USA	36.151988	-95.946000		Tulsa	University of Tulsa
 7A	0	Shawnee	OK	USA	35.361250	-96.934085		Oklahoma Baptist	Oklahoma Baptist University
 7A	1	Stillwater	OK	USA	36.129580	-97.088537		Oklahoma State	Oklahoma State University
 7A	2	Tishomingo	OK	USA	34.222380	-96.677874		Murray State	Murray State College
 7A	1	El Reno	OK	USA	35.519993	-97.974400		Redlands	Redlands Community College
 7A	1	Fayetteville	AR	USA	36.068836	-94.174927		Arkansas	University of Arkansas
+7A	1	Searcy	AR	USA	35.249648   -91.727136		Harding	Harding University
 7B	2	Columbia	MO	USA	38.940381	-92.327738	Mizzou	Missouri	University of Missouri-Columbia
-7B	2	Kirksville	MO	USA	40.186563	-92.580864		Truman State	Truman State University
+7B	1	Kirksville	MO	USA	40.186563	-92.580864		Truman State	Truman State University
 7B	2	St. Louis	MO	USA	38.648790	-90.310796		WUSTL	Washington University in St. Louis
 7B	1	Rolla	MO	USA	37.952894	-91.773858		Missouri S&T	Missouri University of Science and Technology
 8A	2	Minneapolis	MN	USA	44.975354	-93.233074	UMN	Minnesota	University of Minnesota-Twin Cities
@@ -185,7 +186,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 8A	2	Iowa City	IA	USA	41.662696	-91.554900		Iowa	University of Iowa
 8A	1	Grinnell	IA	USA	41.751119	-92.719848		Grinnell	Grinnell College
 8A	2	Ames	IA	USA	42.026619	-93.646465		Iowa State	Iowa State University
-8A	1	Winnipeg	MB	Canada	49.8075	-97.1366		Manitoba	University of Manitoba
+8A	0	Winnipeg	MB	Canada	49.8075	-97.1366		Manitoba	University of Manitoba
 8B	2	Chicago	IL	USA	41.788608	-87.598713		Chicago	The University of Chicago
 8B	0	DeKalb	IL	USA	41.929474	-88.750365	NIU	Northern Illinois	Northern Illinois University
 8B	2	Evanston	IL	USA	42.056459	-87.675267		Northwestern	Northwestern University
@@ -217,22 +218,23 @@ CA	2	Ottawa	ON	Canada	45.387581	-75.696020	Carleton	Carleton University	Carleton
 CA	2	Ottawa	ON	Canada	45.423106	-75.683133		Ottawa	University of Ottawa
 CA	2	Montreal	QC	Canada	45.504785	-73.577151		McGill	McGill University
 CA	1	London	ON	Canada	43.0096	-81.2737		Western	University of Western Ontario
-CA	1	Niagara-on-the-Lake	ON	Canada	43.1522	-79.1652		Niagara	Niagara College
+CA	0	Niagara-on-the-Lake	ON	Canada	43.1522	-79.1652		Niagara	Niagara College
+CA	1	Guelph	ON	Canada	43.533019  -80.226168		Guelph	University of Guelph
 UK	2	Cambridge	England	UK	52.204267	0.114908		Cambridge	Cambridge
 UK	2	London	England	UK	51.498800	-0.174877	Imperial	Imperial College	Imperial College London
 UK	2	Oxford	England	UK	51.754816	-1.254367		Oxford	University of Oxford
-UK	2	Oxford	England	UK	51.755520	-1.226159		Oxford Brookes	Oxford Brookes University
+UK	1	Oxford	England	UK	51.755520	-1.226159		Oxford Brookes	Oxford Brookes University
 UK	2	Coventry	England	UK	52.379442	-1.563193		Warwick	Warwick
 UK	2	Southampton	England	UK	50.936580	-1.396017		Southampton	Southampton University
 UK	1	London	England	UK	51.469844	-0.089278	KCL	King’s	King’s College London
-UK	1	Durham	England	UK	54.768633	-1.572089		Durham	Durham University
+UK	2	Durham	England	UK	54.768633	-1.572089		Durham	Durham University
 UK	1	Manchester	England	UK	53.466004	-2.233008		Manchester	The University of Manchester
 UK	1	Bristol	England	UK	51.457612	-2.601620		Bristol	University of Bristol
 UK	1	Sheffield	England	UK	53.381529	-1.488530		Sheffield	University of Sheffield
 UK	1	Birmingham	England	UK	52.450914	-1.930513		Birmingham	University of Birmingham
 UK	1	York	England	UK	53.946247	-1.051803		York	University of York
 UK	1	Cardiff	Wales	UK	51.487996	-3.179697		Cardiff	Cardiff University
-UK	2	Glasgow	Scotland	UK	55.872315	-4.289219		Glasgow	University of Glasgow
+UK	1	Glasgow	Scotland	UK	55.872315	-4.289219		Glasgow	University of Glasgow
 UK	1	Edinburgh	Scotland	UK	55.944516	-3.189241		Edinburgh	University of Edinburgh
-UK	1	Dundee	Scotland	UK	56.457967	-2.982148		Dundee	University of Dundee
-UK	1	Belfast	Northern Ireland	UK	54.584409	-5.934049		Queen’s	Queen’s University Belfast
+UK	0	Dundee	Scotland	UK	56.457967	-2.982148		Dundee	University of Dundee
+UK	0	Belfast	Northern Ireland	UK	54.584409	-5.934049		Queen’s	Queen’s University Belfast
