@@ -34,6 +34,13 @@ var defs = svg.append('defs');
 		.attr('r', id === 'circle-large' ? 4 : 2)
 		.attr('class', id);
 });
+defs.append('symbol')
+	.attr('id', 'triangle-small')
+	.attr('overflow', 'visible')
+	.append('path')
+	.attr('d', 'M 0 -2.5 L 2.165 1.25 L -2.165 1.25 Z')
+	.attr('class', 'triangle-small');
+
 svg.append("path")
 	.datum({type: "Sphere"})
 	.attr("class", "sphere")
@@ -187,6 +194,7 @@ const voronoi = d3.geom.voronoi()
 		2: 'circle-large',
 		1: 'circle-small',
 		0: 'circle-inactive',
+		3: 'triangle-small',
 	}
 	main.selectAll('.place')
 		.data(colleges)
@@ -449,6 +457,9 @@ if (collegesHighlight) {
 		.attr('xlink:href', '#circle-small');
 	legend.append('use')
 		.attr('transform', d => 'translate(16,44)')
+		.attr('xlink:href', '#triangle-small');
+	legend.append('use')
+		.attr('transform', d => 'translate(16,68)')
 		.attr('xlink:href', '#circle-inactive');
 	legend.append('text')
 		// .attr('class', 'place-label')
@@ -462,6 +473,11 @@ if (collegesHighlight) {
 		.text('Attends tournaments');
 	legend.append('text')
 		.attr('transform', d => 'translate(32,48)')
+		// .attr('class', 'place-label')
+		.attr('class', 'legend-label-medium')
+		.text('Attends primarily online tournaments');
+	legend.append('text')
+		.attr('transform', d => 'translate(32,72)')
 		// .attr('class', 'place-label')
 		.attr('class', 'legend-label-medium')
 		.text('Inactive');

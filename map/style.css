@@ -105,7 +105,8 @@ circle.circle-inactive {
 	stroke: #0005;
 	stroke-width: 1px;
 }
-circle.circle-small {
+circle.circle-small,
+path.triangle-small {
 	/*fill: #3dab89d8;*/
 	fill: white;
 	stroke: black;
