@@ -166,6 +166,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 7A	1	El Reno	OK	USA	35.519993	-97.974400		Redlands	Redlands Community College
 7A	1	Fayetteville	AR	USA	36.068836	-94.174927		Arkansas	University of Arkansas
 7A	1	Searcy	AR	USA	35.249648   -91.727136		Harding	Harding University
+7A	1	Searcy	AR	USA	35.249648	-91.727136		Harding	Harding University
 7B	2	Columbia	MO	USA	38.940381	-92.327738	Mizzou	Missouri	University of Missouri-Columbia
 7B	1	Kirksville	MO	USA	40.186563	-92.580864		Truman State	Truman State University
 7B	2	St. Louis	MO	USA	38.648790	-90.310796		WUSTL	Washington University in St. Louis
