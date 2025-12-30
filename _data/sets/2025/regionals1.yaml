@@ -9,20 +9,20 @@ firstmirror: 2026-01-31
 announced:   2025-08-28
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29321
 mirrors:
-  - { date: 2026-01-31, region: 1A, name: Boston University,                     url: https://hsquizbowl.org/forums/viewtopic.php?t=29674 }
-  - { date: 2026-01-31, region: 1B, name: Cornell,                    url: https://hsquizbowl.org/forums/viewtopic.php?t=29671 }
-  - { date: 2026-01-31, region: 2A, name: Penn,                      url: https://hsquizbowl.org/forums/viewtopic.php?t=29656 }
-  - { date: 2026-01-31, region: 2B, name: UNC,               url: https://hsquizbowl.org/forums/viewtopic.php?t=29679 }
-  - { date: 2026-01-31, region: 3A, name: Vanderbilt,           url: https://hsquizbowl.org/forums/viewtopic.php?t=29662 }
-  - { date: 2026-01-31, region: 3C, name: Florida,                     url: https://hsquizbowl.org/forums/viewtopic.php?t=29659 }
-  - { date: 2026-01-31, region: 8C, name: Case Western,                      url: https://hsquizbowl.org/forums/viewtopic.php?t=29657 }
-  - { date: 2026-01-31, region: 7B, name: Missouri S&T,                url: https://hsquizbowl.org/forums/viewtopic.php?t=29506 }
-  - { date: 2026-01-31, region: 8B, name: Northwestern,                      url: https://hsquizbowl.org/forums/viewtopic.php?t=29684 }
-  - { date: 2026-01-31, region: 8A, name: Minnesota,                   url: https://hsquizbowl.org/forums/viewtopic.php?t=29653 }
-  - { date: 2026-01-31, region: 5B, name: Berkeley,                    url: https://hsquizbowl.org/forums/viewtopic.php?t=29654 }
-  - { date: 2026-01-31, region: 4A, name: UT-Austin, url: https://hsquizbowl.org/forums/viewtopic.php?t=29663 }
-  - { date: 2026-01-31, region: 6A, eligible: Online, name: Washington,            url: https://hsquizbowl.org/forums/viewtopic.php?t=29665 }
-  - { date: 2026-01-31, region: 5A, name: UC San Diego,          url: https://hsquizbowl.org/forums/viewtopic.php?t=29658 }
-  - { date: 2026-01-31, region: CA, name: Toronto,                    url: https://hsquizbowl.org/forums/viewtopic.php?t=29652 }
+  - { date: 2026-01-31, region: 1A, name: Boston University,            url: https://hsquizbowl.org/forums/viewtopic.php?t=29674 }
+  - { date: 2026-01-31, region: 1B, name: Cornell,                      url: https://hsquizbowl.org/forums/viewtopic.php?t=29671 }
+  - { date: 2026-01-31, region: 2A, name: Penn,                         url: https://hsquizbowl.org/forums/viewtopic.php?t=29656 }
+  - { date: 2026-01-31, region: 2B, name: UNC,                          url: https://hsquizbowl.org/forums/viewtopic.php?t=29679 }
+  - { date: 2026-01-31, region: 3A, name: Vanderbilt,                   url: https://hsquizbowl.org/forums/viewtopic.php?t=29662 }
+  - { date: 2026-01-31, region: 3C, name: Florida,                      url: https://hsquizbowl.org/forums/viewtopic.php?t=29659 }
+  - { date: 2026-01-31, region: 8C, name: Case Western,                 url: https://hsquizbowl.org/forums/viewtopic.php?t=29657 }
+  - { date: 2026-01-31, region: 7B, name: Missouri S&T,                 url: https://hsquizbowl.org/forums/viewtopic.php?t=29506 }
+  - { date: 2026-01-31, region: 8B, name: Northwestern,                 url: https://hsquizbowl.org/forums/viewtopic.php?t=29684 }
+  - { date: 2026-01-31, region: 8A, name: Minnesota,                    url: https://hsquizbowl.org/forums/viewtopic.php?t=29653 }
+  - { date: 2026-01-31, region: 5B, name: Berkeley,                     url: https://hsquizbowl.org/forums/viewtopic.php?t=29654 }
+  - { date: 2026-01-31, region: 4A, name: UT-Austin,                    url: https://hsquizbowl.org/forums/viewtopic.php?t=29663 }
+  - { date: 2026-01-31, region: 6A, eligible: Online, name: Washington, url: https://hsquizbowl.org/forums/viewtopic.php?t=29665 }
+  - { date: 2026-01-31, region: 5A, name: UC San Diego,                 url: https://hsquizbowl.org/forums/viewtopic.php?t=29658 }
+  - { date: 2026-01-31, region: CA, name: Toronto,                      url: https://hsquizbowl.org/forums/viewtopic.php?t=29652 }
   - { date: 2026-01-31, region: UK, name: Imperial,                     url: https://hsquizbowl.org/forums/viewtopic.php?t=29651 }
 

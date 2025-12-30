@@ -7,16 +7,16 @@ name:        Penn Bowl
 announced:   2025-05-15
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29045
 mirrors:
-  - { date: 2025-11-01, region: 1A, name: Boston University, url: https://hsquizbowl.org/forums/viewtopic.php?p=408663 }
-  - { date: 2025-11-01, region: 2A, name: Penn, url: https://hsquizbowl.org/forums/viewtopic.php?p=408593 }
-  - { date: 2025-11-01, region: 2B, name: UNC, url: https://hsquizbowl.org/forums/viewtopic.php?t=29430 }
-  - { date: 2025-10-25, region: 5B, name: Stanford, url: https://hsquizbowl.org/forums/viewtopic.php?t=29457 }
-  - { date: 2025-10-25, region: 8B, name: Northwestern, url: https://hsquizbowl.org/forums/viewtopic.php?p=408798 }
-  - { date: 2025-11-01, region: CA, name: Ottawa, url: https://hsquizbowl.org/forums/viewtopic.php?p=408499}  
-  - { date: 2025-11-23, region: 6A, name: UBC, url: https://hsquizbowl.org/forums/viewtopic.php?p=408776 }
-  - { date: 2025-11-02, region: 8C, name: Case Western, url: https://hsquizbowl.org/forums/viewtopic.php?p=408783 }
-  - { date: 2025-11-01, region: 7B, name: WUSTL, url: https://hsquizbowl.org/forums/viewtopic.php?t=29574 }
-  - { date: 2025-10-25, region: 7A, name: Murray State, url: https://hsquizbowl.org/forums/viewtopic.php?p=408440 }
-  - { date: 2025-11-01, region: UK, name: LSE, url: https://quizbowl.co.uk/blog/2025-08-14-autumn-2025/ }
-  - { date: 2026-01-17, eligible: Online, eligible: HS allowed, region: 0L, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=29740 }
-  - { date: 2026-01-17, region: 3B, name: Auburn, url: https://hsquizbowl.org/forums/viewtopic.php?t=29689 }
+  - { date: 2025-11-01, region: 1A, name: Boston University, url: https://hsquizbowl.org/forums/viewtopic.php?t=29513 }
+  - { date: 2025-11-01, region: 2A, name: Penn,              url: https://hsquizbowl.org/forums/viewtopic.php?t=29495 }
+  - { date: 2025-11-01, region: 2B, name: UNC,               url: https://hsquizbowl.org/forums/viewtopic.php?t=29430 }
+  - { date: 2025-10-25, region: 5B, name: Stanford,          url: https://hsquizbowl.org/forums/viewtopic.php?t=29457 }
+  - { date: 2025-10-25, region: 8B, name: Northwestern,      url: https://hsquizbowl.org/forums/viewtopic.php?t=29462 }
+  - { date: 2025-11-01, region: CA, name: Ottawa,            url: https://hsquizbowl.org/forums/viewtopic.php?t=29459 }
+  - { date: 2025-11-23, region: 6A, name: UBC,               url: https://hsquizbowl.org/forums/viewtopic.php?t=29535 }
+  - { date: 2025-11-02, region: 8C, name: Case Western,      url: https://hsquizbowl.org/forums/viewtopic.php?t=29537 }
+  - { date: 2025-11-01, region: 7B, name: WUSTL,             url: https://hsquizbowl.org/forums/viewtopic.php?t=29574 }
+  - { date: 2025-10-25, region: 7A, name: Murray State,      url: https://hsquizbowl.org/forums/viewtopic.php?t=29442 }
+  - { date: 2025-11-01, region: UK, name: LSE,               url: https://quizbowl.co.uk/blog/2025-08-14-autumn-2025/ }
+  - { date: 2026-01-17, region: 0L, name: Online,            url: https://hsquizbowl.org/forums/viewtopic.php?t=29740, eligible: HS allowed }
+  - { date: 2026-01-17, region: 3B, name: Auburn,            url: https://hsquizbowl.org/forums/viewtopic.php?t=29689 }
