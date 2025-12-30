@@ -10,3 +10,17 @@ firstmirror: 2026-02-07
 clear:       never
 packetsurl:  never
 mirrors:
+  - { date: 2026-02-07, region: 1A, name: Yale,                            url: https://www.naqt.com/go/field/17854 }
+  - { date: 2026-02-07, region: 1B, name: Rochester,                       url: https://www.naqt.com/go/field/17878 }
+  - { date: 2026-02-07, region: 2A, name: Rutgers,                         url: https://www.naqt.com/go/field/17855 }
+  - { date: 2026-02-07, region: 2B, name: VCU,                             url: https://www.naqt.com/go/field/17856 }
+  - { date: 2026-02-07, region: 3A, name: Vanderbilt,                      url: https://www.naqt.com/go/field/17857 }
+  - { date: 2026-02-07, region: 3C, name: Florida,                         url: https://www.naqt.com/go/field/17895 }
+  - { date: 2026-02-07, region: 8C, name: Ohio State,                      url: https://www.naqt.com/go/field/17858 }
+  - { date: 2026-02-07, region: 7B, name: Missouri,                        url: https://www.naqt.com/go/field/17859 }
+  - { date: 2026-02-07, region: 8B, name: Illinois,                        url: https://www.naqt.com/go/field/17884 }
+  - { date: 2026-02-07, region: 8A, name: Minnesota,                       url: https://hsquizbowl.org/forums/viewtopic.php?t=29655 }
+  - { date: 2026-02-07, region: 4A, name: UT-Dallas,                       url: https://hsquizbowl.org/forums/viewtopic.php?t=29695 }
+  - { date: 2026-02-07, region: 6A, name: Washington,                      url: https://www.naqt.com/go/field/17860 }
+  - { date: 2026-02-07, region: 0L, eligible: online, name: Arizona State, url: https://hsquizbowl.org/forums/viewtopic.php?t=29723 }
+  - { date: 2026-02-07, region: CA, name: Ottawa,                          url: https://www.naqt.com/go/field/17917 }
