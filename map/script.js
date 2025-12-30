@@ -196,132 +196,6 @@ const voronoi = d3.geom.voronoi()
 		0: 'circle-inactive',
 		3: 'triangle-small',
 	}
-	main.selectAll('.place')
-		.data(colleges)
-		.enter()
-		.append('use')
-		.attr('transform', d => 'translate(' + projection(d.coordinates) +')')
-		.attr('xlink:href', d => '#' + markerIds[d.active]);
-
-/* subtended = radius * angle (s = rθ) */
-var EARTH_RADIUS = 3959;                         // miles
-var radiusMiles  = 100;                          // miles (radius of circle to draw)
-var angleRadians = radiusMiles / EARTH_RADIUS;   // angle subtended in radians
-var angleDegrees = angleRadians * 180 / Math.PI; // angle subtended in degrees
-
-// TODO defining paddingTopBottom here outside the function for some reason is what makes the
-// label-arrow not be drawn (due to NaN in path) during the highlight-labeling pass
-// very janky/half unintentional feature in case that's what you want to do
-function makePlaceLabel(selection, element, hover) {
-	var marginLeftRight = 8; // adjust the padding values depending on font and font size
-	var paddingLeftRight = 6; // adjust the padding values depending on font and font size
-	var paddingTopBottom = 4;
-	selection.each((d) => {
-		var pcoords = projection(d.coordinates);
-		var g = element.select('g.place-label-group');
-		if (g.empty()) {
-			g = element.append('g').attr('class', 'place-label-group');
-		}
-		var id = d.college
-		var text = g.append('text')
-			.datum(d.point)
-			.attr('data-college', id)
-			.attr('class', 'place-label ' + (hover ? 'place-label-1' : ' highlight'))
-			.attr('transform', 'translate(' + pcoords + ')')
-			.attr("x", - marginLeftRight - 3 * paddingLeftRight / 2)
-			// .attr("x", function(d) { return d.coordinates[0] > -88 ? 6 : -6; })
-			.attr("dy", ".35em")
-			.style("text-anchor", 'end')
-			// .style("text-anchor", function(d) { return d.coordinates[0] > -88 ? "start" : "end"; })
-			.text(d.college);
-
-		var bb = text[0][0].getBBox();
-
-		pcoords[0] = Math.round(pcoords[0]) + .5; pcoords[1] = Math.round(pcoords[1]);
-		g.insert("path", `text[data-college=${CSS.escape(id)}]`)
-			.datum(d.point)
-			.attr('class', 'place-label-rect ' + (hover ? 'place-label-1' : 'highlight'))
-			.attr('fill', 'blue')
-			.attr('transform', 'translate(' + pcoords + ')')
-			.attr('d', 'M ' + (- marginLeftRight) + ' 0 ' +
-					   'l ' + (- paddingLeftRight) + ' ' + (- bb.height / 2 - paddingTopBottom / 2) +
-					   'l ' + (- Math.round(bb.width) - 3 * paddingLeftRight / 2) + ' 0 ' +
-					   'l 0 ' + (bb.height + paddingTopBottom) + ' ' +
-					   'l ' + (+ Math.round(bb.width) + 3 * paddingLeftRight / 2) + ' 0 ' +
-					   'Z')
-
-		if (d.mirrorDate) {
-			g.append('text')
-				.datum(d.point)
-				.attr('class', 'place-label place-label-date')
-				.attr('transform', 'translate(' + pcoords + ')')
-				.attr("x", - marginLeftRight - bb.width - 3 * paddingLeftRight /2)
-				.attr("dy", "1.85em")
-				.style("text-anchor", 'start')
-				.text(d.mirrorDate);
-		}
-	});
-}
-
-main.selectAll('.voronoi')
-  .data(voronoi(colleges))
-  .enter().append('g')
-	.attr('fill', 'none')
-	// .attr('stroke', '#40a94235')
-	.attr('pointer-events', 'all')
-  .append('path')
-	.attr('d', d => d ? 'M' + d.join('L') + 'Z' : null)
-	.on('mouseover', (d) => {
-		// make a selection of one element with d.point as its data
-		var selection = d3.select(this);
-		selection.datum(d.point);
-		makePlaceLabel(selection, svg, true);
-	})
-	.on('mouseout', (d) => {
-	  svg.selectAll(".place-label-1").remove();
-	});
-
-/*	.on('mouseover', (d) => {
-		// distanceLimitedVoronoi
-
-var circle  = d3.geo.circle().angle  (angleDegrees).origin(d.point.coordinates);
-var circle2 = d3.geo.circle().angle(2*angleDegrees).origin(d.point.coordinates);
-svg.append("path")
-  .datum(circle)
-	.attr("d", path)
-	.attr("class", "radius");
-svg.append("path")
-  .datum(circle2)
-	.attr("d", path)
-	.attr("class", "radius");
-
-// TODO label circles with 100 and 200 mi
-// TODO circles overlap college name labels in mouseover precedence?
-svg.append("text")
-	.datum(d.point)
-	.attr('class', 'place-label place-label-1')
-	.attr('transform', d => 'translate(' + projection(d.coordinates) + ')')
-	.text("100 mi.")
-	.attr("class", "radius-label place-label");
-	
-	  // Pop up information
-	})
-	.on('mouseout', (d) => {
-	  svg.selectAll(".radius").remove();
-	  svg.selectAll(".radius-label").remove();
-	});
-*/
-/*
-	main.selectAll('.place-label')
-		.data(colleges)
-		.enter()
-		.append('text')
-		.attr('class', 'place-label')
-		.attr('transform', d => 'translate(' + projection(d.coordinates) +')')
-		.attr("x", function(d) { return d.coordinates[0] > -88 ? 6 : -6; })
-		.attr("dy", ".35em")
-		.style("text-anchor", function(d) { return d.coordinates[0] > -88 ? "start" : "end"; })
-		.text(d => d.college);*/
 
 if (collegesHighlight) {
 	var collegesInQuery = [];
@@ -432,6 +306,134 @@ if (collegesHighlight) {
 		.call(makePlaceLabel, labelG, false)
 }
 
+	main.selectAll('.place')
+		.data(colleges)
+		.enter()
+		.append('use')
+		.attr('transform', d => 'translate(' + projection(d.coordinates) +')')
+		.attr('xlink:href', d => '#' + markerIds[d.active]);
+
+/* subtended = radius * angle (s = rθ) */
+var EARTH_RADIUS = 3959;                         // miles
+var radiusMiles  = 100;                          // miles (radius of circle to draw)
+var angleRadians = radiusMiles / EARTH_RADIUS;   // angle subtended in radians
+var angleDegrees = angleRadians * 180 / Math.PI; // angle subtended in degrees
+
+// TODO defining paddingTopBottom here outside the function for some reason is what makes the
+// label-arrow not be drawn (due to NaN in path) during the highlight-labeling pass
+// very janky/half unintentional feature in case that's what you want to do
+function makePlaceLabel(selection, element, hover) {
+	var marginLeftRight = 8; // adjust the padding values depending on font and font size
+	var paddingLeftRight = 6; // adjust the padding values depending on font and font size
+	var paddingTopBottom = 4;
+	selection.each((d) => {
+		var pcoords = projection(d.coordinates);
+		var g = element.select('g.place-label-group');
+		if (g.empty()) {
+			g = element.append('g').attr('class', 'place-label-group');
+		}
+		var id = d.college
+		var text = g.append('text')
+			.datum(d.point)
+			.attr('data-college', id)
+			.attr('class', 'place-label ' + (hover ? 'place-label-1' : ' highlight'))
+			.attr('transform', 'translate(' + pcoords + ')')
+			.attr("x", - marginLeftRight - 3 * paddingLeftRight / 2)
+			// .attr("x", function(d) { return d.coordinates[0] > -88 ? 6 : -6; })
+			.attr("dy", ".35em")
+			.style("text-anchor", 'end')
+			// .style("text-anchor", function(d) { return d.coordinates[0] > -88 ? "start" : "end"; })
+			.text(d.college);
+
+		var bb = text[0][0].getBBox();
+
+		pcoords[0] = Math.round(pcoords[0]) + .5; pcoords[1] = Math.round(pcoords[1]);
+		g.insert("path", `text[data-college=${CSS.escape(id)}]`)
+			.datum(d.point)
+			.attr('class', 'place-label-rect ' + (hover ? 'place-label-1' : 'highlight'))
+			.attr('fill', 'blue')
+			.attr('transform', 'translate(' + pcoords + ')')
+			.attr('d', 'M ' + (- marginLeftRight) + ' 0 ' +
+					   'l ' + (- paddingLeftRight) + ' ' + (- bb.height / 2 - paddingTopBottom / 2) +
+					   'l ' + (- Math.round(bb.width) - 3 * paddingLeftRight / 2) + ' 0 ' +
+					   'l 0 ' + (bb.height + paddingTopBottom) + ' ' +
+					   'l ' + (+ Math.round(bb.width) + 3 * paddingLeftRight / 2) + ' 0 ' +
+					   'Z')
+
+		if (d.mirrorDate) {
+			g.append('text')
+				.datum(d.point)
+				.attr('class', 'place-label place-label-date')
+				.attr('transform', 'translate(' + pcoords + ')')
+				.attr("x", - marginLeftRight - bb.width - 3 * paddingLeftRight /2)
+				.attr("dy", "1.85em")
+				.style("text-anchor", 'start')
+				.text(d.mirrorDate);
+		}
+	});
+}
+
+main.selectAll('.voronoi')
+  .data(voronoi(colleges))
+  .enter().append('g')
+	.attr('fill', 'none')
+	// .attr('stroke', '#40a94235')
+	.attr('pointer-events', 'all')
+  .append('path')
+	.attr('d', d => d ? 'M' + d.join('L') + 'Z' : null)
+	.on('mouseover', (d) => {
+		// make a selection of one element with d.point as its data
+		var selection = d3.select(this);
+		selection.datum(d.point);
+		makePlaceLabel(selection, svg, true);
+	})
+	.on('mouseout', (d) => {
+	  svg.selectAll(".place-label-1").remove();
+	});
+
+/*	.on('mouseover', (d) => {
+		// distanceLimitedVoronoi
+
+var circle  = d3.geo.circle().angle  (angleDegrees).origin(d.point.coordinates);
+var circle2 = d3.geo.circle().angle(2*angleDegrees).origin(d.point.coordinates);
+svg.append("path")
+  .datum(circle)
+	.attr("d", path)
+	.attr("class", "radius");
+svg.append("path")
+  .datum(circle2)
+	.attr("d", path)
+	.attr("class", "radius");
+
+// TODO label circles with 100 and 200 mi
+// TODO circles overlap college name labels in mouseover precedence?
+svg.append("text")
+	.datum(d.point)
+	.attr('class', 'place-label place-label-1')
+	.attr('transform', d => 'translate(' + projection(d.coordinates) + ')')
+	.text("100 mi.")
+	.attr("class", "radius-label place-label");
+
+	  // Pop up information
+	})
+	.on('mouseout', (d) => {
+	  svg.selectAll(".radius").remove();
+	  svg.selectAll(".radius-label").remove();
+	});
+*/
+/*
+	main.selectAll('.place-label')
+		.data(colleges)
+		.enter()
+		.append('text')
+		.attr('class', 'place-label')
+		.attr('transform', d => 'translate(' + projection(d.coordinates) +')')
+		.attr("x", function(d) { return d.coordinates[0] > -88 ? 6 : -6; })
+		.attr("dy", ".35em")
+		.style("text-anchor", function(d) { return d.coordinates[0] > -88 ? "start" : "end"; })
+		.text(d => d.college);*/
+
+
 	var legend = svg.append('g')
 		.attr('class', 'legend')
 		// .attr('transform', d => 'translate(' + projection([-71.7, 35]) +')');
@@ -441,7 +443,7 @@ if (collegesHighlight) {
 		.attr('class', 'region-label')
 		.text('Region');
 	legend.append('text')
-		.attr('transform', d => 'translate(-80,26)')
+		.attr('transform', d => 'translate(-81,26)')
 		.attr('class', 'region-label region-label-region')
 		.text('Circuit');
 	legend.append('text')
