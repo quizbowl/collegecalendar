@@ -12,6 +12,10 @@ mirrors:
   - { date: 2025-09-20, region: 4A, name: Texas, url: https://hsquizbowl.org/forums/viewtopic.php?t=29274 }
   - { date: 2025-10-11, region: 7B, name: WUSTL, url: https://hsquizbowl.org/forums/viewtopic.php?t=29390 }
   - { date: 2025-10-11, region: 4B, name: Arizona State, eligible: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=29400 }
-  - { date: TBD,        region: 2A, name: Rutgers }
-  - { date: 2025-11-08, region: UK, name: TBD }
+  - { date: 2025-12-07, region: 5B, name: Berkeley, url: https://hsquizbowl.org/db/tournaments/10074/ }
+  - { date: 2025-11-01, region: 5A, name: UCLA, url: https://hsquizbowl.org/forums/viewtopic.php?p=408837 }
+  - { date: 2026-02-21,        region: 2A, name: Rutgers, url: https://hsquizbowl.org/forums/viewtopic.php?t=29685 }
+  - { date: 2025-11-02,        region: CA, name: Carleton, url: https://hsquizbowl.org/forums/viewtopic.php?t=29538 }
+  - { date: 2026-01-31,        region: 8A, name: Iowa State, url: https://hsquizbowl.org/forums/viewtopic.php?t=29747 }
+  - { date: 2025-11-08, region: UK, name: Birmingham }
   - { date: TBD,        region: 1A, eligible: HS, name: Lexington }
