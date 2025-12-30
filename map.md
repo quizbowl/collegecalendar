@@ -3,9 +3,9 @@ title: Circuit map
 layout: page
 ---
 
-This map aims to portray the typical size of the college quizbowl circuit at a glance.  
+This map aims to portray the typical size of the college quizbowl circuit at a glance. 
 (No actual data is being plotted here;
-regions and points are guesses based on attendance at recent tournaments (circa 2019).
+regions and points are guesses based on attendance at recent tournaments (circa December 2025).
 Please submit errata to the [GitHub repository](/about/).)
 
 The geographic regions represented on this map are not intended to be normative in any way.
