@@ -7,6 +7,11 @@ producedby:  UNC, Duke, VT
 fullname:    "Another Renowned Carolina and Duke Invitational of Academia: the V stands for Virginia Tech"
 announced:   2025-03-26
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28917
-firstmirror: around February
-speculative: yes
+firstmirror: 2026-01-10
 mirrors:
+  - { date: 2026-01-10, region: 0P, name: Online,  url: https://hsquizbowl.org/forums/viewtopic.php?t=29693 }
+  - { date: 2026-03-07, region: 7A, name: Tulsa,   url: https://hsquizbowl.org/forums/viewtopic.php?t=29510 }
+  - { date: 2026-03-14, region: 6A, name: Alberta  }
+  - { date: 2026-03-07, region: 5A, name: UCSD     }
+  - { date: 2026-02-21, region: CA, name: McMaster }
+
