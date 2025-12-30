@@ -9,20 +9,20 @@ firstmirror: 2025-11-15
 announced:   2025-07-15
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29178
 mirrors:
-  - { date: 2025-11-15, region: 1A, name: Harvard, url: https://hsquizbowl.org/forums/viewtopic.php?p=408558 }
-  - { date: 2025-11-15, region: 1B, name: Syracuse, url: https://hsquizbowl.org/forums/viewtopic.php?p=408591 }
-  - { date: 2025-11-15, region: 2A, name: Lehigh, url: https://hsquizbowl.org/forums/viewtopic.php?p=408563 }
-  - { date: 2025-11-15, region: 2A, name: Johns Hopkins, url: https://hsquizbowl.org/forums/viewtopic.php?p=408551 }
-  - { date: 2025-11-15, region: 2B, name: Virginia Tech, url: https://hsquizbowl.org/forums/viewtopic.php?p=408552 }
-  - { date: 2025-11-15, region: 3B, name: Mississippi State, url: https://hsquizbowl.org/forums/viewtopic.php?p=408562 }
-  - { date: 2025-11-15, region: 3C, name: Florida, url: https://hsquizbowl.org/forums/viewtopic.php?p=408519 }
-  - { date: 2025-11-15, region: 8C, name: Kenyon, url: https://hsquizbowl.org/forums/viewtopic.php?p=408571 }
-  - { date: 2025-11-15, region: 7B, name: Missouri S&T, url: https://hsquizbowl.org/forums/viewtopic.php?p=408633 }
-  - { date: 2025-11-15, region: 8B, name: Purdue, url: https://hsquizbowl.org/forums/viewtopic.php?p=408583 }
-  - { date: 2025-11-15, region: 8A, name: Minnesota, url: https://hsquizbowl.org/forums/viewtopic.php?p=408564 }
-  - { date: 2025-11-15, region: 5B, name: Berkeley, url: https://hsquizbowl.org/forums/viewtopic.php?p=408543 }
-  - { date: 2025-11-15, region: 4A, eligible: Online, name: UT-Austin, url: https://hsquizbowl.org/forums/viewtopic.php?p=408645}
-  - { date: 2025-11-15, region: 6A, name: British Columbia, url: https://hsquizbowl.org/forums/viewtopic.php?p=408580 }
-  - { date: 2025-11-15, region: 5A, name: Claremont Colleges, url: https://hsquizbowl.org/forums/viewtopic.php?p=408524 }
-  - { date: 2025-11-15, region: CA, name: Waterloo, url: https://hsquizbowl.org/forums/viewtopic.php?p=408528 }
-  - { date: 2025-11-15, region: UK, name: Warwick, url: https://hsquizbowl.org/forums/viewtopic.php?p=408537 }
+  - { date: 2025-11-15, region: 1A, name: Harvard,                     url: https://hsquizbowl.org/forums/viewtopic.php?t=29478 }
+  - { date: 2025-11-15, region: 1B, name: Syracuse,                    url: https://hsquizbowl.org/forums/viewtopic.php?t=29494 }
+  - { date: 2025-11-15, region: 2A, name: Lehigh,                      url: https://hsquizbowl.org/forums/viewtopic.php?t=29480 }
+  - { date: 2025-11-15, region: 2A, name: Johns Hopkins,               url: https://hsquizbowl.org/forums/viewtopic.php?t=29475 }
+  - { date: 2025-11-15, region: 2B, name: Virginia Tech,               url: https://hsquizbowl.org/forums/viewtopic.php?t=29476 }
+  - { date: 2025-11-15, region: 3B, name: Mississippi State,           url: https://hsquizbowl.org/forums/viewtopic.php?t=29479 }
+  - { date: 2025-11-15, region: 3C, name: Florida,                     url: https://hsquizbowl.org/forums/viewtopic.php?t=29466 }
+  - { date: 2025-11-15, region: 8C, name: Kenyon,                      url: https://hsquizbowl.org/forums/viewtopic.php?t=29485 }
+  - { date: 2025-11-15, region: 7B, name: Missouri S&T,                url: https://hsquizbowl.org/forums/viewtopic.php?t=29506 }
+  - { date: 2025-11-15, region: 8B, name: Purdue,                      url: https://hsquizbowl.org/forums/viewtopic.php?t=29491 }
+  - { date: 2025-11-15, region: 8A, name: Minnesota,                   url: https://hsquizbowl.org/forums/viewtopic.php?t=29481 }
+  - { date: 2025-11-15, region: 5B, name: Berkeley,                    url: https://hsquizbowl.org/forums/viewtopic.php?t=29474 }
+  - { date: 2025-11-15, region: 4A, eligible: Online, name: UT-Austin, url: https://hsquizbowl.org/forums/viewtopic.php?t=29510 }
+  - { date: 2025-11-15, region: 6A, name: British Columbia,            url: https://hsquizbowl.org/forums/viewtopic.php?t=29489 }
+  - { date: 2025-11-15, region: 5A, name: Claremont Colleges,          url: https://hsquizbowl.org/forums/viewtopic.php?t=29469 }
+  - { date: 2025-11-15, region: CA, name: Waterloo,                    url: https://hsquizbowl.org/forums/viewtopic.php?t=29470 }
+  - { date: 2025-11-15, region: UK, name: Warwick,                     url: https://hsquizbowl.org/forums/viewtopic.php?t=29473 }

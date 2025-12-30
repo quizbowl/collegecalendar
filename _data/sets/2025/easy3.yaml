@@ -11,6 +11,6 @@ mirrors:
   - { date: 2025-09-27, region: 2A, name: Columbia,     url: https://hsquizbowl.org/forums/viewtopic.php?t=29189 }
   - { date: 2025-10-11, region: 8C, name: OSU,          url: https://hsquizbowl.org/forums/viewtopic.php?t=29272 }
   - { date: 2025-10-11, region: 7A, name: Murray State, eligible: HS allowed, url: https://hsquizbowl.org/forums/viewtopic.php?t=29250 }
-  - { date: 2025-11-08, region: 1B, name: Binghamton, url: https://hsquizbowl.org/forums/viewtopic.php?t=29534 }
-  - { date: 2026-01-24, region: 5A, name: UC San Diego, url: https://hsquizbowl.org/forums/viewtopic.php?p=409791 }
+  - { date: 2025-11-08, region: 1B, name: Binghamton,   url: https://hsquizbowl.org/forums/viewtopic.php?t=29534 }
+  - { date: 2026-01-24, region: 5A, name: UCSD,         url: https://hsquizbowl.org/forums/viewtopic.php?t=29709 }
 
