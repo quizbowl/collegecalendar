@@ -8,10 +8,13 @@ fullname:    Nationals-Advance Fall Tournament for All
 announced:   2024-11-18
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28539
 mirrors:
-  - { date: 2025-09-13, region: CA, name: Toronto, url: https://hsquizbowl.org/forums/viewtopic.php?t=29247 }
-  - { date: 2025-09-27, region: 2A, name: Maryland, url: https://hsquizbowl.org/forums/viewtopic.php?t=29234 }
+  - { date: 2025-09-13, region: CA, name: Toronto,          url: https://hsquizbowl.org/forums/viewtopic.php?t=29247 }
+  - { date: 2025-09-27, region: 2A, name: Maryland,         url: https://hsquizbowl.org/forums/viewtopic.php?t=29234 }
   - { date: 2025-10-11, region: UK, name: Oxford }
-  - { date: 2025-11-08, region: 8B, name: Chicago, url: https://hsquizbowl.org/forums/viewtopic.php?t=29317 }
-  - { date: 2025-11-08, region: 2A, name: Columbia, url: https://hsquizbowl.org/forums/viewtopic.php?t=29280 }
+  - { date: 2025-11-08, region: 8B, name: Chicago,          url: https://hsquizbowl.org/forums/viewtopic.php?t=29317 }
+  - { date: 2025-11-08, region: 2A, name: Columbia,         url: https://hsquizbowl.org/forums/viewtopic.php?t=29280 }
   - { date: 2026-01-27, region: 6A, name: British Columbia, url: https://hsquizbowl.org/forums/viewtopic.php?t=29323 }
-  - { date: 2025-10-04, region: 1A, name: Harvard, url: https://hsquizbowl.org/forums/viewtopic.php?t=29402 }
+  - { date: 2025-10-04, region: 1A, name: Harvard,          url: https://hsquizbowl.org/forums/viewtopic.php?t=29402 }
+  - { date: 2025-12-20, region: 2B, name: Tuckahoe Library, url: https://hsquizbowl.org/forums/viewtopic.php?t=29616 }
+  - { date: 2026-01-24, region: 5B, name: Stanford,         url: https://hsquizbowl.org/forums/viewtopic.php?t=29648 }
+  - { date: TBD,        region: 0L, name: Online,           url: https://hsquizbowl.org/forums/viewtopic.php?t=29698 }
