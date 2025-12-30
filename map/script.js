@@ -23,6 +23,24 @@ var svg = d3.select("#svg-container").append("svg")
 //     .attr("width", width)
 //     .attr("height", height);
 
+var defs = svg.append('defs');
+['circle-large', 'circle-small', 'circle-inactive'].forEach((id) => {
+	defs.append('symbol')
+		.attr('id', id)
+		.attr('overflow', 'visible')
+		.append('circle')
+		.attr('cx', 0)
+		.attr('cy', 0)
+		.attr('r', id === 'circle-large' ? 4 : 2)
+		.attr('class', id);
+});
+defs.append('symbol')
+	.attr('id', 'triangle-small')
+	.attr('overflow', 'visible')
+	.append('path')
+	.attr('d', 'M 0 -2.5 L 2.165 1.25 L -2.165 1.25 Z')
+	.attr('class', 'triangle-small');
+
 svg.append("path")
 	.datum({type: "Sphere"})
 	.attr("class", "sphere")
@@ -172,23 +190,18 @@ const voronoi = d3.geom.voronoi()
 			.attr('class', 'region-label region-label-region region-label-id')
 			.text(d => d.id);
 
-	var circleClasses = {
+	var markerIds = {
 		2: 'circle-large',
 		1: 'circle-small',
 		0: 'circle-inactive',
-	}
-	var circleRadii = {
-		2: 4,
-		1: 2,
-		0: 2,
+		3: 'triangle-small',
 	}
 	main.selectAll('.place')
 		.data(colleges)
 		.enter()
-		.append('circle')
-		.attr('class', d => circleClasses[d.active])
+		.append('use')
 		.attr('transform', d => 'translate(' + projection(d.coordinates) +')')
-		.attr('r', d => circleRadii[d.active]);
+		.attr('xlink:href', d => '#' + markerIds[d.active]);
 
 /* subtended = radius * angle (s = rθ) */
 var EARTH_RADIUS = 3959;                         // miles
@@ -351,11 +364,11 @@ if (collegesHighlight) {
 			.attr('cy', 20)
 			.attr('class', 'highlight')
 			.attr('r', 9)
-		highlightLegend.append('circle')
-			.attr('cx', 1020)
-			.attr('cy', 20)
+		highlightLegend.append('use')
+			.attr('x', 1020)
+			.attr('y', 20)
 			.attr('class', 'circle-large')
-			.attr('r', 4)
+			.attr('xlink:href', '#circle-large')
 		highlightLegend.append('line')
 			.attr('x1', 1000)
 			.attr('y1', 45)
@@ -424,45 +437,54 @@ if (collegesHighlight) {
 		// .attr('transform', d => 'translate(' + projection([-71.7, 35]) +')');
 		.attr('transform', d => 'translate(' + projection([-118, 27]) +')');
 	legend.append('text')
+		.attr('transform', d => 'translate(-80,0)')
 		.attr('class', 'region-label')
 		.text('Region');
 	legend.append('text')
-		.attr('transform', d => 'translate(0,24)')
+		.attr('transform', d => 'translate(-80,26)')
 		.attr('class', 'region-label region-label-region')
 		.text('Circuit');
+	legend.append('text')
+		.attr('transform', d => 'translate(-80,48)')
+		.attr('class', 'region-label region-label-region region-label-id')
+		.text('Circuit ID');
 
-	legend.append('circle')
-		.attr('class', 'circle-large')
-		.attr('transform', d => 'translate(-16,44)')
-		.attr('r', 4);
-	legend.append('circle')
-		.attr('class', 'circle-small')
-		.attr('transform', d => 'translate(-16,68)')
-		.attr('r', 2);
-	legend.append('circle')
-		.attr('class', 'circle-inactive')
-		.attr('transform', d => 'translate(-16,92)')
-		.attr('r', 2);
+	legend.append('use')
+		.attr('transform', d => 'translate(16,-4)')
+		.attr('xlink:href', '#circle-large');
+	legend.append('use')
+		.attr('transform', d => 'translate(16,20)')
+		.attr('xlink:href', '#circle-small');
+	legend.append('use')
+		.attr('transform', d => 'translate(16,44)')
+		.attr('xlink:href', '#triangle-small');
+	legend.append('use')
+		.attr('transform', d => 'translate(16,68)')
+		.attr('xlink:href', '#circle-inactive');
 	legend.append('text')
 		// .attr('class', 'place-label')
 		.attr('class', 'legend-label-medium')
-		.attr('transform', d => 'translate(0,48)')
+		.attr('transform', d => 'translate(32,0)')
 		.text('Hosts tournaments (Core/Active)');
 	legend.append('text')
-		.attr('transform', d => 'translate(0,72)')
+		.attr('transform', d => 'translate(32,24)')
 		// .attr('class', 'place-label')
 		.attr('class', 'legend-label-medium')
 		.text('Attends tournaments');
 	legend.append('text')
-		.attr('transform', d => 'translate(0,96)')
+		.attr('transform', d => 'translate(32,48)')
+		// .attr('class', 'place-label')
+		.attr('class', 'legend-label-medium')
+		.text('Attends primarily online tournaments');
+	legend.append('text')
+		.attr('transform', d => 'translate(32,72)')
 		// .attr('class', 'place-label')
 		.attr('class', 'legend-label-medium')
 		.text('Inactive');
 
 	legend.append('text')
-		.attr('transform', d => 'translate(32,-40)')
+		.attr('transform', d => 'translate(-80,-40)')
 		.attr('class', 'legend-label')
-		.attr("text-anchor", "middle")
 		.text('College quizbowl circuit map');
 
 });
