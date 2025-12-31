@@ -9,4 +9,5 @@ firstmirror: 2025-12-06
 announced:   2025-04-29
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29012
 mirrors:
+  - { date: 2025-11-16, region: 0P, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=29548 }
   - { date: 2026-03-28, region: 7A, name: Murray State, eligible: HS allowed, url: https://hsquizbowl.org/forums/viewtopic.php?t=29694 }
