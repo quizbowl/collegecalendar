@@ -10,7 +10,7 @@ firstmirror: 2026-02-07
 clear:       never
 packetsurl:  never
 mirrors:
-  - { date: 2026-02-07, region: 1A, name: Yale,                            url: https://www.naqt.com/go/field/17854 }
+  - { date: 2026-02-07, region: 1A, name: Yale,                            url: https://hsquizbowl.org/forums/viewtopic.php?t=29641 }
   - { date: 2026-02-07, region: 1B, name: Rochester,                       url: https://hsquizbowl.org/forums/viewtopic.php?t=29625 }
   - { date: 2026-02-07, region: 2A, name: Rutgers,                         url: https://hsquizbowl.org/forums/viewtopic.php?t=29635 }
   - { date: 2026-02-07, region: 2B, name: VCU,                             url: https://hsquizbowl.org/forums/viewtopic.php?t=29606 }
