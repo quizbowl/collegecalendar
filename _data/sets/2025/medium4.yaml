@@ -1,0 +1,14 @@
+slot:        “Winter Medium 2”
+prev:        [past MRNAs, ACF Winter]
+diff:        Medium
+diffdots:    ●●
+name:        MRNA V
+fullname:    "MRNA V: This Time, It’s Personalized Medicine"
+announced:   2025-04-28
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29009
+mirrors:
+  - { date: 2025-12-13, region: 0P, name: Online,       url: https://hsquizbowl.org/forums/viewtopic.php?t=29602 }
+  - { date: 2026-01-17, region: CA, name: McGill,       url: https://hsquizbowl.org/forums/viewtopic.php?t=29739 }
+  - { date: 2026-01-17, region: CA, name: Toronto,      url: https://hsquizbowl.org/forums/viewtopic.php?t=29717 }
+  - { date: 2026-02-14, region: 2A, name: Columbia,     url: https://hsquizbowl.org/forums/viewtopic.php?t=29682 }
+  - { date: 2026-04-04, region: 8C, name: Case Western, url: https://hsquizbowl.org/forums/viewtopic.php?t=29705 }
