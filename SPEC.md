@@ -83,7 +83,7 @@ The columns are as follows:
 Key | Description | Example
 -|-|-
 `region`               | Region code | `1A`
-`active`               | Club activity status<br />(2 = hosts, 1 = attends, 0 = inactive, 3 = primarily online) | `1`
+`active`               | Club activity status<br />(2 = hosts, 1 = attends, 0 = inactive,<br />3 = primarily online, 4 = primarily CC) | `1`
 `city`                 | City        | `Storrs`
 `state`                | State       | `CT`
 `country`              | Country     | `USA`

@@ -40,6 +40,12 @@ defs.append('symbol')
 	.append('path')
 	.attr('d', 'M 0 -2.5 L 2.165 1.25 L -2.165 1.25 Z')
 	.attr('class', 'triangle-small');
+defs.append('symbol')
+	.attr('id', 'circle-moon')
+	.attr('overflow', 'visible')
+	.append('path')
+	.attr('d', 'M 2 -2 A 2.5 2.5 0 1 0 2 2 A 1.25 1.25 0 1 1 2 -2 Z')
+	.attr('class', 'circle-moon');
 
 svg.append("path")
 	.datum({type: "Sphere"})
@@ -195,6 +201,7 @@ const voronoi = d3.geom.voronoi()
 		1: 'circle-small',
 		0: 'circle-inactive',
 		3: 'triangle-small',
+		4: 'circle-moon',
 	}
 
 if (collegesHighlight) {
@@ -462,25 +469,28 @@ svg.append("text")
 		.attr('xlink:href', '#triangle-small');
 	legend.append('use')
 		.attr('transform', d => 'translate(16,68)')
+		.attr('xlink:href', '#circle-moon');
+		legend.append('use')
+		.attr('transform', d => 'translate(16,92)')
 		.attr('xlink:href', '#circle-inactive');
 	legend.append('text')
-		// .attr('class', 'place-label')
 		.attr('class', 'legend-label-medium')
 		.attr('transform', d => 'translate(32,0)')
 		.text('Hosts tournaments (Core/Active)');
 	legend.append('text')
 		.attr('transform', d => 'translate(32,24)')
-		// .attr('class', 'place-label')
 		.attr('class', 'legend-label-medium')
 		.text('Attends tournaments');
 	legend.append('text')
 		.attr('transform', d => 'translate(32,48)')
-		// .attr('class', 'place-label')
 		.attr('class', 'legend-label-medium')
 		.text('Attends primarily online tournaments');
 	legend.append('text')
 		.attr('transform', d => 'translate(32,72)')
-		// .attr('class', 'place-label')
+		.attr('class', 'legend-label-medium')
+		.text('Attends primarily community college tournaments');
+		legend.append('text')
+		.attr('transform', d => 'translate(32,96)')
 		.attr('class', 'legend-label-medium')
 		.text('Inactive');
 
