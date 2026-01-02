@@ -106,11 +106,16 @@ circle.circle-inactive {
 	stroke-width: 1px;
 }
 circle.circle-small,
+path.circle-moon,
 path.triangle-small {
 	/*fill: #3dab89d8;*/
 	fill: white;
 	stroke: black;
 	stroke-width: 1px;
+}
+path.circle-moon {
+	stroke-linejoin: round;
+	stroke-miterlimit: 1.5;
 }
 circle.circle-large {
 	/*fill: #fb4880;*/
