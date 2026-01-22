@@ -13,3 +13,4 @@ mirrors:
   - { date: 2025-11-01, region: 3B, name: Georgia Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=29486 }
   - { date: 2025-11-29, region: CA, name: McGill,       url: https://hsquizbowl.org/forums/viewtopic.php?t=29615 }
   - { date: 2025-11-29, region: CA, name: Guelph,       url: https://hsquizbowl.org/forums/viewtopic.php?t=29586 }
+  - { date: 2026-03-28, region: 8C, name: Ohio State,   url: https://hsquizbowl.org/forums/viewtopic.php?t=29763 }
