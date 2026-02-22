@@ -14,3 +14,8 @@ mirrors:
   - { date: 2026-03-07, region: 1A, name: Brown,        url: https://hsquizbowl.org/forums/viewtopic.php?t=29797 }
   - { date: 2026-04-04, region: 8C, name: Case Western, url: https://hsquizbowl.org/forums/viewtopic.php?t=29705 }
   - { date: 2026-04-04, region: 5A, name: Claremont Colleges, eligible: Open, url: https://hsquizbowl.org/forums/viewtopic.php?t=29749 }
+  - { date: 2026-03-28, region: 2A, name: Johns Hopkins, url: https://hsquizbowl.org/forums/viewtopic.php?t=29881 }
+  - { date: 2026-02-21, region: 6A, name: UBC, eligible: Open,      url: https://hsquizbowl.org/forums/viewtopic.php?t=29840 }
+  - { date: 2026-03-07, region: 6A, name: UBC, eligible: Online,    url: https://hsquizbowl.org/forums/viewtopic.php?t=29839 }
+  - { date: 2026-03-21, region: 2B, name: Virginia Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=29869 }
+  - { date: 2026-03-28, region: 3A, name: Vanderbilt,    url: https://hsquizbowl.org/forums/viewtopic.php?t=29870 }

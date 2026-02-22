@@ -13,4 +13,5 @@ mirrors:
   - { date: 2025-10-11, region: 7A, name: Murray State, eligible: HS allowed, url: https://hsquizbowl.org/forums/viewtopic.php?t=29250 }
   - { date: 2025-11-08, region: 1B, name: Binghamton,   url: https://hsquizbowl.org/forums/viewtopic.php?t=29534 }
   - { date: 2026-01-24, region: 5A, name: UCSD,         url: https://hsquizbowl.org/forums/viewtopic.php?t=29709 }
-
+  - { date: 2026-03-07, region: CA, name: Carleton,     url: https://hsquizbowl.org/forums/viewtopic.php?t=29878 }
+  - { date: 2026-03-07, region: CA, name: Guelph,       url: https://hsquizbowl.org/forums/viewtopic.php?t=29850 }

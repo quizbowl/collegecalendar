@@ -9,11 +9,18 @@ announced:   2025-03-26
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28917
 firstmirror: 2026-01-10
 mirrors:
-  - { date: 2026-01-10, region: 0P, name: Online,       url: https://hsquizbowl.org/forums/viewtopic.php?t=29693 }
-  - { date: 2026-03-07, region: 7A, name: Tulsa,        url: https://hsquizbowl.org/forums/viewtopic.php?t=29510 }
-  - { date: 2026-03-14, region: 6A, name: Alberta }
-  - { date: 2026-03-07, region: 5A, name: UCSD,         url: https://hsquizbowl.org/forums/viewtopic.php?t=29767 }
-  - { date: 2026-02-21, region: CA, name: McMaster,     url: https://hsquizbowl.org/forums/viewtopic.php?t=29779 }
-  - { date: 2026-02-21, region: 5B, name: Stanford, eligible: Open, url: https://hsquizbowl.org/forums/viewtopic.php?t=29767 }
-  - { date: 2026-03-07, region: 2A, name: Maryland,     url: https://hsquizbowl.org/forums/viewtopic.php?t=29786 }
-  - { date: 2026-03-07, region: 3B, name: Georgia Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=29785 }
+  - { date: 2026-01-10, region: 0P, name: Online,                      url: https://hsquizbowl.org/forums/viewtopic.php?t=29693 }
+  - { date: 2026-03-07, region: 7A, name: Tulsa,                       url: https://hsquizbowl.org/forums/viewtopic.php?t=29510 }
+  - { date: 2026-03-14, region: 6A, name: Alberta, eligible: Online,   url: https://hsquizbowl.org/forums/viewtopic.php?t=29838  }
+  - { date: 2026-03-07, region: 5A, name: UCSD,    eligible: Open,     url: https://hsquizbowl.org/forums/viewtopic.php?t=29767 }
+  - { date: 2026-02-21, region: CA, name: McMaster,                    url: https://hsquizbowl.org/forums/viewtopic.php?t=29779 }
+  - { date: 2026-02-21, region: 5B, name: Stanford, eligible: Open,    url: https://hsquizbowl.org/forums/viewtopic.php?t=29790 }
+  - { date: 2026-03-07, region: 2A, name: Maryland,                    url: https://hsquizbowl.org/forums/viewtopic.php?t=29786 }
+  - { date: 2026-03-07, region: 3B, name: Georgia Tech,                url: https://hsquizbowl.org/forums/viewtopic.php?t=29785 }
+  - { date: 2026-03-28, region: 2B, name: Duke,                        url: https://hsquizbowl.org/forums/viewtopic.php?t=29902 }
+  - { date: 2026-02-28, region: 1A, name: Tufts,                       url: https://hsquizbowl.org/forums/viewtopic.php?t=29844 }
+  - { date: 2026-03-28, region: 2A, name: Columbia,                    url: https://hsquizbowl.org/forums/viewtopic.php?t=29867 }
+  - { date: 2026-03-28, region: 8C, name: Michigan }
+  - { date: 2026-03-28, region: 8B, name: Illinois }
+  - { date: 2026-02-28, region: UK, name: Birmingham }
+  - { date: 2026-04-11, region: 3C, name: Florida Tech }
