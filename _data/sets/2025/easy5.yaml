@@ -14,3 +14,5 @@ mirrors:
   - { date: 2025-11-29, region: CA, name: McGill,       url: https://hsquizbowl.org/forums/viewtopic.php?t=29615 }
   - { date: 2025-11-29, region: CA, name: Guelph,       url: https://hsquizbowl.org/forums/viewtopic.php?t=29586 }
   - { date: 2026-03-28, region: 8C, name: Ohio State,   url: https://hsquizbowl.org/forums/viewtopic.php?t=29763 }
+  - { date: 2026-04-18, region: 5A, name: UCSB, eligible: Open, url: https://hsquizbowl.org/forums/viewtopic.php?t=29912 }
+  - { date: TBD, region: UK, name: Manchester }

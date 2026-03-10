@@ -1,0 +1,13 @@
+slot:        "Spring Open”
+prev:        [2025 COOT]
+diff:        Nationals
+diffdots:    ●●●◖
+eligible:    Open
+name:        2026 COOT
+fullname:    Cambridge-Oxford Open Touranment
+announced:   2025-03-27
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28539
+mirrors:
+  - { date: 2026-02-21, region: UK, name: Cambridge }
+  - { date: 2026-03-14, region: 5B, name: Berkeley, url: https://hsquizbowl.org/forums/viewtopic.php?t=29906}
+  - { date: 2026-02-14, region: 2A, name: Maryland, url: https://hsquizbowl.org/forums/viewtopic.php?t=29808}
