@@ -15,3 +15,4 @@ mirrors:
   - { date: 2026-03-21, region: 5A, name: UCLA,         url: https://hsquizbowl.org/forums/viewtopic.php?t=29801 }
   - { date: 2026-03-21, region: 3B, name: Georgia Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=29802 }
   - { date: 2026-02-21, region: 3C, name: Florida,      url: https://hsquizbowl.org/forums/viewtopic.php?t=29861 }
+  - { date: 2026-03-21, region: 7B, name: WUSTL,        url: https://hsquizbowl.org/forums/viewtopic.php?t=29943 }

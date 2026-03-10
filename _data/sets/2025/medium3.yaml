@@ -20,7 +20,8 @@ mirrors:
   - { date: 2026-03-28, region: 2B, name: Duke,                        url: https://hsquizbowl.org/forums/viewtopic.php?t=29902 }
   - { date: 2026-02-28, region: 1A, name: Tufts,                       url: https://hsquizbowl.org/forums/viewtopic.php?t=29844 }
   - { date: 2026-03-28, region: 2A, name: Columbia,                    url: https://hsquizbowl.org/forums/viewtopic.php?t=29867 }
-  - { date: 2026-03-28, region: 8C, name: Michigan }
-  - { date: 2026-03-28, region: 8B, name: Illinois }
+  - { date: 2026-03-28, region: 8C, name: Michigan,                    url: https://hsquizbowl.org/forums/viewtopic.php?t=29940 }
+  - { date: 2026-03-28, region: 8B, name: Illinois,                    url: https://hsquizbowl.org/forums/viewtopic.php?t=29923 }
   - { date: 2026-02-28, region: UK, name: Birmingham }
   - { date: 2026-04-11, region: 3C, name: Florida Tech }
+  - { date: 2026-03-07, region: 2A, name: Maryland,                    url: https://hsquizbowl.org/forums/viewtopic.php?t=29786 }
