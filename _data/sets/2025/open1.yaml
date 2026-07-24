@@ -7,6 +7,7 @@ name:        NAFTA
 fullname:    Nationals-Advance Fall Tournament for All
 announced:   2024-11-18
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28539
+packetsurl:  https://collegiate.quizbowlpackets.com/3477/
 mirrors:
   - { date: 2025-09-13, region: CA, name: Toronto,          url: https://hsquizbowl.org/forums/viewtopic.php?t=29247 }
   - { date: 2025-09-27, region: 2A, name: Maryland,         url: https://hsquizbowl.org/forums/viewtopic.php?t=29234 }

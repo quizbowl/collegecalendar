@@ -6,6 +6,7 @@ name:        MRNA V
 fullname:    "MRNA V: This Time, It’s Personalized Medicine"
 announced:   2025-04-28
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29009
+packetsurl:  https://collegiate.quizbowlpackets.com/3535/
 mirrors:
   - { date: 2025-12-13, region: 0P, name: Online,       url: https://hsquizbowl.org/forums/viewtopic.php?t=29602 }
   - { date: 2026-01-17, region: CA, name: McGill,       url: https://hsquizbowl.org/forums/viewtopic.php?t=29739 }

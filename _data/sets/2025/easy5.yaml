@@ -7,6 +7,7 @@ fullname:    Houston’s Interdisciplinary Set made To Output Nats Energy
 firstideal:  2025-10-04
 announced:   2025-07-28
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29217
+packetsurl:  https://quizbowlpackets.com/3501/
 mirrors:
   - { date: 2025-10-25, region: 1A, name: Yale,         url: https://hsquizbowl.org/forums/viewtopic.php?t=29391 }
   - { date: 2025-11-09, region: 3C, name: Florida,      url: https://hsquizbowl.org/forums/viewtopic.php?t=29554 }
