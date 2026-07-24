@@ -7,6 +7,7 @@ fullname:    "British Novice: World Tour (Americanized)"
 announced:   2025-03-12
 # original (Briticized): https://hsquizbowl.org/forums/viewtopic.php?t=28922
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28883
+packetsurl:  
 mirrors:
   - { date: 2025-04-19, region: 1A, name: Boston University, url: https://hsquizbowl.org/forums/viewtopic.php?t=28912 }
   - { date: 2025-05-03, region: 0L, name: ASU, cancelled: yes, url: https://hsquizbowl.org/forums/viewtopic.php?t=28984 }

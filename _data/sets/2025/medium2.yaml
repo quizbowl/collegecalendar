@@ -8,6 +8,7 @@ name:        ACF Winter
 firstmirror: 2025-11-15
 announced:   2025-07-15
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29178
+packetsurl:  https://collegiate.quizbowlpackets.com/3404/
 mirrors:
   - { date: 2025-11-15, region: 1A, name: Harvard,                     url: https://hsquizbowl.org/forums/viewtopic.php?t=29478 }
   - { date: 2025-11-15, region: 1B, name: Syracuse,                    url: https://hsquizbowl.org/forums/viewtopic.php?t=29494 }

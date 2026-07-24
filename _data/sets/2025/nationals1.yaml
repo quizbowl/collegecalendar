@@ -8,5 +8,6 @@ name:        ACF Nationals
 firstmirror: 2026-04-18
 announced:   2025-08-17
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29282
+packetsurl:  https://collegiate.quizbowlpackets.com/3515/
 mirrors:
   - { date: 2026-04-18, url: https://hsquizbowl.org/forums/viewtopic.php?t=29282 }

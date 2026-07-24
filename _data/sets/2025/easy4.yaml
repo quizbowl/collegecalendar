@@ -6,6 +6,7 @@ name:        Scarlet Houseknight
 producedby:  Rutgers
 announced:   2025-02-26
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=28837
+packetsurl:  https://collegiate.quizbowlpackets.com/3359/
 mirrors:
   - { date: 2025-10-11, region: 8B, name: Chicago,                         url: https://hsquizbowl.org/forums/viewtopic.php?t=29370 }
   - { date: 2025-11-08, region: 1A, name: Brown,                           url: https://hsquizbowl.org/forums/viewtopic.php?t=29325 }
