@@ -11,4 +11,4 @@ announced: 2026-07-25
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=30323
 firstmirror: 2026-10-03
 mirrors: 
-  - { date: 2026-10-03, region: 0L, name: Online, eligible: Closed }
+  - { date: 2026-10-03, region: 0L, name: Online }

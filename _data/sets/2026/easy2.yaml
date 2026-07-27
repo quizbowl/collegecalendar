@@ -11,5 +11,5 @@ firstmirror: September 2026
 speculative: yes
 mirrors: 
   - { date: TBD, region: 6A, name: Alberta }
-  - { date: April 2027, region: 0L, name: Online Closed, eligible: Closed }
+  - { date: TBD 2027, region: 0L, name: Online Closed, eligible: Closed }
   - { date: Summer 2027, region: 0L, name: Online Open, eligible: Open }
