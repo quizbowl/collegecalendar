@@ -7,9 +7,8 @@ eligible:    HS-only mirrors
 prev:        [DART IV, past NAQT HSNCTs]
 announced:   2026-02-07
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29851
-firstmirror: September 2026
-speculative: yes
+firstmirror: 2026-09-05
 mirrors:
-  - { date: TBD,         region: 6A, name: Alberta }
-  - { date: TBD 2027,    region: 0L, name: Online Closed, eligible: Closed }
-  - { date: Summer 2027, region: 0L, name: Online Open, eligible: Open }
+  - { date: TBD, region: 6A, name: Alberta }
+  - { date: TBD, region: 0L, name: Online, eligible: Closed }
+  - { date: TBD, region: 0L, name: Online, eligible: Open }

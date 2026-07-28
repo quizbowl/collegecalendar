@@ -1,6 +1,6 @@
 name:        Terrapin Open
 fullname:    Terrapin XXXII
-producedby:  Maryland and Maryland alumni
+producedby:  Maryland, alumni
 slot:        “Fall Open”
 diff:        Regionals
 diffdots:    ●●●
@@ -12,7 +12,7 @@ firstmirror: 2026-09-12
 firstideal:  2026-09-01
 lastideal:   2026-09-30
 mirrors: 
-  - { date: 2026-09-12, region: 2A, name: Maryland, url: https://hsquizbowl.org/forums/viewtopic.php?p=412769 }
+  - { date: 2026-09-12, region: 2A, name: Maryland, url: https://hsquizbowl.org/forums/viewtopic.php?t=30253 }
   - { date: 2026-09-12, region: 1A, name: Boston }
   - { date: 2026-09-26, region: 3B, name: Georgia Tech }
   - { date: TBD, region: 8B, name: Chicago }

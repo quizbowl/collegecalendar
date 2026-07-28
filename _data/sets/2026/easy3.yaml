@@ -3,12 +3,11 @@ fullname:    IQBT University Novice
 producedby:  IQBT
 slot:        “Early Fall Novice 2”
 diff:        Easy
-diffdots:    ◖
+diffdots:    ●
 eligible:    Closed; scoring limits
-submission:  
-prev:        [past IQBT Regular Season Sets]
 announced:   2026-07-25
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=30323
-firstmirror: 2026-10-03
+firstideal:  2026-09-19
+lastideal:   2026-10-10
 mirrors:
   - { date: 2026-10-03, region: 0L, name: Online }
