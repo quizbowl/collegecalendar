@@ -293,12 +293,11 @@ $orgs: (
 		background: linear-gradient(to left, lighten($grey-color-light, 3%), 63%, $color);
 	}
 }
-.UK::after {
-	content: "🇬🇧";
-	font-size: 1.25em;
-	/* because of new font-size, fix line-height to parent's unitless 1.5 * 16px */
-	line-height: 24px;
-	float: right;
+.UK {
+	background-image: url(/assets/img/gb.svg);
+	background-repeat: no-repeat;
+	background-position: right 0.5em center;
+	background-size: 1.25em auto;
 }
 
 /*
