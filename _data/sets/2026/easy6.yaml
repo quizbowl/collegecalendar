@@ -1,11 +1,11 @@
-name: British Novice
-fullname: 2026 British Novice
-slot: "Winter Easy"
-diff: Easy
-diffdots: ●
-prev: [past British Novices]
-announced: 2026-05-01
+name:        British Novice
+fullname:    2026 British Novice
+slot:        “Winter Easy”
+diff:        Easy
+diffdots:    ●
+prev:        [past British Novices]
+announced:   2026-05-01
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=30118
 firstmirror: sometime in November
 speculative: yes
-mirrors: 
+mirrors:

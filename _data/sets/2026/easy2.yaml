@@ -1,15 +1,15 @@
-name: MONSTER
-fullname: 2026 MONSTER
-slot: "Fall Easy 1"
-diff: Easy
-diffdots: ●◖
-eligible: HS-only mirrors
-prev: [DART IV, past NAQT HSNCTs]
-announced: 2026-02-07
+name:        MONSTER
+fullname:    2026 MONSTER
+slot:        “Fall Easy 1”
+diff:        Easy
+diffdots:    ●◖
+eligible:    HS-only mirrors
+prev:        [DART IV, past NAQT HSNCTs]
+announced:   2026-02-07
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29851
 firstmirror: September 2026
 speculative: yes
-mirrors: 
-  - { date: TBD, region: 6A, name: Alberta }
-  - { date: TBD 2027, region: 0L, name: Online Closed, eligible: Closed }
+mirrors:
+  - { date: TBD,         region: 6A, name: Alberta }
+  - { date: TBD 2027,    region: 0L, name: Online Closed, eligible: Closed }
   - { date: Summer 2027, region: 0L, name: Online Open, eligible: Open }

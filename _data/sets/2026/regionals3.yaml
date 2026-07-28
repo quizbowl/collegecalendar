@@ -1,10 +1,10 @@
-name: WORKSHOP
-slot: "Winter Regionals 2"
-diff: Regionals
-diffdots: ●●●
-prev: [past WORKSHOPs, past ACF Regionals]
-announced: 2026-01-29
+name:        WORKSHOP
+slot:        “Winter Regionals 2”
+diff:        Regionals
+diffdots:    ●●●
+prev:        [past WORKSHOPs, past ACF Regionals]
+announced:   2026-01-29
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29812
 firstmirror: January 2027
 speculative: yes
-mirrors: 
+mirrors:

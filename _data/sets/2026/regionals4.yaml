@@ -1,17 +1,14 @@
-name: ACF Regionals
-fullname: 2027 ACF Regionals
-producedby: ACF
-slot: ACF Regionals
-diff: Regionals
-diffdots: ●●●
-eligible: Closed
-submission: Required half-packet if not new team; opt-out fee
-prev: [past ACF Regionals]
-announced: 
+name:        ACF Regionals
+fullname:    2027 ACF Regionals
+producedby:  ACF
+slot:        ACF Regionals
+diff:        Regionals
+diffdots:    ●●●
+eligible:    Closed
+submission:  Required half-packet if not new team; opt-out fee
+prev:        [past ACF Regionals]
+announced:   
 announceurl: 
 firstmirror: late January or early February 2027
 speculative: yes
-mirrors: 
-clear: 
-reallyclear: 
-packetsurl: 
+mirrors:

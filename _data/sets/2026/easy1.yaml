@@ -1,12 +1,12 @@
-name: NAQT Collegiate Novice
-fullname: NAQT Collegiate Novice Series
-producedby: NAQT
-slot: "Early Fall Novice 1"
-diff: Easy
-diffdots: ●
-eligible: Closed; scoring limits
-prev: [Collegiate Novice, ICCS, VCU Novice, EACNT]
+name:        NAQT Collegiate Novice
+fullname:    NAQT Collegiate Novice Series
+producedby:  NAQT
+slot:        “Early Fall Novice 1”
+diff:        Easy
+diffdots:    ●
+eligible:    Closed; scoring limits
+prev:        [Collegiate Novice, ICCS, VCU Novice, EACNT]
 firstmirror: 
-mirrors: 
-clear: never
-packetsurl: never
+clear:       never
+packetsurl:  never
+mirrors:

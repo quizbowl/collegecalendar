@@ -1,13 +1,13 @@
-name: COOT
-fullname: 2027 Cambridge and Oxford Open Tournament
-producedby: Cambridge and Oxford
-slot: "Spring Open"
-diff: Regionals
-diffdots: ●●●
-eligible: Open
-prev: [past COOTs]
-announced: 2026-03-26
+name:        COOT
+fullname:    2027 Cambridge and Oxford Open Tournament
+producedby:  Cambridge and Oxford
+slot:        “Spring Open”
+diff:        Regionals
+diffdots:    ●●●
+eligible:    Open
+prev:        [past COOTs]
+announced:   2026-03-26
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=30010
 firstmirror: sometime early 2027
 speculative: yes
-mirrors: 
+mirrors:

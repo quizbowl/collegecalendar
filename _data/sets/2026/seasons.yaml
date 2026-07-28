@@ -1,7 +1,7 @@
 - name: Fall
   year: 2026
-  start: 2026-08-28
-  weeks: 18
+  start: 2026-08-29
+  weeks: 16
   slots:
     - easy1
     - easy2
@@ -17,8 +17,8 @@
 
 - name: Spring
   year: 2027
-  start: 2027-01-01
-  weeks: 20
+  start: 2027-01-16
+  weeks: 17
   slots:
     - regionals2
     - regionals3

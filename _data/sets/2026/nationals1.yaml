@@ -1,13 +1,13 @@
-name: NAQT ICT
-fullname: NAQT Intercollegiate Championship Tournament
-producedby: NAQT
-slot: NAQT ICT
-diff: Nationals
-diffd2: Medium
-diffdots: ●●●●
-diffdotsd2: ●●
-eligible: Qualify at NAQT SCT
-prev: [past NAQT ICTs]
+name:        NAQT ICT
+fullname:    NAQT Intercollegiate Championship Tournament
+producedby:  NAQT
+slot:        NAQT ICT
+diff:        Nationals
+diffd2:      Medium
+diffdots:    ●●●●
+diffdotsd2:  ●●
+eligible:    Qualify at NAQT SCT
+prev:        [past NAQT ICTs]
 firstmirror: 2026-04-02
-clear: never
-packetsurl: never
+clear:       never
+packetsurl:  never

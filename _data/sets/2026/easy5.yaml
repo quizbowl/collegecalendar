@@ -1,15 +1,13 @@
-name: ACF Fall
-fullname: 2026 ACF Fall
-producedby: ACF
-slot: ACF Fall
-diff: Easy
-diffdots: ●
-eligible: Closed; scoring limits; HS-only mirrors
-submission: Optional
-prev: [past ACF Falls]
-announced: 2026-06-15
+name:        ACF Fall
+fullname:    2026 ACF Fall
+producedby:  ACF
+slot:        ACF Fall
+diff:        Easy
+diffdots:    ●
+eligible:    Closed; scoring limits; HS-only mirrors
+submission:  Optional
+prev:        [past ACF Falls]
+announced:   2026-06-15
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=30232
 firstmirror: 2026-10-17
-mirrors: 
-clear: 
-packetsurl: 
+mirrors:

@@ -1,12 +1,12 @@
-name: IQBT UG Qualifier
-fullname: IQBT Undergraduate Championship Qualifier
-producedby: IQBT
-slot: "IQBT Undergraduate Qualifier"
-diff: Medium
-diffdots: ●●
-eligible: Closed; all undergraduate-only mirrors
-prev: [past IQBT UG Qualifiers]
-announced: 2026-07-23
+name:        IQBT UG Qualifier
+fullname:    IQBT Undergraduate Championship Qualifier
+producedby:  IQBT
+slot:        “IQBT Undergraduate Qualifier”
+diff:        Medium
+diffdots:    ●●
+eligible:    Closed; all undergraduate-only mirrors
+prev:        [past IQBT UG Qualifiers]
+announced:   2026-07-23
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=30315
 firstmirror: 2026-10-29
-mirrors: 
+mirrors:
