@@ -44,6 +44,10 @@ Mirrors should generally be ordered in the source file canonically by date (week
 
 Mirror names (i.e. college or school names) should generally remain consistent with existing convention in this repository. A guiding principle for mirror names is to be short enough to not wrap onto two lines when displayed in the main table, but not be overly abbreviated.
 
+Slots have unofficial names in curly quotes, although the concept of tournaments occupying a particular “slot” that has some continuity or comparison across college seasons is more or less deprecated.
+
+To set up a new year, it is usually easiest to copy the previous year’s folder and then edit the data files as needed, preserving the same filenames for consistency and tabular spacing alignment for readability.
+
 ## Regions
 
 Information about the geographic regions is stored in `map/regions.js`. The two-letter region IDs are also defined by `_layouts/year.html`, but this duplication will eventually be removed.
