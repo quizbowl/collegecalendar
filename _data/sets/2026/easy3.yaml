@@ -10,4 +10,4 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=30323
 firstideal:  2026-09-19
 lastideal:   2026-10-10
 mirrors:
-  - { date: 2026-10-03, region: 0L, name: Online }
+  - { date: 2026-10-03, region: 0L, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=30322 }
