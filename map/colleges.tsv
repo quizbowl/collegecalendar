@@ -139,11 +139,13 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 5A	1	Santa Barbara	CA	USA	34.413963	-119.848947	UCSB	UC Santa Barbara	University of California-Santa Barbara
 6A	2	Seattle	WA	USA	47.655335	-122.303520	UW	Washington	University of Washington
 6A	2	Boise	ID	USA	43.603313	-116.201649		Boise State	Boise State University
-6A	0	Eugene	OR	USA	44.044830	-123.072606		Oregon	University of Oregon
-6A	1	Portland	OR	USA	45.481243	-122.630884		Reed	Reed College
+6A	1	Eugene	OR	USA	44.044830	-123.072606		Oregon	University of Oregon
+6A	0	Portland	OR	USA	45.481243	-122.630884		Reed	Reed College
 6A	2	Vancouver	BC	Canada	49.260605	-123.245994	UBC	British Columbia	University of British Columbia
 6A	1	Edmonton	AB	Canada	53.5232	-113.5263		Alberta	University of Alberta
-6B	0	Boulder	CO	USA	40.007581	-105.265942		Colorado	University of Colorado-Boulder
+6A	1	Pullman	WA	USA	46.73	-117.16	WSU	Washington State	Washington State University
+6A	1	Burnaby	BC	Canada	49.276765	-122.917957	SFU	Simon Fraser	Simon Fraser University
+6B	1	Boulder	CO	USA	40.007581	-105.265942		Colorado	University of Colorado-Boulder
 6B	3	Colorado Springs	CO	USA	38.849337	-104.825382		Colorado College	Colorado College
 6B	0	Provo	UT	USA	40.251844	-111.649316	BYU	Brigham Young	Brigham Young University
 6B	0	Fort Collins	CO	USA	40.570935	-105.086552	CSU	Colorado State	Colorado State University
@@ -182,7 +184,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 8A	1	St. Paul	MN	USA	44.643221	-93.189826		St. Thomas	University of St. Thomas
 8A	1	Carleton	MN	USA	44.461365	-93.155826		Carleton	Carleton College
 8A	0	Sioux Falls	SD	USA	43.522604	-96.739689		Augustana	Augustana University
-8A	1	Rapid City	SD	USA	44.073167	-103.205164		South Dakota Mines	South Dakota School of Mines and Technology
+8A	3	Rapid City	SD	USA	44.073167	-103.205164		South Dakota Mines	South Dakota School of Mines and Technology
 8A	1	Lincoln	NE	USA	40.821528	-96.700390		Nebraska	University of Nebraska-Lincoln
 8A	1	Des Moines	IA	USA	41.602913	-93.655298		Drake	Drake University
 8A	2	Iowa City	IA	USA	41.662696	-91.554900		Iowa	University of Iowa
