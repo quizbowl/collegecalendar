@@ -15,6 +15,6 @@ mirrors:
   - { date: 2026-09-12, region: 2A, name: Maryland, url: https://hsquizbowl.org/forums/viewtopic.php?t=30253 }
   - { date: 2026-09-12, region: 1A, name: Boston }
   - { date: 2026-09-26, region: 3B, name: Georgia Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=30326 }
-  - { date: 2026-10-03, region: 4A, nae: Texas }
+  - { date: 2026-10-03, region: 4A, name: Texas }
   - { date: 2026-10-24, region: 8B, name: Chicago, url: https://hsquizbowl.org/forums/viewtopic.php?t=30327 }
   - { date: TBD, region: 0L, name: Online }
