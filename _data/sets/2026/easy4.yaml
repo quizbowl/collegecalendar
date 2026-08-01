@@ -3,10 +3,10 @@ fullname:    "Planetfall IV: Dysnomia"
 producedby:  USN
 slot:        “Fall Easy 2”
 diff:        Easy
-diffdots:    ●
+diffdots:    ●◖
 eligible:    HS-only mirrors
-prev:        [past Planetfalls, past ACF Falls]
 announced:   2026-07-15
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=30303
 firstmirror: 2026-10-03
 mirrors:
+  - { date: 2026-10-03, region: 3A, name: Vanderbilt, url: https://hsquizbowl.org/forums/viewtopic.php?t=30336 }
