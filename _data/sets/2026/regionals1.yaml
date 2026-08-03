@@ -9,3 +9,4 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=30053
 firstideal:  2026-10-18
 lastideal:   2026-11-30
 mirrors:
+  - { date: 2026-10-24, region: UK, name: Oxford }

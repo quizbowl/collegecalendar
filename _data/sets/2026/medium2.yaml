@@ -13,3 +13,5 @@ firstmirror: 2026-11-14
 clear:
 packetsurl:
 mirrors:
+  - { date: 2026-11-14, region: UK, name: Durham }
+  - { date: 2026-11-14, region: UK, name: Southampton }

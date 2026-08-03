@@ -11,3 +11,5 @@ announced:   2026-06-15
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=30232
 firstmirror: 2026-10-17
 mirrors:
+  - { date: 2026-10-17, region: UK, name: Edinburgh }
+  - { date: 2026-10-17, region: UK, name: Imperial }
