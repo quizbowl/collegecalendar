@@ -281,9 +281,9 @@ svg {
 }
 
 $orgs: (
-	NAQT: #fff5d9,
-	ACF:  #d9f0ff,
-	IQBT: #ffe5d9
+	NAQT: #73000063,
+	ACF:  #5689f0ab,
+	IQBT: #57ff9a
 );
 @each $org, $color in $orgs {
 	.#{$org} {
