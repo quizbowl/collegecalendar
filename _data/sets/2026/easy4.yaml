@@ -10,4 +10,5 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=30303
 firstmirror: 2026-10-03
 mirrors:
   - { date: 2026-10-03, region: 3A, name: Vanderbilt, url: https://hsquizbowl.org/forums/viewtopic.php?t=30336 }
+  - { date: 2026-10-03, region: 2B, name: Virginia Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=30354 }
   - { date: 2026-10-24, region: 3A, name: USN, eligible: HS }
