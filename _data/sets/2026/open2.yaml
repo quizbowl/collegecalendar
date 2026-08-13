@@ -7,4 +7,6 @@ diffdots:    ●●●
 prev:        [past ACF Regionals]
 announced:   2026-01-27
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29807
+firstmirror: 2026-11-21
 mirrors:
+  - { date: 2026-11-21, region: 2A, name: Columbia, eligible: Closed }
