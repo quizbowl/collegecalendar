@@ -9,4 +9,6 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=30053
 firstideal:  2026-10-18
 lastideal:   2026-11-30
 mirrors:
+  - { date: 2026-09-19, region: 0P, name: Online, eligible: Open, url: https://hsquizbowl.org/forums/viewtopic.php?t=30394 }
+  - { date: 2026-10-10, region: 2B, name: North Carolina, eligible: Open, url: https://hsquizbowl.org/forums/viewtopic.php?t=30398 }
   - { date: 2026-10-24, region: UK, name: Oxford }
