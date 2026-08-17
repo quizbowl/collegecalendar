@@ -11,6 +11,6 @@ firstmirror: 2026-09-05
 mirrors:
   - { date: 2026-10-31, region: UK, name: Cambridge }
   - { date: 2026-10-31, region: UK, name: Edinburgh }
+  - { date: 2026-11-07, region: 2B, name: North Carolina, url: https://hsquizbowl.org/forums/viewtopic.php?t=30403 }
   - { date: TBD, region: 6A, name: Alberta }
-  - { date: TBD, region: 0L, name: Online, eligible: Closed }
   - { date: TBD, region: 0L, name: Online, eligible: Open }
