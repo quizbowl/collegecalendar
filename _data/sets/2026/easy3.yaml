@@ -11,3 +11,4 @@ firstideal:  2026-09-19
 lastideal:   2026-10-10
 mirrors:
   - { date: 2026-10-03, region: 0L, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=30322 }
+  - { date: 2026-10-03, region: 1A, name: Yale, url: https://hsquizbowl.org/forums/viewtopic.php?t=30437 }
