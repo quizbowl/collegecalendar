@@ -11,3 +11,4 @@ clear:       never
 packetsurl:  never
 mirrors:
   - { date: 2026-09-19, region: 8B, name: Purdue, url: https://hsquizbowl.org/forums/viewtopic.php?t=30352 }
+  - { date: 2026-09-19, region: CA, name: Carleton, url: https://hsquizbowl.org/forums/viewtopic.php?t=30440 }
