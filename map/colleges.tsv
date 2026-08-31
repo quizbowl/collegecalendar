@@ -109,7 +109,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 3C	4	Fort Lauderdale	FL	USA	26.123275	-80.144797		Broward	Broward College
 3C	4	Gainesville	FL	USA	29.681841	-82.438227		Santa Fe	Santa Fe College
 3C	1	Avon Park	FL	USA	27.569866	-81.512386		South Florida	South Florida State College
-3C	1	Melbourne	FL	USA	28.064105	-80.621310		Florida Tech	Florida Institute of Technology
+3C	2	Melbourne	FL	USA	28.064105	-80.621310		Florida Tech	Florida Institute of Technology
 4A	0	Baton Rouge	LA	USA	30.413258	-91.180002	LSU	Louisiana State	Louisiana State University
 4A	1	Richardson	TX	USA	32.985454	-96.754319	UT-Dallas	Texas-Dallas	University of Texas-Dallas
 4A	2	Austin	TX	USA	30.284919	-97.734057	UT-Austin	Texas	The University of Texas at Austin
@@ -239,6 +239,6 @@ UK	1	Birmingham	England	UK	52.450914	-1.930513		Birmingham	University of Birming
 UK	1	York	England	UK	53.946247	-1.051803		York	University of York
 UK	1	Cardiff	Wales	UK	51.487996	-3.179697		Cardiff	Cardiff University
 UK	1	Glasgow	Scotland	UK	55.872315	-4.289219		Glasgow	University of Glasgow
-UK	1	Edinburgh	Scotland	UK	55.944516	-3.189241		Edinburgh	University of Edinburgh
+UK	2	Edinburgh	Scotland	UK	55.944516	-3.189241		Edinburgh	University of Edinburgh
 UK	0	Dundee	Scotland	UK	56.457967	-2.982148		Dundee	University of Dundee
 UK	0	Belfast	Northern Ireland	UK	54.584409	-5.934049		Queen’s	Queen’s University Belfast
