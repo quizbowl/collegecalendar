@@ -12,15 +12,15 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=30232
 firstmirror: 2026-10-17
 mirrors:
   - { date: 2026-10-17, region: 0L, name: Washington }
-  - { date: 2026-10-17, region: 1A, name: MIT }
+  - { date: 2026-10-17, region: 1A, name: MIT, url: https://hsquizbowl.org/forums/viewtopic.php?t=30474 }
   - { date: 2026-10-17, region: 2A, name: Rutgers }
   - { date: 2026-10-17, region: 2B, name: Virginia Tech }
   - { date: 2026-10-17, region: 3B, name: Auburn, url: https://hsquizbowl.org/forums/viewtopic.php?t=30468 }
   - { date: 2026-10-17, region: 3C, name: Florida Tech }
-  - { date: 2026-10-17, region: 5A, name: Berkeley }
+  - { date: 2026-10-17, region: 5A, name: Berkeley, url: https://hsquizbowl.org/forums/viewtopic.php?t=30469 }
   - { date: 2026-10-17, region: 5B, name: Claremont Colleges }
   - { date: 2026-10-17, region: 7A, name: Murray State }
-  - { date: 2026-10-17, region: 7B, name: Missouri }
+  - { date: 2026-10-17, region: 7B, name: Missouri, url: https://hsquizbowl.org/forums/viewtopic.php?t=30473 }
   - { date: 2026-10-17, region: 8A, name: Minnesota }
   - { date: 2026-10-17, region: 8B, name: Illinois }
   - { date: 2026-10-17, region: 8C, name: Ohio State }
