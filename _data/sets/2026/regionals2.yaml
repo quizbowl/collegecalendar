@@ -9,3 +9,4 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29690
 firstmirror: January 2027
 speculative: yes
 mirrors:
+  - { date: 2027-01-23, region: 5A, name: Claremont Colleges }
