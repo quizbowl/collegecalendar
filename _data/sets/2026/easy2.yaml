@@ -28,6 +28,6 @@ mirrors:
   - { date: 2026-10-17, region: 8C, name: Ohio State }
   - { date: 2026-10-17, region: CA, name: Waterloo }
   - { date: 2026-10-17, region: UK, name: Edinburgh, url: https://hsquizbowl.org/forums/viewtopic.php?p=413701#p413701 }
-  - { date: 2026-10-17, region: UK, name: Imperial }
+  - { date: 2026-10-17, region: UK, name: Imperial, url: https://hsquizbowl.org/forums/viewtopic.php?p=413720#p413720 }
   - { date: 2026-10-18, region: 3B, name: Georgia Tech, eligible: HS }
   - { date: 2026-10-17, region: 8B, name: Auburn HS, eligible: HS }
