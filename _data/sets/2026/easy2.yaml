@@ -14,6 +14,7 @@ mirrors:
   - { date: 2026-10-17, region: 0L, name: Washington, url: https://hsquizbowl.org/forums/viewtopic.php?p=413707#p413707 }
   - { date: 2026-10-17, region: 1A, name: MIT, url: https://hsquizbowl.org/forums/viewtopic.php?t=30474 }
   - { date: 2026-10-17, region: 2A, name: Rutgers }
+  - { date: 2026-10-17, region: 2A, name: Maryland }
   - { date: 2026-10-17, region: 2B, name: Virginia Tech }
   - { date: 2026-10-17, region: 3B, name: Auburn, url: https://hsquizbowl.org/forums/viewtopic.php?t=30468 }
   - { date: 2026-10-17, region: 3C, name: Florida Tech }
