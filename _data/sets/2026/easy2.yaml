@@ -13,14 +13,15 @@ firstmirror: 2026-10-17
 mirrors:
   - { date: 2026-10-17, region: 0L, name: Washington, url: https://hsquizbowl.org/forums/viewtopic.php?p=413707#p413707 }
   - { date: 2026-10-17, region: 1A, name: MIT, url: https://hsquizbowl.org/forums/viewtopic.php?t=30474 }
-  - { date: 2026-10-17, region: 2A, name: Rutgers }
-  - { date: 2026-10-17, region: 2A, name: Maryland }
-  - { date: 2026-10-17, region: 2B, name: Virginia Tech }
+  - { date: 2026-10-17, region: 1B, name: Cornell, url: https://hsquizbowl.org/forums/viewtopic.php?t=30481 }
+  - { date: 2026-10-17, region: 2A, name: Rutgers, url: https://hsquizbowl.org/forums/viewtopic.php?t=30476 }
+  - { date: 2026-10-17, region: 2A, name: Maryland, url: https://hsquizbowl.org/forums/viewtopic.php?t=30478 }
+  - { date: 2026-10-17, region: 2B, name: Virginia Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=30477 }
   - { date: 2026-10-17, region: 3B, name: Auburn, url: https://hsquizbowl.org/forums/viewtopic.php?t=30468 }
   - { date: 2026-10-17, region: 3C, name: Florida Tech }
   - { date: 2026-10-17, region: 5A, name: Berkeley, url: https://hsquizbowl.org/forums/viewtopic.php?t=30469 }
   - { date: 2026-10-17, region: 5B, name: Claremont Colleges }
-  - { date: 2026-10-17, region: 7A, name: Murray State }
+  - { date: 2026-10-17, region: 7A, name: Murray State, url: https://hsquizbowl.org/forums/viewtopic.php?t=30480 }
   - { date: 2026-10-17, region: 7B, name: Missouri, url: https://hsquizbowl.org/forums/viewtopic.php?t=30473 }
   - { date: 2026-10-17, region: 8A, name: Minnesota }
   - { date: 2026-10-17, region: 8B, name: Illinois }
