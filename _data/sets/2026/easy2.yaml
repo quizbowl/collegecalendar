@@ -11,7 +11,7 @@ announced:   2026-06-15
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=30232
 firstmirror: 2026-10-17
 mirrors:
-  - { date: 2026-10-17, region: 0L, name: Washington }
+  - { date: 2026-10-17, region: 0L, name: Washington, url: https://hsquizbowl.org/forums/viewtopic.php?p=413707#p413707 }
   - { date: 2026-10-17, region: 1A, name: MIT, url: https://hsquizbowl.org/forums/viewtopic.php?t=30474 }
   - { date: 2026-10-17, region: 2A, name: Rutgers }
   - { date: 2026-10-17, region: 2B, name: Virginia Tech }
@@ -25,7 +25,7 @@ mirrors:
   - { date: 2026-10-17, region: 8B, name: Illinois }
   - { date: 2026-10-17, region: 8C, name: Ohio State }
   - { date: 2026-10-17, region: CA, name: Waterloo }
-  - { date: 2026-10-17, region: UK, name: Edinburgh }
+  - { date: 2026-10-17, region: UK, name: Edinburgh, url: https://hsquizbowl.org/forums/viewtopic.php?t=30345 }
   - { date: 2026-10-17, region: UK, name: Imperial }
   - { date: 2026-10-18, region: 3B, name: Georgia Tech, eligible: HS }
   - { date: 2026-10-17, region: 8B, name: Auburn HS, eligible: HS }
