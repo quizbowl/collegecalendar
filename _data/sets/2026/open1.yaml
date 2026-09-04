@@ -17,7 +17,7 @@ mirrors:
   - { date: 2026-09-12, region: CA, name: McMaster, url: https://hsquizbowl.org/forums/viewtopic.php?t=30456 }
   - { date: 2026-09-26, region: 3B, name: Georgia Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=30326 }
   - { date: 2026-09-26, region: UK, name: Manchester, url: https://hsquizbowl.org/forums/viewtopic.php?p=413445#p413445 }
-  - { date: 2026-09-26, region: CA, name: UBC, url: https://hsquizbowl.org/forums/viewtopic.php?p=413744#p413744 }
+  - { date: 2026-09-27, region: CA, name: UBC, url: https://hsquizbowl.org/forums/viewtopic.php?t=30489 }
   - { date: 2026-10-03, region: 4A, name: Texas, url: https://hsquizbowl.org/forums/viewtopic.php?t=30463 }
   - { date: 2026-10-10, region: 2A, name: Columbia, url: https://hsquizbowl.org/forums/viewtopic.php?t=30346 }
   - { date: 2026-10-24, region: 8B, name: Chicago, url: https://hsquizbowl.org/forums/viewtopic.php?t=30327 }

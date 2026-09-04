@@ -25,9 +25,9 @@ mirrors:
   - { date: 2026-10-17, region: 7B, name: Missouri, url: https://hsquizbowl.org/forums/viewtopic.php?t=30473 }
   - { date: 2026-10-17, region: 8A, name: Minnesota }
   - { date: 2026-10-17, region: 8B, name: Illinois }
-  - { date: 2026-10-17, region: 8C, name: Ohio State, url: https://hsquizbowl.org/forums/viewtopic.php?p=413748#p413748 }
+  - { date: 2026-10-17, region: 8C, name: Ohio State, url: https://hsquizbowl.org/forums/viewtopic.php?t=30491 }
   - { date: 2026-10-17, region: CA, name: Ottawa, url: https://hsquizbowl.org/forums/viewtopic.php?t=30487 }
-  - { date: 2026-10-17, region: CA, name: Waterloo }
+  - { date: 2026-10-17, region: CA, name: Waterloo, url: https://hsquizbowl.org/forums/viewtopic.php?t=30488 }
   - { date: 2026-10-17, region: UK, name: Edinburgh, url: https://hsquizbowl.org/forums/viewtopic.php?p=413701#p413701 }
   - { date: 2026-10-17, region: UK, name: Imperial, url: https://hsquizbowl.org/forums/viewtopic.php?p=413720#p413720 }
   - { date: 2026-10-18, region: 3B, name: Georgia Tech, eligible: HS }
