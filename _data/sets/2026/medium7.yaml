@@ -7,6 +7,6 @@ diffdots:    ●●
 prev:        [past ACF Winters, past MRNAs]
 announced:   2026-07-28
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=30328
-firstmirror: November 2026
-speculative: yes
+firstmirror: 2026-10-31
 mirrors:
+  - { date: 2026-10-31, region: 2B, name: Virginia Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=30530 }
