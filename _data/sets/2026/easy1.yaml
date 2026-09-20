@@ -17,4 +17,6 @@ mirrors:
   - { date: 2026-09-26, region: 8A, name: Minnesota, url: "https://www.naqt.com/registration/field.jsp?tournament_id=18827" }
   - { date: 2026-09-26, region: 8C, name: CMU, url: https://hsquizbowl.org/forums/viewtopic.php?t=30503 }
   - { date: 2026-10-03, region: 7A, name: Murray State, url: https://hsquizbowl.org/forums/viewtopic.php?t=30446 }
+  - { date: 2026-10-10, region: 0L, name: IQAT, url: "https://www.naqt.com/registration/field.jsp?tournament_id=18849" }
+  - { date: 2026-10-10, region: 7B, name: WUSTL, url: "https://www.naqt.com/registration/field.jsp?tournament_id=18891" }
 

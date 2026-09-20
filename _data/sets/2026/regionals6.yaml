@@ -10,4 +10,4 @@ announced:
 announceurl: 
 firstmirror: 2027-03-06
 mirrors:
-  - { date: 2027-03-06, url: https://hsquizbowl.org/forums/viewtopic.php?t=30316 }
+  - { date: 2027-03-06, region: 8C, name: Ohio State, url: "https://hsquizbowl.org/forums/viewtopic.php?t=30316" }
