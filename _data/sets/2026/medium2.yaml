@@ -13,5 +13,17 @@ firstmirror: 2026-11-14
 clear:
 packetsurl:
 mirrors:
+  - { date: 2026-11-14, region: 1B, name: Rochester, url: https://hsquizbowl.org/forums/viewtopic.php?t=30564 } 
+  - { date: 2026-11-14, region: 2A, name: Columbia }
+  - { date: 2026-11-14, region: 2A, name: Maryland }
+  - { date: 2026-11-14, region: 3A, name: Tennessee Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=30565 }
+  - { date: 2026-11-14, region: 3C, name: Florida }
+  - { date: 2026-11-14, region: 4A, name: Texas }
+  - { date: 2026-11-14, region: 5A, name: Claremont, url: https://hsquizbowl.org/forums/viewtopic.php?t=30563 }
+  - { date: 2026-11-14, region: 5B, name: Berkeley }
+  - { date: 2026-11-14, region: 6A, name: British Columbia }
+  - { date: 2026-11-14, region: 8A, name: Minnesota }
+  - { date: 2026-11-14, region: 8C, name: Michigan }
+  - { date: 2026-11-14, region: CA, name: Toronto }
   - { date: 2026-11-14, region: UK, name: Durham }
-  - { date: 2026-11-14, region: UK, name: Southampton }
+  - { date: 2026-11-14, region: UK, name: Southampton, url: https://hsquizbowl.org/forums/viewtopic.php?t=30566 }
