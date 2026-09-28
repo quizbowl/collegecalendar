@@ -9,7 +9,7 @@ This website uses difficulty ratings to roughly communicate
 the difficulty of *upcoming* college quizbowl events.[^2]
 It is meant to help you gauge which events are relevant to you.
 
-Traditional <dfn>difficulty terms</dfn> like “Regular”[^3]
+Traditional[^3] <dfn>difficulty terms</dfn> like “Regular”[^4]
 and vague qualifiers like “Fall-plus” or “Regular-minus”
 are non-standard and confusing and should be deprecated
 ([read more](https://hsquizbowl.org/forums/viewtopic.php?f=9&t=21177)).
@@ -90,7 +90,7 @@ please consider targeting one of these four difficulty levels.
 Like overly long questions, difficulty creep is selfish and insular;
 quizbowl does not need to be so hard.
 
-Although difficulty varies on a continuous scale in reality,[^4]
+Although difficulty varies on a continuous scale in reality,[^5]
 please avoid using half-dots for rating your own tournament’s difficulty.
 Please also avoid using the ambiguous abbreviation “regs.”
 
@@ -111,11 +111,14 @@ since they have little relevance to the college quizbowl calendar.
       so ratings on this website likely have less utility for other purposes
       (such as a [quizbowl packet archive](https://collegiate.quizbowlpackets.com/)).
 
-[^3]: “Regular difficulty” can be understood as a catch-all term originally meaning
+[^3]: Used from the late 2000s to the late 2010s.
+<!-- https://hsquizbowl.org/forums/viewtopic.php?t=6154 -->
+
+[^4]: “Regular difficulty” can be understood as a catch-all term originally meaning
       “the usual range of difficulty of most tournaments” –
       it was always a wide undefined range, not a specific difficulty level.
 
-[^4]: Think of these levels as ordinal categories, like four different fruits.
+[^5]: Think of these levels as ordinal categories, like four different fruits.
       For example, blueberry, kiwi, pomegranate, and grapefruit are unrelated by color or family,
       but can still be ordered by size and tartness:
         <span class="fruits">
