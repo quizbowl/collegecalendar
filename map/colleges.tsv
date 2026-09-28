@@ -76,6 +76,7 @@ region	active	city	state	country	lat	long	college_abbr	college	college_long
 3A	1	Nashville	TN	USA	36.133163	-86.794293		Belmont	Belmont University
 3A	0	Lexington	KY	USA	38.053147	-84.493651		Transylvania	Transylvania University
 3A	1	Knoxville	TN	USA	35.954401	-83.929456		Tennessee	University of Tennessee-Knoxville
+3A	2	Cookeville	TN	USA	36.176389	-85.509722		Tennessee Tech	Tennessee Technological University
 3B	1	Columbia	SC	USA	33.996112	-81.027428		South Carolina	University of South Carolina
 3B	1	Greenville	SC	USA	34.927790	-82.440067		Furman	Furman University
 3B	2	Athens	GA	USA	33.948005	-83.377322	UGA	Georgia	University of Georgia
