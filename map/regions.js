@@ -81,7 +81,7 @@ var mapdata = {
 			"name": "Upper",
 			"id": "3A",
 			"color": 5,
-			"label": [20, 5],
+			"label": [15, 5],
 			"map": "us",
 			"children": [
 				// KY
