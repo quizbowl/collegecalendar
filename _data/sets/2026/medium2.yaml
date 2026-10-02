@@ -16,6 +16,7 @@ mirrors:
   - { date: 2026-11-14, region: 1B, name: Rochester, url: https://hsquizbowl.org/forums/viewtopic.php?t=30564 } 
   - { date: 2026-11-14, region: 2A, name: Columbia, url: https://hsquizbowl.org/forums/viewtopic.php?t=30573 }
   - { date: 2026-11-14, region: 2A, name: Maryland, url: https://hsquizbowl.org/forums/viewtopic.php?t=30562 }
+  - { date: 2026-11-14, region: 2B, name: Duke, url: https://hsquizbowl.org/forums/viewtopic.php?t=30583 }
   - { date: 2026-11-14, region: 3A, name: Tennessee Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=30565 }
   - { date: 2026-11-14, region: 3C, name: Florida, url: https://hsquizbowl.org/forums/viewtopic.php?t=30571 }
   - { date: 2026-11-14, region: 4A, name: Texas, url: https://hsquizbowl.org/forums/viewtopic.php?t=30580 }
@@ -23,6 +24,7 @@ mirrors:
   - { date: 2026-11-14, region: 5B, name: Berkeley, url: https://hsquizbowl.org/forums/viewtopic.php?t=30567 }
   - { date: 2026-11-14, region: 6A, name: British Columbia, url: https://hsquizbowl.org/forums/viewtopic.php?t=30579 }
   - { date: 2026-11-14, region: 8A, name: Minnesota, url: https://hsquizbowl.org/forums/viewtopic.php?t=30575 }
+  - { date: 2026-11-14, region: 8B, name: Northwestern, url: https://hsquizbowl.org/forums/viewtopic.php?t=30589 }
   - { date: 2026-11-14, region: 8C, name: Michigan, url: https://hsquizbowl.org/forums/viewtopic.php?t=30582 }
   - { date: 2026-11-14, region: CA, name: Toronto, url: https://hsquizbowl.org/forums/viewtopic.php?t=30574 }
   - { date: 2026-11-14, region: UK, name: Durham, url: https://hsquizbowl.org/forums/viewtopic.php?t=30570 }
