@@ -17,5 +17,6 @@ mirrors:
   - { date: 2026-11-07, region: 1A, name: Brown, url: https://hsquizbowl.org/forums/viewtopic.php?t=30509 }
   - { date: 2026-11-07, region: 2A, name: Penn, url: https://hsquizbowl.org/forums/viewtopic.php?t=30524 }
   - { date: 2026-11-07, region: 8B, name: Northwestern, url: https://hsquizbowl.org/forums/viewtopic.php?t=30588 }
+  - { date: 2026-11-08, region: 8C, name: Case Western, url: https://hsquizbowl.org/forums/viewtopic.php?t=30611 }
   - { date: 2027-01-16, region: 3B, name: Auburn }
   - { date: TBD, region: 0P, name: Online, eligible: Open }
