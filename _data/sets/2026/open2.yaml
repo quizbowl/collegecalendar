@@ -10,3 +10,4 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29807
 firstmirror: 2026-11-21
 mirrors:
   - { date: 2026-11-21, region: 2A, name: Columbia, eligible: Closed, url: https://hsquizbowl.org/forums/viewtopic.php?t=30400 }
+  - { date: 2027-02-27, region: 3A, name: Tennessee, eligible: Open, url: https://hsquizbowl.org/forums/viewtopic.php?t=30599 }

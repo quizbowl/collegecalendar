@@ -9,6 +9,7 @@ announced:   2026-02-07
 announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29851
 firstmirror: 2026-09-05
 mirrors:
+  - { date: 2026-10-24, region: 3C, name: Florida, url: https://hsquizbowl.org/forums/viewtopic.php?t=30597 }
   - { date: 2026-10-31, region: 1A, name: Tufts, url: https://hsquizbowl.org/forums/viewtopic.php?t=30528 }
   - { date: 2026-10-31, region: 5A, name: UCLA, url: https://hsquizbowl.org/forums/viewtopic.php?t=30594 }
   - { date: 2026-10-31, region: 7A, name: Oklahoma State, url: https://hsquizbowl.org/forums/viewtopic.php?t=30540 }
@@ -17,4 +18,5 @@ mirrors:
   - { date: 2026-11-07, region: 2B, name: North Carolina, url: https://hsquizbowl.org/forums/viewtopic.php?t=30403 }
   - { date: 2026-11-07, region: 3A, name: Vanderbilt, url: https://hsquizbowl.org/forums/viewtopic.php?t=30525 }
   - { date: 2026-11-07, region: 8A, name: Iowa State, url: https://hsquizbowl.org/forums/viewtopic.php?t=30581 }
+  - { date: 2026-12-05, region: 2A, name: Swarthmore, url: https://hsquizbowl.org/forums/viewtopic.php?t=30608 }
   - { date: TBD, region: 0L, name: Online, eligible: Open }
