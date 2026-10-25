@@ -15,7 +15,7 @@ mirrors:
   - { date: 2026-10-24, region: 5A, name: UCSD, url: https://hsquizbowl.org/forums/viewtopic.php?t=30561 }
   - { date: 2026-10-24, region: 5B, name: Stanford, eligible: Open, url: https://hsquizbowl.org/forums/viewtopic.php?t=30464 }
   - { date: 2026-10-31, region: CA, name: Queen's, url: https://hsquizbowl.org/forums/viewtopic.php?t=30616 }
-  - { date: 2026-11-07, region: 1A, name: Brown, url: https://hsquizbowl.org/forums/viewtopic.php?t=30509 }
+  - { date: 2026-11-07, region: 1A, name: Brown, eligible: Open, url: https://hsquizbowl.org/forums/viewtopic.php?t=30509 }
   - { date: 2026-11-07, region: 2A, name: Penn, url: https://hsquizbowl.org/forums/viewtopic.php?t=30524 }
   - { date: 2026-11-07, region: 8B, name: Northwestern, url: https://hsquizbowl.org/forums/viewtopic.php?t=30588 }
   - { date: 2026-11-08, region: 8C, name: Case Western, url: https://hsquizbowl.org/forums/viewtopic.php?t=30611 }
