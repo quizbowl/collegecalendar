@@ -13,6 +13,7 @@ firstmirror: 2026-11-14
 clear:
 packetsurl:
 mirrors:
+  - { date: 2026-11-14, region: 1A, name: MIT, url: https://hsquizbowl.org/forums/viewtopic.php?t=30653 }
   - { date: 2026-11-14, region: 1B, name: Rochester, url: https://hsquizbowl.org/forums/viewtopic.php?t=30564 } 
   - { date: 2026-11-14, region: 2A, name: Columbia, url: https://hsquizbowl.org/forums/viewtopic.php?t=30573 }
   - { date: 2026-11-14, region: 2A, name: Maryland, url: https://hsquizbowl.org/forums/viewtopic.php?t=30562 }
