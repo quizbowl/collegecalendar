@@ -11,4 +11,4 @@ firstmirror: sometime in November
 speculative: yes
 mirrors:
   - { date: 2026-11-28, region: UK, name: Manchester }
-  - { date: 2026-11-28, region: UK, name: Warwick }
+  - { date: 2026-11-28, region: UK, name: Warwick, url: https://hsquizbowl.org/forums/viewtopic.php?p=414509#p414509 }
