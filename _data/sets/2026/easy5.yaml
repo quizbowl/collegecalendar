@@ -19,5 +19,6 @@ mirrors:
   - { date: 2026-11-07, region: 3A, name: Vanderbilt, url: https://hsquizbowl.org/forums/viewtopic.php?t=30525 }
   - { date: 2026-11-07, region: 6A, name: Alberta, eligible: "HS, Collegiate", url: https://hsquizbowl.org/forums/viewtopic.php?t=30662 }
   - { date: 2026-11-07, region: 8A, name: Iowa State, url: https://hsquizbowl.org/forums/viewtopic.php?t=30581 }
+  - { date: 2026-11-21, region: CA, name: McGill, url: https://hsquizbowl.org/forums/viewtopic.php?t=30672 }
   - { date: 2026-12-05, region: 2A, name: Swarthmore, url: https://hsquizbowl.org/forums/viewtopic.php?t=30608 }
   - { date: TBD, region: 0L, name: Online, eligible: Open }
