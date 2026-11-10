@@ -9,3 +9,6 @@ announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=29830
 firstmirror: December 2026
 speculative: yes
 mirrors:
+  - { date: 2026-12-12, region: 0P, name: Online, eligible: Open, url: https://hsquizbowl.org/forums/viewtopic.php?t=30687 }
+  - { date: 2026-12-19, region: 8B, name: Reinstein Varsity, eligible: HS only, url: https://hsquizbowl.org/forums/viewtopic.php?t=30418 }
+
