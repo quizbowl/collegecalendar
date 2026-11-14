@@ -23,4 +23,5 @@ mirrors:
   - { date: 2026-10-10, region: 2A, name: Columbia, url: https://hsquizbowl.org/forums/viewtopic.php?t=30346 }
   - { date: 2026-10-24, region: 8B, name: Chicago, url: https://hsquizbowl.org/forums/viewtopic.php?t=30327 }
   - { date: 2026-11-07, region: 5B, name: Stanford, url: https://hsquizbowl.org/forums/viewtopic.php?t=30545 }
+  - { date: 2026-12-19, region: 2B, name: VCU, url: https://hsquizbowl.org/forums/viewtopic.php?t=30696 }
   - { date: TBD, region: 0L, name: Online, url: https://hsquizbowl.org/forums/viewtopic.php?t=30603 }
