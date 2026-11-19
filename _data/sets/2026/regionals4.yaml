@@ -1,26 +1,13 @@
-name:        NAQT SCT
-fullname:    NAQT Sectional Championship Tournament
-producedby:  NAQT
-slot:        NAQT SCT
+name:        ACF Regionals
+fullname:    2027 ACF Regionals
+producedby:  ACF
+slot:        ACF Regionals
 diff:        Regionals
-diffd2:      Easy
 diffdots:    ●●●
-diffdotsd2:  ●
 eligible:    Closed
-prev:        [past NAQT SCTs]
-firstmirror: 2027-02-06
-clear:       never
-reallyclear: never
+submission:  Required half-packet if not new team; opt-out fee
+prev:        [past ACF Regionals]
+announced:   2026-08-02
+announceurl: https://hsquizbowl.org/forums/viewtopic.php?t=30344
+firstmirror: 2027-01-30
 mirrors:
-  - { date: 2027-02-06, region: 0L, name: Arizona State }
-  - { date: 2027-02-06, region: 1A, name: Yale, url: https://hsquizbowl.org/forums/viewtopic.php?t=30706 }
-  - { date: 2027-02-06, region: 1B, name: ESF }
-  - { date: 2027-02-06, region: 2A, name: Rutgers }
-  - { date: 2027-02-06, region: 2B, name: VCU }
-  - { date: 2027-02-06, region: 3B, name: Georgia Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=30711 }
-  - { date: 2027-02-06, region: 4A, name: Texas-Dallas }
-  - { date: 2027-02-06, region: 5B, name: Berkeley }
-  - { date: 2027-02-06, region: 6A, name: Washington }
-  - { date: 2027-02-06, region: 7B, name: Missouri }
-  - { date: 2027-02-06, region: 8B, name: Purdue, url: https://hsquizbowl.org/forums/viewtopic.php?t=30709 }
-  - { date: 2027-02-06, region: 8C, name: Ohio State }
