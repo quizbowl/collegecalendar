@@ -18,7 +18,7 @@ mirrors:
   - { date: 2027-02-06, region: 2A, name: Rutgers }
   - { date: 2027-02-06, region: 2B, name: VCU }
   - { date: 2027-02-06, region: 3B, name: Georgia Tech, url: https://hsquizbowl.org/forums/viewtopic.php?t=30711 }
-  - { date: 2027-02-06, region: 4A, name: Texas-Dallas }
+  - { date: 2027-02-06, region: 4A, name: Texas-Dallas, url: https://hsquizbowl.org/forums/viewtopic.php?t=30716 }
   - { date: 2027-02-06, region: 5B, name: Berkeley }
   - { date: 2027-02-06, region: 6A, name: Washington }
   - { date: 2027-02-06, region: 7B, name: Missouri }
